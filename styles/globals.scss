@@ -14,3 +14,27 @@ a {
 * {
   box-sizing: border-box;
 }
+$dark: #43436b;
+
+.flex {
+  display: flex;
+}
+
+.mt-sm {
+  margin-top: 24px;
+}
+.mb-sm {
+  margin-bottom: 24px;
+}
+.ml-sm {
+  margin-left: 24px;
+}
+.mr-sm {
+  margin-right: 24px;
+}
+
+@media (min-width: 1400px) {
+  .container.custom-container {
+    max-width: 1248px;
+  }
+}

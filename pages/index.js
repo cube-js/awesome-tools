@@ -1,5 +1,4 @@
 import Head from "next/head";
-import Image from "next/image";
 
 export default function Home() {
   return (
@@ -12,10 +11,10 @@ export default function Home() {
 
       <main>
         <h1>Hello World</h1>
-        <div class="row">
-          <div class="col-sm">One of three columns</div>
-          <div class="col-sm">One of three columns</div>
-          <div class="col-sm">One of three columns</div>
+        <div className="row">
+          <div className="col-sm">One of three columns</div>
+          <div className="col-sm">One of three columns</div>
+          <div className="col-sm">One of three columns</div>
         </div>
       </main>
     </div>
