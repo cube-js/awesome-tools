@@ -14,10 +14,21 @@ a {
 * {
   box-sizing: border-box;
 }
-$dark: #43436b;
 
 .flex {
   display: flex;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.flex-center {
+  justify-content: center;
+}
+
+.flex-space-between {
+  justify-content: space-between;
 }
 
 .mt-sm {
@@ -31,6 +42,19 @@ $dark: #43436b;
 }
 .mr-sm {
   margin-right: 24px;
+}
+
+.mt-lg {
+  margin-top: 48px;
+}
+.mb-lg {
+  margin-bottom: 48px;
+}
+.ml-lg {
+  margin-left: 48px;
+}
+.mr-lg {
+  margin-right: 48px;
 }
 
 @media (min-width: 1400px) {
