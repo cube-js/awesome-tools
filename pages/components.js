@@ -1,7 +1,13 @@
+import React, { useState } from "react";
 import Head from "next/head";
 import ToolCard from "../components/ToolCard";
+import Chip from "../components/Chip";
 
 export default function Home() {
+  const [state, setState] = useState(false);
+  // setInterval(() => {
+  //   setState(!state);
+  // }, 1000);
   return (
     <div className="container custom-container">
       <Head>
@@ -13,10 +19,57 @@ export default function Home() {
       <main>
         <h1>Components Page</h1>
         <hr></hr>
-        <h3>Tool Card Component</h3>
+
+        <h3>Chip Component</h3>
         <h4>Props:</h4>
         <p>src - image src</p>
         <p>alt - image alt text</p>
+        <p>active attribute - set active colors</p>
+        <h4>Examples: </h4>
+        <div className="row">
+          <div className="col-sm mb-sm">
+            <Chip active={state ? "active" : null}>any framework</Chip>
+            <Chip src="/images/logo/react.svg" active={state ? "active" : null}>
+              React
+            </Chip>
+            <Chip
+              src="/images/logo/angular.svg"
+              active={state ? "active" : null}
+            >
+              Angular
+            </Chip>
+            <Chip src="/images/logo/vue.svg" active={state ? "active" : null}>
+              Vue
+            </Chip>
+            <Chip
+              src="/images/logo/javascript.svg"
+              active={state ? "active" : null}
+            >
+              JavaScript
+            </Chip>
+            <Chip
+              src="/images/logo/typescript.svg"
+              active={state ? "active" : null}
+            >
+              TypeScript
+            </Chip>
+            <br />
+            <br />
+            <Chip
+              src="/images/logo/open-source.svg"
+              active={state ? "active" : null}
+            >
+              Open source
+            </Chip>
+            <Chip src="/images/logo/tag.svg" active={state ? "active" : null}>
+              Proprietary
+            </Chip>
+          </div>
+        </div>
+        <hr></hr>
+        <h3>Tool Card Component</h3>
+        <h4>Props:</h4>
+        <p>src - image src</p>
         <p>title - tool name</p>
         <p>link - link on GitHub, need to load data</p>
         <p>developer - object, name and src</p>
@@ -149,7 +202,6 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <hr></hr>
       </main>
     </div>
   );

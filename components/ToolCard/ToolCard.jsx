@@ -1,5 +1,6 @@
 import styles from "./ToolCard.module.scss";
 import API from "../../api";
+import { ReactSVG } from "react-svg";
 
 export default function ToolCard(props) {
   return (
@@ -31,7 +32,11 @@ export default function ToolCard(props) {
         <div className="flex flex-column">
           <span className={styles.features}>GitHub stars</span>
           <div className={styles.github}>
-            <img src="/images/logo/github.svg" alt="github icon" />
+            <ReactSVG
+              wrapper="span"
+              className={styles.icon}
+              src="/images/logo/github.svg"
+            />
             <span className="features__text">
               {API.getGitHubStarsByLink(props.link)}
             </span>
@@ -41,9 +46,10 @@ export default function ToolCard(props) {
           <span className={styles.features}>Framework</span>
           <div className={styles.framework}>
             {props.framework && props.framework !== "Universal" ? (
-              <img
+              <ReactSVG
+                wrapper="span"
+                className={styles.icon}
                 src={`/images/logo/${props.framework.toLowerCase()}.svg`}
-                alt={`${props.framework} icon`}
               />
             ) : null}
             {/* <img src="/images/logo/github.svg" alt="github icon" /> */}
@@ -54,9 +60,10 @@ export default function ToolCard(props) {
           <span className={styles.features}>Language</span>
           <div className={styles.language}>
             {props.language ? (
-              <img
+              <ReactSVG
+                wrapper="span"
+                className={styles.icon}
                 src={`/images/logo/${props.language.toLowerCase()}.svg`}
-                alt={`${props.language} icon`}
               />
             ) : null}
             <span className="features__text">{props.language}</span>

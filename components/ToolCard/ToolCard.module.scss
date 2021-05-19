@@ -61,7 +61,7 @@
 .github {
   display: flex;
   align-items: center;
-  img {
+  .icon {
     width: 16px;
     height: 16px;
     margin-right: 5px;
@@ -70,18 +70,18 @@
 .language {
   display: flex;
   align-items: center;
-  img {
-    width: 12px;
-    height: 12px;
+  .icon {
+    display: flex;
+    align-items: center;
     margin-right: 4px;
   }
 }
 .framework {
   display: flex;
   align-items: center;
-  img {
-    width: 16px;
-    height: 16px;
+  .icon {
+    display: flex;
+    align-items: center;
     margin-right: 5px;
   }
 }
