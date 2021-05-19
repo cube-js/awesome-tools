@@ -6,6 +6,8 @@
   background: #ffffff;
   box-shadow: 0px 8px 32px rgba(194, 194, 218, 0.3);
   border-radius: 40px;
+  position: relative;
+  max-width: 600px;
 
   &__logo {
     width: 60px;
@@ -13,11 +15,34 @@
   }
 
   &__title {
-    margin-left: 16px;
+    margin: 0 0 0 16px;
+  }
+
+  &__developer {
+    display: flex;
+    align-items: center;
+    margin: 5px 0 0 16px;
+    color: $light-dark;
+    font-size: 14px;
+    line-height: 18px;
+    img {
+      margin-left: 5px;
+    }
   }
 
   &__description {
+    font-size: 18px;
+    line-height: 24px;
+    font-style: normal;
+    font-weight: normal;
     max-width: 424px;
+    min-height: 48px;
+  }
+
+  &__label {
+    position: absolute;
+    right: 32px;
+    top: 32px;
   }
 }
 
@@ -25,6 +50,9 @@
   color: $light-dark;
   font-size: 12px;
   line-height: 15px;
+  padding-bottom: 5px;
+  min-width: 94px;
+  margin-right: 40px;
   &__text {
     font-size: 16px;
     line-height: 24px;

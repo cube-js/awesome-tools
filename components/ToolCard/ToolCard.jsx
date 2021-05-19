@@ -4,16 +4,30 @@ import API from "../../api";
 export default function ToolCard(props) {
   return (
     <div className={styles.toolCard} shadow={props.shadow}>
-      <div className="flex">
+      <div className="flex flex-items-center">
         <img
           className={styles.toolCard__logo}
           src={props.src || ""}
-          alt={props.alt || ""}
+          alt={props.title || ""}
         />
-        <h4 className={styles.toolCard__title}>{props.title || ""}</h4>
+        <div className="flex flex-column">
+          <h4 className={styles.toolCard__title}>{props.title || ""}</h4>
+          {props.developer && (
+            <span className={styles.toolCard__developer}>
+              Developed by
+              <img
+                src={`/images/logo/${props.developer}.svg`}
+                alt={`developed by ${props.developer}`}
+              ></img>
+            </span>
+          )}
+        </div>
       </div>
-      <p className="mt-sm mb-lg">{props.description}</p>
-      <div className="flex flex-space-between">
+      <p
+        className={styles.toolCard__description + " mt-sm mb-lg"}
+        dangerouslySetInnerHTML={{ __html: props.description }}
+      ></p>
+      <div className="flex">
         <div className="flex flex-column">
           <span className={styles.features}>GitHub stars</span>
           <div className={styles.github}>
@@ -55,6 +69,11 @@ export default function ToolCard(props) {
           </div>
         </div>
       </div>
+      {props.label && (
+        <div className={styles.toolCard__label}>
+          <img src={`/images/${props.label}.svg`} alt={props.label} />
+        </div>
+      )}
     </div>
   );
 }
