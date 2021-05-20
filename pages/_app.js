@@ -9,13 +9,13 @@ function MyApp({ Component, pageProps }) {
       <Head>
         <link
           rel="preload"
-          href="/static/fonts/CeraPro-Regular.woff2"
+          href="/fonts/CeraPro-Regular.woff2"
           as="font"
           crossOrigin="anonymous"
         />
         <link
           rel="preload"
-          href="/static/fonts/CeraPro-Medium.woff2"
+          href="/fonts/CeraPro-Medium.woff2"
           as="font"
           crossOrigin="anonymous"
         />
