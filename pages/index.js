@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -11,11 +12,7 @@ export default function Home() {
 
       <main>
         <h1>Hello World</h1>
-        <div className="row">
-          <div className="col-sm">One of three columns</div>
-          <div className="col-sm">One of three columns</div>
-          <div className="col-sm">One of three columns</div>
-        </div>
+        <Link href="/components">Go to the components page</Link>
       </main>
     </div>
   );

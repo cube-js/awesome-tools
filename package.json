@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "export": "next export",
-    "start": "next start"
+    "start": "next start",
+    "deploy": "netlify deploy --prod"
   },
   "dependencies": {
     "bootstrap": "^5.0.1",

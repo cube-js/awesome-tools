@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Head from "next/head";
 import ToolCard from "../components/ToolCard";
 import Chip from "../components/Chip";
+import ExploreToolsCard from "../components/ExploreToolsCard";
 
 export default function Home() {
   const [state, setState] = useState(false);
@@ -18,6 +19,26 @@ export default function Home() {
 
       <main>
         <h1>Components Page</h1>
+        <hr></hr>
+        <h3>ExploreToolsCard</h3>
+        <h4>Props:</h4>
+        <p>text - text on card</p>
+        <p>image - choose image</p>
+        <ul>
+          <li>chart</li>
+          <li>lines</li>
+          <li>globe</li>
+          <li>waves</li>
+        </ul>
+        <h4>Examples: </h4>
+        <div className="flex flex-space-between">
+          <ExploreToolsCard text="Charting libraries" image="chart" />
+          <ExploreToolsCard text="Low-level tools" image="lines" />
+          <ExploreToolsCard text="Mapping tools" image="globe" />
+          <ExploreToolsCard text="3D<br/>tools" image="waves" />
+          <ExploreToolsCard text="Data<br/>grids" image="waves" />
+          <ExploreToolsCard text="Exploration apps" image="waves" />
+        </div>
         <hr></hr>
 
         <h3>Chip Component</h3>
