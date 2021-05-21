@@ -1,0 +1,20 @@
+title: Recharts
+description: A composable charting library built on React components
+image: /images/logo/recharts.png
+label: well-documented
+language: TypeScript
+framework: React
+license: open-source
+type: ["Charting libraries"]
+shadow: orange
+github: https://github.com/chartjs/Chart.js
+npm: https://www.npmjs.com/package/chart.js?activeTab=readme
+website: https://www.chartjs.org/
+gallery: []
+news: []
+relevantPosts: []
+data:
+  stars: 53.7k
+  release: 20 days ago
+  issues: 14 open issues
+  contributors: 32

@@ -1,5 +1,4 @@
 import styles from "./ToolCard.module.scss";
-import API from "../../api";
 import { ReactSVG } from "react-svg";
 
 export default function ToolCard(props) {
@@ -8,7 +7,7 @@ export default function ToolCard(props) {
       <div className="flex flex-items-center">
         <img
           className={styles.toolCard__logo}
-          src={props.src || ""}
+          src={props.image || ""}
           alt={props.title || ""}
         />
         <div className="flex flex-column">
@@ -37,9 +36,7 @@ export default function ToolCard(props) {
               className={styles.icon}
               src="/images/logo/github.svg"
             />
-            <span className="features__text">
-              {API.getGitHubStarsByLink(props.link)}
-            </span>
+            <span className="features__text">{props?.data?.stars || "-"}</span>
           </div>
         </div>
         <div className="flex flex-column">
@@ -72,7 +69,9 @@ export default function ToolCard(props) {
         <div className="flex flex-column">
           <span className={styles.features}>Last release</span>
           <div>
-            <span className="features__text">{API.getLastReleaseByLink()}</span>
+            <span className="features__text">
+              {props?.data?.release || "-"}
+            </span>
           </div>
         </div>
       </div>

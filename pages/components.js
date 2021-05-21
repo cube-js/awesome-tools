@@ -90,9 +90,13 @@ export default function Home() {
         <hr></hr>
         <h3>Tool Card Component</h3>
         <h4>Props:</h4>
-        <p>src - image src</p>
+        <p>image - image src</p>
         <p>title - tool name</p>
-        <p>link - link on GitHub, need to load data</p>
+        <p>
+          data - data of release and github stars. Is Object. Example:
+          props.data.stars, props.data.release. This way need to convenient use
+          in yaml
+        </p>
         <p>developer - object, name and src</p>
         <p>framework:</p>
         <ul>

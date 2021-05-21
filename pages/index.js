@@ -1,3 +1,5 @@
+import yaml from "node-yaml";
+import fs from "fs";
 import React, { useState } from "react";
 import Head from "next/head";
 import ToolCard from "../components/ToolCard";
@@ -6,11 +8,32 @@ import ExploreToolsCard from "../components/ExploreToolsCard";
 import H1 from "../components/Text/H1";
 import AccentedText from "../components/Text/AccentedText";
 
-export default function Home() {
+export default function Home({ tools }) {
   const [exploreTools, setExploreTools] = useState(null);
   const [framework, setFramework] = useState(null);
   const [language, setLanguage] = useState(null);
   const [license, setLicense] = useState(null);
+
+  const filteredTools = tools.filter((tool) => {
+    let isValidFramework = true;
+    let isValidLanguage = true;
+    let isValidLicense = true;
+    let isValidType = true;
+    if (exploreTools) {
+      isValidType = tool?.type?.includes(exploreTools);
+    }
+    if (framework) {
+      isValidFramework =
+        tool.framework?.toLowerCase() === framework.toLowerCase();
+    }
+    if (language) {
+      isValidLanguage = tool.language?.toLowerCase() === language.toLowerCase();
+    }
+    if (license) {
+      isValidLicense = tool.license?.toLowerCase() === license.toLowerCase();
+    }
+    return isValidFramework && isValidLanguage && isValidLicense && isValidType;
+  });
 
   return (
     <div className="container custom-container">
@@ -129,109 +152,36 @@ export default function Home() {
         </div>
 
         <div className="mt-xlg mb-md">
-          <AccentedText>34 awesome tools</AccentedText>
+          <AccentedText>{filteredTools.length} awesome tools</AccentedText>
         </div>
 
         <div>
           <div className="row">
-            <div className="col-sm mb-md">
-              <ToolCard
-                title="Chart.js"
-                src="/images/logo/chartjs.svg"
-                label="easy-to-start"
-                description="Simple yet flexible JavaScript charting <br/> for designers & developers"
-                language="JavaScript"
-                framework="Universal"
-                shadow="green"
-              />
-            </div>
-            <div className="col-sm mb-md">
-              <ToolCard
-                shadow="orange"
-                title="Recharts"
-                src="/images/logo/recharts.png"
-                label="well-documented"
-                description="A composable charting library built on React components"
-                language="TypeScript"
-                framework="React"
-              />
-            </div>
-          </div>
-          <div className="row">
-            <div className="col-sm mb-md">
-              <ToolCard
-                shadow="pink"
-                title="Echarts"
-                src="/images/logo/echarts.png"
-                label="diverse-chart-type"
-                description="An Open Source JavaScript Visualization Library"
-                language="TypeScript"
-                framework="Universal"
-              />
-            </div>
-            <div className="col-sm mb-md">
-              <ToolCard
-                shadow="blue"
-                title="Mapbox GL JS"
-                src="/images/logo/mapbox-gl.png"
-                label="easy-to-customize"
-                description="Interactive, thoroughly customizable maps in the browser, powered by vector tiles and WebGL"
-                language="TypeScript"
-                framework="Universal"
-                developer="mapbox"
-              />
-            </div>
-          </div>
-          <div className="row">
-            <div className="col-sm mb-md">
-              <ToolCard
-                shadow="yellow"
-                title="D3.js"
-                src="/images/logo/d3.png"
-                label="very-popular"
-                description="JavaScript library for manipulating documents <br/> based on data"
-                language="TypeScript"
-                framework="Universal"
-              />
-            </div>
-            <div className="col-sm mb-md">
-              <ToolCard
-                shadow="gray"
-                title="Google Charts"
-                src="/images/logo/google-charts.png"
-                description="Google chart tools are powerful, simple to use, <br/> and free"
-                language="TypeScript"
-                framework="Universal"
-                developer="google"
-              />
-            </div>
-          </div>
-          <div className="row">
-            {/* <div className="col-sm mb-md">
-              <ToolCard
-                shadow="gray"
-                title="D3.js"
-                src="/images/logo/d3.png"
-                label="very-popular"
-                description="JavaScript library for manipulating documents <br/> based on data"
-                language="TypeScript"
-                framework="Universal"
-              />
-            </div> */}
-            <div className="col-sm mb-md">
-              <ToolCard
-                shadow="gray"
-                title="Highcharts"
-                src="/images/logo/highcharts.png"
-                description="JavaScript charting library based on SVG"
-                language="TypeScript"
-                framework="Universal"
-                developer="highcharts"
-              />
-            </div>
+            {filteredTools &&
+              filteredTools.map((tool) => (
+                <div className="col-sm-6 mb-md" key={tool.id + Math.random()}>
+                  <ToolCard {...tool} />
+                </div>
+              ))}
           </div>
         </div>
       </main>
     </div>
   );
+}
+
+export async function getStaticProps() {
+  const files = fs.readdirSync(`${process.cwd()}/copy/tools`);
+  const ids = files.map((filename) => filename.split(".")[0]);
+  const tools = [];
+
+  for (const id of ids) {
+    const tool = await yaml.read(`${process.cwd()}/copy/tools/${id}.yaml`);
+    tools.push({
+      id: id,
+      ...tool,
+    });
+  }
+
+  return { props: { tools } };
 }
