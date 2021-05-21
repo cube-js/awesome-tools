@@ -1,12 +1,14 @@
 import yaml from "node-yaml";
 import fs from "fs";
+import dynamic from "next/dynamic";
 import React, { useState } from "react";
 import Head from "next/head";
-import ToolCard from "../components/ToolCard";
+// import ToolCard from "../components/ToolCard";
 import Chip from "../components/Chip";
 import ExploreToolsCard from "../components/ExploreToolsCard";
 import H1 from "../components/Text/H1";
 import AccentedText from "../components/Text/AccentedText";
+const ToolCard = dynamic(() => import("../components/ToolCard"));
 
 export default function Home({ tools }) {
   const [exploreTools, setExploreTools] = useState(null);
