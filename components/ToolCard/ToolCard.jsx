@@ -25,7 +25,7 @@ export default function ToolCard(props) {
         </div>
       </div>
       <p
-        className={styles.toolCard__description + " mt-sm mb-lg"}
+        className={styles.toolCard__description + " mt-md mb-lg"}
         dangerouslySetInnerHTML={{ __html: props.description }}
       ></p>
       <div className="flex">

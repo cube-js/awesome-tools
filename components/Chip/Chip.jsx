@@ -4,7 +4,13 @@ import { ReactSVG } from "react-svg";
 
 export default function Chip(props) {
   return (
-    <span className={styles.chip} active={props.active}>
+    <span
+      onClick={props.onClick}
+      className={
+        props.className ? styles.chip + " " + props.className : styles.chip
+      }
+      active={props.active}
+    >
       {props.src && (
         <ReactSVG
           className={styles.icon}
@@ -16,8 +22,3 @@ export default function Chip(props) {
     </span>
   );
 }
-
-Chip.propTypes = {
-  img: PropTypes.string,
-  alt: PropTypes.string,
-};

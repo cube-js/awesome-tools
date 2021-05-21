@@ -2,6 +2,7 @@ import React, { Fragment } from "react";
 import "../styles/globals.scss";
 import "bootstrap/dist/css/bootstrap-grid.min.css";
 import Head from "next/head";
+import Header from "../components/Header";
 
 function MyApp({ Component, pageProps }) {
   return (
@@ -87,6 +88,7 @@ function MyApp({ Component, pageProps }) {
           }}
         />
       </Head>
+      <Header />
       <Component {...pageProps} />
     </Fragment>
   );

@@ -48,7 +48,7 @@ export default function Home() {
         <p>active attribute - set active colors</p>
         <h4>Examples: </h4>
         <div className="row">
-          <div className="col-sm mb-sm">
+          <div className="col-sm mb-md">
             <Chip active={state ? "active" : null}>any framework</Chip>
             <Chip src="/images/logo/react.svg" active={state ? "active" : null}>
               React
@@ -126,7 +126,7 @@ export default function Home() {
         <h4>Examples: </h4>
         <div>
           <div className="row">
-            <div className="col-sm mb-sm">
+            <div className="col-sm mb-md">
               <ToolCard
                 title="Chart.js"
                 src="/images/logo/chartjs.svg"
@@ -137,7 +137,7 @@ export default function Home() {
                 shadow="green"
               />
             </div>
-            <div className="col-sm mb-sm">
+            <div className="col-sm mb-md">
               <ToolCard
                 shadow="orange"
                 title="Recharts"
@@ -150,7 +150,7 @@ export default function Home() {
             </div>
           </div>
           <div className="row">
-            <div className="col-sm mb-sm">
+            <div className="col-sm mb-md">
               <ToolCard
                 shadow="pink"
                 title="Echarts"
@@ -161,7 +161,7 @@ export default function Home() {
                 framework="Universal"
               />
             </div>
-            <div className="col-sm mb-sm">
+            <div className="col-sm mb-md">
               <ToolCard
                 shadow="blue"
                 title="Mapbox GL JS"
@@ -175,7 +175,7 @@ export default function Home() {
             </div>
           </div>
           <div className="row">
-            <div className="col-sm mb-sm">
+            <div className="col-sm mb-md">
               <ToolCard
                 shadow="yellow"
                 title="D3.js"
@@ -186,7 +186,7 @@ export default function Home() {
                 framework="Universal"
               />
             </div>
-            <div className="col-sm mb-sm">
+            <div className="col-sm mb-md">
               <ToolCard
                 shadow="gray"
                 title="Google Charts"
@@ -199,7 +199,7 @@ export default function Home() {
             </div>
           </div>
           <div className="row">
-            {/* <div className="col-sm mb-sm">
+            {/* <div className="col-sm mb-md">
               <ToolCard
                 shadow="gray"
                 title="D3.js"
@@ -210,7 +210,7 @@ export default function Home() {
                 framework="Universal"
               />
             </div> */}
-            <div className="col-sm mb-sm">
+            <div className="col-sm mb-md">
               <ToolCard
                 shadow="gray"
                 title="Highcharts"
