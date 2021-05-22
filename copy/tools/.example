@@ -1,0 +1,67 @@
+title: AG Grid
+description: Self-proclaimed best JavaScript grid in the world
+logo: /images/logo/ag-grid.svg
+
+based_on:
+  - d3
+
+licenses:
+  - type: proprietary
+  - type: open-source
+    title: MIT
+
+types:
+  - charts
+  - maps
+
+labels: []
+
+gallery: []
+
+languages:
+  - JavaScript
+  - TypeScript
+
+frameworks:
+  - vanilla-js
+  - react
+  - angular
+  - vue
+
+slugs:
+  github: ag-grid/ag-grid
+  npm: ag-grid-community
+
+tags:
+  stackoverflow:
+    - ag-grid
+    - aggrid
+  twitter:
+    - aggrid
+    - ag_grid
+
+links:
+  website: https://www.ag-grid.com
+  examples: https://www.ag-grid.com/example.php
+  docs: https://www.ag-grid.com/javascript-grid/
+  pricing:
+  slack: https://slack.example.com
+
+content:
+  - type: official
+    title: "JavaScript Grid: Get Started with AG Grid"
+    link: https://www.ag-grid.com/javascript-grid/getting-started/
+  - type: cube
+    title: React Pivot Table with AG Grid and Cube.js
+    link: https://react-pivot-table.cube.dev
+
+github_data:
+  stars: 7200
+  contributors: 84
+  issues: 17
+  stale_issues: 0
+  last_release:
+    date: "2021-04-30T00:00:00Z"
+    link: https://github.com/ag-grid/ag-grid/releases/tag/v25.2.0
+
+twitter_feed: []
