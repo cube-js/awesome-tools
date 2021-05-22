@@ -24,7 +24,7 @@ frameworks:
 
 slugs:
   github: amcharts/amcharts4
-  npm: @amcharts/amcharts4
+  npm: "@amcharts/amcharts4"
 
 tags:
   stackoverflow:
@@ -52,7 +52,7 @@ github_data:
   issues: 54
   stale_issues: 14
   last_release:
-    date: 2021-04-21T00:00:00Z
+    date: "2021-04-21T00:00:00Z"
     link: https://github.com/amcharts/amcharts4/releases/tag/4.10.18
 
 twitter_feed: []
