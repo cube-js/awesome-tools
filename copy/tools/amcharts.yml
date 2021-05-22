@@ -1,0 +1,58 @@
+title: amCharts
+description: JavaScript charts & maps for all data visualization needs
+logo: /images/logo/amcharts.svg
+
+based_on:
+
+licenses:
+  - type: proprietary
+
+types:
+  - charts
+  - maps
+
+labels: []
+
+gallery: []
+
+languages:
+  - JavaScript
+  - TypeScript
+
+frameworks:
+  - vanilla-js
+
+slugs:
+  github: amcharts/amcharts4
+  npm: @amcharts/amcharts4
+
+tags:
+  stackoverflow:
+    - amcharts
+    - amcharts4
+  twitter:
+    - amcharts
+    - amcharts4
+
+links:
+  website: https://www.amcharts.com
+  examples: https://www.amcharts.com/demos/
+  docs: https://www.amcharts.com/docs/v4/
+  pricing: https://www.amcharts.com/online-store/
+  slack:
+
+content:
+  - type: official
+    title: Starting from Basics of amCharts 4
+    link: https://www.amcharts.com/docs/v4/getting-started/basics/
+
+github_data:
+  stars: 943
+  contributors: 6
+  issues: 54
+  stale_issues: 14
+  last_release:
+    date: 2021-04-21T00:00:00Z
+    link: https://github.com/amcharts/amcharts4/releases/tag/4.10.18
+
+twitter_feed: []

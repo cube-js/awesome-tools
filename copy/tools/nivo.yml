@@ -1,0 +1,53 @@
+title: nivo
+description: Supercharged React components to easily build dataviz apps
+logo:
+
+based_on: d3
+
+licenses:
+  - type: open-source
+    title: MIT
+
+types:
+  - charts
+
+labels: []
+
+gallery: []
+
+languages:
+  - JavaScript
+  - TypeScript
+
+frameworks:
+  - react
+
+slugs:
+  github: plouc/nivo
+  npm:
+
+tags:
+  stackoverflow:
+    - nivo-react
+  twitter:
+    - nivo
+
+links:
+  website: https://nivo.rocks
+  examples: https://nivo.rocks/storybook/
+  docs: https://nivo.rocks/components
+  pricing:
+  slack:
+
+content: []
+
+github_data:
+  stars: 8800
+  contributors: 129
+  issues: 123
+  stale_issues: 26
+  last_release:
+    date: 2021-05-03T00:00:00Z
+    link: https://github.com/plouc/nivo/releases/tag/v0.69.1
+
+twitter_feed: []
