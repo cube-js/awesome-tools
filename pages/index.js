@@ -1,14 +1,16 @@
 import dynamic from "next/dynamic";
 import React, { useState } from "react";
 import Head from "next/head";
-// import ToolCard from "../components/ToolCard";
-import Chip from "../components/Chip";
-import ExploreToolsCard from "../components/ExploreToolsCard";
-import H1 from "../components/Text/H1";
-import AccentedText from "../components/Text/AccentedText";
 import { getTools } from "../data/tools";
 import { filter } from "../data/filter";
+
 const ToolCard = dynamic(() => import("../components/ToolCard"));
+const AccentedText = dynamic(() => import("../components/Text/AccentedText"));
+const Chip = dynamic(() => import("../components/Chip"));
+const ExploreToolsCard = dynamic(() =>
+  import("../components/ExploreToolsCard")
+);
+const H1 = dynamic(() => import("../components/Text/H1"));
 
 export default function Home({ tools }) {
   const [exploreTools, setExploreTools] = useState([]);
