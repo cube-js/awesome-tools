@@ -1,0 +1,18 @@
+.button {
+  font-family: CeraPro;
+  font-weight: 400;
+  font-size: 20px;
+  // line-height: 25px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #8e8bff;
+  border: 2px solid #8e8bff;
+  padding: 8px 22px;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background: transparent;
+  cursor: pointer;
+}

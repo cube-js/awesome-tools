@@ -1,6 +1,7 @@
 @import "/styles/variables";
 
 .toolCard {
+  cursor: pointer;
   padding: 32px;
   color: $dark-02;
   background: #ffffff;
@@ -9,6 +10,11 @@
   position: relative;
   max-width: 600px;
   height: 100%;
+  transition: box-shadow 0.3s ease-in-out;
+
+  &:hover {
+    box-shadow: 0px 8px 32px rgba(194, 194, 218, 0.5);
+  }
 
   &__logo {
     width: 60px;
@@ -102,19 +108,37 @@
 
 .toolCard[shadow="orange"] {
   box-shadow: 16px 24px 80px rgba(255, 133, 95, 0.3);
+  &:hover {
+    box-shadow: 16px 24px 80px rgba(255, 133, 95, 0.5);
+  }
 }
 .toolCard[shadow="green"] {
   box-shadow: -16px 24px 80px rgba(66, 204, 173, 0.3);
+  &:hover {
+    box-shadow: -16px 24px 80px rgba(66, 204, 173, 0.5);
+  }
 }
 .toolCard[shadow="pink"] {
   box-shadow: 0px 24px 80px rgba(255, 124, 226, 0.4);
+  &:hover {
+    box-shadow: 0px 24px 80px rgba(255, 124, 226, 0.5);
+  }
 }
 .toolCard[shadow="blue"] {
   box-shadow: 0px 24px 80px rgba(115, 159, 243, 0.4);
+  &:hover {
+    box-shadow: 0px 24px 80px rgba(115, 159, 243, 0.5);
+  }
 }
 .toolCard[shadow="yellow"] {
   box-shadow: 0px 24px 80px rgba(255, 194, 123, 0.4);
+  &:hover {
+    box-shadow: 0px 24px 80px rgba(255, 194, 123, 0.5);
+  }
 }
 .toolCard[shadow="gray"] {
   box-shadow: 0px 8px 32px rgba(194, 194, 218, 0.3);
+  &:hover {
+    box-shadow: 0px 8px 32px rgba(194, 194, 218, 0.5);
+  }
 }

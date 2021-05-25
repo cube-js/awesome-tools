@@ -3,6 +3,7 @@ import Head from "next/head";
 import ToolCard from "../components/ToolCard";
 import Chip from "../components/Chip";
 import ExploreToolsCard from "../components/ExploreToolsCard";
+import Button from "../components/Button";
 
 export default function Home() {
   const [state, setState] = useState(false);
@@ -19,6 +20,17 @@ export default function Home() {
 
       <main>
         <h1>Components Page</h1>
+        <hr></hr>
+        <h3>Button</h3>
+        <h4>Props:</h4>
+        <p>href - link href</p>
+        <h4>Examples: </h4>
+        <div className="flex">
+          <Button href="/" className={"mr-md"}>
+            Website
+          </Button>
+          <Button href="/">GitHub</Button>
+        </div>
         <hr></hr>
         <h3>ExploreToolsCard</h3>
         <h4>Props:</h4>
