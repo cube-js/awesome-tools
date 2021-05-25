@@ -6,8 +6,8 @@ const toolCopyPath = `${process.cwd()}/copy/tools`;
 async function readTools() {
   const files = fs.readdirSync(toolCopyPath);
   const ids = files
-    .filter(filename => filename.endsWith(".yml"))
-    .map(filename => filename.split(".")[0]);
+    .filter((filename) => filename.endsWith(".yml"))
+    .map((filename) => filename.split(".")[0]);
 
   const tools = {};
   const extendedTools = {};
@@ -20,8 +20,6 @@ async function readTools() {
     extendedTools[id] = await extendTool(tools[id], tools);
   }
 
-  console.log(extendedTools)
-
   return extendedTools;
 }
 
@@ -32,18 +30,26 @@ async function readTool(id) {
 
 async function extendTool(tool, tools) {
   const positionsByStars = Object.values(tools)
-    .map(t => ({ key: t.id, value: t.github_data?.stars }))
+    .map((t) => ({ key: t.id, value: t.github_data?.stars }))
     .sort(compare);
 
   tool.positions = {
     total: Object.keys(tools).length,
-    stars: 1 + positionsByStars.findIndex(pair => pair.value === tool.github_data?.stars)
+    stars:
+      1 +
+      positionsByStars.findIndex(
+        (pair) => pair.value === tool.github_data?.stars
+      ),
   };
 
   tool.percentages = {
-    stale_issues: tool.github_data?.issues > 0
-      ? 100 * ((tool.github_data?.stale_issues || 0) / tool.github_data?.issues).toFixed(2)
-      : 0
+    stale_issues:
+      tool.github_data?.issues > 0
+        ? 100 *
+          (
+            (tool.github_data?.stale_issues || 0) / tool.github_data?.issues
+          ).toFixed(2)
+        : 0,
   };
 
   return tool;

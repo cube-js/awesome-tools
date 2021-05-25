@@ -7,7 +7,7 @@ export default function ToolCard(props) {
       <div className="flex flex-items-center">
         <img
           className={styles.toolCard__logo}
-          src={props.image || ""}
+          src={props.logo || ""}
           alt={props.title || ""}
         />
         <div className="flex flex-column">

@@ -6,35 +6,29 @@ import Chip from "../components/Chip";
 import ExploreToolsCard from "../components/ExploreToolsCard";
 import H1 from "../components/Text/H1";
 import AccentedText from "../components/Text/AccentedText";
-import { getTools } from '../data/tools';
+import { getTools } from "../data/tools";
+import { filter } from "../data/filter";
 const ToolCard = dynamic(() => import("../components/ToolCard"));
 
 export default function Home({ tools }) {
-  const [exploreTools, setExploreTools] = useState(null);
-  const [framework, setFramework] = useState(null);
-  const [language, setLanguage] = useState(null);
-  const [license, setLicense] = useState(null);
+  const [exploreTools, setExploreTools] = useState([]);
+  const [framework, setFramework] = useState([]);
+  const [language, setLanguage] = useState([]);
+  const [license, setLicense] = useState([]);
 
-  const filteredTools = tools.filter((tool) => {
-    let isValidFramework = true;
-    let isValidLanguage = true;
-    let isValidLicense = true;
-    let isValidType = true;
-    if (exploreTools) {
-      isValidType = tool?.type?.includes(exploreTools);
+  const filteredTools = filter(tools, framework, language, license);
+
+  const setItem = (array, set, item) => {
+    const index = array.indexOf(item);
+    if (index === -1) {
+      set([...array, item]);
+      return true;
+    } else {
+      array.splice(index, 1);
+      set([...array]);
+      return false;
     }
-    if (framework) {
-      isValidFramework =
-        tool.framework?.toLowerCase() === framework.toLowerCase();
-    }
-    if (language) {
-      isValidLanguage = tool.language?.toLowerCase() === language.toLowerCase();
-    }
-    if (license) {
-      isValidLicense = tool.license?.toLowerCase() === license.toLowerCase();
-    }
-    return isValidFramework && isValidLanguage && isValidLicense && isValidType;
-  });
+  };
 
   return (
     <div className="container custom-container">
@@ -86,8 +80,8 @@ export default function Home({ tools }) {
         <div className="flex flex-items-center mb-sm">
           <AccentedText className="mr-xs">Compatible with</AccentedText>
           <Chip
-            active={!framework ? "active" : null}
-            onClick={() => setFramework(null)}
+            active={framework.length === 0 ? "active" : null}
+            onClick={() => setFramework([])}
           >
             any framework
           </Chip>
@@ -95,23 +89,23 @@ export default function Home({ tools }) {
           <Chip
             className="mr-xs"
             src="/images/logo/react.svg"
-            active={framework === "react" ? "active" : null}
-            onClick={() => setFramework("react")}
+            active={framework.includes("react") ? "active" : null}
+            onClick={() => setItem(framework, setFramework, "react")}
           >
             React
           </Chip>
           <Chip
             className="mr-xs"
             src="/images/logo/angular.svg"
-            active={framework === "angular" ? "active" : null}
-            onClick={() => setFramework("angular")}
+            active={framework.includes("angular") ? "active" : null}
+            onClick={() => setItem(framework, setFramework, "angular")}
           >
             Angular
           </Chip>
           <Chip
             src="/images/logo/vue.svg"
-            active={framework === "vue" ? "active" : null}
-            onClick={() => setFramework("vue")}
+            active={framework.includes("vue") ? "active" : null}
+            onClick={() => setItem(framework, setFramework, "vue")}
           >
             Vue
           </Chip>
@@ -121,31 +115,31 @@ export default function Home({ tools }) {
           <Chip
             className="mr-xs"
             src="/images/logo/javascript.svg"
-            active={language === "javascript" ? "active" : null}
-            onClick={() => setLanguage("javascript")}
+            active={language.includes("javascript") ? "active" : null}
+            onClick={() => setItem(language, setLanguage, "javascript")}
           >
             JavaScript
           </Chip>
           <Chip
             src="/images/logo/typescript.svg"
-            active={language === "typescript" ? "active" : null}
-            onClick={() => setLanguage("typescript")}
+            active={language.includes("typescript") ? "active" : null}
+            onClick={() => setItem(language, setLanguage, "typescript")}
           >
             TypeScript
           </Chip>
           <AccentedText className="mr-xs ml-xs">With</AccentedText>
           <Chip
             src="/images/logo/open-source.svg"
-            active={license === "open-source" ? "active" : null}
-            onClick={() => setLicense("open-source")}
+            active={license.includes("open-source") ? "active" : null}
+            onClick={() => setItem(license, setLicense, "open-source")}
           >
             Open source
           </Chip>
           <AccentedText className="mr-xs ml-xs">or</AccentedText>
           <Chip
             src="/images/logo/tag.svg"
-            active={license === "proprietary" ? "active" : null}
-            onClick={() => setLicense("proprietary")}
+            active={license.includes("proprietary") ? "active" : null}
+            onClick={() => setItem(license, setLicense, "proprietary")}
           >
             Proprietary
           </Chip>
