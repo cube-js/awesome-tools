@@ -6,6 +6,7 @@ export default function Chip(props) {
   return (
     <Link href={props.href}>
       <button
+        role="button"
         type="button"
         className={
           props.className
