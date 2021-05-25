@@ -1,7 +1,9 @@
 import styles from "./ToolCard.module.scss";
 import { ReactSVG } from "react-svg";
+import { Fragment } from "react";
 
 export default function ToolCard(props) {
+  console.log(props);
   return (
     <div className={styles.toolCard} shadow={props.shadow}>
       <div className="flex flex-items-center">
@@ -36,41 +38,56 @@ export default function ToolCard(props) {
               className={styles.icon}
               src="/images/logo/github.svg"
             />
-            <span className="features__text">{props?.data?.stars || "-"}</span>
+            <span className="features__text">
+              {props?.github_data?.stars || "-"}
+            </span>
           </div>
         </div>
         <div className="flex flex-column">
           <span className={styles.features}>Framework</span>
           <div className={styles.framework}>
-            {props.framework && props.framework !== "Universal" ? (
-              <ReactSVG
-                wrapper="span"
-                className={styles.icon}
-                src={`/images/logo/${props.framework.toLowerCase()}.svg`}
-              />
-            ) : null}
-            {/* <img src="/images/logo/github.svg" alt="github icon" /> */}
-            <span className="features__text">{props.framework}</span>
+            {props.frameworks &&
+              props.frameworks.map((framework) => {
+                return (
+                  <div className={styles.framework__wrapper}>
+                    {framework !== "Universal" ? (
+                      <ReactSVG
+                        wrapper="span"
+                        className={styles.icon}
+                        src={`/images/logo/${framework.toLowerCase()}.svg`}
+                      />
+                    ) : null}
+                    <span className="features__text">{framework}</span>
+                  </div>
+                );
+              })}
           </div>
         </div>
         <div className="flex flex-column">
           <span className={styles.features}>Language</span>
           <div className={styles.language}>
-            {props.language ? (
-              <ReactSVG
-                wrapper="span"
-                className={styles.icon}
-                src={`/images/logo/${props.language.toLowerCase()}.svg`}
-              />
-            ) : null}
-            <span className="features__text">{props.language}</span>
+            {props.languages &&
+              props.languages.map((language) => {
+                return (
+                  <div className={styles.language__wrapper}>
+                    {language ? (
+                      <ReactSVG
+                        wrapper="span"
+                        className={styles.icon}
+                        src={`/images/logo/${language.toLowerCase()}.svg`}
+                      />
+                    ) : null}
+                    <span className="features__text">{language}</span>
+                  </div>
+                );
+              })}
           </div>
         </div>
         <div className="flex flex-column">
           <span className={styles.features}>Last release</span>
           <div>
             <span className="features__text">
-              {props?.data?.release || "-"}
+              {props?.github_data?.last_release?.date || "-"}
             </span>
           </div>
         </div>

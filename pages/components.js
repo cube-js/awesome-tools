@@ -90,22 +90,22 @@ export default function Home() {
         <hr></hr>
         <h3>Tool Card Component</h3>
         <h4>Props:</h4>
-        <p>image - image src</p>
+        <p>logo - image src</p>
         <p>title - tool name</p>
         <p>
-          data - data of release and github stars. Is Object. Example:
-          props.data.stars, props.data.release. This way need to convenient use
-          in yaml
+          github_data - data of release and github stars. Is Object. Example:
+          props.github_data.stars, props.github_data.last_release.date. This way
+          need to convenient use in yaml
         </p>
         <p>developer - object, name and src</p>
-        <p>framework:</p>
+        <p>frameworks:</p>
         <ul>
           <li>Universal</li>
           <li>React</li>
           <li>Vue</li>
           <li>Angular</li>
         </ul>
-        <p>language:</p>
+        <p>languages:</p>
         <ul>
           <li>TypeScript</li>
           <li>JavaScript</li>
@@ -133,11 +133,11 @@ export default function Home() {
             <div className="col-sm mb-md">
               <ToolCard
                 title="Chart.js"
-                src="/images/logo/chartjs.svg"
+                logo="/images/logo/chartjs.svg"
                 label="easy-to-start"
                 description="Simple yet flexible JavaScript charting <br/> for designers & developers"
-                language="JavaScript"
-                framework="Universal"
+                languages={["JavaScript"]}
+                frameworks={["Universal"]}
                 shadow="green"
               />
             </div>

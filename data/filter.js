@@ -1,4 +1,4 @@
-const filter = (tools, framework, language, license) => {
+const filter = (tools, framework, language, license, exploreTools) => {
   return tools.filter((tool) => {
     let isValid = true;
     // let isValidLanguage = true;
@@ -6,9 +6,15 @@ const filter = (tools, framework, language, license) => {
     // let isValidType = true;
 
     // console.log(tool);
-    // if (exploreTools) {
-    //   isValidType = tool?.type?.includes(exploreTools);
-    // }
+    if (exploreTools.length && isValid) {
+      let hasInclude = 0;
+      tool.types.forEach((type) => {
+        if (exploreTools.includes(type.toLowerCase())) {
+          hasInclude++;
+        }
+      });
+      isValid = exploreTools.length === hasInclude;
+    }
     if (framework.length && isValid) {
       let hasInclude = 0;
       tool.frameworks.forEach((fr) => {

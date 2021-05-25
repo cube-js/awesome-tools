@@ -8,6 +8,7 @@
   border-radius: 40px;
   position: relative;
   max-width: 600px;
+  height: 100%;
 
   &__logo {
     width: 60px;
@@ -72,7 +73,12 @@
 }
 .language {
   display: flex;
-  align-items: center;
+  // align-items: center;
+  flex-direction: column;
+  &__wrapper {
+    display: flex;
+    align-items: center;
+  }
   .icon {
     display: flex;
     align-items: center;
@@ -81,7 +87,12 @@
 }
 .framework {
   display: flex;
-  align-items: center;
+  // align-items: center;
+  flex-direction: column;
+  &__wrapper {
+    display: flex;
+    align-items: center;
+  }
   .icon {
     display: flex;
     align-items: center;

@@ -16,7 +16,13 @@ export default function Home({ tools }) {
   const [language, setLanguage] = useState([]);
   const [license, setLicense] = useState([]);
 
-  const filteredTools = filter(tools, framework, language, license);
+  const filteredTools = filter(
+    tools,
+    framework,
+    language,
+    license,
+    exploreTools
+  );
 
   const setItem = (array, set, item) => {
     const index = array.indexOf(item);
@@ -44,34 +50,32 @@ export default function Home({ tools }) {
         </H1>
         <div className="flex flex-space-between mb-md">
           <ExploreToolsCard
-            onClick={() => {
-              setExploreTools("Charting libraries");
-            }}
+            onClick={() => setItem(exploreTools, setExploreTools, "charts")}
             text="Charting libraries"
             image="chart"
           />
           <ExploreToolsCard
-            onClick={() => setExploreTools("Low-level tools")}
+            onClick={() => setItem(exploreTools, setExploreTools, "low-level")}
             text="Low-level tools"
             image="lines"
           />
           <ExploreToolsCard
-            onClick={() => setExploreTools("Mapping tools")}
+            onClick={() => setItem(exploreTools, setExploreTools, "maps")}
             text="Mapping tools"
             image="globe"
           />
           <ExploreToolsCard
-            onClick={() => setExploreTools("3D tools")}
+            onClick={() => setItem(exploreTools, setExploreTools, "3d")}
             text="3D<br/>tools"
             image="waves"
           />
           <ExploreToolsCard
-            onClick={() => setExploreTools("Data grids")}
+            onClick={() => setItem(exploreTools, setExploreTools, "grid")}
             text="Data<br/>grids"
             image="waves"
           />
           <ExploreToolsCard
-            onClick={() => setExploreTools("Exploration apps")}
+            onClick={() => setItem(exploreTools, setExploreTools, "app")}
             text="Exploration apps"
             image="waves"
           />
