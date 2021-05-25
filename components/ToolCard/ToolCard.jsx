@@ -1,6 +1,6 @@
 import styles from "./ToolCard.module.scss";
 import { ReactSVG } from "react-svg";
-import { Fragment } from "react";
+import moment from "moment";
 
 export default function ToolCard(props) {
   console.log(props);
@@ -87,7 +87,9 @@ export default function ToolCard(props) {
           <span className={styles.features}>Last release</span>
           <div>
             <span className="features__text">
-              {props?.github_data?.last_release?.date || "-"}
+              {moment(props?.github_data?.last_release?.date).format(
+                "MMM DD, YYYY"
+              ) || "-"}
             </span>
           </div>
         </div>
