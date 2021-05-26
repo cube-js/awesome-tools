@@ -1,0 +1,33 @@
+@import "/styles/variables";
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.title {
+  display: flex;
+  position: relative;
+  &__img {
+    width: 77px;
+    height: 77px;
+  }
+  &__text {
+    display: flex;
+    align-items: center;
+    margin: 0 0 0 16px;
+    font-size: 40px;
+    line-height: 40px;
+    color: $dark-02;
+  }
+}
+.buttons {
+  display: flex;
+  gap: 8px;
+}
+
+.achievement {
+  margin-top: -56px;
+  // height: 104px;
+  // width: 104px;
+}

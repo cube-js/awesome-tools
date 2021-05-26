@@ -95,9 +95,12 @@ export default function ToolCard(props) {
             </div>
           </div>
         </div>
-        {props.label && (
-          <div className={styles.toolCard__label}>
-            <img src={`/images/${props.label}.svg`} alt={props.label} />
+        {props.achievement && (
+          <div className={styles.toolCard__achievement}>
+            <img
+              src={`/images/${props.achievement}.svg`}
+              alt={props.achievement}
+            />
           </div>
         )}
       </div>

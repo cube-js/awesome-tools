@@ -1,13 +1,13 @@
 import styles from "./Button.module.scss";
-import { ReactSVG } from "react-svg";
 import Link from "next/link";
 
-export default function Chip(props) {
+export default function Button(props) {
   return (
     <Link href={props.href}>
-      <button
-        role="button"
+      <a
         type="button"
+        role="button"
+        {...props}
         className={
           props.className
             ? `${props.className} ${styles.button}`
@@ -15,7 +15,7 @@ export default function Chip(props) {
         }
       >
         <span>{props.children}</span>
-      </button>
+      </a>
     </Link>
   );
 }

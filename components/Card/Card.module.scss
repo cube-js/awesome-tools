@@ -1,0 +1,18 @@
+@import "/styles/variables";
+
+.card {
+  width: 100%;
+  min-height: 154px;
+  background-color: $light-orange;
+  padding: 32px;
+  border-radius: 24px;
+  color: $orange;
+}
+.card[color="gray"] {
+  color: $dark-02;
+  background-color: $dark-01;
+}
+.icon {
+  width: 22px;
+  height: 22px;
+}

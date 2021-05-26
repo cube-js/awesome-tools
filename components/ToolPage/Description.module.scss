@@ -1,0 +1,27 @@
+@import "/styles/variables";
+
+.description {
+  margin-top: 24px;
+  &__text {
+    font-size: 22px;
+    line-height: 28px;
+    color: $dark-02;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 28px;
+  }
+}
+.based {
+  display: flex;
+  align-items: center;
+  color: rgba(67, 67, 107, 0.3);
+  font-size: 16px;
+  line-height: 20px;
+  margin-bottom: 24px;
+
+  &__tag {
+    margin-left: 8px;
+    color: #8381ee;
+  }
+}

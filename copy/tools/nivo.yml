@@ -2,7 +2,8 @@ title: nivo
 description: Supercharged React components to easily build dataviz apps
 logo:
 
-based_on: d3
+based_on:
+  - d3
 
 licenses:
   - type: open-source
