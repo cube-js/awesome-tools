@@ -39,9 +39,8 @@ export default function Home({ tools }) {
   return (
     <div className="container custom-container">
       <Head>
-        <title>Awesome Tools - Components Page</title>
-        <meta name="description" content="This page for developing" />
-        <link rel="icon" href="/favicon.ico" />
+        <title>Cube.js Awesome Tools</title>
+        <meta name="description" content="Cube.js Awesome Tools" />
       </Head>
 
       <main>

@@ -12,7 +12,6 @@ export default function Tool(props) {
       <Head>
         <title>Awesome Tools - Components Page</title>
         <meta name="description" content="This page for developing" />
-        <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main>
