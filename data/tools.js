@@ -1,7 +1,7 @@
 import fs from "fs";
 import yaml from "node-yaml";
 
-const toolCopyPath = `${process.cwd()}/copy/tools`;
+export const toolCopyPath = `${process.cwd()}/copy/tools`;
 
 async function readTools() {
   const files = fs.readdirSync(toolCopyPath);
@@ -23,7 +23,7 @@ async function readTools() {
   return extendedTools;
 }
 
-async function readTool(id) {
+export async function readTool(id) {
   const tool = await yaml.read(`${toolCopyPath}/${id}.yml`);
   return { id, ...tool };
 }

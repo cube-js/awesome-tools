@@ -5,7 +5,7 @@ import Link from "next/link";
 
 export default function ToolCard(props) {
   return (
-    <Link href={"/tool/" + props.id}>
+    <Link href={"/tools/" + props.id}>
       <div className={styles.toolCard} shadow={props.shadow}>
         <div className="flex flex-items-center">
           <img

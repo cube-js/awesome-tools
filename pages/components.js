@@ -21,6 +21,15 @@ export default function Home() {
       <main>
         <h1>Components Page</h1>
         <hr></hr>
+        <h3>Card</h3>
+        <h4>Props:</h4>
+        <p>isBig - can make card bigger</p>
+        <p>icon - icon src</p>
+        <p>text - main text</p>
+        <p>footerElement - footer text, may be a link</p>
+
+        <h4>Examples: </h4>
+        <hr></hr>
         <h3>Button</h3>
         <h4>Props:</h4>
         <p>href - link href</p>
