@@ -16,7 +16,17 @@ export default function Card(props) {
           src={props.icon}
         ></ReactSVG>
       )}
-      <div></div>
+      <div className={styles.text}>{props.text}</div>
+      {props.description && (
+        <div className={styles.description}>{props.description}</div>
+      )}
+      {props.link && (
+        <div className={styles.link}>
+          <a target="_blank" href={props.link.href}>
+            {props.link.text}
+          </a>
+        </div>
+      )}
     </div>
   );
 }

@@ -8,7 +8,7 @@ export default function DescriptionCards(props) {
         <Card
           icon="/images/logo/dollar.svg"
           text="Proprietary license"
-          link={{ text: "Priсe page →", href: "/" }}
+          link={{ text: "Priсe page →", href: props?.links?.pricing }}
         />
       </div>
       <div className="col-md">
@@ -16,13 +16,13 @@ export default function DescriptionCards(props) {
           color="gray"
           icon="/images/logo/react.svg"
           text="React Only"
-          link={{ text: "Go to GitHub →", href: "/" }}
+          link={{ text: "Go to Docs →", href: props?.links?.docs }}
         />
       </div>
       <div className="col-md">
         <Card
           icon="/images/logo/typescript.svg"
-          text="React Only"
+          text="Not supported"
           description="TypeScript"
         />
       </div>

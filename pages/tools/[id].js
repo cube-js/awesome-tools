@@ -9,6 +9,8 @@ import DescriptionCards from "../../components/ToolPage/DescriptionCards";
 import fs from "fs";
 import { toolCopyPath, readTool } from "../../data/tools";
 
+const Gallery = dynamic(() => import("../../components/Gallery"));
+
 export default function Tool(props) {
   console.log(props);
   return (
@@ -27,7 +29,8 @@ export default function Tool(props) {
           achievement={props?.achievement}
         />
         <Description based={props.based_on} description={props.description} />
-        <DescriptionCards />
+        <DescriptionCards links={props.links} slugs={props.slugs} />
+        <Gallery gallery={props.gallery} />
       </main>
     </div>
   );
