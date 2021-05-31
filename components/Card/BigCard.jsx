@@ -1,4 +1,4 @@
-import styles from "./Card.module.scss";
+import styles from "./BigCard.module.scss";
 import { ReactSVG } from "react-svg";
 
 export default function Card(props) {
@@ -20,13 +20,15 @@ export default function Card(props) {
       {props.description && (
         <div className={styles.description}>{props.description}</div>
       )}
-      {props.footerText && <div>{props.footerText}</div>}
       {props.link && (
         <div className={styles.link}>
           <a target="_blank" href={props.link.href}>
             {props.link.text}
           </a>
         </div>
+      )}
+      {props.footerText && (
+        <div className={styles.footer}>{props.footerText}</div>
       )}
     </div>
   );

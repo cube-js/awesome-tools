@@ -1,5 +1,5 @@
 import styles from "./DescriptionCards.module.scss";
-import Card from "../Card";
+import Card from "../Card/Card";
 
 export default function DescriptionCards(props) {
   return (

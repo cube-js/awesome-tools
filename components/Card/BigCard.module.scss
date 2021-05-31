@@ -4,7 +4,7 @@
   width: 100%;
   // min-height: 154px;
   background-color: $light-orange;
-  padding: 32px;
+  padding: 48px 42px;
   border-radius: 24px;
   color: $orange;
 }
@@ -13,19 +13,22 @@
   background-color: $dark-01;
 }
 .icon {
-  width: 22px;
-  height: 22px;
+  width: 24px;
+  height: 24px;
   margin-bottom: 10px;
 }
 .text {
   // margin-top: 10px;
-  font-size: 24px;
-  line-height: 30px;
-  // margin-bottom: 8px;
+  font-size: 48px;
+  line-height: 60px;
+  margin-bottom: 0;
 }
-.description {
-  margin-top: 8px;
+.footer {
+  margin-top: 24px;
+  color: rgba(255, 165, 123, 0.6);
 }
-.link {
-  margin-top: 8px;
+.card[color="gray"] {
+  .footer {
+    color: rgba(67, 67, 107, 0.6);
+  }
 }

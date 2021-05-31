@@ -1,7 +1,6 @@
 import dynamic from "next/dynamic";
 import React, { useState } from "react";
 import Head from "next/head";
-import H1 from "../../components/Text/H1";
 import Header from "../../components/ToolPage/Header";
 import Description from "../../components/ToolPage/Description";
 import DescriptionCards from "../../components/ToolPage/DescriptionCards";
@@ -10,6 +9,9 @@ import fs from "fs";
 import { toolCopyPath, readTool } from "../../data/tools";
 
 const Gallery = dynamic(() => import("../../components/Gallery"));
+const Popularity = dynamic(() =>
+  import("../../components/ToolPage/Popularity")
+);
 
 export default function Tool(props) {
   console.log(props);
@@ -31,6 +33,7 @@ export default function Tool(props) {
         <Description based={props.based_on} description={props.description} />
         <DescriptionCards links={props.links} slugs={props.slugs} />
         <Gallery gallery={props.gallery} />
+        <Popularity github={props.github_data} />
       </main>
     </div>
   );
