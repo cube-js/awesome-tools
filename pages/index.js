@@ -47,20 +47,20 @@ export default function Home({ tools }) {
         <H1>
           Awesome data visualization tools <br /> for software developers
         </H1>
-        <div className="flex flex-space-between mb-md">
+        <div className="row">
           <ExploreToolsCard
             onClick={() => setItem(exploreTools, setExploreTools, "charts")}
-            text="Charting libraries"
+            text="Charting<br/>libraries"
             image="chart"
           />
           <ExploreToolsCard
             onClick={() => setItem(exploreTools, setExploreTools, "low-level")}
-            text="Low-level tools"
+            text="Low-level<br/>tools"
             image="lines"
           />
           <ExploreToolsCard
             onClick={() => setItem(exploreTools, setExploreTools, "maps")}
-            text="Mapping tools"
+            text="Mapping<br/>tools"
             image="globe"
           />
           <ExploreToolsCard
@@ -75,7 +75,7 @@ export default function Home({ tools }) {
           />
           <ExploreToolsCard
             onClick={() => setItem(exploreTools, setExploreTools, "app")}
-            text="Exploration apps"
+            text="Exploration<br/>apps"
             image="waves"
           />
         </div>

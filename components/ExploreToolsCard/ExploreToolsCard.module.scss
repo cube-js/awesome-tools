@@ -3,11 +3,12 @@
 .exploreToolsCard {
   background: #ecebff;
   border-radius: 24px;
-  width: 184px;
+  // width: 184px;
   // height: 143px;
   padding: 24px 24px 0px 24px;
   overflow: hidden;
   cursor: pointer;
+  margin-bottom: 32px;
 
   &__text {
     font-size: 24px;
