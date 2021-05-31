@@ -16,6 +16,9 @@ const News = dynamic(() => import("../../components/ToolPage/News"));
 const HowToGetStarted = dynamic(() =>
   import("../../components/ToolPage/HowToGetStarted")
 );
+const HowToGetHelp = dynamic(() =>
+  import("../../components/ToolPage/HowToGetHelp")
+);
 
 export default function Tool(props) {
   console.log(props);
@@ -38,10 +41,29 @@ export default function Tool(props) {
         <DescriptionCards links={props.links} slugs={props.slugs} />
         <Gallery gallery={props.gallery} link={props?.links?.examples} />
         <Popularity github={props.github_data} />
-        {props.twitter_feed && <News news={props.twitter_feed} />}
-        {props.content && props.content.length && (
+        {props.twitter_feed && (
+          <News
+            news={props.twitter_feed}
+            link={
+              props?.tags?.twitter
+                ? `https://twitter.com/search?q=${props?.tags?.twitter?.[0]}`
+                : "/"
+            }
+          />
+        )}
+        {props.content && props.content.length > 0 && (
           <HowToGetStarted content={props.content} />
         )}
+        <HowToGetHelp
+          logo={props.logo}
+          name={props.title}
+          links={props.links}
+          stackoverflow={
+            props?.tags?.stackoverflow
+              ? `https://stackoverflow.com/questions/tagged/${props?.tags?.stackoverflow[0]}`
+              : null
+          }
+        />
       </main>
     </div>
   );

@@ -14,7 +14,7 @@ export default function HowToGetStarted(props) {
             ? "/images/logo/official.svg"
             : "/images/logo/cubejs-big.svg";
         return (
-          <div className={index === 0 ? "col-md-5" : "col-md-4"}>
+          <div key={index} className={index === 0 ? "col-md-5" : "col-md-4"}>
             <GetStartedCard
               icon={icon}
               type={obj.type === "official" ? "TUTORIALS" : "Installation"}

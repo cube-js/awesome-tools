@@ -8,7 +8,7 @@ export default function Description(props) {
       <div className="col-sm-3">
         <H2>News</H2>
         <div className="mt-sm">
-          <a href="/" className="link" target="_blank">
+          <a href={props.link} className="link" target="_blank">
             Read more →
           </a>
         </div>

@@ -7,7 +7,9 @@ export default function Description(props) {
         <div className={styles.based}>
           <span>Based on</span>
           {props.based.map((tag) => (
-            <span className={styles.based__tag}>{tag}</span>
+            <span key={tag} className={styles.based__tag}>
+              {tag}
+            </span>
           ))}
         </div>
       )}
