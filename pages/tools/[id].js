@@ -36,7 +36,7 @@ export default function Tool(props) {
         />
         <Description based={props.based_on} description={props.description} />
         <DescriptionCards links={props.links} slugs={props.slugs} />
-        <Gallery gallery={props.gallery} />
+        <Gallery gallery={props.gallery} link={props?.links?.examples} />
         <Popularity github={props.github_data} />
         {props.twitter_feed && <News news={props.twitter_feed} />}
         {props.content && props.content.length && (

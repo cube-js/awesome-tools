@@ -29,11 +29,13 @@ export default function Gallery(props) {
     <div className={styles.gallery + " row"}>
       <div className="col-sm-3">
         <H2>Gallery</H2>
-        <div className="mt-sm">
-          <a href="/" className="link" target="_blank">
-            See all Samples →
-          </a>
-        </div>
+        {props.link && (
+          <div className="mt-sm">
+            <a href={props.link} className="link" target="_blank">
+              See all Samples →
+            </a>
+          </div>
+        )}
       </div>
       <div className="col-sm-9">
         <Slider slidesData={slidesData} />
