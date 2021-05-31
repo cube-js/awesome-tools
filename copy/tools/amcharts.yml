@@ -57,4 +57,15 @@ github_data:
     date: "2021-04-21T00:00:00Z"
     link: https://github.com/amcharts/amcharts4/releases/tag/4.10.18
 
-twitter_feed: []
+twitter_feed:
+  - user: Benjamin Scott
+    image: "/images/tweet-avatar.png"
+    color: gray
+    text: "Back to wrestling with Chart.js and data visualizations. It's taking me longer than expected to build a continuous, time series chart, using a discrete dataset, and it's tricky to keep the chart dynamically updating. #100DaysOfCode #WomenWhoCode #DataVisualization"
+  - user: Takayuki Kawamoto
+    image: "/images/tweet-avatar.png"
+    color: gray
+    text: "Anyways, thers is no chance to take Chart.js as our tool to do things in business or private tasks by the fact of these difficulties in configuration and poor documentation."
+  - user: Takayuki Kawamoto
+    image: "/images/tweet-avatar.png"
+    text: "Anyways, thers is no chance to take Chart.js as our tool to do things in business or private tasks"

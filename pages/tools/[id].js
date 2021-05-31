@@ -12,9 +12,10 @@ const Gallery = dynamic(() => import("../../components/Gallery"));
 const Popularity = dynamic(() =>
   import("../../components/ToolPage/Popularity")
 );
+const News = dynamic(() => import("../../components/ToolPage/News"));
 
 export default function Tool(props) {
-  console.log(props);
+  // console.log(props);
   return (
     <div className="container custom-container mt-lg">
       <Head>
@@ -34,6 +35,7 @@ export default function Tool(props) {
         <DescriptionCards links={props.links} slugs={props.slugs} />
         <Gallery gallery={props.gallery} />
         <Popularity github={props.github_data} />
+        {props.twitter_feed && <News news={props.twitter_feed} />}
       </main>
     </div>
   );
