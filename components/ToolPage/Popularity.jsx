@@ -33,7 +33,7 @@ export default function Popularity(props) {
           ).toFixed(1)}% older than 1 year`}
         />
       </div>
-      <div className={styles.popularity__small + " col-sm-3"}>
+      <div className={"col-sm-3"}>
         <Card
           className="mb-md"
           color="gray"
