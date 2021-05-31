@@ -14,8 +14,8 @@ export default function Description(props) {
         </div>
       </div>
       <div className="col-sm-9">
-        {props.news.map((n) => (
-          <NewsCard {...n} />
+        {props.news.map((n, index) => (
+          <NewsCard key={n.user + index} {...n} />
         ))}
       </div>
     </div>
