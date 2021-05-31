@@ -50,7 +50,10 @@ export default function ToolCard(props) {
               {props.frameworks &&
                 props.frameworks.map((framework) => {
                   return (
-                    <div className={styles.framework__wrapper}>
+                    <div
+                      className={styles.framework__wrapper}
+                      key={framework + Math.random()}
+                    >
                       {framework !== "Universal" ? (
                         <ReactSVG
                           wrapper="span"
@@ -70,7 +73,10 @@ export default function ToolCard(props) {
               {props.languages &&
                 props.languages.map((language) => {
                   return (
-                    <div className={styles.language__wrapper}>
+                    <div
+                      className={styles.language__wrapper}
+                      key={language + Math.random()}
+                    >
                       {language ? (
                         <ReactSVG
                           wrapper="span"
