@@ -9,6 +9,17 @@ export default function Card(props) {
         props.className ? styles.card + " " + props.className : styles.card
       }
     >
+      {props.icons &&
+        props.icons.map((icon) => {
+          return (
+            <ReactSVG
+              key={icon}
+              className={styles.icon}
+              wrapper="svg"
+              src={icon}
+            ></ReactSVG>
+          );
+        })}
       {props.icon && (
         <ReactSVG
           className={styles.icon}

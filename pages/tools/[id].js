@@ -38,7 +38,13 @@ export default function Tool(props) {
           achievement={props?.achievement}
         />
         <Description based={props.based_on} description={props.description} />
-        <DescriptionCards links={props.links} slugs={props.slugs} />
+        <DescriptionCards
+          licenses={props.licenses}
+          frameworks={props.frameworks}
+          languages={props.languages}
+          links={props.links}
+          slugs={props.slugs}
+        />
         <Gallery gallery={props.gallery} link={props?.links?.examples} />
         <Popularity github={props.github_data} />
         {props.twitter_feed && (
