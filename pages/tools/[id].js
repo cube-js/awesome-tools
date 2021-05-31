@@ -6,7 +6,7 @@ import Description from "../../components/ToolPage/Description";
 import DescriptionCards from "../../components/ToolPage/DescriptionCards";
 
 import fs from "fs";
-import { toolCopyPath, readTool } from "../../data/tools";
+import { toolCopyPath, getTool } from "../../data/tools";
 
 const Gallery = dynamic(() => import("../../components/Gallery"));
 const Popularity = dynamic(() =>
@@ -94,7 +94,7 @@ export async function getStaticPaths() {
   };
 }
 export async function getStaticProps({ params }) {
-  const tool = await readTool(params.id);
+  const tool = await getTool(params.id);
 
   return {
     props: {
