@@ -36,7 +36,7 @@ export default function HowToGetStarted(props) {
           <div className="col-sm-5">
             <GetHelpCard
               title="Stack Overflow →"
-              footer="4,9K questions 2 of 41 place of all tools"
+              footer={`4,9K questions ${props?.positions?.stars} of ${props?.positions?.total} place of all tools`}
               icon="/images/logo/stackoverflow-64.svg"
               href={props.stackoverflow}
             />

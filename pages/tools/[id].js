@@ -46,7 +46,11 @@ export default function Tool(props) {
           slugs={props.slugs}
         />
         <Gallery gallery={props.gallery} link={props?.links?.examples} />
-        <Popularity github={props.github_data} />
+        <Popularity
+          github={props.github_data}
+          positions={props.positions}
+          percentages={props.percentages}
+        />
         {props.twitter_feed && (
           <News
             news={props.twitter_feed}
@@ -64,6 +68,7 @@ export default function Tool(props) {
           logo={props.logo}
           name={props.title}
           links={props.links}
+          positions={props.positions}
           stackoverflow={
             props?.tags?.stackoverflow
               ? `https://stackoverflow.com/questions/tagged/${props?.tags?.stackoverflow[0]}`

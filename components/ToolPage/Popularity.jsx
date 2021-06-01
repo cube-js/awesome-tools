@@ -19,7 +19,7 @@ export default function Popularity(props) {
           icon="/images/logo/github-big.svg"
           text={props.github.stars}
           description="GitHub stars"
-          footerText="2 of 41 place of all tools"
+          footerText={`${props?.positions?.stars} of ${props?.positions?.total} place of all tools`}
         />
       </div>
       <div className="col-sm-3">
@@ -27,10 +27,7 @@ export default function Popularity(props) {
           icon="/images/edit.svg"
           text={props.github.issues}
           description="Open issues"
-          footerText={`${(
-            (props.github.stale_issues / props.github.issues) *
-            100
-          ).toFixed(1)}% older than 1 year`}
+          footerText={`${props?.percentages?.stale_issues}% older than 1 year`}
         />
       </div>
       <div className={"col-sm-3"}>
