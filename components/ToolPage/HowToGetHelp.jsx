@@ -23,7 +23,7 @@ export default function HowToGetStarted(props) {
           <div className="col-sm-5">
             <GetHelpCard
               title={`${props.name} docs →`}
-              footer="3,2K followers"
+              footer="? followers"
               icon={props.logo}
               href={props.links.docs}
             />
@@ -36,7 +36,7 @@ export default function HowToGetStarted(props) {
           <div className="col-sm-5">
             <GetHelpCard
               title="Stack Overflow →"
-              footer={`4,9K questions ${props?.positions?.stars} of ${props?.positions?.total} place of all tools`}
+              footer={`? questions ${props?.positions?.stars} of ${props?.positions?.total} place of all tools`}
               icon="/images/logo/stackoverflow-64.svg"
               href={props.stackoverflow}
             />
@@ -45,7 +45,7 @@ export default function HowToGetStarted(props) {
         <div className="col-sm-4">
           <GetHelpCard
             title="Cube.js Stack →"
-            footer="3,2K followers"
+            footer={`${props.slackMembers} followers`}
             icon="/images/logo/slack-big.svg"
             href="https://slack.cube.dev/"
           />

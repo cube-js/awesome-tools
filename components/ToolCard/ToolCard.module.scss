@@ -19,6 +19,9 @@
   &__logo {
     width: 60px;
     height: 60px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
   }
 
   &__title {

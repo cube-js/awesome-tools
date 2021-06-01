@@ -1,6 +1,6 @@
 title: nivo
 description: Supercharged React components to easily build dataviz apps
-logo:
+logo: /images/logo/nivo.png
 
 based_on:
   - d3

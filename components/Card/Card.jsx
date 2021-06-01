@@ -8,6 +8,7 @@ export default function Card(props) {
       className={
         props.className ? styles.card + " " + props.className : styles.card
       }
+      height={props.height || null}
     >
       {props.icons &&
         props.icons.map((icon) => {

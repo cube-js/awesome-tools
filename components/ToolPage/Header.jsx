@@ -5,11 +5,14 @@ export default function Header(props) {
   return (
     <div className={styles.header}>
       <div className={styles.title}>
-        <img
+        <div
           className={styles.title__img}
-          src={props.logo}
-          alt={`${props.title} logo`}
-        />
+          style={{ backgroundImage: `url(${props.logo})` }}
+          // src={props.logo}
+          // alt={`${props.title} logo`}
+        >
+          {/* <img /> */}
+        </div>
         <h2 className={styles.title__text}>
           {props.title__text}
           {props.title}

@@ -50,31 +50,37 @@ export default function Home({ tools }) {
         <div className="row">
           <ExploreToolsCard
             onClick={() => setItem(exploreTools, setExploreTools, "charts")}
+            active={exploreTools.includes("charts") ? "active" : null}
             text="Charting<br/>libraries"
             image="chart"
           />
           <ExploreToolsCard
             onClick={() => setItem(exploreTools, setExploreTools, "low-level")}
+            active={exploreTools.includes("low-level") ? "active" : null}
             text="Low-level<br/>tools"
             image="lines"
           />
           <ExploreToolsCard
             onClick={() => setItem(exploreTools, setExploreTools, "maps")}
+            active={exploreTools.includes("maps") ? "active" : null}
             text="Mapping<br/>tools"
             image="globe"
           />
           <ExploreToolsCard
             onClick={() => setItem(exploreTools, setExploreTools, "3d")}
+            active={exploreTools.includes("3d") ? "active" : null}
             text="3D<br/>tools"
             image="waves"
           />
           <ExploreToolsCard
             onClick={() => setItem(exploreTools, setExploreTools, "grid")}
+            active={exploreTools.includes("grid") ? "active" : null}
             text="Data<br/>grids"
             image="waves"
           />
           <ExploreToolsCard
             onClick={() => setItem(exploreTools, setExploreTools, "app")}
+            active={exploreTools.includes("app") ? "active" : null}
             text="Exploration<br/>apps"
             image="waves"
           />

@@ -9,11 +9,11 @@ export default function ToolCard(props) {
       <a>
         <div className={styles.toolCard} shadow={props.shadow}>
           <div className="flex flex-items-center">
-            <img
+            <div
               className={styles.toolCard__logo}
-              src={props.logo || ""}
-              alt={props.title || ""}
-            />
+              style={{ backgroundImage: `url(${props.logo})` }}
+              alt={`${props.title} logo`}
+            ></div>
             <div className="flex flex-column">
               <h4 className={styles.toolCard__title}>{props.title || ""}</h4>
               {props.developer && (

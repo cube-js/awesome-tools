@@ -94,13 +94,18 @@ export default function DescriptionCards(props) {
   return (
     <div className={styles.descriptionCards + " row"}>
       <div className="col-xl-4 col-lg-6 col-md-12">
-        <Card icon="/images/logo/dollar.svg" {...getLicense(props)} />
+        <Card
+          height="full"
+          icon="/images/logo/dollar.svg"
+          {...getLicense(props)}
+        />
       </div>
       <div className="col-xl-4 col-lg-6 col-md-12">
-        <Card color="gray" {...getFrameworks(props)} />
+        <Card height="full" color="gray" {...getFrameworks(props)} />
       </div>
       <div className="col-xl-4 col-lg-6 col-md-12">
         <Card
+          height="full"
           icon="/images/logo/typescript.svg"
           text={
             props.languages.includes("TypeScript")

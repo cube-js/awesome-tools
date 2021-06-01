@@ -1,5 +1,4 @@
 import styles from "./GetHelpCard.module.scss";
-import { ReactSVG } from "react-svg";
 import Link from "next/link";
 
 export default function Card(props) {
@@ -12,11 +11,10 @@ export default function Card(props) {
           }
         >
           {props.icon && (
-            <ReactSVG
+            <div
               className={styles.icon}
-              wrapper="div"
-              src={props.icon}
-            ></ReactSVG>
+              style={{ backgroundImage: `url(${props.icon})` }}
+            ></div>
           )}
           {props.title && <div className={styles.title}>{props.title}</div>}
           {props.footer && <div className={styles.footer}>{props.footer}</div>}

@@ -7,6 +7,7 @@ import DescriptionCards from "../../components/ToolPage/DescriptionCards";
 
 import fs from "fs";
 import { toolCopyPath, getTool } from "../../data/tools";
+import useSlackMembers from "../../data/useSlackMembers";
 
 const Gallery = dynamic(() => import("../../components/Gallery"));
 const Popularity = dynamic(() =>
@@ -21,7 +22,10 @@ const HowToGetHelp = dynamic(() =>
 );
 
 export default function Tool(props) {
+  const slackMembers = useSlackMembers();
+
   console.log(props);
+
   return (
     <div className="container custom-container mt-lg">
       <Head>
@@ -65,6 +69,7 @@ export default function Tool(props) {
           <HowToGetStarted content={props.content} />
         )}
         <HowToGetHelp
+          slackMembers={slackMembers}
           logo={props.logo}
           name={props.title}
           links={props.links}

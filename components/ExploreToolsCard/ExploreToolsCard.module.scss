@@ -10,6 +10,15 @@
   cursor: pointer;
   margin-bottom: 32px;
 
+  &:hover,
+  &:focus,
+  &:active {
+    background-color: darken(#ecebff, 2%);
+  }
+
+  &[active="active"] {
+    background-color: darken(#ecebff, 2%);
+  }
   &__text {
     font-size: 24px;
     line-height: 30px;
