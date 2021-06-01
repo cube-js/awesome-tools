@@ -23,7 +23,6 @@ export default function HowToGetStarted(props) {
           <div className="col-sm-5">
             <GetHelpCard
               title={`${props.name} docs →`}
-              footer="? followers"
               icon={props.logo}
               href={props.links.docs}
             />

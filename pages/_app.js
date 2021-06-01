@@ -1,8 +1,11 @@
 import React, { Fragment } from "react";
+import dynamic from "next/dynamic";
 import "../styles/globals.scss";
 import "bootstrap/dist/css/bootstrap-grid.min.css";
 import Head from "next/head";
 import Header from "../components/Header";
+
+const Footer = dynamic(() => import("../components/Footer"));
 
 function MyApp({ Component, pageProps }) {
   return (
@@ -112,6 +115,7 @@ function MyApp({ Component, pageProps }) {
       </Head>
       <Header />
       <Component {...pageProps} />
+      <Footer />
     </Fragment>
   );
 }

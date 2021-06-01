@@ -1,0 +1,22 @@
+@import "/styles/variables";
+
+.footer {
+  border-top: 2px solid #e7e9ed;
+  padding-top: 64px;
+  padding-bottom: 80px;
+}
+.info {
+  margin-top: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  p {
+    margin: 0;
+    font-size: 16px;
+    line-height: 28px;
+    color: $dark-03;
+  }
+  a {
+    color: $dark-02;
+  }
+}
