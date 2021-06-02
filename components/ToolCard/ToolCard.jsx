@@ -19,10 +19,10 @@ export default function ToolCard(props) {
               {props.developer && (
                 <span className={styles.toolCard__developer}>
                   Developed by
-                  <img
+                  <ReactSVG
+                    wrapper="span"
                     src={`/images/logo/${props.developer}.svg`}
-                    alt={`developed by ${props.developer}`}
-                  ></img>
+                  />
                 </span>
               )}
             </div>
@@ -104,9 +104,9 @@ export default function ToolCard(props) {
           </div>
           {props.achievement && (
             <div className={styles.toolCard__achievement}>
-              <img
+              <ReactSVG
+                wrapper="span"
                 src={`/images/${props.achievement}.svg`}
-                alt={props.achievement}
               />
             </div>
           )}

@@ -38,7 +38,9 @@
     color: $light-dark;
     font-size: 14px;
     line-height: 18px;
-    img {
+    span {
+      display: flex;
+      align-items: center;
       margin-left: 5px;
     }
   }
