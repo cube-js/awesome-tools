@@ -7,8 +7,9 @@ import Chip from "../components/Chip";
 import ExploreToolsCard from "../components/ExploreToolsCard";
 import H1 from "../components/Text/H1";
 import AccentedText from "../components/Text/AccentedText";
+import ToolCard from "../components/ToolCard";
 
-const ToolCard = dynamic(() => import("../components/ToolCard"));
+// const ToolCard = dynamic(() => import("../components/ToolCard"));
 
 export default function Home({ tools }) {
   const [exploreTools, setExploreTools] = useState([]);
