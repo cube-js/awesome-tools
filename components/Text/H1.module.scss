@@ -6,4 +6,9 @@
   font-size: 64px;
   line-height: 72px;
   margin: 24px 0;
+
+  @media (max-width: 767.98px) {
+    font-size: 32px;
+    line-height: 44px;
+  }
 }

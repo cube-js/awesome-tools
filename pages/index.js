@@ -45,7 +45,8 @@ export default function Home({ tools }) {
 
       <main>
         <H1>
-          Awesome data visualization tools <br /> for software developers
+          Awesome data visualization tools <br className="xs-hidden" /> for
+          software developers
         </H1>
         <div className="row">
           <ExploreToolsCard
@@ -86,7 +87,7 @@ export default function Home({ tools }) {
           />
         </div>
 
-        <div className="flex flex-items-center mb-sm">
+        <div className="flex flex-wrap-row flex-items-center mb-sm">
           <AccentedText className="mr-xs">Compatible with</AccentedText>
           <Chip
             active={framework.length === 0 ? "active" : null}
@@ -119,7 +120,7 @@ export default function Home({ tools }) {
             Vue
           </Chip>
         </div>
-        <div className="flex flex-items-center">
+        <div className="flex flex-wrap-row flex-items-center">
           <AccentedText className="mr-xs">With support for</AccentedText>
           <Chip
             className="mr-xs"
@@ -163,7 +164,7 @@ export default function Home({ tools }) {
           <div className="row">
             {filteredTools &&
               filteredTools.map((tool) => (
-                <div className="col-sm-6 mb-md" key={tool.id + Math.random()}>
+                <div className="col-lg-6 mb-md" key={tool.id + Math.random()}>
                   <ToolCard {...tool} />
                 </div>
               ))}

@@ -28,10 +28,10 @@ export default function ToolCard(props) {
             </div>
           </div>
           <p
-            className={styles.toolCard__description + " mt-md mb-lg"}
+            className={styles.toolCard__description}
             dangerouslySetInnerHTML={{ __html: props.description }}
           ></p>
-          <div className="flex">
+          <div className="flex flex-wrap-row">
             <div className="flex flex-column">
               <span className={styles.features}>GitHub stars</span>
               <div className={styles.github}>

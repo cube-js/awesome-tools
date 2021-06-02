@@ -28,4 +28,8 @@
   &__image {
     color: $purple-active;
   }
+
+  @media (max-width: 767.98px) {
+    padding: 12px 12px 0 12px;
+  }
 }

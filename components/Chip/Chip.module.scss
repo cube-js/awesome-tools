@@ -33,6 +33,11 @@
     margin-right: 8px;
     fill: red;
   }
+
+  @media (max-width: 991.98px) {
+    margin-top: 8px;
+    margin-bottom: 8px;
+  }
 }
 .chip[active="active"] {
   background-color: #ecebff;

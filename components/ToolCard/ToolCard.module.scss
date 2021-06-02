@@ -50,12 +50,23 @@
     font-weight: normal;
     max-width: 424px;
     min-height: 48px;
+    margin-top: 24px;
+    margin-bottom: 48px;
+    @media (max-width: 767.98px) {
+      margin-bottom: 24px;
+    }
   }
 
   &__achievement {
     position: absolute;
     right: 32px;
     top: 32px;
+    @media (max-width: 767.98px) {
+      right: 0;
+      top: 0;
+      transform: scale3d(0.5, 0.5, 0.5);
+      // margin-right: 20px;
+    }
   }
 }
 
@@ -69,6 +80,9 @@
   &__text {
     font-size: 16px;
     line-height: 24px;
+  }
+  @media (max-width: 767.98px) {
+    margin-right: 20px;
   }
 }
 .github {
@@ -101,6 +115,9 @@
   &__wrapper {
     display: flex;
     align-items: center;
+    @media (max-width: 767.98px) {
+      margin-bottom: 8px;
+    }
   }
   .icon {
     display: flex;

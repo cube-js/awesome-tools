@@ -31,6 +31,10 @@ button {
   display: flex;
 }
 
+.flex-wrap-row {
+  flex-wrap: wrap;
+}
+
 .flex-column {
   flex-direction: column;
 }
@@ -101,6 +105,12 @@ button {
 
 .mt-xlg {
   margin-top: 80px;
+}
+
+.xs-hidden {
+  @media (max-width: 767.98px) {
+    display: none;
+  }
 }
 
 @media (min-width: 1400px) {
