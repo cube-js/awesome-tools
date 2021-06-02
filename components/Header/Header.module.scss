@@ -3,6 +3,7 @@
   &__logo {
     display: flex;
     align-items: center;
+    min-height: 28px;
   }
   &__logo[active="active"] {
     cursor: pointer;
