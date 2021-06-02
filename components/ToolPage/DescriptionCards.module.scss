@@ -2,3 +2,8 @@
   margin-top: 40px;
   display: flex;
 }
+.cardWrap {
+  @media (max-width: 991.98px) {
+    margin-bottom: 16px;
+  }
+}

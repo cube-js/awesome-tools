@@ -1,3 +1,16 @@
 .popularity {
   margin-bottom: 144px;
+  @media (max-width: 767.98px) {
+    margin-bottom: 48px;
+  }
+}
+.bigCardWrap {
+  @media (max-width: 991.98px) {
+    margin-top: 24px;
+  }
+}
+.smallCardWrap {
+  @media (max-width: 991.98px) {
+    margin-top: 24px;
+  }
 }

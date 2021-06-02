@@ -7,13 +7,13 @@ import moment from "moment";
 export default function Popularity(props) {
   return (
     <div className={styles.popularity + " row"}>
-      <div className="col-sm-3">
+      <div className="col-lg-3">
         <H2>
           Popularity
           <br />& Relevance
         </H2>
       </div>
-      <div className="col-sm-3">
+      <div className={styles.bigCardWrap + " col-lg-3"}>
         <BigCard
           color="gray"
           icon="/images/logo/github-big.svg"
@@ -22,7 +22,7 @@ export default function Popularity(props) {
           footerText={`${props?.positions?.stars} of ${props?.positions?.total} place of all tools`}
         />
       </div>
-      <div className="col-sm-3">
+      <div className={styles.bigCardWrap + " col-lg-3"}>
         <BigCard
           icon="/images/edit.svg"
           text={props.github.issues}
@@ -30,7 +30,7 @@ export default function Popularity(props) {
           footerText={`${props?.percentages?.stale_issues}% older than 1 year`}
         />
       </div>
-      <div className={"col-sm-3"}>
+      <div className={styles.smallCardWrap + " col-lg-3"}>
         <Card
           className="mb-md"
           color="gray"

@@ -6,11 +6,11 @@ export default function HowToGetStarted(props) {
   return (
     <div className={styles.HowToGetHelp}>
       <div className="row mb-md">
-        <div className="col-sm-3">
+        <div className={styles.textWrap + " col-lg-3"}>
           <H2>How to get help</H2>
         </div>
         {props.links.slack && (
-          <div className="col-sm-4">
+          <div className={styles.cardWrap + " col-lg-4"}>
             <GetHelpCard
               title={`${props.name} Slack →`}
               footer="2,1K followers"
@@ -20,7 +20,7 @@ export default function HowToGetStarted(props) {
           </div>
         )}
         {props.links.docs && (
-          <div className="col-sm-5">
+          <div className={"col-lg-5"}>
             <GetHelpCard
               title={`${props.name} docs →`}
               icon={props.logo}
@@ -30,9 +30,9 @@ export default function HowToGetStarted(props) {
         )}
       </div>
       <div className="row">
-        <div className="col-md-3"></div>
+        <div className="col-lg-3"></div>
         {props.stackoverflow && (
-          <div className="col-sm-5">
+          <div className={styles.cardWrap + " col-lg-5"}>
             <GetHelpCard
               title="Stack Overflow →"
               footer={`? questions ${props?.positions?.stars} of ${props?.positions?.total} place of all tools`}
@@ -41,7 +41,7 @@ export default function HowToGetStarted(props) {
             />
           </div>
         )}
-        <div className="col-sm-4">
+        <div className={styles.cardWrap + " col-lg-4"}>
           <GetHelpCard
             title="Cube.js Stack →"
             footer={`${props.slackMembers} followers`}

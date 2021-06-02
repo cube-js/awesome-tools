@@ -37,7 +37,7 @@ export default function Gallery(props) {
           </div>
         )}
       </div>
-      <div className="col-sm-9">
+      <div className={styles.sliderWrap + " col-sm-9"}>
         <Slider slidesData={slidesData} />
       </div>
     </div>

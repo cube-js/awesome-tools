@@ -5,4 +5,8 @@
   line-height: 50px;
   color: $dark-02;
   margin: 0;
+  @media (max-width: 767.98px) {
+    font-size: 26px;
+    line-height: 36px;
+  }
 }

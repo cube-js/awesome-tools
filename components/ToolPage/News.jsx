@@ -13,7 +13,7 @@ export default function Description(props) {
           </a>
         </div>
       </div>
-      <div className="col-sm-9">
+      <div className={styles.newsCardsWrap + " col-sm-9"}>
         {props.news.map((n, index) => (
           <NewsCard key={n.user + index} {...n} />
         ))}

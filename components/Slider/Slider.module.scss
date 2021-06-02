@@ -1,6 +1,9 @@
 .thumbnailSliderWrap {
   margin-top: 40px;
   // height: 85px;
+  @media (max-width: 767.98px) {
+    margin-top: 16px;
+  }
 }
 .slickSlide {
   text-align: center;
@@ -10,13 +13,21 @@
     border: 2px solid #e7e7e7;
     box-sizing: border-box;
     border-radius: 16px;
+    width: 100%;
+    @media (max-width: 767.98px) {
+      width: 100%;
+    }
   }
 }
 .thumbnailSliderWrap {
   .slickSlide img {
-    width: 213px;
+    width: 90%;
+    max-width: 213px;
     border: 1px solid #d5d5e2;
     border-radius: 8px;
     outline: none;
+    @media (max-width: 767.98px) {
+      width: 90%;
+    }
   }
 }

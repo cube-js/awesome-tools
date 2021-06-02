@@ -1,3 +1,11 @@
 .news {
   margin-bottom: 144px;
+  @media (max-width: 767.98px) {
+    margin-bottom: 48px;
+  }
+}
+.newsCardsWrap {
+  @media (max-width: 767.98px) {
+    margin-top: 16px;
+  }
 }
