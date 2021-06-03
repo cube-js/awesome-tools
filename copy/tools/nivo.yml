@@ -1,48 +1,43 @@
-title: amCharts
-description: JavaScript charts & maps for all data visualization needs
-logo: /images/logo/amcharts.svg
-based_on: null
+title: nivo
+description: Supercharged React components to easily build dataviz apps
+logo: /images/logo/nivo.png
+based_on:
+  - d3
 licenses:
-  - type: proprietary
+  - type: open-source
+    title: MIT
 types:
   - charts
-  - maps
 labels: []
-achievement: easy-to-start
 gallery: []
 languages:
   - JavaScript
   - TypeScript
 frameworks:
-  - vanilla-js
+  - react
 slugs:
-  github: amcharts/amcharts4
-  npm: '@amcharts/amcharts4'
+  github: plouc/nivo
+  npm: null
 tags:
   stackoverflow:
-    - amcharts
-    - amcharts4
+    - nivo-react
   twitter:
-    - amcharts
-    - amcharts4
+    - nivo
 links:
-  website: 'https://www.amcharts.com'
-  examples: 'https://www.amcharts.com/demos/'
-  docs: 'https://www.amcharts.com/docs/v4/'
-  pricing: 'https://www.amcharts.com/online-store/'
+  website: 'https://nivo.rocks'
+  examples: 'https://nivo.rocks/storybook/'
+  docs: 'https://nivo.rocks/components'
+  pricing: null
   slack: null
-content:
-  - type: official
-    title: Starting from Basics of amCharts 4
-    link: 'https://www.amcharts.com/docs/v4/getting-started/basics/'
+content: []
 github_data:
-  stars: 953
-  contributors: 6
-  issues: 75
-  stale_issues: 45
+  stars: 8810
+  contributors: 30
+  issues: 119
+  stale_issues: 89
   last_release:
-    date: '2021-04-21T11:24:41Z'
-    link: 'https://github.com/amcharts/amcharts4/releases/tag/4.10.18'
+    date: '2021-05-27T18:08:16Z'
+    link: 'https://github.com/plouc/nivo/releases/tag/v0.70.1'
 twitter_feed:
   - user: Benjamin Scott
     image: /images/tweet-avatar.png

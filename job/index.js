@@ -15,7 +15,7 @@ ids.forEach(async (id) => {
 
     // console.log("file =>>>> ", file);
     console.log(file.github_data);
-    // await yaml.write(`../copy/tools/${id}.yml`, file);
+    await yaml.write(`../copy/tools/${id}.yml`, file);
     // console.log(id, "copy success");
   } catch (e) {
     console.log(e);

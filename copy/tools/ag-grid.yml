@@ -1,48 +1,54 @@
-title: amCharts
-description: JavaScript charts & maps for all data visualization needs
-logo: /images/logo/amcharts.svg
+title: AG Grid
+description: Self-proclaimed best JavaScript grid in the world
+logo: /images/logo/ag-grid.svg
+developer: google
 based_on: null
 licenses:
   - type: proprietary
+  - type: open-source
+    title: MIT
 types:
-  - charts
-  - maps
+  - grid
 labels: []
-achievement: easy-to-start
 gallery: []
 languages:
   - JavaScript
   - TypeScript
 frameworks:
   - vanilla-js
+  - react
+  - angular
+  - vue
 slugs:
-  github: amcharts/amcharts4
-  npm: '@amcharts/amcharts4'
+  github: ag-grid/ag-grid
+  npm: ag-grid-community
 tags:
   stackoverflow:
-    - amcharts
-    - amcharts4
+    - ag-grid
   twitter:
-    - amcharts
-    - amcharts4
+    - aggrid
+    - ag_grid
 links:
-  website: 'https://www.amcharts.com'
-  examples: 'https://www.amcharts.com/demos/'
-  docs: 'https://www.amcharts.com/docs/v4/'
-  pricing: 'https://www.amcharts.com/online-store/'
+  website: 'https://www.ag-grid.com'
+  examples: 'https://www.ag-grid.com/example.php'
+  docs: 'https://www.ag-grid.com/javascript-grid/'
+  pricing: 'https://www.ag-grid.com/license-pricing.php'
   slack: null
 content:
   - type: official
-    title: Starting from Basics of amCharts 4
-    link: 'https://www.amcharts.com/docs/v4/getting-started/basics/'
+    title: 'JavaScript Grid: Get Started with AG Grid'
+    link: 'https://www.ag-grid.com/javascript-grid/getting-started/'
+  - type: cube
+    title: React Pivot Table with AG Grid and Cube.js
+    link: 'https://react-pivot-table.cube.dev'
 github_data:
-  stars: 953
-  contributors: 6
-  issues: 75
-  stale_issues: 45
+  stars: 7243
+  contributors: 30
+  issues: 28
+  stale_issues: 0
   last_release:
-    date: '2021-04-21T11:24:41Z'
-    link: 'https://github.com/amcharts/amcharts4/releases/tag/4.10.18'
+    date: '2021-04-30T13:14:19Z'
+    link: 'https://github.com/ag-grid/ag-grid/releases/tag/v25.2.0'
 twitter_feed:
   - user: Benjamin Scott
     image: /images/tweet-avatar.png
