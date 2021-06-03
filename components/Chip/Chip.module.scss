@@ -14,14 +14,10 @@
   &:hover {
     background-color: #ecebff;
     color: $purple-active;
-  }
-  &:focus {
-    background-color: #ecebff;
-    color: $purple-active;
-  }
-  &:active {
-    background-color: #ecebff;
-    color: $purple-active;
+    @media (hover: none) {
+      background: $dark-01;
+      color: #a4aab7;
+    }
   }
   span {
     display: inline-flex;

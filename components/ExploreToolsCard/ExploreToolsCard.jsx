@@ -6,7 +6,7 @@ export default function ExproreToolsCard(props) {
     <a
       className="col-6 col-md-6 col-xl-4 col-xxl-2"
       onClick={props.onClick}
-      href="#"
+      // href="#"
       role="button"
     >
       <div className={styles.exploreToolsCard} active={props.active || null}>
