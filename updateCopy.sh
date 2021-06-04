@@ -1,1 +1,1 @@
-cd job &&  npm ci && node index.js
+cd job &&  npm install && node index.js
