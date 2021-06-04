@@ -1,24 +1,39 @@
 const fetch = require("node-fetch");
+require("dotenv").config();
 
 const getGithubData = async (githubSlug) => {
+  console.log(process.env.TOKEN);
+  const headers = {
+    headers: {
+      Authorization: `token ${process.env.TOKEN}`,
+    },
+  };
   let repo = null;
   let contributors = null;
   let releases = null;
   let issues = null;
+
   try {
-    repo = await loadJSON(`https://api.github.com/repos/${githubSlug}`);
+    repo = await loadJSON(
+      `https://api.github.com/repos/${githubSlug}`,
+      headers
+    );
     contributors = await loadJSON(
-      `https://api.github.com/repos/${githubSlug}/contributors`
+      `https://api.github.com/repos/${githubSlug}/contributors`,
+      headers
     );
     releases = await loadJSON(
-      `https://api.github.com/repos/${githubSlug}/releases`
+      `https://api.github.com/repos/${githubSlug}/releases`,
+      headers
     );
     issues = await loadJSON(
-      `https://api.github.com/repos/${githubSlug}/issues`
+      `https://api.github.com/repos/${githubSlug}/issues`,
+      headers
     );
   } catch (e) {
     throw new Error(e);
   }
+
   return {
     stars: repo?.stargazers_count,
     contributors: contributors?.length,
@@ -31,9 +46,9 @@ const getGithubData = async (githubSlug) => {
   };
 };
 
-async function loadJSON(url) {
+async function loadJSON(url, headers) {
   try {
-    const res = await fetch(url);
+    const res = await fetch(url, headers);
     return await res.json();
   } catch (e) {
     throw new Error(e);
