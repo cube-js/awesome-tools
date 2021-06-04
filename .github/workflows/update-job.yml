@@ -13,25 +13,28 @@ on:
 
 jobs:
   build:
+    name: Landing build
     runs-on: ubuntu-latest
-
-    strategy:
-      matrix:
-        node-version: [10.x, 12.x, 14.x, 15.x]
-        # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
-
     steps:
-      - name: Make envfile
-        uses: SpicyPizza/create-envfile@v1
+      # - name: Make envfile
+      #   uses: SpicyPizza/create-envfile@v1
+      #   with:
+      #     envkey_API_TOKEN: ${{ secrets.API_TOKEN }}
+      #     directory: job
+      #     file_name: .env
+      - name: Checkout
+        uses: actions/checkout@v2
+      - uses: actions/setup-node@v1
         with:
-          envkey_API_TOKEN: ${{ secrets.API_TOKEN }}
-          directory: job
-          file_name: .env
-      - uses: actions/checkout@v2
-      - name: Use Node.js ${{ matrix.node-version }}
-        uses: actions/setup-node@v2
+          node-version: "15.x"
+      - name: Restore cache
+        uses: actions/cache@v2
         with:
-          node-version: ${{ matrix.node-version }}
-      - run: npm install
-      - run: npm run build
-      - run: sh updateCopy.sh
+          path: |
+            node_modules
+            */*/node_modules
+          key: ${{ runner.os }}-${{ hashFiles('**/yarn.lock') }}
+      - name: npm install
+        run: npm install
+      - name: Build Next site
+        run: sh ./deploy-production.sh
