@@ -24,7 +24,7 @@ async function readTools() {
 }
 
 export async function readTool(id) {
-  const tool = await yaml.readSync(`${toolCopyPath}/${id}.yml`);
+  const tool = await yaml.read(`${toolCopyPath}/${id}.yml`);
   return { id, ...tool };
 }
 
