@@ -37,4 +37,6 @@ jobs:
       - name: npm install
         run: npm install
       - name: Build Next site
-        run: sh ./deploy-production.sh
+        run: sh ./build-site.sh
+      - name: Run update job script
+        run: sh ./update-copy.sh
