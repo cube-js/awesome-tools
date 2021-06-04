@@ -2,7 +2,6 @@ const fetch = require("node-fetch");
 require("dotenv").config();
 
 const getGithubData = async (githubSlug) => {
-  console.log(process.env.API_TOKEN);
   const headers = {
     headers: {
       Authorization: `token ${process.env.API_TOKEN}`,
