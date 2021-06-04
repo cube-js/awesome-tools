@@ -39,6 +39,6 @@ jobs:
           directory: job
           file_name: .env
       - name: Show env
-        run: cat job/.env
+        run: cat .env
       - name: Run update job script
         run: sh ./update-copy.sh
