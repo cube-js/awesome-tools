@@ -1,0 +1,1 @@
+cd job &&  npm ci && node index.js
