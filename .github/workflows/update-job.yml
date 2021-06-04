@@ -51,7 +51,7 @@ jobs:
 
           # Name of the branch to use, if different from the one that triggered the workflow
           # Default: the branch that triggered the run
-          branch: master
+          branch: test
 
           # The local path to the directory where your repository is located. You should use actions/checkout first to set it up
           # Default: '.'
@@ -62,7 +62,7 @@ jobs:
           # - user_info -> Your Display Name <your-actual@email.com>
           # - github_actions -> github-actions <email associated with the github logo>
           # Default:
-          default_author: leonid@cube.dev
+          default_author: github_actions
 
           # The message for the commit
           # Default: 'Commit from GitHub Actions (name of the workflow)'
