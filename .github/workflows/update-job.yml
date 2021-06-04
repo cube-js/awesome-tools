@@ -34,53 +34,16 @@ jobs:
       - name: Commit changes
         uses: EndBug/add-and-commit@v7 # You can change this to use a specific version
         with:
-          # The arguments for the `git add` command (see the paragraph below for more info)
-          # Default: '.'
-          # add: "copy"
-
-          # The name of the user that will be displayed as the author of the commit
-          # Default: depends on the default_author input
           author_name: Workflow
-
-          # The email of the user that will be displayed as the author of the commit
-          # Default: depends on the default_author input
           author_email: leonid@cube.dev
-
-          # Name of the branch to use, if different from the one that triggered the workflow
-          # Default: the branch that triggered the run
-          # branch: master
-
-          # The local path to the directory where your repository is located. You should use actions/checkout first to set it up
-          # Default: '.'
           cwd: "."
-
-          # Determines the way the action fills missing author name and email. Three options are available:
-          # - github_actor -> UserName <UserName@users.noreply.github.com>
-          # - user_info -> Your Display Name <your-actual@email.com>
-          # - github_actions -> github-actions <email associated with the github logo>
-          # Default:
           default_author: github_actions
-
-          # The message for the commit
-          # Default: 'Commit from GitHub Actions (name of the workflow)'
           message: "Auto update data in yml files"
-
-          # The flag used on the pull strategy. Use NO-PULL to avoid the action pulling at all.
-          # Default: '--no-rebase'
           pull_strategy: "--no-rebase"
-
-          # Whether to push the commit and, if any, its tags to the repo. It can also be used to set the git push arguments (see the paragraph below for more info)
-          # Default: true
           push: true
-
-          # The arguments for the `git rm` command (see the paragraph below for more info)
-          # Default: ''
-          # remove: ""
-
-          # Whether to use the --signoff option on `git commit` (only boolean values accepted*)
-          # Default: false
-          # signoff: true
-
-          # Arguments for the git tag command (the tag name always needs to be the first word not preceded by an hyphen)
-          # Default: ''
-          # tag: "v1.0.0 --force"
+      - name: Install Netlify CLI
+        run: npm install -g netlify-cli
+      - name: Deploy to Netlify
+        run: netlify deploy --dir=out --prod
+        env:
+          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
