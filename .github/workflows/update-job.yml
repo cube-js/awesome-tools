@@ -30,15 +30,15 @@ jobs:
           key: ${{ runner.os }}-${{ hashFiles('**/yarn.lock') }}
       - name: npm install
         run: npm install
-      - name: Build Next site
-        run: sh ./build-site.sh
-      - name: Make envfile
-        uses: SpicyPizza/create-envfile@v1
-        with:
-          envkey_API_TOKEN: ${{ secrets.API_TOKEN }}
-          directory: job
-          file_name: .env
-      - name: Show env
-        run: cat .env
+      # - name: Build Next site
+      #   run: sh ./build-site.sh
+      # - name: Make envfile
+      #   uses: SpicyPizza/create-envfile@v1
+      #   with:
+      #     envkey_API_TOKEN: ${{ secrets.API_TOKEN }}
+      #     directory: job
+      #     file_name: .env
+      # - name: Show env
+      #   run: cat .env
       - name: Run update job script
-        run: sh ./update-copy.sh
+        run: export API_TOKEN=${{ secrets.API_TOKEN }} sh ./update-copy.sh
