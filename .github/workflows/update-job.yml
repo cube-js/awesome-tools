@@ -33,6 +33,12 @@ jobs:
       - name: Build Next site
         run: sh ./build-site.sh
       - name: Make envfile
-        run: echo ${{ secrets.API_TOKEN }} | base64 -d > job/.env
+        uses: SpicyPizza/create-envfile@v1
+        with:
+          envkey_API_TOKEN: ${{ secrets.API_TOKEN }}
+          directory: job
+          file_name: .env
+      - name: Show env
+        run: cat job/.env
       - name: Run update job script
         run: sh ./update-copy.sh
