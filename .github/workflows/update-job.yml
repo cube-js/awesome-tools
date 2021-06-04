@@ -16,12 +16,6 @@ jobs:
     name: Awesome build
     runs-on: ubuntu-latest
     steps:
-      # - name: Make envfile
-      #   uses: SpicyPizza/create-envfile@v1
-      #   with:
-      #     envkey_API_TOKEN: ${{ secrets.API_TOKEN }}
-      #     directory: job
-      #     file_name: .env
       - name: Checkout
         uses: actions/checkout@v2
       - uses: actions/setup-node@v1
@@ -38,5 +32,11 @@ jobs:
         run: npm install
       - name: Build Next site
         run: sh ./build-site.sh
+      - name: Make envfile
+        uses: SpicyPizza/create-envfile@v1
+        with:
+          envkey_API_TOKEN: ${{ secrets.API_TOKEN }}
+          directory: job
+          file_name: .env
       - name: Run update job script
         run: sh ./update-copy.sh
