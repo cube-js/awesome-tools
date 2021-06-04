@@ -33,4 +33,4 @@ jobs:
       # - name: Build Next site
       #   run: sh ./build-site.sh
       - name: Run update job script
-        run: export ${{ secrets.API_TOKEN }} && sh ./update-copy.sh
+        run: export API_TOKEN=${{ secrets.API_TOKEN }} && sh ./update-copy.sh
