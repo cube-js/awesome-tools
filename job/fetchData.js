@@ -5,7 +5,7 @@ const getGithubData = async (githubSlug) => {
   console.log(process.env.API_TOKEN);
   const headers = {
     headers: {
-      Authorization: `token ${process.env.API_TOKEN}`,
+      Authorization: `token ${undefined}`,
     },
   };
   let repo = null;
@@ -33,7 +33,17 @@ const getGithubData = async (githubSlug) => {
   } catch (e) {
     throw new Error(e);
   }
-
+  // error check
+  if (
+    (repo.message, contributors.message || releases.message || issues.message)
+  ) {
+    throw new Error(
+      "Bad request: " + repo.message ||
+        contributors.message ||
+        releases.message ||
+        issues.message
+    );
+  }
   return {
     stars: repo?.stargazers_count,
     contributors: contributors?.length,
