@@ -6,7 +6,7 @@ name: Update info in yml files, commit and deploy to netlify
 on:
   schedule:
     # * is a special character in YAML so you have to quote this string
-    - cron: "30 * * * *"
+    - cron: "30 10 * * *"
   push:
     branches:
       - master
