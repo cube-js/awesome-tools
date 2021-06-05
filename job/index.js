@@ -9,7 +9,7 @@ const ids = files
 
 ids.forEach(async (id) => {
   try {
-    const file = yaml.read(`../copy/tools/${id}.yml`);
+    const file = await yaml.read(`../copy/tools/${id}.yml`);
 
     file.github_data = await get.getGithubData(file.slugs.github);
 
