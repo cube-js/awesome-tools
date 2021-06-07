@@ -1,13 +1,17 @@
-import React, { Fragment } from "react";
+import React, { Fragment, useEffect } from "react";
 import dynamic from "next/dynamic";
 import "../styles/globals.scss";
 import "bootstrap/dist/css/bootstrap-grid.min.css";
 import Head from "next/head";
 import Header from "../components/Header";
+import { page } from "cubedev-tracking";
 
 const Footer = dynamic(() => import("../components/Footer"));
 
 function MyApp({ Component, pageProps }) {
+  useEffect(() => {
+    page();
+  }, []);
   return (
     <Fragment>
       <Head>
