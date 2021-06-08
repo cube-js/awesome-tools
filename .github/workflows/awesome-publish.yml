@@ -1,7 +1,7 @@
 # This workflow will do a clean install of node dependencies, build the source code and run tests across different versions of node
 # For more information see: https://help.github.com/actions/language-and-framework-guides/using-nodejs-with-github-actions
 
-name: Update info in yml files, commit and deploy to netlify
+name: Awesome build
 
 on:
   schedule:
@@ -35,11 +35,11 @@ jobs:
       - name: Commit changes
         uses: EndBug/add-and-commit@v7 # You can change this to use a specific version
         with:
-          author_name: Workflow
+          author_name: Data Update Worker
           author_email: leonid@cube.dev
           cwd: "."
-          default_author: github_actions
-          message: "Auto update data in yml files"
+          default_author: github_actor
+          message: "chore(copy) auto update data"
           pull_strategy: "--no-rebase"
           push: true
 

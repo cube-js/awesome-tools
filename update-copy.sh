@@ -1,1 +1,1 @@
-cd job && npm install && node index.js
+cd data-update-worker && npm install && node index.js
