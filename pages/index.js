@@ -13,27 +13,26 @@ const ToolCard = dynamic(() => import("../components/ToolCard"));
 
 export default function Home({ tools }) {
   const router = useRouter();
+  const query = router.query;
+  const [isFirstLoad, setLoad] = useState(false);
   const [exploreTools, setExploreTools] = useState([]);
   const [framework, setFramework] = useState([]);
   const [language, setLanguage] = useState([]);
   const [license, setLicense] = useState([]);
 
   useEffect(() => {
-    if (
-      !exploreTools.length &&
-      !framework.length &&
-      !language.length &&
-      !license.length
-    ) {
+    if (Object.keys(query).length && !isFirstLoad) {
       setParamsFromRouter(
-        router.query,
+        query,
         setExploreTools,
         setFramework,
         setLanguage,
         setLicense
       );
+      setLoad(true);
     }
-  }, [exploreTools, framework, language, license, router.query]);
+  }, [query]);
+
   useEffect(() => {
     router.push({
       query: { exploreTools, framework, language, license },
