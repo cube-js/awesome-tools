@@ -139,11 +139,11 @@ export default function Home() {
           <li>yellow</li>
           <li>gray (default)</li>
         </ul>
-        <p>achievement - achievement image (not required)</p>
+        <p>feature_label - label image (not required)</p>
         <ul>
           <li>easy-to-start</li>
           <li>well-documented</li>
-          <li>diverse-chart-type</li>
+          <li>full-fledged</li>
           <li>easy-to-customize</li>
           <li>very-popular</li>
         </ul>

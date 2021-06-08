@@ -102,11 +102,11 @@ export default function ToolCard(props) {
               </div>
             </div>
           </div>
-          {props.achievement && (
+          {props.feature_label && (
             <div className={styles.toolCard__achievement}>
               <ReactSVG
                 wrapper="span"
-                src={`/images/${props.achievement}.svg`}
+                src={`/images/${props.feature_label}.svg`}
               />
             </div>
           )}

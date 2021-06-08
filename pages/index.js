@@ -24,6 +24,8 @@ export default function Home({ tools }) {
     exploreTools
   );
 
+  console.log(filteredTools);
+
   const setItem = (array, set, item) => {
     const index = array.indexOf(item);
     if (index === -1) {
