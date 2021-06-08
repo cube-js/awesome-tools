@@ -1,11 +1,11 @@
-title: Highcharts
-description: JavaScript charting library based on SVG
-image: /images/logo/highcharts.png
-developer: highcharts
-language: JavaScript
+title: Echarts
+description: An Open Source JavaScript Visualization Library
+image: /images/logo/echarts.png
+language: TypeScript
 framework: Universal
 license: open-source
 type: ["Charting libraries"]
+shadow: pink
 github: https://github.com/chartjs/Chart.js
 npm: https://www.npmjs.com/package/chart.js?activeTab=readme
 website: https://www.chartjs.org/
@@ -19,8 +19,8 @@ data:
   contributors: 32
 
 features:
-  easy-to-customize: 1
+  easy-to-customize: 0
   easy-to-start-with: 0
   full-fledged: 1
   very-popular: 0
-  well-documented: 0
+  well-documented: 1

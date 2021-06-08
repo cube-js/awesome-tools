@@ -8,7 +8,12 @@ licenses:
     title: MIT
 types:
   - charts
-labels: []
+features:
+  easy-to-customize: 0
+  easy-to-start-with: 0
+  full-fledged: 0
+  very-popular: 0
+  well-documented: 0
 gallery: []
 languages:
   - JavaScript
