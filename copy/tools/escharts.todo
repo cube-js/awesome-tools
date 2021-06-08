@@ -1,7 +1,6 @@
 title: Echarts
 description: An Open Source JavaScript Visualization Library
 image: /images/logo/echarts.png
-label: diverse-chart-type
 language: TypeScript
 framework: Universal
 license: open-source
@@ -18,3 +17,10 @@ data:
   release: 20 days ago
   issues: 14 open issues
   contributors: 32
+
+features:
+  easy-to-customize: 2
+  easy-to-start-with: 1
+  full-fledged: 2
+  very-popular: 0
+  well-documented: 2

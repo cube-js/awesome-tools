@@ -1,7 +1,6 @@
 title: Recharts
 description: A composable charting library built on React components
 image: /images/logo/recharts.png
-label: well-documented
 language: TypeScript
 framework: React
 license: open-source
@@ -18,3 +17,10 @@ data:
   release: 20 days ago
   issues: 14 open issues
   contributors: 32
+
+features:
+  easy-to-customize: 1
+  easy-to-start-with: 3
+  full-fledged: 0
+  very-popular: 1
+  well-documented: 3

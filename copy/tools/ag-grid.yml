@@ -9,7 +9,12 @@ licenses:
     title: MIT
 types:
   - grid
-labels: []
+features:
+  easy-to-customize: 1
+  easy-to-start-with: 0
+  full-fledged: 1
+  very-popular: 0
+  well-documented: 0
 gallery: []
 languages:
   - JavaScript

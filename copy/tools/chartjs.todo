@@ -1,7 +1,6 @@
 title: Chart.js
 description: Simple yet flexible JavaScript charting <br/> for designers & developers
 image: /images/logo/chartjs.svg
-label: easy-to-start
 language: JavaScript
 framework: Universal
 license: open-source
@@ -18,3 +17,10 @@ data:
   release: 20 days ago
   issues: 14 open issues
   contributors: 32
+
+features:
+  easy-to-customize: 2
+  easy-to-start-with: 3
+  full-fledged: 0
+  very-popular: 1
+  well-documented: 1
