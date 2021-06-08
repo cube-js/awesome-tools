@@ -21,7 +21,7 @@ export default function Footer() {
             </a>
             , the creators of{" "}
             <a href="https://github.com/cube-js/cube.js" target="_blank">
-              Cube
+              Cube.js
             </a>
           </p>
           <p>
@@ -31,7 +31,7 @@ export default function Footer() {
             <a href="https://github.com/cube-js/awesome-tools/pulls">
               pull requests
             </a>
-            !
+            .
           </p>
         </div>
       </div>
