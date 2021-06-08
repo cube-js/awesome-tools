@@ -45,30 +45,43 @@ const filter = (tools, framework, language, license, exploreTools) => {
     return isValid;
   });
 
-  return filtered.sort(getComparator(filtered));
+  const maxFeatureScores = getMaxFeatureScores(tools);
+  const maxFeatureScoresCopy = Object.assign({}, maxFeatureScores);
+
+  return filtered
+    .map(tool => {
+      const feature_label = getFeatureWithMaxScore(tool, maxFeatureScores);
+
+      if (feature_label) {
+        delete maxFeatureScores[feature_label];
+      }
+
+      return {
+        ...tool,
+        feature_label,
+      }
+    })
+    .sort(getComparator(maxFeatureScoresCopy));
 };
 
-function getComparator(tools) {
-  const maxFeatureScores = getMaxFeatureScores(tools);
-
+function getComparator(maxFeatureScores) {
   return function(a, b) {
-    const aHasMaxFeatureScore = hasMaxFeatureScore(a, maxFeatureScores);
-    const bHasMaxFeatureScore = hasMaxFeatureScore(b, maxFeatureScores);
-
     // Adding 1,000,000 to the number of GitHub stars is going to pull the tool up to the top.
     // As of 2021-06-01, freeCodeCamp/freeCodeCamp has 325,000 stars
-    const aSortKey = (aHasMaxFeatureScore ? 1000000 : 0) + (a.github_data?.stars || 0);
-    const bSortKey = (bHasMaxFeatureScore ? 1000000 : 0) + (b.github_data?.stars || 0);
+    const aSortKey = (a.feature_label ? 1000000 : 0) + (a.github_data?.stars || 0);
+    const bSortKey = (b.feature_label ? 1000000 : 0) + (b.github_data?.stars || 0);
 
     return bSortKey - aSortKey;
   }
 }
 
 function getMaxFeatureScores(tools) {
-  return tools.reduce((features, tool) => {
+  return tools
+    .reduce((features, tool) => {
     if (tool.features) {
       Object
         .entries(tool.features)
+        .filter(([ _, score]) => score !== 0)
         .forEach(([ feature, score ]) => {
           features[feature] = features[feature] !== undefined
             ? Math.max(features[feature], score)
@@ -80,11 +93,18 @@ function getMaxFeatureScores(tools) {
   }, {});
 }
 
-function hasMaxFeatureScore(tool, maxFeatureScores) {
+function getFeatureWithMaxScore(tool, maxFeatureScores) {
   if (tool.features) {
     return Object
       .entries(tool.features)
-      .some(([ feature, score ]) => score !== 0 && maxFeatureScores[feature] === score);
+      .sort((a, b) => (b[1] - a[1]))
+      .filter(([ _, score]) => score !== 0)
+      .reduce((selectMaxFeature, [ feature, score ]) => {
+        return selectMaxFeature || Object
+          .entries(maxFeatureScores)
+          .find(([ maxFeature, maxScore ]) => feature === maxFeature && score === maxScore)
+          ?.[0];
+      }, undefined);
   }
 
   return false;
