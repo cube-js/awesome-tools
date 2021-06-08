@@ -9,6 +9,7 @@
   overflow: hidden;
   cursor: pointer;
   margin-bottom: 32px;
+  user-select: none;
 
   &:hover {
     background-color: darken(#ecebff, 2%);
