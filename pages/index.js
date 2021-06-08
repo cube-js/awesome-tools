@@ -1,20 +1,44 @@
 import dynamic from "next/dynamic";
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Head from "next/head";
 import { getTools } from "../data/tools";
-import { filter } from "../data/filter";
+import { filter, setParamsFromRouter } from "../data/filter";
 import Chip from "../components/Chip";
 import ExploreToolsCard from "../components/ExploreToolsCard";
 import H1 from "../components/Text/H1";
 import AccentedText from "../components/Text/AccentedText";
+import { useRouter } from "next/router";
 
 const ToolCard = dynamic(() => import("../components/ToolCard"));
 
 export default function Home({ tools }) {
+  const router = useRouter();
   const [exploreTools, setExploreTools] = useState([]);
   const [framework, setFramework] = useState([]);
   const [language, setLanguage] = useState([]);
   const [license, setLicense] = useState([]);
+
+  useEffect(() => {
+    if (
+      !exploreTools.length &&
+      !framework.length &&
+      !language.length &&
+      !license.length
+    ) {
+      setParamsFromRouter(
+        router.query,
+        setExploreTools,
+        setFramework,
+        setLanguage,
+        setLicense
+      );
+    }
+  }, [exploreTools, framework, language, license, router.query]);
+  useEffect(() => {
+    router.push({
+      query: { exploreTools, framework, language, license },
+    });
+  }, [exploreTools, framework, language, license]);
 
   const filteredTools = filter(
     tools,
@@ -24,17 +48,15 @@ export default function Home({ tools }) {
     exploreTools
   );
 
-  console.log(filteredTools);
-
   const setItem = (array, set, item) => {
     const index = array.indexOf(item);
     if (index === -1) {
       set([...array, item]);
-      return true;
+      // return true;
     } else {
       array.splice(index, 1);
       set([...array]);
-      return false;
+      // return false;
     }
   };
 
@@ -177,7 +199,7 @@ export default function Home({ tools }) {
   );
 }
 
-export async function getStaticProps() {
+export async function getStaticProps(params) {
   const tools = await getTools();
   return { props: { tools } };
 }

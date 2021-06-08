@@ -113,4 +113,40 @@ function getFeatureWithMaxScore(tool, maxFeatureScores) {
   return false;
 }
 
-export { filter };
+const setParamsFromRouter = (
+  query,
+  setExploreTools,
+  setFramework,
+  setLanguage,
+  setLicense
+) => {
+  console.log(query);
+  if (query.exploreTools) {
+    setExploreTools(
+      typeof query.exploreTools === "string"
+        ? [query.exploreTools]
+        : [...query.exploreTools]
+    );
+  }
+  if (query.framework) {
+    setFramework(
+      typeof query.framework === "string"
+        ? [query.framework]
+        : [...query.framework]
+    );
+  }
+  if (query.language) {
+    setLanguage(
+      typeof query.language === "string"
+        ? [query.language]
+        : [...query.language]
+    );
+  }
+  if (query.license) {
+    setLicense(
+      typeof query.license === "string" ? [query.license] : [...query.license]
+    );
+  }
+};
+
+export { filter, setParamsFromRouter };
