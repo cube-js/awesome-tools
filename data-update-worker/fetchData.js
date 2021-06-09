@@ -54,6 +54,52 @@ const getGithubData = async (githubSlug) => {
     },
   };
 };
+// const getTweetsByHashtag = async (tags) => {
+//   const headers = {
+//     Authorization: "Bearer",
+//   };
+//   const result = [];
+
+//   try {
+//     if (tags) {
+//       tags.forEach((tag) => {
+//         const posts = await loadJSON(
+//           `https//api.twitter.com/1.1/search/tweets.json?q=%23${tag}`,
+//           headers
+//         );
+//         if (posts) {
+//           console.log(posts);
+//         }
+//       });
+//     }
+//   } catch (e) {
+//     throw new Error(e);
+//   }
+//   return result;
+// };
+const getStackoverflowDataByTags = async (tags) => {
+  // const headers = {};
+  let result = 0;
+  try {
+    await asyncForEach(tags, async (tag) => {
+      const response = await loadJSON(
+        `https://api.stackexchange.com/2.2/tags?order=desc&sort=popular&inname=${tag}&site=stackoverflow`
+      );
+      console.log(response);
+      response.items.forEach((item) => {
+        if (item.name === tag && item.count) {
+          result += item.count;
+        }
+      });
+    });
+  } catch (e) {
+    console.log(e);
+    throw new Error(e);
+  }
+  return {
+    questions_count: result,
+  };
+};
 
 async function loadJSON(url, headers) {
   try {
@@ -78,4 +124,11 @@ function getStaleIssues(issues, open_issues) {
   return open_issues - newIssues.length;
 }
 
+async function asyncForEach(array, callback) {
+  for (let index = 0; index < array.length; index++) {
+    await callback(array[index], index, array);
+  }
+}
+
 exports.getGithubData = getGithubData;
+exports.getStackoverflowDataByTags = getStackoverflowDataByTags;

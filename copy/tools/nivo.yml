@@ -38,8 +38,8 @@ content: []
 github_data:
   stars: 8828
   contributors: 30
-  issues: 110
-  stale_issues: 80
+  issues: 109
+  stale_issues: 79
   last_release:
     date: '2021-05-27T18:08:16Z'
     link: 'https://github.com/plouc/nivo/releases/tag/v0.70.1'
@@ -64,3 +64,5 @@ twitter_feed:
     text: >-
       Anyways, thers is no chance to take Chart.js as our tool to do things in
       business or private tasks
+stackoverflow_data:
+  questions_count: 41
