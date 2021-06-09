@@ -37,6 +37,10 @@ function MyApp({ Component, pageProps }) {
         <link rel="icon" href="/favicon.png" type="image/png" />
         <meta name="msapplication-TileColor" content="#da532c" />
         <meta name="theme-color" content="#ffffff" />
+        <meta
+          name="google-site-verification"
+          content="zJjljUArvZ0PVn8naOnxEue8ZX0wh0nsM0q32NYnzzQ"
+        />
         <link
           rel="preload"
           href="/fonts/CeraPro-Regular.woff2"
