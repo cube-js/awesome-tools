@@ -24,8 +24,6 @@ const HowToGetHelp = dynamic(() =>
 export default function Tool(props) {
   const slackMembers = useSlackMembers();
 
-  console.log(props);
-
   return (
     <div className="container custom-container mt-lg">
       <Head>
@@ -79,6 +77,7 @@ export default function Tool(props) {
               ? `https://stackoverflow.com/questions/tagged/${props?.tags?.stackoverflow[0]}`
               : null
           }
+          stackoverflow_data={props.stackoverflow_data}
         />
       </main>
     </div>
