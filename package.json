@@ -14,6 +14,7 @@
     "bootstrap": "^5.0.1",
     "cubedev-tracking": "1.0.6",
     "isomorphic-unfetch": "^3.1.0",
+    "js-yaml": "^3.14.1",
     "moment": "^2.29.1",
     "next": "10.2.0",
     "node-yaml": "^4.0.1",
