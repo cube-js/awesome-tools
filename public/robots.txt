@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://awesome-dataviz-tools.cube.dev/
+Host: https://awesome.cube.dev/
 
 # Sitemaps
-Sitemap: https://awesome-dataviz-tools.cube.dev/sitemap.xml
+Sitemap: https://awesome.cube.dev/sitemap.xml
