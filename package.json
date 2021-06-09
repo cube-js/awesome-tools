@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "postbuild": "next-sitemap",
     "export": "next export",
     "start": "next start",
     "deploy": "next build && next export && netlify deploy --prod --dir=out"
@@ -22,5 +23,8 @@
     "react-svg": "^13.0.5",
     "sass": "^1.32.13",
     "slick-carousel": "^1.8.1"
+  },
+  "devDependencies": {
+    "next-sitemap": "^1.6.105"
   }
 }

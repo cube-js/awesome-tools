@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://awesome-dataviz-tools.netlify.app/
+
+# Sitemaps
+Sitemap: https://awesome-dataviz-tools.netlify.app/sitemap.xml
