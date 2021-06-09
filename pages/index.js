@@ -34,9 +34,14 @@ export default function Home({ tools }) {
   }, [query]);
 
   useEffect(() => {
-    router.push({
-      query: { exploreTools, framework, language, license },
-    });
+    router.push(
+      {
+        scroll: false,
+        query: { tools: exploreTools, framework, language, license },
+      },
+      undefined,
+      { scroll: false }
+    );
   }, [exploreTools, framework, language, license]);
 
   const filteredTools = filter(

@@ -121,11 +121,9 @@ const setParamsFromRouter = (
   setLicense
 ) => {
   console.log(query);
-  if (query.exploreTools) {
+  if (query.tools) {
     setExploreTools(
-      typeof query.exploreTools === "string"
-        ? [query.exploreTools]
-        : [...query.exploreTools]
+      typeof query.tools === "string" ? [query.tools] : [...query.tools]
     );
   }
   if (query.framework) {
