@@ -43,11 +43,11 @@ jobs:
           pull_strategy: "--no-rebase"
           push: true
 
-      - name: Build Next site
-        run: sh ./build-site.sh
-      - name: Install Netlify CLI
-        run: npm install -g netlify-cli
-      - name: Deploy to Netlify
-        run: netlify deploy --dir=out --prod
-        env:
-          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+      # - name: Build Next site
+      #   run: sh ./build-site.sh
+      # - name: Install Netlify CLI
+      #   run: npm install -g netlify-cli
+      # - name: Deploy to Netlify
+      #   run: netlify deploy --dir=out --prod
+      #   env:
+      #     NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
