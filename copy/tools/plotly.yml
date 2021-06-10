@@ -1,0 +1,73 @@
+title: Plotly
+description: High-level, declarative charting library
+logo: /images/logo/plotly.svg
+developer: plotly
+
+based_on:
+  - d3
+  - stackgl
+
+licenses:
+  - type: open-source
+    title: MIT
+    link: https://github.com/plotly/plotly.js/blob/master/LICENSE
+
+types:
+  - charts
+  - maps
+  - 3d
+
+features:
+  easy-to-customize: 0
+  easy-to-start-with: 0
+  full-fledged: 0
+  very-popular: 0
+  well-documented: 0
+
+gallery: []
+
+languages:
+  - JavaScript
+  - TypeScript
+
+frameworks:
+  - vanilla-js
+  - react
+  - angular
+  - vue
+
+slugs:
+  github: plotly/plotly.js
+  npm: plotly.js
+  npm_types: "@types/plotly.js"
+
+tags:
+  stackoverflow:
+    - plotly
+    - plotly.js
+  twitter:
+    - plotly
+    - plotlyjs
+
+links:
+  website: https://plotly.com/javascript/
+  examples: https://plotly.com/javascript/
+  docs: https://www.ag-grid.com/javascript-grid/
+  pricing:
+  slack:
+
+content:
+  - type: official
+    title: Getting Started in JavaScript
+    link: https://plotly.com/javascript/getting-started/
+
+github_data:
+  stars: 13700
+  contributors: 162
+  issues: 1100
+  stale_issues: 700
+  last_release:
+    date: "2021-06-07T00:00:00Z"
+    link: https://github.com/plotly/plotly.js/releases/tag/v2.0.0
+
+twitter_feed: []
