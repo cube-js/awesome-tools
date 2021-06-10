@@ -165,13 +165,13 @@ export default function Home({ tools }) {
           >
             TypeScript
           </Chip>
-          <AccentedText className="mr-xs ml-xs">With</AccentedText>
+          <AccentedText className="mr-xs ml-xs">with</AccentedText>
           <Chip
             src="/images/logo/open-source.svg"
             active={license.includes("open-source") ? "active" : null}
             onClick={() => setItem(license, setLicense, "open-source")}
           >
-            Open source
+            open source
           </Chip>
           <AccentedText className="mr-xs ml-xs">or</AccentedText>
           <Chip
@@ -179,7 +179,7 @@ export default function Home({ tools }) {
             active={license.includes("proprietary") ? "active" : null}
             onClick={() => setItem(license, setLicense, "proprietary")}
           >
-            Proprietary
+            proprietary
           </Chip>
           <AccentedText className="ml-xs">license</AccentedText>
         </div>
