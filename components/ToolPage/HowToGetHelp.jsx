@@ -2,7 +2,7 @@ import styles from "./HowToGetHelp.module.scss";
 import GetHelpCard from "../GetHelpCard";
 import H2 from "../Text/H2";
 
-export default function HowToGetStarted(props) {
+export default function HowToGetHelp(props) {
   const cards = [
     {
       href: props.links.slack,
@@ -42,7 +42,10 @@ export default function HowToGetStarted(props) {
             className = " col-lg-4";
           }
           return card.href ? (
-            <div className={styles.cardWrap + className}>
+            <div
+              key={card.title + Math.random()}
+              className={styles.cardWrap + className}
+            >
               <GetHelpCard {...card} />
             </div>
           ) : null;
