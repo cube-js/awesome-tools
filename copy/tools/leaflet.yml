@@ -32,7 +32,7 @@ frameworks:
 slugs:
   github: Leaflet/Leaflet
   npm: leaflet
-  npm_types: @types/leaflet
+  npm_types: "@types/leaflet"
 
 tags:
   stackoverflow:

@@ -31,7 +31,7 @@ frameworks:
 slugs:
   github: mapbox/mapbox-gl-js
   npm: mapbox-gl
-  npm_types: @types/mapbox-gl
+  npm_types: "@types/mapbox-gl"
 
 tags:
   stackoverflow:
