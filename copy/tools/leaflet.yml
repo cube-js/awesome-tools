@@ -1,0 +1,64 @@
+title: Leaflet
+description: JavaScript library for mobile-friendly interactive maps
+logo:
+developer:
+
+based_on:
+
+licenses:
+  - type: open-source
+    title: BSD
+    link: https://github.com/Leaflet/Leaflet/blob/master/LICENSE
+
+types:
+  - maps
+
+features:
+  easy-to-customize: 0
+  easy-to-start-with: 0
+  full-fledged: 0
+  very-popular: 0
+  well-documented: 0
+
+gallery: []
+
+languages:
+  - JavaScript
+  - TypeScript
+
+frameworks:
+  - vanilla-js
+
+slugs:
+  github: Leaflet/Leaflet
+  npm: leaflet
+  npm_types: @types/leaflet
+
+tags:
+  stackoverflow:
+    - leaflet
+  twitter:
+    - leafletjs
+
+links:
+  website: https://leafletjs.com
+  examples: https://leafletjs.com/examples.html
+  docs: https://leafletjs.com/reference-1.7.1.html
+  pricing:
+  slack:
+
+content:
+  - type: official
+    title: Leaflet Quick Start Guide
+    link: https://leafletjs.com/examples/quick-start/
+
+github_data:
+  stars: 30900
+  contributors: 668
+  issues: 471
+  stale_issues: 300
+  last_release:
+    date: "2020-09-04T00:00:00Z"
+    link: https://github.com/Leaflet/Leaflet/releases/tag/v1.7.1
+
+twitter_feed: []

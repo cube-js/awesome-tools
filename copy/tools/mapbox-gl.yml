@@ -45,7 +45,7 @@ links:
   examples: https://docs.mapbox.com/mapbox-gl-js/example/
   docs: https://docs.mapbox.com/mapbox-gl-js/api/
   pricing:
-  slack: https://slack.example.com
+  slack:
 
 content:
   - type: official
