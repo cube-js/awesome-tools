@@ -1,0 +1,69 @@
+title: Apache ECharts
+description: Open-source JavaScript visualization library
+logo: /images/logo/echarts.svg
+developer:
+
+based_on:
+
+licenses:
+  - type: open-source
+    title: MIT
+    link: https://github.com/apache/echarts/blob/master/LICENSE
+
+types:
+  - charts
+  - maps
+  - 3d
+
+features:
+  easy-to-customize: 2
+  easy-to-start-with: 1
+  full-fledged: 2
+  very-popular: 0
+  well-documented: 2
+
+gallery: []
+
+languages:
+  - JavaScript
+  - TypeScript
+
+frameworks:
+  - vanilla-js
+  - react
+  - angular
+  - vue
+
+slugs:
+  github: apache/echarts
+  npm: ag-grid-community
+  npm_types: "@types/echarts"
+
+tags:
+  stackoverflow:
+    - echarts
+  twitter:
+    - ECharts
+
+links:
+  website: https://echarts.apache.org/en/index.html
+  examples: https://echarts.apache.org/examples/en/index.html
+  docs: https://echarts.apache.org/en/api.html#echarts
+  pricing:
+  slack:
+
+content:
+  - type: official
+    title: Get started with ECharts in 5 minutes
+    link: https://echarts.apache.org/en/tutorial.html#Get%20Started%20with%20ECharts%20in%205%20minutes
+
+github_data:
+  stars: 46700
+  contributors: 131
+  issues: 2100
+  stale_issues: 1500
+  last_release:
+    date: "2021-06-08T00:00:00Z"
+    link: https://github.com/apache/echarts/releases/tag/5.1.2
+
+twitter_feed: []
