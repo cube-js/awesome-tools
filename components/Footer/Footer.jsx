@@ -27,8 +27,12 @@ export default function Footer() {
           <p>
             Want to add a new tool or update the info?{" "}
             <br className="xs-hidden" />
-            We appreciate your{" "}
-            <a href="https://github.com/cube-js/awesome-tools/pulls">
+            We appreciate{" "}
+            <a href="https://github.com/cube-js/awesome-tools/issues" target="_blank">
+              issues
+            </a>
+            {" "}and{" "}
+            <a href="https://github.com/cube-js/awesome-tools/pulls" target="_blank">
               pull requests
             </a>
             .
