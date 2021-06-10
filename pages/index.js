@@ -67,8 +67,8 @@ export default function Home({ tools }) {
   return (
     <div className="container custom-container">
       <Head>
-        <title>Cube.js Awesome Tools</title>
-        <meta name="description" content="Cube.js Awesome Tools" />
+        <title>Awesome dataviz tools by Cube.js</title>
+        <meta name="description" content="Awesome data visualization tools for software developers by Cube.js" />
       </Head>
 
       <main>
