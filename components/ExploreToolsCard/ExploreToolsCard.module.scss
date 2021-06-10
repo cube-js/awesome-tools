@@ -23,6 +23,9 @@
   }
   &__wrap {
     padding: 24px 24px 0px 24px;
+    @media (max-width: 767.98px) {
+      padding: 12px 12px 0 12px;
+    }
   }
   &__text {
     font-size: 24px;
@@ -36,9 +39,5 @@
     justify-content: flex-end;
     // min-height: 64px;
     color: $purple-active;
-  }
-
-  @media (max-width: 767.98px) {
-    padding: 12px 12px 0 12px;
   }
 }
