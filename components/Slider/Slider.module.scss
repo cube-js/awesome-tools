@@ -21,13 +21,17 @@
 }
 .thumbnailSliderWrap {
   .slickSlide img {
+    height: 111px;
     width: 90%;
     max-width: 213px;
     border: 1px solid #d5d5e2;
     border-radius: 8px;
     outline: none;
+    @media (max-width: 1200px) {
+      height: 70px;
+    }
     @media (max-width: 767.98px) {
-      width: 90%;
+      height: 50px;
     }
   }
 }

@@ -34,7 +34,10 @@
 }
 .buttons {
   display: flex;
-  gap: 8px;
+  a:first-child {
+    margin-right: 8px;
+  }
+  // gap: 8px;
 }
 
 .achievement {

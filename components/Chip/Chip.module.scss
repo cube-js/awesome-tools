@@ -11,6 +11,8 @@
   line-height: 30px;
   transition: background-color 0.33s ease-in-out, color 0.33s ease-in-out;
   cursor: pointer;
+  display: flex;
+  align-items: center;
   &:hover {
     background-color: #ecebff;
     color: $purple-active;
