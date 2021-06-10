@@ -1,0 +1,67 @@
+title: D3.js
+description: JavaScript library for manipulating documents based on data
+logo: /images/logo/d3.svg
+developer:
+
+based_on:
+
+licenses:
+  - type: open-source
+    title: BSD
+    link: https://github.com/d3/d3/blob/master/LICENSE
+
+types:
+  - low-level
+
+features:
+  easy-to-customize: 0
+  easy-to-start-with: 0
+  full-fledged: 2
+  very-popular: 1
+  well-documented: 0
+
+gallery: []
+
+languages:
+  - JavaScript
+  - TypeScript
+
+frameworks:
+  - vanilla-js
+
+slugs:
+  github: d3/d3
+  npm: d3
+  npm_types: "@types/d3"
+
+tags:
+  stackoverflow:
+    - d3.js
+  twitter:
+    - D3js
+
+links:
+  website: https://d3js.org
+  examples: https://observablehq.com/@d3/gallery
+  docs: https://github.com/d3/d3/wiki
+  pricing:
+  slack: https://d3-slackin.herokuapp.com
+
+content:
+  - type: official
+    title: "Learn D3: Introduction"
+    link: https://observablehq.com/@d3/learn-d3
+  - type: cube
+    title: D3 Dashboard Tutorial
+    link: https://d3-dashboard.cube.dev
+
+github_data:
+  stars: 97100
+  contributors: 129
+  issues: 6
+  stale_issues: 1
+  last_release:
+    date: "2021-04-16T00:00:00Z"
+    link: https://github.com/d3/d3/releases/tag/v6.7.0
+
+twitter_feed: []
