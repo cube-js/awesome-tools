@@ -6,7 +6,7 @@ export default function HowToGetStarted(props) {
   return (
     <div className={styles.HowToGetStarted + " row"}>
       <div className="col-sm-3">
-        <H2>How to get started</H2>
+        <H2>Getting started</H2>
       </div>
       {props.content.map((obj, index) => {
         const icon =
