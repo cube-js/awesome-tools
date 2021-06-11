@@ -1,0 +1,64 @@
+title: Metabase
+description: Easy, open-source way to ask questions and learn from data
+logo: /images/logo/metabase.svg
+developer: metabase
+
+based_on:
+
+licenses:
+  - type: proprietary
+    link: https://github.com/metabase/metabase/blob/master/LICENSE.txt
+  - type: open-source
+    title: AGPL
+    link: https://github.com/metabase/metabase/blob/master/LICENSE.txt
+
+types:
+  - app
+
+features:
+  easy-to-customize: 0
+  easy-to-start-with: 0
+  full-fledged: 0
+  very-popular: 0
+  well-documented: 0
+
+gallery: []
+
+languages:
+
+frameworks:
+
+slugs:
+  github: metabase/metabase
+
+tags:
+  stackoverflow:
+    - metabase
+  twitter:
+    - Metabase
+
+links:
+  website: https://www.metabase.com
+  examples: https://www.metabase.com/learn/getting-started/getting-started/tour-of-metabase.html
+  docs: https://www.ag-grid.com/javascript-grid/
+  pricing:
+  slack:
+
+content:
+  - type: official
+    title: Getting started with Metabase
+    link: https://www.metabase.com/learn/getting-started/getting-started/getting-started.html
+  - type: cube
+    title: Connecting Metabase to Cube.js
+    link: https://github.com/pyrooka/metabase-cubejs-driver#usage
+
+github_data:
+  stars: 25000
+  contributors: 259
+  issues: 2200
+  stale_issues: 1000
+  last_release:
+    date: "2021-05-28T00:00:00Z"
+    link: https://github.com/metabase/metabase/releases/tag/v0.39.3
+
+twitter_feed: []
