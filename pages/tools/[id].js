@@ -27,8 +27,8 @@ export default function Tool(props) {
   return (
     <div className="container custom-container mt-lg">
       <Head>
-        <title>Awesome Tools - Components Page</title>
-        <meta name="description" content="This page for developing" />
+        <title>{props.title} — Awesome dataviz tools by Cube.js</title>
+        <meta name="description" content={`${props.title} is one of many awesome data visualization tools for software developers by Cube.js`} />
       </Head>
 
       <main>
