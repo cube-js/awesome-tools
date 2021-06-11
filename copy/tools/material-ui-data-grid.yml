@@ -32,7 +32,7 @@ frameworks:
 
 slugs:
   github: mui-org/material-ui
-  npm: @material-ui/core
+  npm: "@material-ui/core"
 
 tags:
   stackoverflow:
