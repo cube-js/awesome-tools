@@ -1,0 +1,66 @@
+title: ApexCharts
+description: Modern & interactive open-source charts
+logo: /images/logo/apexcharts.svg
+developer: apexcharts
+
+based_on:
+
+licenses:
+  - type: open-source
+    title: MIT
+    link: https://github.com/apexcharts/apexcharts.js/blob/master/LICENSE
+
+types:
+  - charts
+
+features:
+  easy-to-customize: 0
+  easy-to-start-with: 0
+  full-fledged: 0
+  very-popular: 0
+  well-documented: 0
+
+gallery: []
+
+languages:
+  - JavaScript
+  - TypeScript
+
+frameworks:
+  - vanilla-js
+  - react
+  - angular
+  - vue
+
+slugs:
+  github: apexcharts/apexcharts.js
+  npm: apexcharts
+
+tags:
+  stackoverflow:
+    - apexcharts
+  twitter:
+    - ApexCharts
+
+links:
+  website: https://apexcharts.com
+  examples: https://apexcharts.com/javascript-chart-demos/
+  docs: https://apexcharts.com/docs/installation/
+  pricing:
+  slack:
+
+content:
+  - type: official
+    title: Creating your first JavaScript chart
+    link: https://apexcharts.com/docs/creating-first-javascript-chart/
+
+github_data:
+  stars: 10400
+  contributors: 98
+  issues: 812
+  stale_issues: 390
+  last_release:
+    date: "2021-06-06T00:00:00Z"
+    link: https://github.com/apexcharts/apexcharts.js/releases/tag/v3.27.0
+
+twitter_feed: []
