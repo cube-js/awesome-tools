@@ -26,7 +26,7 @@ export default function Popularity(props) {
         <BigCard
           icon="/images/edit.svg"
           text={props.github.issues}
-          description="Open issues"
+          description="open issues"
           footerText={`${props?.percentages?.stale_issues?.toFixed(
             0
           )}&thinsp;% older than 1 year`}
