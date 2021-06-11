@@ -22,7 +22,7 @@ export default function HowToGetHelp(props) {
     },
     {
       href: "https://slack.cube.dev/",
-      title: "Cube.js Stack →",
+      title: "Cube.js Slack →",
       icon: "/images/logo/slack-big.svg",
       footer: `${props.slackMembers} followers`,
     },
