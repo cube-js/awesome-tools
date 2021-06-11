@@ -1,17 +1,22 @@
 title: AG Grid
 description: Self-proclaimed best JavaScript grid in the world
 logo: /images/logo/ag-grid.svg
+developer: google
 
 based_on:
   - d3
 
 licenses:
-  - type: proprietary
   - type: open-source
-    title: MIT
+    title: Apache 2.0
+    link: https://github.com/apache/echarts/blob/master/LICENSE
 
 types:
+  - 3d
+  - app
   - charts
+  - grid
+  - low-level
   - maps
 
 features:
@@ -36,6 +41,7 @@ frameworks:
 slugs:
   github: ag-grid/ag-grid
   npm: ag-grid-community
+  npm_types: "@types/mapbox-gl"
 
 tags:
   stackoverflow:
