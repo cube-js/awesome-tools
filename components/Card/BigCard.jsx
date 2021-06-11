@@ -28,7 +28,12 @@ export default function Card(props) {
         </div>
       )}
       {props.footerText && (
-        <div className={styles.footer}>{props.footerText}</div>
+        <div
+          className={styles.footer}
+          dangerouslySetInnerHTML={{ __html: props.footerText }}
+        >
+          {/* {props.footerText} */}
+        </div>
       )}
     </div>
   );

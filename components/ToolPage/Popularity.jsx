@@ -27,7 +27,9 @@ export default function Popularity(props) {
           icon="/images/edit.svg"
           text={props.github.issues}
           description="Open issues"
-          footerText={`${props?.percentages?.stale_issues}% older than 1 year`}
+          footerText={`${props?.percentages?.stale_issues?.toFixed(
+            0
+          )}&thinsp;% older than 1 year`}
         />
       </div>
       <div className={styles.smallCardWrap + " col-lg-3"}>

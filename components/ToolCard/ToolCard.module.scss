@@ -54,6 +54,12 @@
     min-height: 48px;
     margin-top: 24px;
     margin-bottom: 48px;
+    @media (min-width: 1200px) and (max-width: 1400px) {
+      max-width: 400px;
+    }
+    @media (min-width: 767.98px) and (max-width: 1200px) {
+      max-width: 290px;
+    }
     @media (max-width: 767.98px) {
       margin-bottom: 24px;
     }

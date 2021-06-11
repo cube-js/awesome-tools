@@ -3,26 +3,26 @@ import styles from "./Gallery.module.scss";
 import H2 from "../Text/H2";
 const Slider = dynamic(() => import("../../components/Slider"));
 // import Slider from "../Slider";
-const slidesData = [
-  {
-    src: "/images/slider/slide-2.png",
-  },
-  {
-    src: "/images/slider/slide-1.png",
-  },
-  {
-    src: "/images/slider/slide-3.png",
-  },
-  {
-    src: "/images/slider/slide-4.png",
-  },
-  {
-    src: "/images/slider/slide-1.png",
-  },
-  {
-    src: "/images/slider/slide-2.png",
-  },
-];
+// const slidesData = [
+//   {
+//     src: "/images/slider/slide-2.png",
+//   },
+//   {
+//     src: "/images/slider/slide-1.png",
+//   },
+//   {
+//     src: "/images/slider/slide-3.png",
+//   },
+//   {
+//     src: "/images/slider/slide-4.png",
+//   },
+//   {
+//     src: "/images/slider/slide-1.png",
+//   },
+//   {
+//     src: "/images/slider/slide-2.png",
+//   },
+// ];
 
 export default function Gallery(props) {
   return (
@@ -38,7 +38,7 @@ export default function Gallery(props) {
         )}
       </div>
       <div className={styles.sliderWrap + " col-sm-9"}>
-        <Slider slidesData={slidesData} />
+        <Slider slidesData={props.gallery} />
       </div>
     </div>
   );

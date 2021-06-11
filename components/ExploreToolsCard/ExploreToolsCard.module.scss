@@ -5,7 +5,7 @@
   border-radius: 24px;
   // width: 184px;
   // height: 143px;
-  padding: 24px 24px 0px 24px;
+  // padding: 24px 24px 0px 24px;
   overflow: hidden;
   cursor: pointer;
   margin-bottom: 32px;
@@ -21,6 +21,12 @@
   &[active="active"] {
     background-color: darken(#ecebff, 5%);
   }
+  &__wrap {
+    padding: 24px 24px 0px 24px;
+    @media (max-width: 767.98px) {
+      padding: 12px 12px 0 12px;
+    }
+  }
   &__text {
     font-size: 24px;
     line-height: 30px;
@@ -28,11 +34,10 @@
   }
 
   &__image {
-    min-height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    // min-height: 64px;
     color: $purple-active;
-  }
-
-  @media (max-width: 767.98px) {
-    padding: 12px 12px 0 12px;
   }
 }
