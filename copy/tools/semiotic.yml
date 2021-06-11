@@ -12,7 +12,7 @@ licenses:
     link: https://github.com/nteract/semiotic/blob/master/LICENSE
 
 types:
-  - charts
+  - low-level
 
 features:
   easy-to-customize: 0
