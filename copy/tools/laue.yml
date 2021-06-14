@@ -1,60 +1,48 @@
 title: Laue
 description: Modern charts for Vue.js
 logo: /images/logo/laue.svg
-developer:
-
-based_on:
-
+developer: null
+based_on: null
 licenses:
   - type: open-source
     title: MIT
-    link: https://github.com/QingWei-Li/laue/blob/master/LICENSE
-
+    link: 'https://github.com/QingWei-Li/laue/blob/master/LICENSE'
 types:
   - charts
-
 features:
   easy-to-customize: 0
   easy-to-start-with: 0
   full-fledged: 0
   very-popular: 0
   well-documented: 0
-
 gallery: []
-
 languages:
   - JavaScript
-
 frameworks:
   - vue
-
 slugs:
   github: qingwei-li/laue
   npm: laue
-
 tags:
-  stackoverflow:
-  twitter:
-
+  stackoverflow: null
+  twitter: null
 links:
-  website: https://laue.js.org
-  examples: https://laue.js.org/examples
-  docs: https://laue.js.org/api
-  pricing:
-  slack:
-
+  website: 'https://laue.js.org'
+  examples: 'https://laue.js.org/examples'
+  docs: 'https://laue.js.org/api'
+  pricing: null
+  slack: null
 content:
   - type: official
     title: Quick start with Laue
-    link: https://laue.js.org/guide#quick-started
-
+    link: 'https://laue.js.org/guide#quick-started'
 github_data:
   stars: 248
   contributors: 8
-  issues: 17
-  stale_issues: 0
+  issues: 18
+  stale_issues: 16
   last_release:
-    date: "2018-10-31T00:00:00Z"
-    link: https://github.com/QingWei-Li/laue/releases/tag/v0.2.0
-
+    date: '2018-10-31T15:52:54Z'
+    link: 'https://github.com/QingWei-Li/laue/releases/tag/v0.2.0'
 twitter_feed: []
+stackoverflow_data: null

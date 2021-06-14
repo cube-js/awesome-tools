@@ -43,8 +43,8 @@ content:
 github_data:
   stars: 68870
   contributors: 30
-  issues: 551
-  stale_issues: 521
+  issues: 549
+  stale_issues: 519
   last_release:
     date: '2021-06-08T06:48:00Z'
     link: 'https://github.com/mui-org/material-ui/releases/tag/v5.0.0-alpha.36'

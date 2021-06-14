@@ -2,6 +2,9 @@ const fetch = require("node-fetch");
 require("dotenv").config();
 
 const getGithubData = async (githubSlug) => {
+  if (!githubSlug) {
+    return null;
+  }
   const headers = {
     headers: {
       Authorization: `token ${process.env.API_TOKEN}`,
@@ -43,14 +46,15 @@ const getGithubData = async (githubSlug) => {
         issues.message
     );
   }
+  // console.log(releases);
   return {
     stars: repo?.stargazers_count,
     contributors: contributors?.length,
     issues: repo?.open_issues,
     stale_issues: getStaleIssues(issues, repo?.open_issues),
     last_release: {
-      date: releases?.[0]?.published_at,
-      link: releases?.[0]?.html_url,
+      date: releases?.[0]?.published_at || null,
+      link: releases?.[0]?.html_url || null,
     },
   };
 };
@@ -78,6 +82,9 @@ const getGithubData = async (githubSlug) => {
 //   return result;
 // };
 const getStackoverflowDataByTags = async (tags) => {
+  if (!tags) {
+    return null;
+  }
   // const headers = {};
   let result = 0;
   try {
@@ -85,7 +92,7 @@ const getStackoverflowDataByTags = async (tags) => {
       const response = await loadJSON(
         `https://api.stackexchange.com/2.2/tags?order=desc&sort=popular&inname=${tag}&site=stackoverflow`
       );
-      console.log(response);
+      // console.log(response);
       response.items.forEach((item) => {
         if (item.name === tag && item.count) {
           result += item.count;

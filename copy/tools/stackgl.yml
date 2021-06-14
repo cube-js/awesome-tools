@@ -1,46 +1,41 @@
 title: stackgl
 description: Open software ecosystem for WebGL
 logo: /images/logo/stackgl.svg
-developer:
-
-based_on:
-
-licenses:
-
+developer: null
+based_on: null
+licenses: null
 types:
   - low-level
-
 features:
   easy-to-customize: 0
   easy-to-start-with: 0
   full-fledged: 0
   very-popular: 0
   well-documented: 0
-
 gallery: []
-
 languages:
   - JavaScript
-
 frameworks:
   - vanilla-js
-
 slugs:
-  github: stackgl
-
+  github: stackgl/shader-school
 tags:
-  stackoverflow:
-  twitter:
-
+  stackoverflow: null
+  twitter: null
 links:
-  website: http://stack.gl
-  examples: http://stack.gl/#examples
-  docs: http://stack.gl/packages/
-  pricing:
-  slack:
-
-content:
-
+  website: 'http://stack.gl'
+  examples: 'http://stack.gl/#examples'
+  docs: 'http://stack.gl/packages/'
+  pricing: null
+  slack: null
+content: null
 github_data:
-
+  stars: 2929
+  contributors: 18
+  issues: 48
+  stale_issues: 47
+  last_release:
+    date: null
+    link: null
 twitter_feed: []
+stackoverflow_data: null

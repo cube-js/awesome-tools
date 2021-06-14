@@ -1,62 +1,50 @@
 title: visx
-description: Collection of expressive, low-level visualization primitives for React
+description: 'Collection of expressive, low-level visualization primitives for React'
 logo: /images/logo/visx.svg
 developer: airbnb
-
 based_on:
   - d3
-
 licenses:
   - type: open-source
     title: MIT
-    link: https://github.com/airbnb/visx/blob/master/LICENSE
-
+    link: 'https://github.com/airbnb/visx/blob/master/LICENSE'
 types:
   - low-level
-
 features:
   easy-to-customize: 0
   easy-to-start-with: 0
   full-fledged: 0
   very-popular: 0
   well-documented: 0
-
 gallery: []
-
 languages:
   - JavaScript
   - TypeScript
-
 frameworks:
   - react
-
 slugs:
   github: airbnb/visx
-  npm: "@visx/visx"
-
+  npm: '@visx/visx'
 tags:
-  stackoverflow:
-  twitter:
-
+  stackoverflow: null
+  twitter: null
 links:
-  website: https://airbnb.io/visx/
-  examples: https://airbnb.io/visx/gallery
-  docs: https://airbnb.io/visx/docs
-  pricing:
-  slack:
-
+  website: 'https://airbnb.io/visx/'
+  examples: 'https://airbnb.io/visx/gallery'
+  docs: 'https://airbnb.io/visx/docs'
+  pricing: null
+  slack: null
 content:
   - type: official
     title: Getting started with vx
-    link: https://medium.com/vx-code/getting-started-with-vx-1756bb661410
-
+    link: 'https://medium.com/vx-code/getting-started-with-vx-1756bb661410'
 github_data:
-  stars: 13414
-  contributors: 96
-  issues: 78
-  stale_issues: 40
+  stars: 13445
+  contributors: 30
+  issues: 92
+  stale_issues: 62
   last_release:
-    date: "2021-03-09T00:00:00Z"
-    link: https://github.com/airbnb/visx/releases/tag/v1.6.1
-
+    date: '2021-03-08T20:16:56Z'
+    link: 'https://github.com/airbnb/visx/releases/tag/v1.6.1'
 twitter_feed: []
+stackoverflow_data: null

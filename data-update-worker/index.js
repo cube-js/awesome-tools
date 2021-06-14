@@ -11,13 +11,13 @@ ids.forEach(async (id) => {
   try {
     const file = await yaml.read(`../copy/tools/${id}.yml`);
 
-    file.github_data = await get.getGithubData(file.slugs.github);
+    file.github_data = await get.getGithubData(file?.slugs?.github);
     file.stackoverflow_data = await get.getStackoverflowDataByTags(
-      file.tags.stackoverflow
+      file?.tags?.stackoverflow
     );
 
     await yaml.write(`../copy/tools/${id}.yml`, file);
-    console.log(id, " success");
+    console.log(id, "success");
   } catch (e) {
     console.log(`${id} error!!!!!`, e);
   }

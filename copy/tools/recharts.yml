@@ -1,68 +1,57 @@
 title: Recharts
 description: Composable charting library built on React components
 logo: /images/logo/recharts.svg
-developer:
-
+developer: null
 based_on:
   - d3
-
 licenses:
   - type: open-source
     title: MIT
-    link: https://github.com/recharts/recharts/blob/master/LICENSE
-
+    link: 'https://github.com/recharts/recharts/blob/master/LICENSE'
 types:
   - charts
-
 features:
   easy-to-customize: 1
   easy-to-start-with: 3
   full-fledged: 0
   very-popular: 1
   well-documented: 3
-
 gallery: []
-
 languages:
   - JavaScript
   - TypeScript
-
 frameworks:
   - react
-
 slugs:
   github: recharts/recharts
   npm: recharts
-  npm_types: "@types/recharts"
-
+  npm_types: '@types/recharts'
 tags:
   stackoverflow:
     - recharts
   twitter:
     - recharts
-
 links:
-  website: https://recharts.org/en-US/
-  examples: https://recharts.org/en-US/examples
-  docs: https://recharts.org/en-US/api
-  pricing:
-  slack:
-
+  website: 'https://recharts.org/en-US/'
+  examples: 'https://recharts.org/en-US/examples'
+  docs: 'https://recharts.org/en-US/api'
+  pricing: null
+  slack: null
 content:
   - type: official
     title: Getting started
-    link: https://recharts.org/en-US/guide/getting-started
+    link: 'https://recharts.org/en-US/guide/getting-started'
   - type: cube
-    title: "React Dashboard: an Ultimate Guide"
-    link: https://react-dashboard.cube.dev
-
+    title: 'React Dashboard: an Ultimate Guide'
+    link: 'https://react-dashboard.cube.dev'
 github_data:
-  stars: 16500
-  contributors: 186
-  issues: 183
-  stale_issues: 100
+  stars: 16469
+  contributors: 30
+  issues: 189
+  stale_issues: 159
   last_release:
-    date: "2021-02-24T00:00:00Z"
-    link: https://github.com/recharts/recharts/releases/tag/v2.0.8
-
+    date: null
+    link: null
 twitter_feed: []
+stackoverflow_data:
+  questions_count: 458
