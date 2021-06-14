@@ -1,0 +1,50 @@
+title: Apache Superset
+description: Modern data exploration and visualization platform
+logo: /images/logo/superset.svg
+developer: null
+based_on: null
+licenses:
+  - type: open-source
+    title: Apache 2.0
+    link: 'https://github.com/apache/superset/blob/master/LICENSE.txt'
+types:
+  - app
+features:
+  easy-to-customize: 0
+  easy-to-start-with: 0
+  full-fledged: 0
+  very-popular: 0
+  well-documented: 0
+gallery: []
+languages: null
+frameworks: null
+slugs:
+  github: apache/superset
+tags:
+  stackoverflow:
+    - superset
+    - apache-superset
+  twitter:
+    - ApacheSuperset
+links:
+  website: 'https://superset.apache.org'
+  examples: 'https://superset.apache.org/gallery'
+  docs: 'https://superset.apache.org/docs/intro'
+  pricing: null
+  slack: >-
+    https://apache-superset.slack.com/join/shared_invite/zt-l5f5e0av-fyYu8tlfdqbMdz_sPLwUqQ
+content:
+  - type: official
+    title: What is Apache Superset?
+    link: 'https://superset.apache.org/docs/intro'
+github_data:
+  stars: 39068
+  contributors: 30
+  issues: 893
+  stale_issues: 863
+  last_release:
+    date: '2021-06-11T11:35:16Z'
+    link: 'https://github.com/apache/superset/releases/tag/1.2.0rc2'
+twitter_feed: []
+stackoverflow_data:
+  questions_count: 973
