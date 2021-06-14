@@ -54,6 +54,7 @@ export default function Tool(props) {
           <Gallery gallery={props.gallery} link={props?.links?.examples} />
         )}
         <Popularity
+          slugs={props.slugs}
           github={props.github_data}
           positions={props.positions}
           percentages={props.percentages}

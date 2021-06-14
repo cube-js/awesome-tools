@@ -15,6 +15,8 @@ export default function Popularity(props) {
       </div>
       <div className={styles.bigCardWrap + " col-lg-3"}>
         <BigCard
+          isLink={props?.slugs?.github}
+          link={`https://github.com/${props?.slugs?.github}/stargazers`}
           color="gray"
           icon="/images/logo/github-big.svg"
           text={props?.github?.stars}
@@ -24,6 +26,9 @@ export default function Popularity(props) {
       </div>
       <div className={styles.bigCardWrap + " col-lg-3"}>
         <BigCard
+          color={props?.percentages?.stale_issues > 50 ? null : "gray"}
+          isLink={props?.slugs?.github}
+          link={`https://github.com/${props?.slugs?.github}/issues`}
           icon="/images/edit.svg"
           text={props?.github?.issues}
           description="open issues"
@@ -34,12 +39,16 @@ export default function Popularity(props) {
       </div>
       <div className={styles.smallCardWrap + " col-lg-3"}>
         <Card
+          isLink={props?.slugs?.github}
+          link={`https://github.com/${props?.slugs?.github}/graphs/contributors`}
           className="mb-md"
           color="gray"
           text={props?.github?.contributors}
           footerText="contributors"
         />
         <Card
+          isLink={props?.github?.last_release?.link}
+          link={props?.github?.last_release?.link}
           color="gray"
           text={
             moment(props?.github?.last_release?.date).format("MMM DD, YYYY") ||

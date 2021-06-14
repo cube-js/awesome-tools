@@ -20,7 +20,7 @@ export default function Card(props) {
         {props.title && <div className={styles.title}>{props.title}</div>}
         {props.link && (
           <div className={styles.link}>
-            <a className="link">Read more →</a>
+            <span className="link">Read more →</span>
           </div>
         )}
       </div>
