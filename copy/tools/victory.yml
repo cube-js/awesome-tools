@@ -1,0 +1,54 @@
+title: Victory
+description: React components for modular charting and data visualization
+logo: /images/logo/victory.svg
+developer: formidable
+based_on: null
+licenses:
+  - type: open-source
+    title: MIT
+    link: 'https://github.com/FormidableLabs/victory/blob/main/LICENSE.txt'
+types:
+  - charts
+features:
+  easy-to-customize: 0
+  easy-to-start-with: 0
+  full-fledged: 0
+  very-popular: 0
+  well-documented: 0
+gallery: []
+languages:
+  - JavaScript
+  - TypeScript
+frameworks:
+  - react
+slugs:
+  github: FormidableLabs/victory
+  npm: victory
+  npm_types: '@types/victory'
+tags:
+  stackoverflow:
+    - victory-charts
+    - victory-native
+  twitter:
+    - VictoryCharts
+links:
+  website: 'https://formidable.com/open-source/victory/'
+  examples: 'https://formidable.com/open-source/victory/gallery'
+  docs: 'https://formidable.com/open-source/victory/docs'
+  pricing: null
+  slack: null
+content:
+  - type: official
+    title: Getting Started with Victory
+    link: 'https://formidable.com/open-source/victory/docs'
+github_data:
+  stars: 8903
+  contributors: 30
+  issues: 153
+  stale_issues: 125
+  last_release:
+    date: '2020-09-01T15:48:23Z'
+    link: 'https://github.com/FormidableLabs/victory/releases/tag/v35.0.8'
+twitter_feed: []
+stackoverflow_data:
+  questions_count: 194

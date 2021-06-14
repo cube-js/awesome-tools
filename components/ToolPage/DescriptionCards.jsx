@@ -6,7 +6,7 @@ const getLicense = (props) => {
   let isPrice = false;
   let description = "";
 
-  props.licenses.forEach((obj) => {
+  props?.licenses?.forEach((obj) => {
     if (obj.type === "open-source") {
       isOpen = "Open-source";
       description = obj.title;
@@ -40,7 +40,7 @@ const getFrameworks = (props) => {
   let isVue = false;
   let isAngular = false;
 
-  props.frameworks.forEach((framework) => {
+  props?.frameworks?.forEach((framework) => {
     if (framework === "react") {
       isReact = true;
     }
@@ -93,28 +93,34 @@ const getFrameworks = (props) => {
 export default function DescriptionCards(props) {
   return (
     <div className={styles.descriptionCards + " row"}>
-      <div className={styles.cardWrap + " col-xl-4 col-lg-4 col-md-12"}>
-        <Card
-          height="full"
-          icon="/images/logo/dollar.svg"
-          {...getLicense(props)}
-        />
-      </div>
-      <div className={styles.cardWrap + " col-xl-4 col-lg-4 col-md-12"}>
-        <Card height="full" color="gray" {...getFrameworks(props)} />
-      </div>
-      <div className={styles.cardWrap + " col-xl-4 col-lg-4 col-md-12"}>
-        <Card
-          height="full"
-          icon="/images/logo/typescript.svg"
-          text={
-            props.languages.includes("TypeScript")
-              ? "Supported"
-              : "Not supported"
-          }
-          description="TypeScript"
-        />
-      </div>
+      {props.licenses && (
+        <div className={styles.cardWrap + " col-xl-4 col-lg-4 col-md-12"}>
+          <Card
+            height="full"
+            icon="/images/logo/dollar.svg"
+            {...getLicense(props)}
+          />
+        </div>
+      )}
+      {props.frameworks && (
+        <div className={styles.cardWrap + " col-xl-4 col-lg-4 col-md-12"}>
+          <Card height="full" color="gray" {...getFrameworks(props)} />
+        </div>
+      )}
+      {props.languages && (
+        <div className={styles.cardWrap + " col-xl-4 col-lg-4 col-md-12"}>
+          <Card
+            height="full"
+            icon="/images/logo/typescript.svg"
+            text={
+              props.languages.includes("TypeScript")
+                ? "Supported"
+                : "Not supported"
+            }
+            description="TypeScript"
+          />
+        </div>
+      )}
     </div>
   );
 }

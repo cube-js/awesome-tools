@@ -1,0 +1,54 @@
+title: C3.js
+description: D3-based reusable chart library
+logo: /images/logo/c3.svg
+developer: null
+based_on:
+  - d3
+licenses:
+  - type: open-source
+    title: MIT
+    link: 'https://github.com/c3js/c3/blob/master/LICENSE'
+types:
+  - charts
+features:
+  easy-to-customize: 0
+  easy-to-start-with: 0
+  full-fledged: 0
+  very-popular: 0
+  well-documented: 0
+gallery: []
+languages:
+  - JavaScript
+  - TypeScript
+frameworks:
+  - vanilla-js
+slugs:
+  github: c3js/c3
+  npm: c3
+  npm_types: '@types/c3'
+tags:
+  stackoverflow:
+    - c3.js
+  twitter:
+    - C3js
+links:
+  website: 'https://c3js.org'
+  examples: 'https://c3js.org/examples.html'
+  docs: 'https://c3js.org/reference.html'
+  pricing: null
+  slack: null
+content:
+  - type: official
+    title: Getting Started with C3.js
+    link: 'https://c3js.org/gettingstarted.html'
+github_data:
+  stars: 9080
+  contributors: 30
+  issues: 768
+  stale_issues: 739
+  last_release:
+    date: '2020-08-08T09:14:36Z'
+    link: 'https://github.com/c3js/c3/releases/tag/v0.7.20'
+twitter_feed: []
+stackoverflow_data:
+  questions_count: 1125

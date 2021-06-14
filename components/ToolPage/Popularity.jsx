@@ -17,7 +17,7 @@ export default function Popularity(props) {
         <BigCard
           color="gray"
           icon="/images/logo/github-big.svg"
-          text={props.github.stars}
+          text={props?.github?.stars}
           description="GitHub stars"
           footerText={`${props?.positions?.stars} of ${props?.positions?.total} place of all tools`}
         />
@@ -25,7 +25,7 @@ export default function Popularity(props) {
       <div className={styles.bigCardWrap + " col-lg-3"}>
         <BigCard
           icon="/images/edit.svg"
-          text={props.github.issues}
+          text={props?.github?.issues}
           description="open issues"
           footerText={`${props?.percentages?.stale_issues?.toFixed(
             0
@@ -36,7 +36,7 @@ export default function Popularity(props) {
         <Card
           className="mb-md"
           color="gray"
-          text={props.github.contributors}
+          text={props?.github?.contributors}
           footerText="contributors"
         />
         <Card

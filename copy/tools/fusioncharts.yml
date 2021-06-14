@@ -1,0 +1,68 @@
+title: FusionCharts
+description: JavaScript charts for web & mobile
+logo: /images/logo/fusioncharts.svg
+developer: fusioncharts
+
+based_on:
+
+licenses:
+  - type: proprietary
+    link: https://www.ideracorp.com/Legal/FusionCharts/MasterISVSoftwareSubscriptionAgreement
+
+types:
+  - charts
+  - maps
+
+features:
+  easy-to-customize: 0
+  easy-to-start-with: 0
+  full-fledged: 0
+  very-popular: 0
+  well-documented: 0
+
+gallery: []
+
+languages:
+  - JavaScript
+  - TypeScript
+
+frameworks:
+  - vanilla-js
+  - react
+  - angular
+  - vue
+  - svelte
+
+slugs:
+  github: fusioncharts/fusioncharts-dist
+  npm: fusioncharts
+  npm_types: "@types/fusioncharts"
+
+tags:
+  stackoverflow:
+    - fusioncharts
+  twitter:
+    - FusionCharts
+
+links:
+  website: https://www.fusioncharts.com/fusioncharts
+  examples: https://www.fusioncharts.com/charts
+  docs: https://www.fusioncharts.com/dev/fusioncharts
+  pricing: https://www.fusioncharts.com/buy
+  slack:
+
+content:
+  - type: official
+    title: "Create a Chart Using FusionCharts"
+    link: https://www.fusioncharts.com/dev/getting-started/plain-javascript/your-first-chart-using-plain-javascript
+
+github_data:
+  stars: 56
+  contributors: 5
+  issues: 4
+  stale_issues: 1
+  last_release:
+    date: "2020-03-17T00:00:00Z"
+    link: https://github.com/fusioncharts/fusioncharts-dist/releases/tag/3.15.1-sr.1
+
+twitter_feed: []

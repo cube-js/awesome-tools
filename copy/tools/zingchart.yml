@@ -1,0 +1,57 @@
+title: ZingChart
+description: >-
+  Declarative, efficient, and simple JavaScript library for building responsive
+  charts
+logo: /images/logo/zingchart.svg
+developer: zingchart
+based_on: null
+licenses:
+  - type: proprietary
+types:
+  - charts
+  - maps
+features:
+  easy-to-customize: 0
+  easy-to-start-with: 0
+  full-fledged: 0
+  very-popular: 0
+  well-documented: 0
+gallery: []
+languages:
+  - JavaScript
+  - TypeScript
+frameworks:
+  - vanilla-js
+  - react
+  - angular
+  - vue
+slugs:
+  github: zingchart/ZingChart
+  npm: zingchart
+  npm_types: '@types/zingchart'
+tags:
+  stackoverflow:
+    - zingchart
+  twitter:
+    - ZingChart
+links:
+  website: 'https://www.zingchart.com'
+  examples: 'https://www.zingchart.com/gallery?type=chartType'
+  docs: 'https://www.zingchart.com/docs'
+  pricing: 'https://www.zingchart.com/pricing'
+  slack: null
+content:
+  - type: official
+    title: Your First JavaScript Chart
+    link: 'https://www.zingchart.com/docs/getting-started/your-first-javascript-chart'
+github_data:
+  stars: 238
+  contributors: 16
+  issues: 0
+  stale_issues: 0
+  last_release:
+    date: '2021-06-11T20:59:02Z'
+    link: 'https://github.com/zingchart/ZingChart/releases/tag/2.9.5'
+twitter_feed: []
+stackoverflow_data:
+  questions_count: 247

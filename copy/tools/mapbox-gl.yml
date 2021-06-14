@@ -1,0 +1,58 @@
+title: Mapbox GL JS
+description: >-
+  Interactive, thoroughly customizable maps in the browser, powered by vector
+  tiles and WebGL
+logo: /images/logo/mapbox-gl.svg
+developer: mapbox
+based_on: null
+licenses:
+  - type: proprietary
+    link: 'https://github.com/mapbox/mapbox-gl-js/blob/main/LICENSE.txt'
+types:
+  - maps
+features:
+  easy-to-customize: 0
+  easy-to-start-with: 0
+  full-fledged: 0
+  very-popular: 0
+  well-documented: 0
+gallery: []
+languages:
+  - JavaScript
+  - TypeScript
+frameworks:
+  - vanilla-js
+slugs:
+  github: mapbox/mapbox-gl-js
+  npm: mapbox-gl
+  npm_types: '@types/mapbox-gl'
+tags:
+  stackoverflow:
+    - mapbox
+    - mapbox-gl-js
+  twitter:
+    - mapbox
+links:
+  website: 'https://docs.mapbox.com/mapbox-gl-js/api/'
+  examples: 'https://docs.mapbox.com/mapbox-gl-js/example/'
+  docs: 'https://docs.mapbox.com/mapbox-gl-js/api/'
+  pricing: null
+  slack: null
+content:
+  - type: official
+    title: Tutorials
+    link: 'https://docs.mapbox.com/help/tutorials/?product=Mapbox+GL+JS'
+  - type: cube
+    title: JavaScript Map Data Visualization with Mapbox
+    link: 'https://mapbox-guide.cube.dev'
+github_data:
+  stars: 7603
+  contributors: 30
+  issues: 854
+  stale_issues: 824
+  last_release:
+    date: '2021-06-02T16:39:09Z'
+    link: 'https://github.com/mapbox/mapbox-gl-js/releases/tag/style-spec%4013.20.0'
+twitter_feed: []
+stackoverflow_data:
+  questions_count: 7500

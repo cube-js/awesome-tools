@@ -1,7 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
-<url><loc>https://awesome.cube.dev</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2021-06-09T12:30:02.499Z</lastmod></url>
-<url><loc>https://awesome.cube.dev/tools/ag-grid</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2021-06-09T12:30:02.499Z</lastmod></url>
-<url><loc>https://awesome.cube.dev/tools/amcharts</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2021-06-09T12:30:02.499Z</lastmod></url>
-<url><loc>https://awesome.cube.dev/tools/nivo</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2021-06-09T12:30:02.499Z</lastmod></url>
+<url><loc>https://awesome.cube.dev</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2021-06-14T18:02:45.974Z</lastmod></url>
+<url><loc>https://awesome.cube.dev/tools/ag-grid</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2021-06-14T18:02:45.974Z</lastmod></url>
+<url><loc>https://awesome.cube.dev/tools/amcharts</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2021-06-14T18:02:45.974Z</lastmod></url>
+<url><loc>https://awesome.cube.dev/tools/anychart</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2021-06-14T18:02:45.974Z</lastmod></url>
+<url><loc>https://awesome.cube.dev/tools/c3</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2021-06-14T18:02:45.974Z</lastmod></url>
+<url><loc>https://awesome.cube.dev/tools/chartjs</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2021-06-14T18:02:45.974Z</lastmod></url>
+<url><loc>https://awesome.cube.dev/tools/d3</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2021-06-14T18:02:45.974Z</lastmod></url>
+<url><loc>https://awesome.cube.dev/tools/echarts</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2021-06-14T18:02:45.974Z</lastmod></url>
+<url><loc>https://awesome.cube.dev/tools/fusioncharts</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2021-06-14T18:02:45.974Z</lastmod></url>
+<url><loc>https://awesome.cube.dev/tools/google-charts</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2021-06-14T18:02:45.974Z</lastmod></url>
+<url><loc>https://awesome.cube.dev/tools/highcharts</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2021-06-14T18:02:45.974Z</lastmod></url>
+<url><loc>https://awesome.cube.dev/tools/laue</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2021-06-14T18:02:45.974Z</lastmod></url>
+<url><loc>https://awesome.cube.dev/tools/leaflet</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2021-06-14T18:02:45.974Z</lastmod></url>
+<url><loc>https://awesome.cube.dev/tools/mapbox-gl</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2021-06-14T18:02:45.974Z</lastmod></url>
+<url><loc>https://awesome.cube.dev/tools/material-ui-data-grid</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2021-06-14T18:02:45.974Z</lastmod></url>
+<url><loc>https://awesome.cube.dev/tools/muze</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2021-06-14T18:02:45.974Z</lastmod></url>
+<url><loc>https://awesome.cube.dev/tools/ngx-charts</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2021-06-14T18:02:45.974Z</lastmod></url>
+<url><loc>https://awesome.cube.dev/tools/nivo</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2021-06-14T18:02:45.974Z</lastmod></url>
+<url><loc>https://awesome.cube.dev/tools/plotly</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2021-06-14T18:02:45.974Z</lastmod></url>
+<url><loc>https://awesome.cube.dev/tools/react-vis</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2021-06-14T18:02:45.974Z</lastmod></url>
+<url><loc>https://awesome.cube.dev/tools/recharts</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2021-06-14T18:02:45.974Z</lastmod></url>
+<url><loc>https://awesome.cube.dev/tools/semiotic</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2021-06-14T18:02:45.974Z</lastmod></url>
+<url><loc>https://awesome.cube.dev/tools/stackgl</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2021-06-14T18:02:45.974Z</lastmod></url>
+<url><loc>https://awesome.cube.dev/tools/three</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2021-06-14T18:02:45.974Z</lastmod></url>
+<url><loc>https://awesome.cube.dev/tools/victory</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2021-06-14T18:02:45.974Z</lastmod></url>
+<url><loc>https://awesome.cube.dev/tools/visx</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2021-06-14T18:02:45.974Z</lastmod></url>
+<url><loc>https://awesome.cube.dev/tools/zingchart</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2021-06-14T18:02:45.974Z</lastmod></url>
 </urlset>

@@ -53,13 +53,13 @@ content:
     title: React Pivot Table with AG Grid and Cube.js
     link: 'https://react-pivot-table.cube.dev'
 github_data:
-  stars: 7270
+  stars: 7273
   contributors: 30
   issues: 28
   stale_issues: 0
   last_release:
-    date: '2021-04-30T13:14:19Z'
-    link: 'https://github.com/ag-grid/ag-grid/releases/tag/v25.2.0'
+    date: '2021-06-14T15:11:55Z'
+    link: 'https://github.com/ag-grid/ag-grid/releases/tag/v25.3.0'
 twitter_feed:
   - user: Benjamin Scott
     image: /images/tweet-avatar.png
@@ -82,4 +82,4 @@ twitter_feed:
       Anyways, thers is no chance to take Chart.js as our tool to do things in
       business or private tasks
 stackoverflow_data:
-  questions_count: 3725
+  questions_count: 3726

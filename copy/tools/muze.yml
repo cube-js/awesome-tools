@@ -1,0 +1,64 @@
+title: Muze
+description: Free library for creating exploratory data visualizations using WebAssembly
+logo: /images/logo/muze.svg
+developer: charts-com
+
+based_on:
+
+licenses:
+  - type: proprietary
+    title: EULA
+    link: https://github.com/chartshq/muze/blob/master/LICENSE
+
+types:
+  - charts
+
+features:
+  easy-to-customize: 0
+  easy-to-start-with: 0
+  full-fledged: 0
+  very-popular: 0
+  well-documented: 0
+
+gallery: []
+
+languages:
+  - JavaScript
+
+frameworks:
+  - vanilla-js
+  - react
+
+slugs:
+  github: chartshq/muze
+  npm: muze
+
+tags:
+  stackoverflow:
+  twitter:
+
+links:
+  website: https://muzejs.org
+  examples: https://muzejs.org/demos/wa/latest
+  docs: https://muzejs.org/docs/wa/latest/introduction
+  pricing:
+  slack:
+
+content:
+  - type: official
+    title: Getting Started with Muze
+    link: https://muzejs.org/docs/wa/latest/introduction?id=getting-started-with-muze
+  - type: cube
+    title: Tableau-like Charts with MuzeJS, Cube.js, and React
+    link: https://cube.dev/blog/react-muzejs-tutorial/
+
+github_data:
+  stars: 1200
+  contributors: 8
+  issues: 2
+  stale_issues: 0
+  last_release:
+    date: "2021-07-31T00:00:00Z"
+    link: https://github.com/chartshq/muze/releases/tag/v2.0.0
+
+twitter_feed: []
