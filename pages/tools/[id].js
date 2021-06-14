@@ -28,7 +28,10 @@ export default function Tool(props) {
     <div className="container custom-container mt-lg">
       <Head>
         <title>{props.title} — Awesome dataviz tools by Cube.js</title>
-        <meta name="description" content={`${props.title} is one of many awesome data visualization tools for software developers by Cube.js`} />
+        <meta
+          name="description"
+          content={`${props.title} is one of many awesome data visualization tools for software developers by Cube.js`}
+        />
       </Head>
 
       <main>
@@ -47,7 +50,9 @@ export default function Tool(props) {
           links={props.links}
           slugs={props.slugs}
         />
-        <Gallery gallery={props.gallery} link={props?.links?.examples} />
+        {props.gallery && props.gallery.length !== 0 && (
+          <Gallery gallery={props.gallery} link={props?.links?.examples} />
+        )}
         <Popularity
           github={props.github_data}
           positions={props.positions}

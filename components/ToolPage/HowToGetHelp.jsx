@@ -33,23 +33,25 @@ export default function HowToGetHelp(props) {
         <div className={styles.textWrap + " col-lg-3"}>
           <H2>Getting help</H2>
         </div>
-        {cards.map((card, index) => {
-          let className = " col-lg-5";
-          if (index % 3 === 0) {
-            className = " col-lg-5 offset-lg-3";
-          }
-          if (index % 2 === 0) {
-            className = " col-lg-4";
-          }
-          return card.href ? (
-            <div
-              key={card.title + Math.random()}
-              className={styles.cardWrap + className}
-            >
-              <GetHelpCard {...card} />
-            </div>
-          ) : null;
-        })}
+        {cards
+          .filter((card) => card.href)
+          .map((card, index) => {
+            let className = " col-lg-5";
+            if (index % 2 === 0 && index !== 0) {
+              className = " col-lg-5 offset-lg-3";
+            }
+            if (index % 2 !== 0) {
+              className = " col-lg-4";
+            }
+            return card.href ? (
+              <div
+                key={card.title + Math.random()}
+                className={styles.cardWrap + className}
+              >
+                <GetHelpCard {...card} />
+              </div>
+            ) : null;
+          })}
       </div>
     </div>
   );
