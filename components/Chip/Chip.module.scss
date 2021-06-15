@@ -4,23 +4,17 @@
   font-family: CeraPro;
   border: none;
   padding: 8px 16px;
-  background-color: $dark-04;
+  background-color: $dark-06;
+  border: 1px solid $dark-06;
   border-radius: 16px;
-  color: #a4aab7;
+  color: $dark-04;
   font-size: 24px;
   line-height: 30px;
-  transition: background-color 0.33s ease-in-out, color 0.33s ease-in-out;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out,
+    border-color 0.3s ease-in-out;
   cursor: pointer;
   display: flex;
   align-items: center;
-  &:hover {
-    background-color: #ecebff;
-    color: $purple-active;
-    @media (hover: none) {
-      background: $dark-04;
-      color: #a4aab7;
-    }
-  }
   span {
     display: inline-flex;
     align-items: center;
@@ -32,14 +26,23 @@
     fill: red;
   }
 
+  &:hover {
+    @media (hover) {
+      color: $purple-hover;
+      border: 1px solid $purple-04;
+    }
+  }
+
+  &[active="active"] {
+    background-color: $light;
+    color: $purple-hover;
+    border: 1px solid $purple-04;
+  }
+
   @media (max-width: 991.98px) {
     margin-top: 8px;
     margin-bottom: 8px;
   }
-}
-.chip[active="active"] {
-  background-color: #ecebff;
-  color: $purple-active;
 }
 
 .icon {

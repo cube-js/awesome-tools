@@ -68,7 +68,10 @@ export default function Home({ tools }) {
     <div className="container custom-container">
       <Head>
         <title>Awesome dataviz tools by Cube.js</title>
-        <meta name="description" content="Awesome data visualization tools for software developers by Cube.js" />
+        <meta
+          name="description"
+          content="Awesome data visualization tools for software developers by Cube.js"
+        />
       </Head>
 
       <main>
@@ -171,7 +174,7 @@ export default function Home({ tools }) {
             active={license.includes("open-source") ? "active" : null}
             onClick={() => setItem(license, setLicense, "open-source")}
           >
-            open source
+            Open Source
           </Chip>
           <AccentedText className="mr-xs ml-xs">or</AccentedText>
           <Chip
@@ -179,7 +182,7 @@ export default function Home({ tools }) {
             active={license.includes("proprietary") ? "active" : null}
             onClick={() => setItem(license, setLicense, "proprietary")}
           >
-            proprietary
+            Proprietary
           </Chip>
           <AccentedText className="ml-xs">license</AccentedText>
         </div>

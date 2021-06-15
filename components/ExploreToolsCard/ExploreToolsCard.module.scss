@@ -23,11 +23,8 @@
   &__text {
     font-size: 24px;
     line-height: 30px;
-    color: $dark;
+    color: $dark-04;
     transition: color 0.3s ease-in-out;
-    &[disabled="disabled"] {
-      color: $dark-04;
-    }
   }
 
   &__image {
@@ -64,7 +61,7 @@
 
   &[disabled="disabled"] {
     .exploreToolsCard__text {
-      color: $dark-04;
+      color: $dark-07;
     }
   }
 }

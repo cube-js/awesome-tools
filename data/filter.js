@@ -17,7 +17,7 @@ const filter = (tools, framework, language, license, exploreTools) => {
     }
     if (framework.length && isValid) {
       let hasInclude = 0;
-      tool.frameworks.forEach((fr) => {
+      tool?.frameworks?.forEach((fr) => {
         if (framework.includes(fr.toLowerCase())) {
           hasInclude++;
         }
@@ -26,7 +26,7 @@ const filter = (tools, framework, language, license, exploreTools) => {
     }
     if (language.length && isValid) {
       let hasInclude = 0;
-      tool.languages.forEach((lg) => {
+      tool?.languages?.forEach((lg) => {
         if (language.includes(lg.toLowerCase())) {
           hasInclude++;
         }
@@ -35,7 +35,7 @@ const filter = (tools, framework, language, license, exploreTools) => {
     }
     if (license.length && isValid) {
       let hasInclude = 0;
-      tool.licenses.forEach((obj) => {
+      tool?.licenses?.forEach((obj) => {
         if (license.includes(obj.type.toLowerCase())) {
           hasInclude++;
         }
