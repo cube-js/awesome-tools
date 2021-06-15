@@ -90,7 +90,7 @@ function MyApp({ Component, pageProps }) {
     
       @font-face {
         font-family: CeraPro;
-        src: url(/fonts/CeraPro-Medium.woff2);
+        src: url(/fonts/CeraPro-Bold.woff2);
         font-weight: 700;
         font-style: normal;
         font-display: swap;
