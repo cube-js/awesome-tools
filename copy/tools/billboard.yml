@@ -41,8 +41,8 @@ content: null
 github_data:
   stars: 4824
   contributors: 30
-  issues: 131
-  stale_issues: 101
+  issues: 124
+  stale_issues: 94
   last_release:
     date: '2021-04-16T12:50:39Z'
     link: 'https://github.com/naver/billboard.js/releases/tag/3.0.3'

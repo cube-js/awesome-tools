@@ -45,8 +45,8 @@ content:
 github_data:
   stars: 957
   contributors: 6
-  issues: 71
-  stale_issues: 41
+  issues: 73
+  stale_issues: 43
   last_release:
     date: '2021-06-08T11:07:19Z'
     link: 'https://github.com/amcharts/amcharts4/releases/tag/4.10.19'
@@ -72,4 +72,4 @@ twitter_feed:
       Anyways, thers is no chance to take Chart.js as our tool to do things in
       business or private tasks
 stackoverflow_data:
-  questions_count: 3094
+  questions_count: 3095

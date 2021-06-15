@@ -42,7 +42,7 @@ content:
     title: Getting Started with Victory
     link: 'https://formidable.com/open-source/victory/docs'
 github_data:
-  stars: 8904
+  stars: 8907
   contributors: 30
   issues: 153
   stale_issues: 125
@@ -51,4 +51,4 @@ github_data:
     link: 'https://github.com/FormidableLabs/victory/releases/tag/v35.0.8'
 twitter_feed: []
 stackoverflow_data:
-  questions_count: 194
+  questions_count: 195

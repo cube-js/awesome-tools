@@ -40,7 +40,7 @@ content:
     title: Quick Start
     link: 'https://developers.google.com/chart/interactive/docs/quick_start'
 github_data:
-  stars: 2266
+  stars: 2265
   contributors: 5
   issues: 420
   stale_issues: 390
@@ -49,4 +49,4 @@ github_data:
     link: null
 twitter_feed: []
 stackoverflow_data:
-  questions_count: 8697
+  questions_count: 8698
