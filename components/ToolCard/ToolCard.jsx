@@ -5,10 +5,11 @@ import Link from "next/link";
 import abbreviateNumber from "../../utils/number";
 
 export default function ToolCard(props) {
+  let shadow = getShadowByLabel(props?.feature_label);
   return (
     <Link href={"/tools/" + props.id}>
       <a>
-        <div className={styles.toolCard} shadow={props.shadow}>
+        <div className={styles.toolCard} shadow={shadow}>
           <div className="flex flex-items-center">
             <div
               className={styles.toolCard__logo}
@@ -123,4 +124,12 @@ export default function ToolCard(props) {
       </a>
     </Link>
   );
+}
+
+function getShadowByLabel(label) {
+  if (!label) {
+    return "gray";
+  }
+
+  return label;
 }
