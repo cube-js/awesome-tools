@@ -63,7 +63,13 @@ export default function ToolCard(props) {
                             src={`/images/logo/${framework.toLowerCase()}.svg`}
                           />
                         ) : null}
-                        <span className="features__text">{framework}</span>
+                        {props.frameworks.length === 1 && (
+                          <span className={styles.features__text}>
+                            {framework === "vanilla-js"
+                              ? "vanilla JS"
+                              : framework}
+                          </span>
+                        )}
                       </div>
                     );
                   })}
@@ -86,7 +92,9 @@ export default function ToolCard(props) {
                             src={`/images/logo/${language.toLowerCase()}.svg`}
                           />
                         ) : null}
-                        <span className="features__text">{language}</span>
+                        {props.languages.length === 1 && (
+                          <span className="features__text">{language}</span>
+                        )}
                       </div>
                     );
                   })}
