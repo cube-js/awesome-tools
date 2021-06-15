@@ -1,22 +1,14 @@
 @import "/styles/variables";
 
 .exploreToolsCard {
-  background: #ecebff;
+  background: $dark-06;
+  border: 1px solid $dark-06;
+  transition: border 0.3s ease-in-out, background 0.3s ease-in-out;
   border-radius: 24px;
-  // width: 184px;
-  // height: 143px;
-  // padding: 24px 24px 0px 24px;
   overflow: hidden;
   cursor: pointer;
   margin-bottom: 32px;
   user-select: none;
-
-  &:hover {
-    background-color: darken(#ecebff, 2%);
-    @media (hover: none) {
-      background: #ecebff;
-    }
-  }
 
   &[active="active"] {
     background-color: darken(#ecebff, 5%);
@@ -27,17 +19,52 @@
       padding: 12px 12px 0 12px;
     }
   }
+
   &__text {
     font-size: 24px;
     line-height: 30px;
-    color: $purple-active;
+    color: $dark;
+    transition: color 0.3s ease-in-out;
+    &[disabled="disabled"] {
+      color: $dark-04;
+    }
   }
 
   &__image {
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    // min-height: 64px;
-    color: $purple-active;
+    transition: color 0.3s ease-in-out;
+    color: $dark-05;
+  }
+
+  &:hover {
+    // fix mobile hover effect
+    @media (hover) {
+      border: 1px solid $purple-04;
+      .exploreToolsCard__text {
+        color: $purple-hover;
+      }
+      .exploreToolsCard__image {
+        color: $purple-04;
+      }
+    }
+  }
+
+  &[active="active"] {
+    background: $light;
+    border: 1px solid $purple-04;
+    .exploreToolsCard__text {
+      color: $purple-hover;
+    }
+    .exploreToolsCard__image {
+      color: $purple-04;
+    }
+  }
+
+  &[disabled="disabled"] {
+    .exploreToolsCard__text {
+      color: $dark-04;
+    }
   }
 }
