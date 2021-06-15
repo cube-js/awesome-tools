@@ -95,28 +95,6 @@ function MyApp({ Component, pageProps }) {
         font-style: normal;
         font-display: swap;
       }
-    
-      @font-face {
-        font-family: "CeraPro-Regular";
-        src: url('/fonts/CeraPro-Regular.eot');
-        src: url('/fonts/CeraPro-Regular.eot?#iefix') format('embedded-opentype'),
-          url('/fonts/CeraPro-Regular.woff2') format('woff2'),
-          url('/fonts/CeraPro-Regular.woff') format('woff');
-        font-weight: normal;
-        font-style: normal;
-        font-display: swap;
-      }
-      
-      @font-face {
-        font-family: "CeraPro-Medium";
-        src: url('/fonts/CeraPro-Medium.eot');
-        src: url('/fonts/CeraPro-Medium.eot?#iefix') format('embedded-opentype'),
-          url('/fonts/CeraPro-Medium.woff2') format('woff2'),
-          url('/fonts/CeraPro-Medium.woff') format('woff');
-        font-weight: normal;
-        font-style: normal;
-        font-display: swap;
-      }
     `,
           }}
         />

@@ -102,19 +102,19 @@ export default function Home({ tools }) {
             onClick={() => setItem(exploreTools, setExploreTools, "3d")}
             active={exploreTools.includes("3d") ? "active" : null}
             text="3D<br/>tools"
-            image="waves"
+            image="3d"
           />
           <ExploreToolsCard
             onClick={() => setItem(exploreTools, setExploreTools, "grid")}
             active={exploreTools.includes("grid") ? "active" : null}
             text="Data<br/>grids"
-            image="waves"
+            image="grid"
           />
           <ExploreToolsCard
             onClick={() => setItem(exploreTools, setExploreTools, "app")}
             active={exploreTools.includes("app") ? "active" : null}
             text="Exploration<br/>apps"
-            image="waves"
+            image="apps"
           />
         </div>
 
