@@ -10,6 +10,9 @@ import AccentedText from "../components/Text/AccentedText";
 import { useRouter } from "next/router";
 
 const ToolCard = dynamic(() => import("../components/ToolCard"));
+const ToolsNumberControl = dynamic(() =>
+  import("../components/ToolsNumberControl")
+);
 
 export default function Home({ tools }) {
   const router = useRouter();
@@ -188,7 +191,23 @@ export default function Home({ tools }) {
         </div>
 
         <div className="mt-xlg mb-md">
-          <AccentedText>{filteredTools.length} awesome tools</AccentedText>
+          <ToolsNumberControl
+            filteredTools={filteredTools}
+            isChanged={
+              exploreTools.length ||
+              framework.length ||
+              language.length ||
+              license.length
+            }
+            clearFilters={() => {
+              clearFilters([
+                setExploreTools,
+                setFramework,
+                setLanguage,
+                setLicense,
+              ]);
+            }}
+          />
         </div>
 
         <div>
@@ -204,6 +223,12 @@ export default function Home({ tools }) {
       </main>
     </div>
   );
+}
+
+function clearFilters(arrayOfFunctions) {
+  arrayOfFunctions.forEach((fn) => {
+    fn([]);
+  });
 }
 
 export async function getStaticProps(params) {

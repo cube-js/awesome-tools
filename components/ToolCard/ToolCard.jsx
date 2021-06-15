@@ -2,6 +2,7 @@ import styles from "./ToolCard.module.scss";
 import { ReactSVG } from "react-svg";
 import moment from "moment";
 import Link from "next/link";
+import abbreviateNumber from "../../utils/number";
 
 export default function ToolCard(props) {
   return (
@@ -41,7 +42,7 @@ export default function ToolCard(props) {
                   src="/images/logo/github.svg"
                 />
                 <span className="features__text">
-                  {props?.github_data?.stars || "-"}
+                  {abbreviateNumber(props?.github_data?.stars) || "-"}
                 </span>
               </div>
             </div>

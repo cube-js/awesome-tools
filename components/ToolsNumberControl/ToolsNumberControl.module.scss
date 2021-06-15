@@ -1,0 +1,30 @@
+@import "/styles/variables";
+
+.toolsControl {
+  display: flex;
+  align-items: center;
+
+  &__button {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    font-family: CeraPro;
+    margin-left: 16px;
+    padding: 0px 12px;
+    background: rgba(255, 193, 211, 0.24);
+    border-radius: 20px;
+    border: none;
+    font-size: 20px;
+    line-height: 30px;
+    color: $pink-hover;
+  }
+
+  &__text {
+    font-size: 20px;
+    line-height: 30px;
+    color: $dark-03;
+  }
+}
+.clear {
+  margin-left: 8px;
+}
