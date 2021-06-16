@@ -41,6 +41,9 @@ content:
   - type: official
     title: Getting Started with Victory
     link: "https://formidable.com/open-source/victory/docs"
+  - type: cube
+    title: React Native Charts with Cube.js and Victory
+    link: 'https://cube.dev/blog/react-native-charts-with-cubejs-victory/'
 github_data:
   stars: 8909
   contributors: 30
