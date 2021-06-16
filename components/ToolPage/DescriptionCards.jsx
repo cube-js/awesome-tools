@@ -69,7 +69,8 @@ const getFrameworks = (props) => {
       .map((s) => capitalizeFirstLetter(s))
       .join(", "),
     icons: props.frameworks.map((fr) => `/images/logo/${fr}.svg`),
-    smallText: `Go to GitHub →`,
+    smallText: `Go to Docs →`,
+    notLink: true,
   };
 };
 

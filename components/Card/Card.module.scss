@@ -2,17 +2,45 @@
 
 .card {
   width: 100%;
-  // min-height: 154px;
-  background-color: $orange-02;
   padding: 32px;
   border-radius: 24px;
-  color: $orange;
+  border: 1px solid $dark-07;
+
   color: $dark;
   background-color: $dark-07;
+  transition: background-color 0.3s ease-in-out, border-color 0.3s ease-in-out,
+    color 0.3s ease-in-out;
+
+  &:hover {
+    background: $light;
+    border-color: $purple-04;
+  }
+
+  &:active {
+    background: #ececff;
+    border-color: $purple-03;
+  }
 }
 .card[color="orange"] {
   color: $orange;
   background-color: $orange-02;
+  border-color: $orange-02;
+  &:hover {
+    background: #ffecda;
+    border-color: #ffc2a5;
+  }
+
+  &:active {
+    background: #ffe4cb;
+    border-color: #ff905d;
+  }
+  &[disabled="disabled"] {
+    user-select: none;
+    pointer-events: none;
+    cursor: not-allowed;
+    border-color: $dark-05;
+    color: $dark-05;
+  }
 }
 .icon {
   width: 22px;

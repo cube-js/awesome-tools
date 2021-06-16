@@ -1,6 +1,7 @@
 import styles from "./HowToGetHelp.module.scss";
 import GetHelpCard from "../GetHelpCard";
 import H2 from "../Text/H2";
+import abbreviateNumber from "../../utils/number";
 
 export default function HowToGetHelp(props) {
   const cards = [
@@ -18,13 +19,17 @@ export default function HowToGetHelp(props) {
       href: props.stackoverflow,
       title: "Stack Overflow →",
       icon: "/images/logo/stackoverflow-64.svg",
-      footer: `${props?.stackoverflow_data?.questions_count} questions ${props?.positions?.stars} of ${props?.positions?.total} place of all tools`,
+      footer: `${abbreviateNumber(
+        props?.stackoverflow_data?.questions_count
+      )} questions ${props?.positions?.stars} of ${
+        props?.positions?.total
+      } place of all tools`,
     },
     {
       href: "https://slack.cube.dev/",
       title: "Cube.js Slack →",
       icon: "/images/logo/slack-big.svg",
-      footer: `${props.slackMembers} followers`,
+      footer: `${abbreviateNumber(props.slackMembers)} followers`,
     },
   ];
   return (

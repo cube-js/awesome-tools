@@ -1,3 +1,5 @@
+@import "/styles/variables";
+
 .button {
   font-family: CeraPro;
   font-weight: 400;
@@ -5,8 +7,8 @@
   // line-height: 25px;
   text-align: center;
   letter-spacing: 0.02em;
-  color: #8e8bff;
-  border: 2px solid #8e8bff;
+  color: $purple-02;
+  border: 2px solid $purple-02;
   padding: 8px 22px;
   border-radius: 12px;
   display: flex;
@@ -15,4 +17,26 @@
   align-items: center;
   background: transparent;
   cursor: pointer;
+  transition: background-color 0.3s ease-in-out, border-color 0.3s ease-in-out,
+    color 0.3s ease-in-out;
+
+  &:hover {
+    background: rgba(202, 201, 255, 0.5);
+    color: $purple-hover;
+    border-color: $purple-hover;
+  }
+
+  &:active {
+    background: rgba(202, 201, 255, 0.8);
+    color: $purple-press;
+    border-color: $purple-press;
+  }
+
+  &[disabled="disabled"] {
+    user-select: none;
+    pointer-events: none;
+    cursor: not-allowed;
+    border-color: $dark-05;
+    color: $dark-05;
+  }
 }

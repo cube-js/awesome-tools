@@ -2,6 +2,7 @@ import styles from "./Popularity.module.scss";
 import Card from "../Card/Card";
 import H2 from "../Text/H2";
 import moment from "moment";
+import abbreviateNumber from "../../utils/number";
 
 export default function Popularity(props) {
   return (
@@ -18,7 +19,7 @@ export default function Popularity(props) {
           link={`https://github.com/${props?.slugs?.github}/stargazers`}
           color="gray"
           icon="/images/logo/github-big.svg"
-          text={props?.github?.stars}
+          text={abbreviateNumber(props?.github?.stars) || 0}
           description="GitHub stars"
           footerText={`${props?.positions?.stars} of ${props?.positions?.total} place of all tools`}
         />

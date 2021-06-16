@@ -40,7 +40,7 @@ export default function Tool(props) {
           title={props.title}
           website={props?.links?.website}
           github={props?.slugs?.github}
-          achievement={props?.achievement}
+          achievement={props?.feature_label}
         />
         <Description based={props.based_on} description={props.description} />
         <DescriptionCards
@@ -110,6 +110,8 @@ export async function getStaticPaths() {
 }
 export async function getStaticProps({ params }) {
   const tool = await getTool(params.id);
+
+  // @TODO get feature label
 
   return {
     props: {
