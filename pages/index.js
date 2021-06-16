@@ -8,6 +8,7 @@ import ExploreToolsCard from "../components/ExploreToolsCard";
 import H1 from "../components/Text/H1";
 import AccentedText from "../components/Text/AccentedText";
 import { useRouter } from "next/router";
+import LazyLoad from "react-lazy-load";
 
 const ToolCard = dynamic(() => import("../components/ToolCard"));
 const ToolsNumberControl = dynamic(() =>
@@ -213,10 +214,11 @@ export default function Home({ tools }) {
         <div>
           <div className="row">
             {filteredTools &&
-              !isFirstLoad &&
               filteredTools.map((tool) => (
                 <div className="col-lg-6 mb-md" key={tool.id + Math.random()}>
-                  <ToolCard {...tool} />
+                  <LazyLoad height={284} offsetVertical={300}>
+                    <ToolCard {...tool} />
+                  </LazyLoad>
                 </div>
               ))}
           </div>
