@@ -213,6 +213,7 @@ export default function Home({ tools }) {
         <div>
           <div className="row">
             {filteredTools &&
+              !isFirstLoad &&
               filteredTools.map((tool) => (
                 <div className="col-lg-6 mb-md" key={tool.id + Math.random()}>
                   <ToolCard {...tool} />
