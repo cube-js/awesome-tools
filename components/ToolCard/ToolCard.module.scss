@@ -44,6 +44,11 @@
       display: flex;
       align-items: center;
       margin-left: 5px;
+      max-height: 20px;
+      svg {
+        max-height: 20px;
+        // width: 20px;
+      }
     }
   }
 
