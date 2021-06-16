@@ -17,6 +17,8 @@
     width: 100%;
   }
   &__img {
+    border: 1px solid rgba(213, 213, 226, 0.5);
+    border-radius: 24px;
     width: 77px;
     height: 77px;
     background-size: contain;

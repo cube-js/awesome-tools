@@ -59,7 +59,7 @@ export default function Tool(props) {
           positions={props.positions}
           percentages={props.percentages}
         />
-        {props.twitter_feed && (
+        {props.twitter_feed && props.twitter_feed.length > 0 && (
           <News
             news={props.twitter_feed}
             link={
