@@ -1,11 +1,11 @@
 title: Google Charts
 description: Interactive charts for browsers and mobile devices
-logo: /images/logo/google-charts.svg
+logo: /images/logo/google-charts.png
 developer: google
 based_on: null
 licenses:
   - type: proprietary
-    link: 'https://developers.google.com/chart/terms'
+    link: "https://developers.google.com/chart/terms"
 types:
   - charts
   - maps
@@ -23,22 +23,22 @@ frameworks:
   - vanilla-js
 slugs:
   github: google/charts
-  npm_types: '@types/google.visualization'
+  npm_types: "@types/google.visualization"
 tags:
   stackoverflow:
     - google-visualization
   twitter:
     - googlecharts
 links:
-  website: 'https://developers.google.com/chart'
-  examples: 'https://developers.google.com/chart/interactive/docs/gallery'
-  docs: 'https://developers.google.com/chart/interactive/docs'
+  website: "https://developers.google.com/chart"
+  examples: "https://developers.google.com/chart/interactive/docs/gallery"
+  docs: "https://developers.google.com/chart/interactive/docs"
   pricing: null
   slack: null
 content:
   - type: official
     title: Quick Start
-    link: 'https://developers.google.com/chart/interactive/docs/quick_start'
+    link: "https://developers.google.com/chart/interactive/docs/quick_start"
 github_data:
   stars: 2265
   contributors: 5

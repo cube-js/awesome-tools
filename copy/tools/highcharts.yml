@@ -1,11 +1,11 @@
 title: Highcharts
 description: Modern SVG-based multi-platform charting library
-logo: /images/logo/highcharts.svg
+logo: /images/logo/highcharts-logo.svg
 developer: highcharts
 based_on: null
 licenses:
   - type: proprietary
-    license: 'https://github.com/highcharts/highcharts/blob/master/license.txt'
+    license: "https://github.com/highcharts/highcharts/blob/master/license.txt"
 types:
   - charts
   - maps
@@ -33,15 +33,15 @@ tags:
   twitter:
     - highcharts
 links:
-  website: 'https://www.highcharts.com'
-  examples: 'https://www.highcharts.com/demo'
-  docs: 'https://www.highcharts.com/docs/index'
-  pricing: 'https://shop.highsoft.com'
+  website: "https://www.highcharts.com"
+  examples: "https://www.highcharts.com/demo"
+  docs: "https://www.highcharts.com/docs/index"
+  pricing: "https://shop.highsoft.com"
   slack: null
 content:
   - type: cube
     title: React Highcharts Example with Cube.js
-    link: 'https://cube.dev/blog/react-highcharts-example/'
+    link: "https://cube.dev/blog/react-highcharts-example/"
 github_data:
   stars: 10097
   contributors: 30

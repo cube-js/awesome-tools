@@ -1,12 +1,12 @@
 title: ApexCharts
 description: Modern & interactive open-source charts
-logo: /images/logo/apexcharts.svg
+logo: /images/logo/apexcharts.png
 developer: apexcharts
 based_on: null
 licenses:
   - type: open-source
     title: MIT
-    link: 'https://github.com/apexcharts/apexcharts.js/blob/master/LICENSE'
+    link: "https://github.com/apexcharts/apexcharts.js/blob/master/LICENSE"
 types:
   - charts
 features:
@@ -33,23 +33,23 @@ tags:
   twitter:
     - ApexCharts
 links:
-  website: 'https://apexcharts.com'
-  examples: 'https://apexcharts.com/javascript-chart-demos/'
-  docs: 'https://apexcharts.com/docs/installation/'
+  website: "https://apexcharts.com"
+  examples: "https://apexcharts.com/javascript-chart-demos/"
+  docs: "https://apexcharts.com/docs/installation/"
   pricing: null
   slack: null
 content:
   - type: official
     title: Creating your first JavaScript chart
-    link: 'https://apexcharts.com/docs/creating-first-javascript-chart/'
+    link: "https://apexcharts.com/docs/creating-first-javascript-chart/"
 github_data:
   stars: 10403
   contributors: 30
   issues: 829
   stale_issues: 799
   last_release:
-    date: '2021-06-06T10:33:57Z'
-    link: 'https://github.com/apexcharts/apexcharts.js/releases/tag/v3.27.0'
+    date: "2021-06-06T10:33:57Z"
+    link: "https://github.com/apexcharts/apexcharts.js/releases/tag/v3.27.0"
 twitter_feed: []
 stackoverflow_data:
   questions_count: 491

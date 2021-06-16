@@ -1,14 +1,14 @@
 title: Metabase
-description: 'Easy, open-source way to ask questions and learn from data'
-logo: /images/logo/metabase.svg
+description: "Easy, open-source way to ask questions and learn from data"
+logo: /images/logo/metabase.png
 developer: metabase
 based_on: null
 licenses:
   - type: proprietary
-    link: 'https://github.com/metabase/metabase/blob/master/LICENSE.txt'
+    link: "https://github.com/metabase/metabase/blob/master/LICENSE.txt"
   - type: open-source
     title: AGPL
-    link: 'https://github.com/metabase/metabase/blob/master/LICENSE.txt'
+    link: "https://github.com/metabase/metabase/blob/master/LICENSE.txt"
 types:
   - app
 features:
@@ -28,10 +28,10 @@ tags:
   twitter:
     - Metabase
 links:
-  website: 'https://www.metabase.com'
+  website: "https://www.metabase.com"
   examples: >-
     https://www.metabase.com/learn/getting-started/getting-started/tour-of-metabase.html
-  docs: 'https://www.ag-grid.com/javascript-grid/'
+  docs: "https://www.ag-grid.com/javascript-grid/"
   pricing: null
   slack: null
 content:
@@ -41,15 +41,15 @@ content:
       https://www.metabase.com/learn/getting-started/getting-started/getting-started.html
   - type: cube
     title: Connecting Metabase to Cube.js
-    link: 'https://github.com/pyrooka/metabase-cubejs-driver#usage'
+    link: "https://github.com/pyrooka/metabase-cubejs-driver#usage"
 github_data:
   stars: 25067
   contributors: 30
   issues: 2338
   stale_issues: 2308
   last_release:
-    date: '2021-06-16T08:07:23Z'
-    link: 'https://github.com/metabase/metabase/releases/tag/v0.39.4'
+    date: "2021-06-16T08:07:23Z"
+    link: "https://github.com/metabase/metabase/releases/tag/v0.39.4"
 twitter_feed: []
 stackoverflow_data:
   questions_count: 237
