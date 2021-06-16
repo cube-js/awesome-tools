@@ -1,17 +1,1 @@
-<svg width="160" height="64" viewBox="0 0 160 64" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g clip-path="url(#clip0)">
-<path d="M131.754 18.188L98.2829 37.188L65.1875 17.9999L98.659 -1L131.754 18.188Z" fill="currentColor" stroke="#F8F8F8" stroke-width="2" stroke-linejoin="round"/>
-<path d="M98.4715 74.9998L65 55.9999L65.188 18L98.4715 36.9999" fill="currentColor"/>
-<path d="M98.4715 74.9998L65 55.9999L65.188 18L98.4715 36.9999" stroke="#F8F8F8" stroke-width="2" stroke-linejoin="round"/>
-<path d="M131.944 55.9992L98.4727 74.9991V37.1874L131.756 18.1875L131.944 55.9992Z" fill="currentColor" stroke="#F8F8F8" stroke-width="2" stroke-linejoin="round"/>
-<path d="M79.8508 47.1916L53.3508 62.2342L27.1484 47.0427L53.6485 32L79.8508 47.1916Z" fill="currentColor" stroke="#F8F8F8" stroke-width="2" stroke-linejoin="round"/>
-<path d="M53.5001 92.1709L27 77.1283L27.1489 47.043L53.5001 62.0856" fill="currentColor"/>
-<path d="M53.5001 92.1709L27 77.1283L27.1489 47.043L53.5001 62.0856" stroke="#F8F8F8" stroke-width="2" stroke-linejoin="round"/>
-<path d="M80.0001 77.1239L53.5 92.1665V62.2301L79.8512 47.1875L80.0001 77.1239Z" fill="currentColor" stroke="#F8F8F8" stroke-width="2" stroke-linejoin="round"/>
-</g>
-<defs>
-<clipPath id="clip0">
-<rect width="160" height="64" fill="white"/>
-</clipPath>
-</defs>
-</svg>
+<svg width="160" height="64" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0)"><path d="M131.754 18.188l-33.471 19L65.187 18 98.66-1l33.095 19.188z" fill="currentColor" stroke="#F8F8F8" stroke-width="2" stroke-linejoin="round"/><path d="M98.472 75L65 56l.188-38 33.284 19" fill="currentColor"/><path d="M98.472 75L65 56l.188-38 33.284 19" stroke="#F8F8F8" stroke-width="2" stroke-linejoin="round"/><path d="M131.944 56L98.473 75V37.186l33.283-19L131.944 56zM79.85 47.192l-26.5 15.042-26.202-15.191L53.648 32l26.203 15.192z" fill="currentColor" stroke="#F8F8F8" stroke-width="2" stroke-linejoin="round"/><path d="M53.5 92.17L27 77.129l.149-30.085L53.5 62.086" fill="currentColor"/><path d="M53.5 92.17L27 77.129l.149-30.085L53.5 62.086" stroke="#F8F8F8" stroke-width="2" stroke-linejoin="round"/><path d="M80 77.124L53.5 92.167V62.23l26.351-15.042.15 29.936z" fill="currentColor" stroke="#F8F8F8" stroke-width="2" stroke-linejoin="round"/></g><defs><clipPath id="clip0"><path fill="#fff" d="M0 0h160v64H0z"/></clipPath></defs></svg>
