@@ -38,10 +38,10 @@ links:
   slack: null
 content: []
 github_data:
-  stars: 8847
+  stars: 8850
   contributors: 30
-  issues: 101
-  stale_issues: 71
+  issues: 103
+  stale_issues: 73
   last_release:
     date: '2021-05-27T18:08:16Z'
     link: 'https://github.com/plouc/nivo/releases/tag/v0.70.1'
