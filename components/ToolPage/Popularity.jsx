@@ -45,15 +45,18 @@ export default function Popularity(props) {
           text={props?.github?.contributors}
           description="contributors"
         />
-        <Card
-          link={props?.github?.last_release?.link}
-          color="gray"
-          text={
-            moment(props?.github?.last_release?.date).format("MMM DD, YYYY") ||
-            "-"
-          }
-          description="last release date"
-        />
+        {props?.github?.last_release?.date && (
+          <Card
+            link={props?.github?.last_release?.link}
+            color="gray"
+            text={
+              moment(props?.github?.last_release?.date).format(
+                "MMM DD, YYYY"
+              ) || "-"
+            }
+            description="last release date"
+          />
+        )}
       </div>
     </div>
   );

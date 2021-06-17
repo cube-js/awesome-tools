@@ -19,8 +19,8 @@ export default function ToolCard(props) {
   // }, []);
 
   return (
-    <Link href={"/tools/" + props.id}>
-      <a>
+    <Link href={"/tools/" + props.id} className="full-height">
+      <a className="full-height">
         <div className={styles.toolCard} shadow={shadow}>
           <div className="flex flex-items-center">
             <div
@@ -59,6 +59,7 @@ export default function ToolCard(props) {
                 </span>
               </div>
             </div>
+
             {props.frameworks && props.frameworks.length > 0 && (
               <div className="flex flex-column">
                 <span className={styles.features}>Framework</span>
@@ -109,16 +110,18 @@ export default function ToolCard(props) {
               </div>
             )}
 
-            <div className="flex flex-column">
-              <span className={styles.features}>Last release</span>
-              <div>
-                <span className="features__text">
-                  {moment(props?.github_data?.last_release?.date).format(
-                    "MMM DD, YYYY"
-                  ) || "-"}
-                </span>
+            {props?.github_data?.last_release?.date && (
+              <div className="flex flex-column">
+                <span className={styles.features}>Last release</span>
+                <div>
+                  <span className="features__text">
+                    {moment(props?.github_data?.last_release?.date).format(
+                      "MMM DD, YYYY"
+                    ) || "-"}
+                  </span>
+                </div>
               </div>
-            </div>
+            )}
           </div>
           {props.feature_label && (
             <div className={styles.toolCard__achievement}>

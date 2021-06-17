@@ -216,9 +216,9 @@ export default function Home({ tools }) {
           <div className="row">
             {filteredTools &&
               filteredTools.map((tool) => (
-                <div className="col-lg-6 mb-md" key={tool.id + Math.random()}>
+                <div className="col-xl-6 mb-md" key={tool.id + Math.random()}>
                   {/* to lazy load on scroll need to set heigth */}
-                  <LazyLoad offsetVertical={600}>
+                  <LazyLoad offsetVertical={600} className="full-height">
                     <ToolCard {...tool} />
                   </LazyLoad>
                 </div>

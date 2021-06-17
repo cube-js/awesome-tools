@@ -119,28 +119,12 @@ button {
   }
 }
 
+.full-height {
+  height: 100%;
+}
+
 @media (min-width: 1400px) {
   .container.custom-container {
     max-width: 1248px;
   }
-}
-
-// animations
-.item-enter {
-  // opacity: 0;
-  transform: translateY(100%);
-  // visibility: visible;
-}
-.item-enter-active {
-  transform: translateY(0);
-  transition: transform 1s ease-in;
-  // opacity: 1;
-  // transition: opacity 500ms ease-in;
-}
-.item-exit {
-  transform: translateY(0);
-}
-.item-exit-active {
-  transform: translateY(100%);
-  transition: transform 1s ease-in;
 }

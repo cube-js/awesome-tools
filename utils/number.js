@@ -4,7 +4,7 @@ export default function abbreviateNumber(value) {
   }
   var newValue = value;
   if (value >= 1000) {
-    var suffixes = ["", "k", "m", "b", "t"];
+    var suffixes = ["", "\u202FK", "\u202FM", "\u202FB", "\u202FT"];
     var suffixNum = Math.floor(("" + value).length / 3);
     var shortValue = "";
     for (var precision = 2; precision >= 1; precision--) {
