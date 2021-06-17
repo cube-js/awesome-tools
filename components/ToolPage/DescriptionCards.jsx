@@ -63,13 +63,22 @@ const getFrameworks = (props) => {
     };
   }
 
+  let frameworksOnly = props.frameworks.filter((fr) => fr !== "vanilla-js");
+
   return {
-    text: props.frameworks
-      .filter((fr) => fr !== "vanilla-js")
-      .map((s) => capitalizeFirstLetter(s))
-      .join(", "),
+    text: frameworksOnly.map((s, index) => {
+      return (
+        <span>
+          <a href={docsLinks[s]} target=" _blank" className="isHovered">
+            {capitalizeFirstLetter(s)}
+          </a>
+          {index === frameworksOnly.length - 1 ? " " : ", "}
+        </span>
+      );
+    }),
+    // .join(", ")
     icons: props.frameworks.map((fr) => `/images/logo/${fr}.svg`),
-    smallText: `Go to Docs →`,
+    smallText: `Go to Docs`,
     notLink: true,
   };
 };

@@ -83,7 +83,7 @@ export default function Home({ tools }) {
           Awesome data visualization tools <br className="xl-hidden" /> for
           software developers
         </H1>
-        <div className="row">
+        <div className="row mb-md">
           <ExploreToolsCard
             onClick={() => setItem(exploreTools, setExploreTools, "charts")}
             active={exploreTools.includes("charts") ? "active" : null}
@@ -192,7 +192,7 @@ export default function Home({ tools }) {
           <AccentedText className="ml-xs">license</AccentedText>
         </div>
 
-        <div className="mt-xlg mb-md">
+        <div className="number-control-wrap">
           <ToolsNumberControl
             filteredTools={filteredTools}
             isChanged={

@@ -21,9 +21,7 @@ export default function HowToGetHelp(props) {
       icon: "/images/logo/stackoverflow-64.svg",
       footer: `${abbreviateNumber(
         props?.stackoverflow_data?.questions_count
-      )} questions ${props?.positions?.stars} of ${
-        props?.positions?.total
-      } place of all tools`,
+      )} questions`,
     },
     {
       href: "https://slack.cube.dev/",

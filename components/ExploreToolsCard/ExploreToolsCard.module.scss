@@ -7,7 +7,7 @@
   border-radius: 24px;
   overflow: hidden;
   cursor: pointer;
-  margin-bottom: 32px;
+  margin-bottom: 16px;
   user-select: none;
 
   &[active="active"] {
@@ -16,7 +16,7 @@
   &__wrap {
     padding: 24px 24px 0px 24px;
     @media (max-width: 767.98px) {
-      padding: 12px 12px 0 12px;
+      padding: 16px 16px 0 16px;
     }
   }
 
@@ -63,5 +63,8 @@
     .exploreToolsCard__text {
       color: $dark-07;
     }
+  }
+  @media (max-width: 767.98px) {
+    margin-bottom: 8px;
   }
 }

@@ -3,6 +3,10 @@
 .toolsControl {
   display: flex;
   align-items: center;
+  @media (max-width: 767.98px) {
+    align-items: flex-start;
+    flex-direction: column;
+  }
 
   &__button {
     cursor: pointer;
@@ -17,12 +21,23 @@
     font-size: 20px;
     line-height: 30px;
     color: $pink-hover;
+
+    @media (max-width: 767.98px) {
+      margin-top: 4px;
+      margin-left: 0;
+      padding: 0px 8px;
+      font-size: 16px;
+    }
   }
 
   &__text {
     font-size: 20px;
     line-height: 30px;
     color: $dark-03;
+
+    @media (max-width: 767.98px) {
+      font-size: 16px;
+    }
   }
 }
 .clear {

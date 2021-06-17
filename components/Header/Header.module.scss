@@ -2,10 +2,14 @@
   padding: 24px 0;
   &__logo {
     display: flex;
-    align-items: center;
+    align-items: flex-end;
     min-height: 28px;
   }
-  &__logo[active="active"] {
-    cursor: pointer;
+  &__text {
+    margin-left: 8px;
+
+    &[active="active"] {
+      cursor: pointer;
+    }
   }
 }

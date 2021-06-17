@@ -9,11 +9,20 @@ export default function Header() {
   if (!isRoot) {
     return (
       <header className={styles.header}>
-        <div className="container custom-container">
+        <div className={styles.header__logo + " container custom-container"}>
+          <a href="https://cube.dev/" target="_blank">
+            <ReactSVG
+              wrapper="span"
+              active="active"
+              className={styles.header__logo}
+              src="/images/logo/cubejs-logo.svg"
+            />
+          </a>
           <Link href="/">
             <ReactSVG
               active="active"
-              className={styles.header__logo}
+              className={styles.header__text}
+              wrapper="span"
               src="/images/logo/cubejs-awesome-tools.svg"
             />
           </Link>
@@ -21,11 +30,21 @@ export default function Header() {
       </header>
     );
   }
+  // without link to homepage
   return (
     <header className={styles.header}>
-      <div className="container custom-container">
+      <div className={styles.header__logo + " container custom-container"}>
+        <a href="https://cube.dev/" target="_blank">
+          <ReactSVG
+            wrapper="span"
+            active="active"
+            className={styles.header__logo}
+            src="/images/logo/cubejs-logo.svg"
+          />
+        </a>
         <ReactSVG
-          className={styles.header__logo}
+          className={styles.header__text}
+          wrapper="span"
           src="/images/logo/cubejs-awesome-tools.svg"
         />
       </div>
