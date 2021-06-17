@@ -3,14 +3,21 @@ import { ReactSVG } from "react-svg";
 import moment from "moment";
 import Link from "next/link";
 import abbreviateNumber from "../../utils/number";
-import React, { useEffect } from "react";
+// import React, { useEffect } from "react";
 
 export default function ToolCard(props) {
   let shadow = getShadowByLabel(props?.feature_label);
+  let language = null;
+  if (props.languages && props.languages.length > 0) {
+    language = props?.languages?.includes("TypeScript")
+      ? "TypeScript"
+      : "JavaScript";
+  }
 
-  useEffect(() => {
-    console.log("isMountComponent!");
-  }, []);
+  // useEffect(() => {
+  //   console.log("isMountComponent!");
+  // }, []);
+
   return (
     <Link href={"/tools/" + props.id}>
       <a>
@@ -52,60 +59,56 @@ export default function ToolCard(props) {
                 </span>
               </div>
             </div>
-            <div className="flex flex-column">
-              <span className={styles.features}>Framework</span>
-              <div className={styles.framework}>
-                {props.frameworks &&
-                  props.frameworks.map((framework) => {
-                    return (
-                      <div
-                        className={styles.framework__wrapper}
-                        key={framework + Math.random()}
-                      >
-                        {framework !== "Universal" ? (
-                          <ReactSVG
-                            wrapper="span"
-                            className={styles.icon}
-                            src={`/images/logo/${framework.toLowerCase()}.svg`}
-                          />
-                        ) : null}
-                        {props.frameworks.length === 1 && (
-                          <span className={styles.features__text}>
-                            {framework === "vanilla-js"
-                              ? "vanilla JS"
-                              : framework}
-                          </span>
-                        )}
-                      </div>
-                    );
-                  })}
+            {props.frameworks && props.frameworks.length > 0 && (
+              <div className="flex flex-column">
+                <span className={styles.features}>Framework</span>
+                <div className={styles.framework}>
+                  {props.frameworks &&
+                    props.frameworks.map((framework) => {
+                      return (
+                        <div
+                          className={styles.framework__wrapper}
+                          key={framework + Math.random()}
+                        >
+                          {framework !== "Universal" ? (
+                            <ReactSVG
+                              wrapper="span"
+                              className={styles.icon}
+                              src={`/images/logo/${framework.toLowerCase()}.svg`}
+                            />
+                          ) : null}
+                          {props.frameworks.length === 1 && (
+                            <span className={styles.features__text}>
+                              {framework === "vanilla-js"
+                                ? "vanilla JS"
+                                : framework}
+                            </span>
+                          )}
+                        </div>
+                      );
+                    })}
+                </div>
               </div>
-            </div>
-            <div className="flex flex-column">
-              <span className={styles.features}>Language</span>
-              <div className={styles.language}>
-                {props.languages &&
-                  props.languages.map((language) => {
-                    return (
-                      <div
-                        className={styles.language__wrapper}
-                        key={language + Math.random()}
-                      >
-                        {language ? (
-                          <ReactSVG
-                            wrapper="span"
-                            className={styles.icon}
-                            src={`/images/logo/${language.toLowerCase()}.svg`}
-                          />
-                        ) : null}
-                        {props.languages.length === 1 && (
-                          <span className="features__text">{language}</span>
-                        )}
-                      </div>
-                    );
-                  })}
+            )}
+
+            {language && (
+              <div className="flex flex-column">
+                <span className={styles.features}>Language</span>
+                <div className={styles.language}>
+                  <div className={styles.language__wrapper}>
+                    {language ? (
+                      <ReactSVG
+                        wrapper="span"
+                        className={styles.icon}
+                        src={`/images/logo/${language.toLowerCase()}.svg`}
+                      />
+                    ) : null}
+                    <span className="features__text">{language}</span>
+                  </div>
+                </div>
               </div>
-            </div>
+            )}
+
             <div className="flex flex-column">
               <span className={styles.features}>Last release</span>
               <div>

@@ -172,21 +172,22 @@ export default function Home({ tools }) {
           >
             TypeScript
           </Chip>
-          <AccentedText className="mr-xs ml-xs">with</AccentedText>
+          <AccentedText className="mr-xs ml-xs">and</AccentedText>
           <Chip
+            className="mr-xs"
             src="/images/logo/open-source-color.svg"
             active={license.includes("open-source") ? "active" : null}
             onClick={() => setItem(license, setLicense, "open-source")}
           >
-            Open Source
+            open source
           </Chip>
-          <AccentedText className="mr-xs ml-xs">or</AccentedText>
+          {/* <AccentedText className="mr-xs ml-xs">or</AccentedText> */}
           <Chip
             src="/images/logo/tag.svg"
             active={license.includes("proprietary") ? "active" : null}
             onClick={() => setItem(license, setLicense, "proprietary")}
           >
-            Proprietary
+            proprietary
           </Chip>
           <AccentedText className="ml-xs">license</AccentedText>
         </div>
@@ -216,7 +217,7 @@ export default function Home({ tools }) {
             {filteredTools &&
               filteredTools.map((tool) => (
                 <div className="col-lg-6 mb-md" key={tool.id + Math.random()}>
-                  <LazyLoad height={284} offsetVertical={568}>
+                  <LazyLoad offsetVertical={0}>
                     <ToolCard {...tool} />
                   </LazyLoad>
                 </div>

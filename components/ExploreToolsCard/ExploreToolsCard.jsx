@@ -4,7 +4,7 @@ import { ReactSVG } from "react-svg";
 export default function ExproreToolsCard(props) {
   return (
     <a
-      className="col-6 col-md-6 col-lg-4 col-xl-2 col-xxl-2"
+      className="col-6 col-md-6 col-lg-4 col-xl-2"
       onClick={props.onClick}
       // href="#"
       role="button"

@@ -1,8 +1,7 @@
-import dynamic from "next/dynamic";
 import styles from "./ToolsNumberControl.module.scss";
 import { ReactSVG } from "react-svg";
 export default function ToolsNumberControl(props) {
-  let text = "awesome tools";
+  let text = "awesome tools—and counting!";
   if (props.isChanged) {
     text = "awesome tools matching your criteria";
   }
