@@ -68,7 +68,7 @@ const getFrameworks = (props) => {
   return {
     text: frameworksOnly.map((s, index) => {
       return (
-        <span>
+        <span key={s}>
           <a href={docsLinks[s]} target=" _blank" className="isHovered">
             {capitalizeFirstLetter(s)}
           </a>
