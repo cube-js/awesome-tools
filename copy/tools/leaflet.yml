@@ -1,12 +1,12 @@
-title: Leaflet
+title: leafletjs
 description: JavaScript library for mobile-friendly interactive maps
-logo: /images/logo/leafletjs.png
+logo: /images/logo/leafletjsjs.png
 developer: null
 based_on: null
 licenses:
   - type: open-source
     title: BSD
-    link: "https://github.com/Leaflet/Leaflet/blob/master/LICENSE"
+    link: "https://github.com/leafletjs/leafletjs/blob/master/LICENSE"
 types:
   - maps
 features:
@@ -15,31 +15,36 @@ features:
   full-fledged: 0
   very-popular: 0
   well-documented: 0
-gallery: []
+gallery:
+  - /images/slider/leafletjs-1.jpg
+  - /images/slider/leafletjs-2.jpg
+  - /images/slider/leafletjs-3.jpg
+  - /images/slider/leafletjs-4.jpg
+  - /images/slider/leafletjs-5.jpg
 languages:
   - JavaScript
   - TypeScript
 frameworks:
   - vanilla-js
 slugs:
-  github: Leaflet/Leaflet
-  npm: leaflet
-  npm_types: "@types/leaflet"
+  github: leafletjs/leafletjs
+  npm: leafletjs
+  npm_types: "@types/leafletjs"
 tags:
   stackoverflow:
-    - leaflet
-  twitter:
     - leafletjs
+  twitter:
+    - leafletjsjs
 links:
-  website: "https://leafletjs.com"
-  examples: "https://leafletjs.com/examples.html"
-  docs: "https://leafletjs.com/reference-1.7.1.html"
+  website: "https://leafletjsjs.com"
+  examples: "https://leafletjsjs.com/examples.html"
+  docs: "https://leafletjsjs.com/reference-1.7.1.html"
   pricing: null
   slack: null
 content:
   - type: official
-    title: Leaflet Quick Start Guide
-    link: "https://leafletjs.com/examples/quick-start/"
+    title: leafletjs Quick Start Guide
+    link: "https://leafletjsjs.com/examples/quick-start/"
 github_data:
   stars: 30895
   contributors: 30
@@ -47,7 +52,7 @@ github_data:
   stale_issues: 652
   last_release:
     date: "2020-09-04T08:38:43Z"
-    link: "https://github.com/Leaflet/Leaflet/releases/tag/v1.7.1"
+    link: "https://github.com/leafletjs/leafletjs/releases/tag/v1.7.1"
 twitter_feed: []
 stackoverflow_data:
   questions_count: 11872

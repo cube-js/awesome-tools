@@ -15,7 +15,12 @@ features:
   full-fledged: 0
   very-popular: 0
   well-documented: 0
-gallery: []
+gallery:
+  - /images/slider/ngx-charts-1.jpg
+  - /images/slider/ngx-charts-2.jpg
+  - /images/slider/ngx-charts-3.jpg
+  - /images/slider/ngx-charts-4.jpg
+  - /images/slider/ngx-charts-5.jpg
 languages:
   - TypeScript
 frameworks:

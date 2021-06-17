@@ -15,7 +15,12 @@ features:
   full-fledged: 0
   very-popular: 0
   well-documented: 0
-gallery: []
+gallery:
+  - /images/slider/muze-1.jpg
+  - /images/slider/muze-2.jpg
+  - /images/slider/muze-3.jpg
+  - /images/slider/muze-4.jpg
+  - /images/slider/muze-5.jpg
 languages:
   - JavaScript
 frameworks:

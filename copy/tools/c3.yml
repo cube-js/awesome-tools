@@ -1,13 +1,13 @@
-title: C3.js
+title: c3js.js
 description: D3-based reusable chart library
-logo: /images/logo/c3.svg
+logo: /images/logo/c3js.svg
 developer: null
 based_on:
   - d3
 licenses:
   - type: open-source
     title: MIT
-    link: 'https://github.com/c3js/c3/blob/master/LICENSE'
+    link: "https://github.com/c3jsjs/c3js/blob/master/LICENSE"
 types:
   - charts
 features:
@@ -16,39 +16,44 @@ features:
   full-fledged: 0
   very-popular: 0
   well-documented: 0
-gallery: []
+gallery:
+  - /images/slider/c3js-1.jpg
+  - /images/slider/c3js-2.jpg
+  - /images/slider/c3js-3.jpg
+  - /images/slider/c3js-4.jpg
+  - /images/slider/c3js-5.jpg
 languages:
   - JavaScript
   - TypeScript
 frameworks:
   - vanilla-js
 slugs:
-  github: c3js/c3
-  npm: c3
-  npm_types: '@types/c3'
+  github: c3jsjs/c3js
+  npm: c3js
+  npm_types: "@types/c3js"
 tags:
   stackoverflow:
-    - c3.js
+    - c3js.js
   twitter:
-    - C3js
+    - c3jsjs
 links:
-  website: 'https://c3js.org'
-  examples: 'https://c3js.org/examples.html'
-  docs: 'https://c3js.org/reference.html'
+  website: "https://c3jsjs.org"
+  examples: "https://c3jsjs.org/examples.html"
+  docs: "https://c3jsjs.org/reference.html"
   pricing: null
   slack: null
 content:
   - type: official
-    title: Getting Started with C3.js
-    link: 'https://c3js.org/gettingstarted.html'
+    title: Getting Started with c3js.js
+    link: "https://c3jsjs.org/gettingstarted.html"
 github_data:
   stars: 9080
   contributors: 30
   issues: 768
   stale_issues: 740
   last_release:
-    date: '2020-08-08T09:14:36Z'
-    link: 'https://github.com/c3js/c3/releases/tag/v0.7.20'
+    date: "2020-08-08T09:14:36Z"
+    link: "https://github.com/c3jsjs/c3js/releases/tag/v0.7.20"
 twitter_feed: []
 stackoverflow_data:
   questions_count: 1125

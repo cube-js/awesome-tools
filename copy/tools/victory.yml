@@ -15,7 +15,12 @@ features:
   full-fledged: 0
   very-popular: 0
   well-documented: 0
-gallery: []
+gallery:
+  - /images/slider/victory-1.jpg
+  - /images/slider/victory-2.jpg
+  - /images/slider/victory-3.jpg
+  - /images/slider/victory-4.jpg
+  - /images/slider/victory-5.jpg
 languages:
   - JavaScript
   - TypeScript

@@ -16,7 +16,12 @@ features:
   full-fledged: 0
   very-popular: 0
   well-documented: 0
-gallery: []
+gallery:
+  - /images/slider/zingchart-1.jpg
+  - /images/slider/zingchart-2.jpg
+  - /images/slider/zingchart-3.jpg
+  - /images/slider/zingchart-4.jpg
+  - /images/slider/zingchart-5.jpg
 languages:
   - JavaScript
   - TypeScript

@@ -15,7 +15,12 @@ features:
   full-fledged: 0
   very-popular: 0
   well-documented: 0
-gallery: []
+gallery:
+  - /images/slider/pts-1.jpg
+  - /images/slider/pts-2.jpg
+  - /images/slider/pts-3.jpg
+  - /images/slider/pts-4.jpg
+  - /images/slider/pts-5.jpg
 languages:
   - JavaScript
   - TypeScript

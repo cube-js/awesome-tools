@@ -6,7 +6,7 @@ based_on: null
 licenses:
   - type: open-source
     title: MIT
-    link: 'https://github.com/QingWei-Li/laue/blob/master/LICENSE'
+    link: "https://github.com/QingWei-Li/laue/blob/master/LICENSE"
 types:
   - charts
 features:
@@ -15,7 +15,12 @@ features:
   full-fledged: 0
   very-popular: 0
   well-documented: 0
-gallery: []
+gallery:
+  - /images/slider/laue-1.jpg
+  - /images/slider/laue-2.jpg
+  - /images/slider/laue-3.jpg
+  - /images/slider/laue-4.jpg
+  - /images/slider/laue-5.jpg
 languages:
   - JavaScript
 frameworks:
@@ -27,22 +32,22 @@ tags:
   stackoverflow: null
   twitter: null
 links:
-  website: 'https://laue.js.org'
-  examples: 'https://laue.js.org/examples'
-  docs: 'https://laue.js.org/api'
+  website: "https://laue.js.org"
+  examples: "https://laue.js.org/examples"
+  docs: "https://laue.js.org/api"
   pricing: null
   slack: null
 content:
   - type: official
     title: Quick start with Laue
-    link: 'https://laue.js.org/guide#quick-started'
+    link: "https://laue.js.org/guide#quick-started"
 github_data:
   stars: 248
   contributors: 8
   issues: 18
   stale_issues: 16
   last_release:
-    date: '2018-10-31T15:52:54Z'
-    link: 'https://github.com/QingWei-Li/laue/releases/tag/v0.2.0'
+    date: "2018-10-31T15:52:54Z"
+    link: "https://github.com/QingWei-Li/laue/releases/tag/v0.2.0"
 twitter_feed: []
 stackoverflow_data: null

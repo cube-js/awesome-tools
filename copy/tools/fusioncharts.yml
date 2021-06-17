@@ -16,7 +16,12 @@ features:
   full-fledged: 0
   very-popular: 0
   well-documented: 0
-gallery: []
+gallery:
+  - /images/slider/fusioncharts-1.jpg
+  - /images/slider/fusioncharts-2.jpg
+  - /images/slider/fusioncharts-3.jpg
+  - /images/slider/fusioncharts-4.jpg
+  - /images/slider/fusioncharts-5.jpg
 languages:
   - JavaScript
   - TypeScript

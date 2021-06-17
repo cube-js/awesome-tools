@@ -17,7 +17,12 @@ features:
   full-fledged: 0
   very-popular: 0
   well-documented: 0
-gallery: []
+gallery:
+  - /images/slider/metabase-1.jpg
+  - /images/slider/metabase-2.jpg
+  - /images/slider/metabase-3.jpg
+  - /images/slider/metabase-4.jpg
+  - /images/slider/metabase-5.jpg
 languages: null
 frameworks: null
 slugs:

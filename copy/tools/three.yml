@@ -15,7 +15,12 @@ features:
   full-fledged: 0
   very-popular: 1
   well-documented: 0
-gallery: []
+gallery:
+  - /images/slider/three-1.jpg
+  - /images/slider/three-2.jpg
+  - /images/slider/three-3.jpg
+  - /images/slider/three-4.jpg
+  - /images/slider/three-5.jpg
 languages:
   - JavaScript
   - TypeScript

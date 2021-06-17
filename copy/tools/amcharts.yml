@@ -14,9 +14,11 @@ features:
   very-popular: 0
   well-documented: 0
 gallery:
-  - /images/slider/slide-2.png
-  - /images/slider/slide-1.png
-  - /images/slider/slide-3.png
+  - /images/slider/amcharts-1.jpg
+  - /images/slider/amcharts-2.jpg
+  - /images/slider/amcharts-3.jpg
+  - /images/slider/amcharts-4.jpg
+  - /images/slider/amcharts-5.jpg
 languages:
   - JavaScript
   - TypeScript
@@ -24,7 +26,7 @@ frameworks:
   - vanilla-js
 slugs:
   github: amcharts/amcharts4
-  npm: '@amcharts/amcharts4'
+  npm: "@amcharts/amcharts4"
 tags:
   stackoverflow:
     - amcharts
@@ -33,23 +35,23 @@ tags:
     - amcharts
     - amcharts4
 links:
-  website: 'https://www.amcharts.com'
-  examples: 'https://www.amcharts.com/demos/'
-  docs: 'https://www.amcharts.com/docs/v4/'
-  pricing: 'https://www.amcharts.com/online-store/'
+  website: "https://www.amcharts.com"
+  examples: "https://www.amcharts.com/demos/"
+  docs: "https://www.amcharts.com/docs/v4/"
+  pricing: "https://www.amcharts.com/online-store/"
   slack: null
 content:
   - type: official
     title: Starting from Basics of amCharts 4
-    link: 'https://www.amcharts.com/docs/v4/getting-started/basics/'
+    link: "https://www.amcharts.com/docs/v4/getting-started/basics/"
 github_data:
   stars: 958
   contributors: 6
   issues: 75
   stale_issues: 45
   last_release:
-    date: '2021-06-08T11:07:19Z'
-    link: 'https://github.com/amcharts/amcharts4/releases/tag/4.10.19'
+    date: "2021-06-08T11:07:19Z"
+    link: "https://github.com/amcharts/amcharts4/releases/tag/4.10.19"
 twitter_feed:
   - user: Benjamin Scott
     image: /images/tweet-avatar.png

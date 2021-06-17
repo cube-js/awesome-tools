@@ -15,7 +15,12 @@ features:
   full-fledged: 1
   very-popular: 0
   well-documented: 0
-gallery: []
+gallery:
+  - /images/slider/highcharts-1.jpg
+  - /images/slider/highcharts-2.jpg
+  - /images/slider/highcharts-3.jpg
+  - /images/slider/highcharts-4.jpg
+  - /images/slider/highcharts-5.jpg
 languages:
   - JavaScript
   - TypeScript

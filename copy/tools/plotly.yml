@@ -19,7 +19,12 @@ features:
   full-fledged: 0
   very-popular: 0
   well-documented: 0
-gallery: []
+gallery:
+  - /images/slider/plotly-1.jpg
+  - /images/slider/plotly-2.jpg
+  - /images/slider/plotly-3.jpg
+  - /images/slider/plotly-4.jpg
+  - /images/slider/plotly-5.jpg
 languages:
   - JavaScript
   - TypeScript

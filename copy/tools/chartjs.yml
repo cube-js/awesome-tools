@@ -13,7 +13,11 @@ features:
   full-fledged: 0
   very-popular: 1
   well-documented: 1
-gallery: []
+gallery:
+  - /images/slider/chartjs-1.png
+  - /images/slider/chartjs-2.png
+  - /images/slider/chartjs-3.png
+  - /images/slider/chartjs-4.png
 languages:
   - JavaScript
   - TypeScript
@@ -33,26 +37,26 @@ tags:
   twitter:
     - chartjs
 links:
-  website: 'https://www.chartjs.org'
-  examples: 'https://www.chartjs.org/docs/latest/samples/bar/vertical.html'
-  docs: 'https://www.chartjs.org/docs/latest/'
+  website: "https://www.chartjs.org"
+  examples: "https://www.chartjs.org/docs/latest/samples/bar/vertical.html"
+  docs: "https://www.chartjs.org/docs/latest/"
   pricing: null
-  slack: 'https://chartjs-slack.herokuapp.com'
+  slack: "https://chartjs-slack.herokuapp.com"
 content:
   - type: official
     title: Awesome Chart.js — a curated list of things related to Chart.js
-    link: 'https://github.com/chartjs/awesome'
+    link: "https://github.com/chartjs/awesome"
   - type: cube
     title: Chart.js Example with Dynamic Dataset
-    link: 'https://cube.dev/blog/chart-js-example-with-dynamic-dataset/'
+    link: "https://cube.dev/blog/chart-js-example-with-dynamic-dataset/"
 github_data:
   stars: 53976
   contributors: 30
   issues: 82
   stale_issues: 66
   last_release:
-    date: '2021-05-30T19:10:10Z'
-    link: 'https://github.com/chartjs/Chart.js/releases/tag/v3.3.2'
+    date: "2021-05-30T19:10:10Z"
+    link: "https://github.com/chartjs/Chart.js/releases/tag/v3.3.2"
 twitter_feed: []
 stackoverflow_data:
   questions_count: 9893

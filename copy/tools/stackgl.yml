@@ -12,7 +12,12 @@ features:
   full-fledged: 0
   very-popular: 0
   well-documented: 0
-gallery: []
+gallery:
+  - /images/slider/stackgl-1.jpg
+  - /images/slider/stackgl-2.jpg
+  - /images/slider/stackgl-3.jpg
+  - /images/slider/stackgl-4.jpg
+  - /images/slider/stackgl-5.jpg
 languages:
   - JavaScript
 frameworks:
@@ -23,9 +28,9 @@ tags:
   stackoverflow: null
   twitter: null
 links:
-  website: 'http://stack.gl'
-  examples: 'http://stack.gl/#examples'
-  docs: 'http://stack.gl/packages/'
+  website: "http://stack.gl"
+  examples: "http://stack.gl/#examples"
+  docs: "http://stack.gl/packages/"
   pricing: null
   slack: null
 content: null

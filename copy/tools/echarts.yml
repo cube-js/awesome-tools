@@ -17,7 +17,12 @@ features:
   full-fledged: 2
   very-popular: 0
   well-documented: 2
-gallery: []
+gallery:
+  - /images/slider/echarts-1.jpg
+  - /images/slider/echarts-2.jpg
+  - /images/slider/echarts-3.jpg
+  - /images/slider/echarts-4.jpg
+  - /images/slider/echarts-5.jpg
 languages:
   - JavaScript
   - TypeScript

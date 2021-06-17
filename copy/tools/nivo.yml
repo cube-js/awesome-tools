@@ -15,8 +15,11 @@ features:
   very-popular: 0
   well-documented: 0
 gallery:
-  - /images/slider/slide-2.png
-  - /images/slider/slide-1.png
+  - /images/slider/nivo-1.jpg
+  - /images/slider/nivo-2.jpg
+  - /images/slider/nivo-3.jpg
+  - /images/slider/nivo-4.jpg
+  - /images/slider/nivo-5.jpg
 languages:
   - JavaScript
   - TypeScript
@@ -31,9 +34,9 @@ tags:
   twitter:
     - nivo
 links:
-  website: 'https://nivo.rocks'
-  examples: 'https://nivo.rocks/storybook/'
-  docs: 'https://nivo.rocks/components'
+  website: "https://nivo.rocks"
+  examples: "https://nivo.rocks/storybook/"
+  docs: "https://nivo.rocks/components"
   pricing: null
   slack: null
 content: []
@@ -43,8 +46,8 @@ github_data:
   issues: 103
   stale_issues: 73
   last_release:
-    date: '2021-05-27T18:08:16Z'
-    link: 'https://github.com/plouc/nivo/releases/tag/v0.70.1'
+    date: "2021-05-27T18:08:16Z"
+    link: "https://github.com/plouc/nivo/releases/tag/v0.70.1"
 twitter_feed:
   - user: Benjamin Scott
     image: /images/tweet-avatar.png

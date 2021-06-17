@@ -16,7 +16,12 @@ features:
   full-fledged: 0
   very-popular: 0
   well-documented: 0
-gallery: []
+gallery:
+  - /images/slider/mapbox-1.jpg
+  - /images/slider/mapbox-2.jpg
+  - /images/slider/mapbox-3.jpg
+  - /images/slider/mapbox-4.jpg
+  - /images/slider/mapbox-5.jpg
 languages:
   - JavaScript
   - TypeScript

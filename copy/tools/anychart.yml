@@ -15,7 +15,12 @@ features:
   full-fledged: 0
   very-popular: 0
   well-documented: 0
-gallery: []
+gallery:
+  - /images/slider/anychart-1.jpg
+  - /images/slider/anychart-2.jpg
+  - /images/slider/anychart-3.jpg
+  - /images/slider/anychart-4.jpg
+  - /images/slider/anychart-5.jpg
 languages:
   - JavaScript
   - TypeScript

@@ -16,7 +16,12 @@ features:
   full-fledged: 0
   very-popular: 1
   well-documented: 3
-gallery: []
+gallery:
+  - /images/slider/recharts-1.jpg
+  - /images/slider/recharts-2.jpg
+  - /images/slider/recharts-3.jpg
+  - /images/slider/recharts-4.jpg
+  - /images/slider/recharts-5.jpg
 languages:
   - JavaScript
   - TypeScript

@@ -16,7 +16,12 @@ features:
   full-fledged: 0
   very-popular: 0
   well-documented: 0
-gallery: []
+gallery:
+  - /images/slider/semiotic-1.jpg
+  - /images/slider/semiotic-2.jpg
+  - /images/slider/semiotic-3.jpg
+  - /images/slider/semiotic-4.jpg
+  - /images/slider/semiotic-5.jpg
 languages:
   - JavaScript
   - TypeScript
