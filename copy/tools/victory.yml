@@ -1,7 +1,7 @@
 title: Victory
 description: React components for modular charting and data visualization
 logo: /images/logo/victory.png
-developer: formidable
+developer: formidable.png
 based_on: null
 licenses:
   - type: open-source
@@ -43,7 +43,7 @@ content:
     link: "https://formidable.com/open-source/victory/docs"
   - type: cube
     title: React Native Charts with Cube.js and Victory
-    link: 'https://cube.dev/blog/react-native-charts-with-cubejs-victory/'
+    link: "https://cube.dev/blog/react-native-charts-with-cubejs-victory/"
 github_data:
   stars: 8909
   contributors: 30

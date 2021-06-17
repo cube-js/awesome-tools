@@ -1,12 +1,12 @@
 title: React-Vis
 description: Composable charting library
 logo: /images/logo/react-vis.svg
-developer: uber
+developer: uber.svg
 based_on: null
 licenses:
   - type: open-source
     title: MIT
-    link: 'https://github.com/uber/react-vis/blob/master/LICENSE'
+    link: "https://github.com/uber/react-vis/blob/master/LICENSE"
 types:
   - charts
 features:
@@ -24,16 +24,16 @@ frameworks:
 slugs:
   github: uber/react-vis
   npm: react-vis
-  npm_types: '@types/react-vis'
+  npm_types: "@types/react-vis"
 tags:
   stackoverflow:
     - react-vis
   twitter:
     - reactvis
 links:
-  website: 'https://uber.github.io/react-vis/'
-  examples: 'https://uber.github.io/react-vis/examples/showcases/plots'
-  docs: 'https://uber.github.io/react-vis/documentation/welcome-to-react-vis'
+  website: "https://uber.github.io/react-vis/"
+  examples: "https://uber.github.io/react-vis/examples/showcases/plots"
+  docs: "https://uber.github.io/react-vis/documentation/welcome-to-react-vis"
   pricing: null
   slack: null
 content:
@@ -47,8 +47,8 @@ github_data:
   issues: 326
   stale_issues: 296
   last_release:
-    date: '2019-04-19T03:58:15Z'
-    link: 'https://github.com/uber/react-vis/releases/tag/v1.11.7'
+    date: "2019-04-19T03:58:15Z"
+    link: "https://github.com/uber/react-vis/releases/tag/v1.11.7"
 twitter_feed: []
 stackoverflow_data:
   questions_count: 75

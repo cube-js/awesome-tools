@@ -33,10 +33,12 @@ export default function ToolCard(props) {
               {props.developer && (
                 <span className={styles.toolCard__developer}>
                   Developed by
-                  <ReactSVG
-                    wrapper="span"
-                    src={`/images/logo/${props.developer}.svg`}
-                  />
+                  <span>
+                    <img
+                      src={`/images/logo/${props.developer}`}
+                      alt="tool developer logo"
+                    ></img>
+                  </span>
                 </span>
               )}
             </div>

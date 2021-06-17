@@ -1,13 +1,13 @@
 title: Material UI Data Grid
 description: Fast and extendable data table and data grid for React
 logo: /images/logo/material-ui.svg
-developer: material-ui
+developer: material-ui.svg
 based_on: null
 licenses:
   - type: proprietary
   - type: open-source
     title: MIT
-    link: 'https://github.com/mui-org/material-ui/blob/next/LICENSE'
+    link: "https://github.com/mui-org/material-ui/blob/next/LICENSE"
 types:
   - grid
 features:
@@ -24,30 +24,30 @@ frameworks:
   - react
 slugs:
   github: mui-org/material-ui
-  npm: '@material-ui/core'
+  npm: "@material-ui/core"
 tags:
   stackoverflow:
     - material-ui
   twitter:
     - MaterialUI
 links:
-  website: 'https://material-ui.com/components/data-grid/'
-  examples: 'https://material-ui.com/components/tables/#data-table'
-  docs: 'https://material-ui.com/api/data-grid/data-grid/'
-  pricing: 'https://next.material-ui.com/branding/pricing/'
+  website: "https://material-ui.com/components/data-grid/"
+  examples: "https://material-ui.com/components/tables/#data-table"
+  docs: "https://material-ui.com/api/data-grid/data-grid/"
+  pricing: "https://next.material-ui.com/branding/pricing/"
   slack: null
 content:
   - type: cube
     title: Material UI Dashboard with React
-    link: 'https://material-ui-dashboard.cube.dev'
+    link: "https://material-ui-dashboard.cube.dev"
 github_data:
   stars: 68852
   contributors: 30
   issues: 539
   stale_issues: 509
   last_release:
-    date: '2021-06-15T17:51:18Z'
-    link: 'https://github.com/mui-org/material-ui/releases/tag/v5.0.0-alpha.37'
+    date: "2021-06-15T17:51:18Z"
+    link: "https://github.com/mui-org/material-ui/releases/tag/v5.0.0-alpha.37"
 twitter_feed: []
 stackoverflow_data:
   questions_count: 12924

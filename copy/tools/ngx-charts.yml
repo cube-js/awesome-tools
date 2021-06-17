@@ -1,12 +1,12 @@
 title: ngx-charts
 description: Declarative charting framework for Angular
 logo: /images/logo/ngx-charts.svg
-developer: swimlane
+developer: swimlane.png
 based_on: null
 licenses:
   - type: open-source
     title: MIT
-    link: 'https://github.com/swimlane/ngx-charts/blob/master/LICENSE'
+    link: "https://github.com/swimlane/ngx-charts/blob/master/LICENSE"
 types:
   - charts
 features:
@@ -22,16 +22,16 @@ frameworks:
   - angular
 slugs:
   github: swimlane/ngx-charts
-  npm: '@swimlane/ngx-charts'
+  npm: "@swimlane/ngx-charts"
 tags:
   stackoverflow:
     - ngx-charts
   twitter:
     - ngxcharts
 links:
-  website: 'https://swimlane.github.io/ngx-charts/'
-  examples: 'https://swimlane.github.io/ngx-charts/'
-  docs: 'https://swimlane.gitbook.io/ngx-charts'
+  website: "https://swimlane.github.io/ngx-charts/"
+  examples: "https://swimlane.github.io/ngx-charts/"
+  docs: "https://swimlane.gitbook.io/ngx-charts"
   pricing: null
   slack: null
 content: null

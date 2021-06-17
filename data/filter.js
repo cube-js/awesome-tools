@@ -120,7 +120,6 @@ const setParamsFromRouter = (
   setLanguage,
   setLicense
 ) => {
-  console.log(query);
   if (query.tools) {
     setExploreTools(
       typeof query.tools === "string" ? [query.tools] : [...query.tools]

@@ -1,14 +1,14 @@
 title: Plotly
-description: 'High-level, declarative charting library'
+description: "High-level, declarative charting library"
 logo: /images/logo/plotly.svg
-developer: plotly
+developer: plotly.svg
 based_on:
   - d3
   - stackgl
 licenses:
   - type: open-source
     title: MIT
-    link: 'https://github.com/plotly/plotly.js/blob/master/LICENSE'
+    link: "https://github.com/plotly/plotly.js/blob/master/LICENSE"
 types:
   - charts
   - maps
@@ -31,7 +31,7 @@ frameworks:
 slugs:
   github: plotly/plotly.js
   npm: plotly.js
-  npm_types: '@types/plotly.js'
+  npm_types: "@types/plotly.js"
 tags:
   stackoverflow:
     - plotly
@@ -40,23 +40,23 @@ tags:
     - plotly
     - plotlyjs
 links:
-  website: 'https://plotly.com/javascript/'
-  examples: 'https://plotly.com/javascript/'
-  docs: 'https://www.ag-grid.com/javascript-grid/'
+  website: "https://plotly.com/javascript/"
+  examples: "https://plotly.com/javascript/"
+  docs: "https://www.ag-grid.com/javascript-grid/"
   pricing: null
   slack: null
 content:
   - type: official
     title: Getting Started in JavaScript
-    link: 'https://plotly.com/javascript/getting-started/'
+    link: "https://plotly.com/javascript/getting-started/"
 github_data:
   stars: 13705
   contributors: 30
   issues: 1108
   stale_issues: 1078
   last_release:
-    date: '2021-06-07T15:31:29Z'
-    link: 'https://github.com/plotly/plotly.js/releases/tag/v2.0.0'
+    date: "2021-06-07T15:31:29Z"
+    link: "https://github.com/plotly/plotly.js/releases/tag/v2.0.0"
 twitter_feed: []
 stackoverflow_data:
   questions_count: 9509

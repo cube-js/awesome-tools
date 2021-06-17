@@ -4,7 +4,7 @@
 <path d="M20.5 21C20.5 19.067 22.067 17.5 24 17.5H128C129.933 17.5 131.5 19.067 131.5 21V29.5H20.5V21Z" fill="currentColor" stroke="currentColor"/>
 <ellipse cx="122.999" cy="24" rx="3.00001" ry="3" fill="#F8F8F8"/>
 <ellipse cx="115" cy="24" rx="3" ry="3" fill="#F8F8F8"/>
-<ellipse cx="107" cy="24" rx="3.00002" ry="3" fill="#F8F8F8"/>
+<ellipse cx="107" cy="24" rx="3.00002" ry="3" fill="lighten(currentColor, 10%)"/>
 </g>
 <defs>
 <clipPath id="clip0">

@@ -1,11 +1,11 @@
 title: AnyChart
 description: Interactive JavaScript charts
 logo: /images/logo/anychart.svg
-developer: anychart
+developer: anychart.svg
 based_on: null
 licenses:
   - type: proprietary
-    link: 'https://www.anychart.com/support/pages/faq/'
+    link: "https://www.anychart.com/support/pages/faq/"
 types:
   - charts
   - maps
@@ -33,26 +33,26 @@ tags:
   twitter:
     - AnyChart
 links:
-  website: 'https://www.anychart.com'
-  examples: 'https://www.anychart.com/products/anychart/gallery/'
-  docs: 'https://www.anychart.com/products/anychart/docs/'
-  pricing: 'https://www.anychart.com/buy/'
+  website: "https://www.anychart.com"
+  examples: "https://www.anychart.com/products/anychart/gallery/"
+  docs: "https://www.anychart.com/products/anychart/docs/"
+  pricing: "https://www.anychart.com/buy/"
   slack: null
 content:
   - type: official
     title: Getting Started with AnyChart
-    link: 'https://github.com/AnyChart/AnyChart#getting-started'
+    link: "https://github.com/AnyChart/AnyChart#getting-started"
   - type: official
     title: Chartopedia
-    link: 'https://www.anychart.com/chartopedia/usage-type/'
+    link: "https://www.anychart.com/chartopedia/usage-type/"
 github_data:
   stars: 292
   contributors: 16
   issues: 82
   stale_issues: 54
   last_release:
-    date: '2021-05-26T04:18:08Z'
-    link: 'https://github.com/AnyChart/AnyChart/releases/tag/v8.10.0'
+    date: "2021-05-26T04:18:08Z"
+    link: "https://github.com/AnyChart/AnyChart/releases/tag/v8.10.0"
 twitter_feed: []
 stackoverflow_data:
   questions_count: 356
