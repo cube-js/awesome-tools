@@ -80,7 +80,7 @@ export default function Home({ tools }) {
 
       <main>
         <H1>
-          Awesome data visualization tools <br className="xs-hidden" /> for
+          Awesome data visualization tools <br className="xl-hidden" /> for
           software developers
         </H1>
         <div className="row">
@@ -174,7 +174,7 @@ export default function Home({ tools }) {
           </Chip>
           <AccentedText className="mr-xs ml-xs">with</AccentedText>
           <Chip
-            src="/images/logo/open-source.svg"
+            src="/images/logo/open-source-color.svg"
             active={license.includes("open-source") ? "active" : null}
             onClick={() => setItem(license, setLicense, "open-source")}
           >
@@ -216,7 +216,7 @@ export default function Home({ tools }) {
             {filteredTools &&
               filteredTools.map((tool) => (
                 <div className="col-lg-6 mb-md" key={tool.id + Math.random()}>
-                  <LazyLoad height={284} offsetVertical={600}>
+                  <LazyLoad height={284} offsetVertical={568}>
                     <ToolCard {...tool} />
                   </LazyLoad>
                 </div>

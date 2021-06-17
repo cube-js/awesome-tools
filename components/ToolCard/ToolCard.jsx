@@ -3,9 +3,14 @@ import { ReactSVG } from "react-svg";
 import moment from "moment";
 import Link from "next/link";
 import abbreviateNumber from "../../utils/number";
+import React, { useEffect } from "react";
 
 export default function ToolCard(props) {
   let shadow = getShadowByLabel(props?.feature_label);
+
+  useEffect(() => {
+    console.log("isMountComponent!");
+  }, []);
   return (
     <Link href={"/tools/" + props.id}>
       <a>

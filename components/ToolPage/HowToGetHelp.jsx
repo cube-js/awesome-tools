@@ -41,13 +41,23 @@ export default function HowToGetHelp(props) {
         {cards
           .filter((card) => card.href)
           .map((card, index) => {
-            let className = " col-lg-5";
-            if (index % 2 === 0 && index !== 0) {
+            let className = " col-lg-4";
+            // if (index === 0) {
+            //   className = "col-lg-4";
+            // }
+            if (index === 1) {
+              className = " col-lg-5";
+            }
+            if (index === 2) {
               className = " col-lg-5 offset-lg-3";
             }
-            if (index % 2 !== 0) {
-              className = " col-lg-4";
-            }
+            // let className = " col-lg-5";
+            // if (index % 2 === 0 && index !== 0) {
+            //   className = " col-lg-5 offset-lg-3";
+            // }
+            // if (index % 2 !== 0) {
+            //   className = " col-lg-4";
+            // }
             return card.href ? (
               <div
                 key={card.title + Math.random()}
