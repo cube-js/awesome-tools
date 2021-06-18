@@ -6,7 +6,7 @@ based_on: null
 licenses:
   - type: open-source
     title: Apache 2.0
-    link: "https://github.com/apache/superset/blob/master/LICENSE.txt"
+    link: 'https://github.com/apache/superset/blob/master/LICENSE.txt'
 types:
   - app
 features:
@@ -32,24 +32,24 @@ tags:
   twitter:
     - ApacheSuperset
 links:
-  website: "https://superset.apache.org"
-  examples: "https://superset.apache.org/gallery"
-  docs: "https://superset.apache.org/docs/intro"
+  website: 'https://superset.apache.org'
+  examples: 'https://superset.apache.org/gallery'
+  docs: 'https://superset.apache.org/docs/intro'
   pricing: null
   slack: >-
     https://apache-superset.slack.com/join/shared_invite/zt-l5f5e0av-fyYu8tlfdqbMdz_sPLwUqQ
 content:
   - type: official
     title: What is Apache Superset?
-    link: "https://superset.apache.org/docs/intro"
+    link: 'https://superset.apache.org/docs/intro'
 github_data:
-  stars: 39100
+  stars: 39135
   contributors: 30
-  issues: 896
-  stale_issues: 866
+  issues: 905
+  stale_issues: 875
   last_release:
-    date: "2021-06-11T11:35:16Z"
-    link: "https://github.com/apache/superset/releases/tag/1.2.0rc2"
+    date: '2021-06-16T20:39:45Z'
+    link: 'https://github.com/apache/superset/releases/tag/superset-helm-chart-0.1.5'
 twitter_feed: []
 stackoverflow_data:
   questions_count: 976

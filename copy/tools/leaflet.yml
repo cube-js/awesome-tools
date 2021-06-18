@@ -6,7 +6,7 @@ based_on: null
 licenses:
   - type: open-source
     title: BSD
-    link: "https://github.com/leafletjs/leafletjs/blob/master/LICENSE"
+    link: 'https://github.com/leafletjs/leafletjs/blob/master/LICENSE'
 types:
   - maps
 features:
@@ -27,32 +27,32 @@ languages:
 frameworks:
   - vanilla-js
 slugs:
-  github: leafletjs/leafletjs
-  npm: leafletjs
-  npm_types: "@types/leafletjs"
+  github: leaflet/leaflet
+  npm: leaflet
+  npm_types: '@types/leaflet'
 tags:
   stackoverflow:
-    - leafletjs
+    - leaflet
   twitter:
-    - leafletjsjs
+    - leafletjs
 links:
-  website: "https://leafletjsjs.com"
-  examples: "https://leafletjsjs.com/examples.html"
-  docs: "https://leafletjsjs.com/reference-1.7.1.html"
+  website: 'https://leafletjs.com'
+  examples: 'https://leafletjs.com/examples.html'
+  docs: 'https://leafletjs.com/reference-1.7.1.html'
   pricing: null
   slack: null
 content:
   - type: official
     title: leafletjs Quick Start Guide
-    link: "https://leafletjsjs.com/examples/quick-start/"
+    link: 'https://leafletjs.com/examples/quick-start/'
 github_data:
-  stars: 30895
+  stars: 30910
   contributors: 30
-  issues: 682
-  stale_issues: 652
+  issues: 683
+  stale_issues: 653
   last_release:
-    date: "2020-09-04T08:38:43Z"
-    link: "https://github.com/leafletjs/leafletjs/releases/tag/v1.7.1"
+    date: '2020-09-04T08:38:43Z'
+    link: 'https://github.com/Leaflet/Leaflet/releases/tag/v1.7.1'
 twitter_feed: []
 stackoverflow_data:
-  questions_count: 11872
+  questions_count: 11879

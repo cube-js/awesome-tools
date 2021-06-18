@@ -6,7 +6,7 @@ based_on: null
 licenses:
   - type: open-source
     title: Apache 2.0
-    link: "https://github.com/visjs/vis-charts/blob/master/LICENSE-APACHE-2.0"
+    link: 'https://github.com/visjs/vis-charts/blob/master/LICENSE-APACHE-2.0'
 types:
   - charts
   - maps
@@ -30,16 +30,16 @@ frameworks:
 slugs:
   github: visjs/vis-charts
   npm: vis-charts
-  npm_types: "@types/vis"
+  npm_types: '@types/vis'
 tags:
   stackoverflow:
     - vis.js
   twitter:
     - visjs
 links:
-  website: "https://visjs.org"
-  examples: "https://visjs.github.io/vis-timeline/examples/graph2d/"
-  docs: "https://visjs.github.io/vis-timeline/docs/graph2d/"
+  website: 'https://visjs.org'
+  examples: 'https://visjs.github.io/vis-timeline/examples/graph2d/'
+  docs: 'https://visjs.github.io/vis-timeline/docs/graph2d/'
   pricing: null
   slack: null
 content: null
@@ -49,8 +49,8 @@ github_data:
   issues: 2
   stale_issues: 0
   last_release:
-    date: "2020-05-17T12:03:36Z"
-    link: "https://github.com/visjs/vis-charts/releases/tag/v3.0.0"
+    date: '2020-05-17T12:03:36Z'
+    link: 'https://github.com/visjs/vis-charts/releases/tag/v3.0.0'
 twitter_feed: []
 stackoverflow_data:
-  questions_count: 745
+  questions_count: 746

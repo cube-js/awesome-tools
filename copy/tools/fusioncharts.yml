@@ -34,17 +34,17 @@ frameworks:
 slugs:
   github: fusioncharts/fusioncharts-dist
   npm: fusioncharts
-  npm_types: "@types/fusioncharts"
+  npm_types: '@types/fusioncharts'
 tags:
   stackoverflow:
     - fusioncharts
   twitter:
     - FusionCharts
 links:
-  website: "https://www.fusioncharts.com/fusioncharts"
-  examples: "https://www.fusioncharts.com/charts"
-  docs: "https://www.fusioncharts.com/dev/fusioncharts"
-  pricing: "https://www.fusioncharts.com/buy"
+  website: 'https://www.fusioncharts.com/fusioncharts'
+  examples: 'https://www.fusioncharts.com/charts'
+  docs: 'https://www.fusioncharts.com/dev/fusioncharts'
+  pricing: 'https://www.fusioncharts.com/buy'
   slack: null
 content:
   - type: official
@@ -61,4 +61,4 @@ github_data:
     link: null
 twitter_feed: []
 stackoverflow_data:
-  questions_count: 766
+  questions_count: 767

@@ -28,9 +28,9 @@ tags:
   stackoverflow: null
   twitter: null
 links:
-  website: "http://stack.gl"
-  examples: "http://stack.gl/#examples"
-  docs: "http://stack.gl/packages/"
+  website: 'http://stack.gl'
+  examples: 'http://stack.gl/#examples'
+  docs: 'http://stack.gl/packages/'
   pricing: null
   slack: null
 content: null

@@ -6,7 +6,7 @@ based_on: null
 licenses:
   - type: open-source
     title: MIT
-    link: "https://github.com/FormidableLabs/victory/blob/main/LICENSE.txt"
+    link: 'https://github.com/FormidableLabs/victory/blob/main/LICENSE.txt'
 types:
   - charts
 features:
@@ -29,7 +29,7 @@ frameworks:
 slugs:
   github: FormidableLabs/victory
   npm: victory
-  npm_types: "@types/victory"
+  npm_types: '@types/victory'
 tags:
   stackoverflow:
     - victory-charts
@@ -37,26 +37,26 @@ tags:
   twitter:
     - VictoryCharts
 links:
-  website: "https://formidable.com/open-source/victory/"
-  examples: "https://formidable.com/open-source/victory/gallery"
-  docs: "https://formidable.com/open-source/victory/docs"
+  website: 'https://formidable.com/open-source/victory/'
+  examples: 'https://formidable.com/open-source/victory/gallery'
+  docs: 'https://formidable.com/open-source/victory/docs'
   pricing: null
   slack: null
 content:
   - type: official
     title: Getting Started with Victory
-    link: "https://formidable.com/open-source/victory/docs"
+    link: 'https://formidable.com/open-source/victory/docs'
   - type: cube
     title: React Native Charts with Cube.js and Victory
-    link: "https://cube.dev/blog/react-native-charts-with-cubejs-victory/"
+    link: 'https://cube.dev/blog/react-native-charts-with-cubejs-victory/'
 github_data:
-  stars: 8909
+  stars: 8914
   contributors: 30
-  issues: 153
-  stale_issues: 127
+  issues: 154
+  stale_issues: 128
   last_release:
-    date: "2020-09-01T15:48:23Z"
-    link: "https://github.com/FormidableLabs/victory/releases/tag/v35.0.8"
+    date: '2020-09-01T15:48:23Z'
+    link: 'https://github.com/FormidableLabs/victory/releases/tag/v35.0.8'
 twitter_feed: []
 stackoverflow_data:
-  questions_count: 195
+  questions_count: 196

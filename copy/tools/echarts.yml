@@ -6,7 +6,7 @@ based_on: null
 licenses:
   - type: open-source
     title: MIT
-    link: "https://github.com/apache/echarts/blob/master/LICENSE"
+    link: 'https://github.com/apache/echarts/blob/master/LICENSE'
 types:
   - charts
   - maps
@@ -34,16 +34,16 @@ frameworks:
 slugs:
   github: apache/echarts
   npm: ag-grid-community
-  npm_types: "@types/echarts"
+  npm_types: '@types/echarts'
 tags:
   stackoverflow:
     - echarts
   twitter:
     - ECharts
 links:
-  website: "https://echarts.apache.org/en/index.html"
-  examples: "https://echarts.apache.org/examples/en/index.html"
-  docs: "https://echarts.apache.org/en/api.html#echarts"
+  website: 'https://echarts.apache.org/en/index.html'
+  examples: 'https://echarts.apache.org/examples/en/index.html'
+  docs: 'https://echarts.apache.org/en/api.html#echarts'
   pricing: null
   slack: null
 content:
@@ -52,13 +52,13 @@ content:
     link: >-
       https://echarts.apache.org/en/tutorial.html#Get%20Started%20with%20ECharts%20in%205%20minutes
 github_data:
-  stars: 46789
+  stars: 46801
   contributors: 30
-  issues: 2208
-  stale_issues: 2178
+  issues: 2219
+  stale_issues: 2189
   last_release:
-    date: "2021-06-08T14:56:08Z"
-    link: "https://github.com/apache/echarts/releases/tag/5.1.2"
+    date: '2021-06-08T14:56:08Z'
+    link: 'https://github.com/apache/echarts/releases/tag/5.1.2'
 twitter_feed: []
 stackoverflow_data:
-  questions_count: 740
+  questions_count: 744

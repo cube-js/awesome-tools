@@ -26,7 +26,7 @@ frameworks:
   - vanilla-js
 slugs:
   github: amcharts/amcharts4
-  npm: "@amcharts/amcharts4"
+  npm: '@amcharts/amcharts4'
 tags:
   stackoverflow:
     - amcharts
@@ -35,23 +35,23 @@ tags:
     - amcharts
     - amcharts4
 links:
-  website: "https://www.amcharts.com"
-  examples: "https://www.amcharts.com/demos/"
-  docs: "https://www.amcharts.com/docs/v4/"
-  pricing: "https://www.amcharts.com/online-store/"
+  website: 'https://www.amcharts.com'
+  examples: 'https://www.amcharts.com/demos/'
+  docs: 'https://www.amcharts.com/docs/v4/'
+  pricing: 'https://www.amcharts.com/online-store/'
   slack: null
 content:
   - type: official
     title: Starting from Basics of amCharts 4
-    link: "https://www.amcharts.com/docs/v4/getting-started/basics/"
+    link: 'https://www.amcharts.com/docs/v4/getting-started/basics/'
 github_data:
-  stars: 958
+  stars: 959
   contributors: 6
-  issues: 75
-  stale_issues: 45
+  issues: 76
+  stale_issues: 46
   last_release:
-    date: "2021-06-08T11:07:19Z"
-    link: "https://github.com/amcharts/amcharts4/releases/tag/4.10.19"
+    date: '2021-06-17T08:05:25Z'
+    link: 'https://github.com/amcharts/amcharts4/releases/tag/4.10.20'
 twitter_feed:
   - user: Benjamin Scott
     image: /images/tweet-avatar.png
@@ -74,4 +74,4 @@ twitter_feed:
       Anyways, thers is no chance to take Chart.js as our tool to do things in
       business or private tasks
 stackoverflow_data:
-  questions_count: 3096
+  questions_count: 3098

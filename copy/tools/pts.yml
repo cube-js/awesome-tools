@@ -6,7 +6,7 @@ based_on: null
 licenses:
   - type: open-source
     title: Apache 2.0
-    link: "https://github.com/williamngan/pts/blob/master/LICENSE"
+    link: 'https://github.com/williamngan/pts/blob/master/LICENSE'
 types:
   - low-level
 features:
@@ -34,22 +34,22 @@ tags:
   twitter:
     - ptsjs
 links:
-  website: "https://ptsjs.org"
-  examples: "https://ptsjs.org/demo/"
-  docs: "https://ptsjs.org/docs/"
+  website: 'https://ptsjs.org'
+  examples: 'https://ptsjs.org/demo/'
+  docs: 'https://ptsjs.org/docs/'
   pricing: null
   slack: null
 content:
   - type: official
     title: Get started with Pts.js
-    link: "https://ptsjs.org/guide/get-started-0100"
+    link: 'https://ptsjs.org/guide/get-started-0100'
 github_data:
-  stars: 4467
+  stars: 4470
   contributors: 13
   issues: 28
   stale_issues: 13
   last_release:
-    date: "2021-02-19T09:49:49Z"
-    link: "https://github.com/williamngan/pts/releases/tag/v0.10.2"
+    date: '2021-02-19T09:49:49Z'
+    link: 'https://github.com/williamngan/pts/releases/tag/v0.10.2'
 twitter_feed: []
 stackoverflow_data: null

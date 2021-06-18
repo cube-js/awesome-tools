@@ -7,7 +7,7 @@ based_on:
 licenses:
   - type: open-source
     title: Apache 2.0
-    link: "https://github.com/nteract/semiotic/blob/master/LICENSE"
+    link: 'https://github.com/nteract/semiotic/blob/master/LICENSE'
 types:
   - low-level
 features:
@@ -35,20 +35,20 @@ tags:
     - semiotic
   twitter: null
 links:
-  website: "https://semiotic.nteract.io"
-  examples: "https://semiotic.nteract.io/examples"
-  docs: "https://semiotic.nteract.io/api"
+  website: 'https://semiotic.nteract.io'
+  examples: 'https://semiotic.nteract.io/examples'
+  docs: 'https://semiotic.nteract.io/api'
   pricing: null
   slack: null
 content: null
 github_data:
   stars: 2168
   contributors: 21
-  issues: 44
+  issues: 43
   stale_issues: 34
   last_release:
-    date: "2020-01-21T03:13:12Z"
-    link: "https://github.com/nteract/semiotic/releases/tag/v1.20.5"
+    date: '2020-01-21T03:13:12Z'
+    link: 'https://github.com/nteract/semiotic/releases/tag/v1.20.5'
 twitter_feed: []
 stackoverflow_data:
   questions_count: 4

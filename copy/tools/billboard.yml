@@ -1,5 +1,5 @@
 title: Billboard.js
-description: "Re-usable, easy interface JavaScript chart library based on D3.js"
+description: 'Re-usable, easy interface JavaScript chart library based on D3.js'
 logo: /images/logo/billboard.svg
 developer: null
 based_on:
@@ -7,7 +7,7 @@ based_on:
 licenses:
   - type: open-source
     title: MIT
-    link: "https://github.com/naver/billboard.js/blob/master/LICENSE"
+    link: 'https://github.com/naver/billboard.js/blob/master/LICENSE'
 types:
   - charts
 features:
@@ -37,20 +37,20 @@ tags:
   twitter:
     - BillboardJS
 links:
-  website: "https://naver.github.io/billboard.js/"
-  examples: "https://naver.github.io/billboard.js/demo/"
-  docs: "https://naver.github.io/billboard.js/release/latest/doc/"
+  website: 'https://naver.github.io/billboard.js/'
+  examples: 'https://naver.github.io/billboard.js/demo/'
+  docs: 'https://naver.github.io/billboard.js/release/latest/doc/'
   pricing: null
   slack: null
 content: null
 github_data:
-  stars: 4826
+  stars: 4827
   contributors: 30
-  issues: 124
-  stale_issues: 94
+  issues: 123
+  stale_issues: 93
   last_release:
-    date: "2021-04-16T12:50:39Z"
-    link: "https://github.com/naver/billboard.js/releases/tag/3.0.3"
+    date: '2021-04-16T12:50:39Z'
+    link: 'https://github.com/naver/billboard.js/releases/tag/3.0.3'
 twitter_feed: []
 stackoverflow_data:
-  questions_count: 53
+  questions_count: 54

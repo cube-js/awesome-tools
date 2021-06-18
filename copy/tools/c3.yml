@@ -7,7 +7,7 @@ based_on:
 licenses:
   - type: open-source
     title: MIT
-    link: "https://github.com/c3jsjs/c3js/blob/master/LICENSE"
+    link: 'https://github.com/c3jsjs/c3js/blob/master/LICENSE'
 types:
   - charts
 features:
@@ -28,32 +28,32 @@ languages:
 frameworks:
   - vanilla-js
 slugs:
-  github: c3jsjs/c3js
-  npm: c3js
-  npm_types: "@types/c3js"
+  github: c3js/c3
+  npm: c3
+  npm_types: '@types/c3'
 tags:
   stackoverflow:
-    - c3js.js
+    - c3.js
   twitter:
-    - c3jsjs
+    - c3js
 links:
-  website: "https://c3jsjs.org"
-  examples: "https://c3jsjs.org/examples.html"
-  docs: "https://c3jsjs.org/reference.html"
+  website: 'https://c3js.org'
+  examples: 'https://c3js.org/examples.html'
+  docs: 'https://c3js.org/reference.html'
   pricing: null
   slack: null
 content:
   - type: official
-    title: Getting Started with c3js.js
-    link: "https://c3jsjs.org/gettingstarted.html"
+    title: Getting Started with c3.js
+    link: 'https://c3js.org/gettingstarted.html'
 github_data:
-  stars: 9080
+  stars: 9081
   contributors: 30
   issues: 768
   stale_issues: 740
   last_release:
-    date: "2020-08-08T09:14:36Z"
-    link: "https://github.com/c3jsjs/c3js/releases/tag/v0.7.20"
+    date: '2020-08-08T09:14:36Z'
+    link: 'https://github.com/c3js/c3/releases/tag/v0.7.20'
 twitter_feed: []
 stackoverflow_data:
   questions_count: 1125

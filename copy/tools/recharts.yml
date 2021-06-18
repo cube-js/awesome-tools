@@ -7,7 +7,7 @@ based_on:
 licenses:
   - type: open-source
     title: MIT
-    link: "https://github.com/recharts/recharts/blob/master/LICENSE"
+    link: 'https://github.com/recharts/recharts/blob/master/LICENSE'
 types:
   - charts
 features:
@@ -30,33 +30,33 @@ frameworks:
 slugs:
   github: recharts/recharts
   npm: recharts
-  npm_types: "@types/recharts"
+  npm_types: '@types/recharts'
 tags:
   stackoverflow:
     - recharts
   twitter:
     - recharts
 links:
-  website: "https://recharts.org/en-US/"
-  examples: "https://recharts.org/en-US/examples"
-  docs: "https://recharts.org/en-US/api"
+  website: 'https://recharts.org/en-US/'
+  examples: 'https://recharts.org/en-US/examples'
+  docs: 'https://recharts.org/en-US/api'
   pricing: null
   slack: null
 content:
   - type: official
     title: Getting started
-    link: "https://recharts.org/en-US/guide/getting-started"
+    link: 'https://recharts.org/en-US/guide/getting-started'
   - type: cube
-    title: "React Dashboard: an Ultimate Guide"
-    link: "https://react-dashboard.cube.dev"
+    title: 'React Dashboard: an Ultimate Guide'
+    link: 'https://react-dashboard.cube.dev'
 github_data:
-  stars: 16481
+  stars: 16500
   contributors: 30
-  issues: 191
-  stale_issues: 161
+  issues: 192
+  stale_issues: 162
   last_release:
     date: null
     link: null
 twitter_feed: []
 stackoverflow_data:
-  questions_count: 458
+  questions_count: 462
