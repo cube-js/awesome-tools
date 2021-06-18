@@ -175,7 +175,7 @@ export default function Home({ tools }) {
           <AccentedText className="mr-xs ml-xs">and</AccentedText>
           <Chip
             className="mr-xs"
-            src="/images/logo/open-source-color.svg"
+            src="/images/logo/open-source.svg"
             active={license.includes("open-source") ? "active" : null}
             onClick={() => setItem(license, setLicense, "open-source")}
           >
@@ -183,7 +183,7 @@ export default function Home({ tools }) {
           </Chip>
           {/* <AccentedText className="mr-xs ml-xs">or</AccentedText> */}
           <Chip
-            src="/images/logo/tag.svg"
+            src="/images/logo/dollar.svg"
             active={license.includes("proprietary") ? "active" : null}
             onClick={() => setItem(license, setLicense, "proprietary")}
           >

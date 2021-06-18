@@ -9,6 +9,7 @@
   cursor: pointer;
   margin-bottom: 16px;
   user-select: none;
+  font-weight: 500;
 
   &[active="active"] {
     background-color: darken(#ecebff, 5%);

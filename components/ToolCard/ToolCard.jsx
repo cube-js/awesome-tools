@@ -56,7 +56,7 @@ export default function ToolCard(props) {
                   className={styles.icon}
                   src="/images/logo/github.svg"
                 />
-                <span className="features__text">
+                <span className={styles.features__text}>
                   {abbreviateNumber(props?.github_data?.stars) || "-"}
                 </span>
               </div>
@@ -106,7 +106,7 @@ export default function ToolCard(props) {
                         src={`/images/logo/${language.toLowerCase()}.svg`}
                       />
                     ) : null}
-                    <span className="features__text">{language}</span>
+                    <span className={styles.features__text}>{language}</span>
                   </div>
                 </div>
               </div>
@@ -116,7 +116,7 @@ export default function ToolCard(props) {
               <div className="flex flex-column">
                 <span className={styles.features}>Last release</span>
                 <div>
-                  <span className="features__text">
+                  <span className={styles.features__text}>
                     {moment(props?.github_data?.last_release?.date).format(
                       "MMM DD, YYYY"
                     ) || "-"}

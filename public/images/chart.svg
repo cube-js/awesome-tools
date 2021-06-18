@@ -1,1 +1,7 @@
-<svg width="160" height="64" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="15.68" height="41" rx="4" transform="matrix(-1 0 0 1 136 5)" fill="currentColor"/><rect width="15.297" height="20.5" rx="4" transform="matrix(-1 0 0 1 115.873 25.5)" fill="currentColor"/><rect width="16.102" height="30.75" rx="4" transform="matrix(-1 0 0 1 96.55 15.25)" fill="currentColor"/><rect width="15.297" height="23.917" rx="4" transform="matrix(-1 0 0 1 76.424 22.082)" fill="currentColor"/><rect width="15.297" height="15.375" rx="4" transform="matrix(-1 0 0 1 56.297 30.625)" fill="currentColor"/></svg>
+<svg width="160" height="64" viewBox="0 0 160 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="16" height="41" rx="4" transform="matrix(-1 0 0 1 136 5)" fill="currentColor"/>
+<rect width="16" height="20" rx="4" transform="matrix(-1 0 0 1 116 26)" fill="currentColor"/>
+<rect width="16" height="31" rx="4" transform="matrix(-1 0 0 1 96 15)" fill="currentColor"/>
+<rect width="16" height="24" rx="4" transform="matrix(-1 0 0 1 76 22)" fill="currentColor" fill-opacity="0.5"/>
+<rect width="16" height="17" rx="4" transform="matrix(-1 0 0 1 56 29)" fill="currentColor" fill-opacity="0.5"/>
+</svg>

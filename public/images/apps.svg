@@ -1,10 +1,7 @@
 <svg width="160" height="64" viewBox="0 0 160 64" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g clip-path="url(#clip0)">
-<rect x="20" y="17" width="112" height="61" rx="4" fill="#E7E7F0"/>
-<path d="M20.5 21C20.5 19.067 22.067 17.5 24 17.5H128C129.933 17.5 131.5 19.067 131.5 21V29.5H20.5V21Z" fill="currentColor" stroke="currentColor"/>
-<ellipse cx="122.999" cy="24" rx="3.00001" ry="3" fill="#F8F8F8"/>
-<ellipse cx="115" cy="24" rx="3" ry="3" fill="#F8F8F8"/>
-<ellipse cx="107" cy="24" rx="3.00002" ry="3" fill="lighten(currentColor, 10%)"/>
+<path d="M20 30H132V74C132 76.2091 130.209 78 128 78H24C21.7909 78 20 76.2091 20 74V30Z" fill="currentColor" fill-opacity="0.5"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M24 17C21.7909 17 20 18.7909 20 21V30H132V21C132 18.7909 130.209 17 128 17H24ZM122.999 27C124.656 27 125.999 25.6569 125.999 24C125.999 22.3431 124.656 21 122.999 21C121.342 21 119.999 22.3431 119.999 24C119.999 25.6569 121.342 27 122.999 27ZM118 24C118 25.6569 116.657 27 115 27C113.343 27 112 25.6569 112 24C112 22.3431 113.343 21 115 21C116.657 21 118 22.3431 118 24ZM107 27C108.657 27 110 25.6569 110 24C110 22.3431 108.657 21 107 21C105.343 21 104 22.3431 104 24C104 25.6569 105.343 27 107 27Z" fill="currentColor"/>
 </g>
 <defs>
 <clipPath id="clip0">

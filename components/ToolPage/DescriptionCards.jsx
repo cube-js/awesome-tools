@@ -13,7 +13,7 @@ const getLicense = (props) => {
       isOpen = true;
       smallText = obj.title;
       link = obj.link;
-      icon = "/images/logo/open-source-color.svg";
+      icon = "/images/logo/open-source.svg";
     } else {
       isPrice = true;
       smallText = "Priсe page →";

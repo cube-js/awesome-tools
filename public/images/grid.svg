@@ -1,1 +1,8 @@
-<svg width="160" height="64" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="8" height="82" rx="4" transform="matrix(0 -1 -1 0 133 22)" fill="currentColor"/><rect width="8" height="35" rx="4" transform="matrix(0 -1 -1 0 35 22)" fill="currentColor"/><rect width="8" height="26" rx="4" transform="matrix(0 -1 -1 0 26 36)" fill="currentColor"/><rect width="8" height="35" rx="4" transform="matrix(0 -1 -1 0 35 50)" fill="currentColor"/><rect width="8" height="45" rx="4" transform="matrix(0 -1 -1 0 96 36)" fill="currentColor"/><rect width="8" height="73" rx="4" transform="matrix(0 -1 -1 0 124 50)" fill="currentColor"/></svg>
+<svg width="160" height="64" viewBox="0 0 160 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="8" height="71" rx="4" transform="matrix(2.25507e-08 -1 -1 -6.30592e-09 135 20)" fill="currentColor" fill-opacity="0.5"/>
+<rect width="8" height="30" rx="4" transform="matrix(5.42617e-08 -1 -1 -2.62069e-09 50 20)" fill="currentColor" fill-opacity="0.5"/>
+<rect width="8" height="23" rx="4" transform="matrix(5.68628e-08 -1 -1 -2.50081e-09 43 34)" fill="currentColor"/>
+<rect width="8" height="30" rx="4" transform="matrix(5.00814e-08 -1 -1 -2.83944e-09 50 48)" fill="currentColor"/>
+<rect width="8" height="39" rx="4" transform="matrix(2.59322e-08 -1 -1 -5.48363e-09 103 34)" fill="currentColor"/>
+<rect width="8" height="63" rx="4" transform="matrix(2.25383e-08 -1 -1 -6.30938e-09 127 48)" fill="currentColor"/>
+</svg>
