@@ -25,8 +25,10 @@ jobs:
             node_modules
             */*/node_modules
           key: ${{ runner.os }}-${{ hashFiles('**/yarn.lock') }}
-      - name: npm install
-        run: npm install
+      - name: Install
+        uses: borales/actions-yarn@v2.0.0
+        with:
+          cmd: install # will run `yarn install` command
       - name: Run update job script
         run: export API_TOKEN=${{ secrets.API_TOKEN }} && sh ./update-copy.sh
       - name: Commit changes
