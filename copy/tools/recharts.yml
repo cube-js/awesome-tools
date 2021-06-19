@@ -30,7 +30,6 @@ frameworks:
 slugs:
   github: recharts/recharts
   npm: recharts
-  npm_types: '@types/recharts'
 tags:
   stackoverflow:
     - recharts
