@@ -9,7 +9,7 @@ export default function Description(props) {
         <H2>News</H2>
         <div className="mt-sm">
           <a href={props.link} className="link" target="_blank">
-            Read more →
+            All news →
           </a>
         </div>
       </div>

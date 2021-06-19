@@ -6,7 +6,10 @@ export default function HowToGetStarted(props) {
   return (
     <div className={styles.HowToGetStarted + " row"}>
       <div className="col-sm-3">
-        <H2>Getting started</H2>
+        <H2>
+          How to
+          <br />Get Started
+        </H2>
       </div>
       {props.content.map((obj, index) => {
         const icon =
@@ -17,7 +20,7 @@ export default function HowToGetStarted(props) {
           <div key={index} className={index === 0 ? "col-sm-5" : "col-sm-4"}>
             <GetStartedCard
               icon={icon}
-              type={obj.type === "official" ? "TUTORIALS" : "Installation"}
+              type={obj.type === "official" ? "Official tutorial" : "Community guide"}
               title={obj.title}
               link={obj.link}
             />

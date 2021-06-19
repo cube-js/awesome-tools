@@ -16,22 +16,22 @@ const getLicense = (props) => {
       icon = "/images/logo/open-source.svg";
     } else {
       isPrice = true;
-      smallText = "Priсe page →";
+      link = obj.link;
     }
   });
 
   if (isOpen && isPrice) {
     return {
       icons: ["/images/logo/dollar.svg", "/images/logo/open-source.svg"],
-      text: "Open-source and Proprietary licenses",
+      text: "Open-source and proprietary licenses",
       link: props?.links?.pricing || link,
-      smallText: "Priсe page →",
+      smallText: props?.links?.pricing ? "Priсing page →" : "License →",
     };
   }
   if (isOpen) {
     return {
       text: "Open-source license",
-      smallText,
+      smallText: `${smallText} →`,
       link,
       icon,
     };
@@ -39,27 +39,21 @@ const getLicense = (props) => {
   if (isPrice) {
     return {
       text: "Proprietary license",
-      link,
+      link: props?.links?.pricing || link,
+      smallText: props?.links?.pricing ? "Priсing page →" : "License →",
       icon,
     };
   }
 };
 
 const getFrameworks = (props) => {
-  let docsLinks = {
-    "vanilla-js": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
-    react: "https://reactjs.org/docs/getting-started.html",
-    vue: "https://vuejs.org/v2/guide/",
-    angular: "https://angular.io/docs",
-  };
-
   if (props?.frameworks?.length === 1) {
     let fr = props.frameworks[0];
     return {
       icon: `/images/logo/${fr.toLowerCase()}.svg`,
-      text: `${capitalizeFirstLetter(fr)} Only`,
-      link: docsLinks?.[fr.toLowerCase()],
-      smallText: `Go to Docs →`,
+      text: `${fr === 'vanilla-js' ? 'Vanilla JS' : capitalizeFirstLetter(fr)} only`,
+      link: `https://github.com/${props.slugs.github}`,
+      smallText: `GitHub repository →`,
     };
   }
 
@@ -69,36 +63,35 @@ const getFrameworks = (props) => {
     text: frameworksOnly.map((s, index) => {
       return (
         <span key={s}>
-          <a href={docsLinks[s]} target=" _blank" className="isHovered">
-            {capitalizeFirstLetter(s)}
-          </a>
+          {capitalizeFirstLetter(s)}
           {index === frameworksOnly.length - 1 ? " " : ", "}
         </span>
       );
     }),
-    // .join(", ")
     icons: props.frameworks.map((fr) => `/images/logo/${fr}.svg`),
-    smallText: `Go to Docs`,
-    notLink: true,
+    smallText: `GitHub repository →`,
+    link: `https://github.com/${props.slugs.github}`,
   };
 };
 
-const getLanguage = (languages) => {
+const getLanguage = (languages, slugs) => {
   let hasTS = languages.includes("TypeScript");
+  let hasDT = slugs.npm_types !== undefined
 
   let icon = "/images/logo/javascript.svg";
   let text = "JavaScript only";
   let smallText = "No TypeScript support";
   let color = "orange";
-  let link = "https://developer.mozilla.org/en-US/docs/Web/JavaScript";
+  let link = undefined;
 
   if (hasTS) {
     icon = "/images/logo/typescript.svg";
     text = "TypeScript support";
-    smallText = "DefinitelyTyped definitions";
+    smallText = hasDT ? "DefinitelyTyped definitions →" : "*.d.ts files →";
     color = "gray";
-    link = "https://www.typescriptlang.org/docs/";
+    link = hasDT ? `https://www.npmjs.com/package/${slugs.npm_types}` : `https://github.com/search?q=repo%3A${encodeURIComponent(slugs.github)}+filename%3A.d.ts&type=Code`;
   }
+
   return {
     icon,
     text,
@@ -123,7 +116,7 @@ export default function DescriptionCards(props) {
       )}
       {props.languages && (
         <div className={styles.cardWrap + " col-xl-4 col-lg-4 col-md-12"}>
-          <Card height="full" {...getLanguage(props.languages)} />
+          <Card height="full" {...getLanguage(props.languages, props.slugs)} />
         </div>
       )}
     </div>

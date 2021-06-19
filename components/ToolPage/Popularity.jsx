@@ -21,7 +21,7 @@ export default function Popularity(props) {
           icon="/images/logo/github-big.svg"
           text={abbreviateNumber(props?.github?.stars) || 0}
           description="GitHub stars"
-          footerText={`${props?.positions?.stars} of ${props?.positions?.total} place of all tools`}
+          footerText={`${props?.positions?.stars} of ${props?.positions?.total} place`}
         />
       </div>
       <div className={styles.bigCardWrap + " col-lg-3"}>

@@ -80,7 +80,7 @@ export default function Tool(props) {
           positions={props.positions}
           stackoverflow={
             props?.tags?.stackoverflow
-              ? `https://stackoverflow.com/questions/tagged/${props?.tags?.stackoverflow[0]}`
+              ? `https://stackoverflow.com/questions/tagged/${encodeURIComponent(props?.tags?.stackoverflow.join(" or "))}`
               : null
           }
           stackoverflow_data={props.stackoverflow_data}

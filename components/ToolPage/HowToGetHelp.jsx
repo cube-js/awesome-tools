@@ -34,7 +34,10 @@ export default function HowToGetHelp(props) {
     <div className={styles.HowToGetHelp}>
       <div className="row mb-md">
         <div className={styles.textWrap + " col-lg-3"}>
-          <H2>Getting help</H2>
+          <H2>
+            How to
+            <br />Get Help
+          </H2>
         </div>
         {cards
           .filter((card) => card.href)

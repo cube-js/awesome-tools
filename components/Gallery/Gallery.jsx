@@ -32,7 +32,7 @@ export default function Gallery(props) {
         {props.link && (
           <div className="mt-sm">
             <a href={props.link} className="link" target="_blank">
-              See all Samples →
+              All examples →
             </a>
           </div>
         )}
