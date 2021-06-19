@@ -30,7 +30,8 @@ slugs:
   github: chartshq/muze
   npm: muze
 tags:
-  stackoverflow: muze
+  stackoverflow:
+    - muze
   twitter: null
 links:
   website: 'https://muzejs.org'
