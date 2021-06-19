@@ -27,7 +27,6 @@ languages:
 frameworks:
   - vanilla-js
 slugs:
-  github: google/charts
   npm_types: '@types/google.visualization'
 tags:
   stackoverflow:
