@@ -3,7 +3,7 @@ import fetch from "isomorphic-unfetch";
 import abbreviateNumber from "../utils/number";
 
 export default function useSlackMembers() {
-  const [slackMembers, setSlackMembers] = useState("2,000");
+  const [slackMembers, setSlackMembers] = useState(abbreviateNumber(3500));
 
   useEffect(() => {
     fetch("https://fat-palmerton.cubecloudapp.dev/slack-users")
