@@ -7,6 +7,9 @@ on:
   schedule:
     # * is a special character in YAML so you have to quote this string
     - cron: "30 10 * * *"
+  push:
+    branches:
+      - master
 
 jobs:
   build:
@@ -26,9 +29,7 @@ jobs:
             */*/node_modules
           key: ${{ runner.os }}-${{ hashFiles('**/yarn.lock') }}
       - name: Install
-        uses: borales/actions-yarn@v2.0.0
-        with:
-          cmd: install # will run `yarn install` command
+        run: yarn install
       - name: Run update job script
         run: export API_TOKEN=${{ secrets.API_TOKEN }} && sh ./update-copy.sh
       - name: Commit changes
