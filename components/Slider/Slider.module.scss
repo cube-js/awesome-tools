@@ -20,7 +20,7 @@
   }
 }
 .thumbnailSliderWrap {
-  height: 111px;
+  max-height: 111px;
   overflow: hidden;
   @media (max-width: 1200px) {
     height: 70px;
@@ -30,17 +30,20 @@
   }
   .slickSlide img {
     cursor: pointer;
-    width: 90%;
+    // width: 90%;
     max-width: 213px;
     border: 1px solid #d5d5e2;
     border-radius: 8px;
     outline: none;
-    height: 111px;
+    max-height: 111px;
+    @media (max-width: 1400px) {
+      width: 90%;
+    }
     @media (max-width: 1200px) {
-      height: 70px;
+      max-height: 70px;
     }
     @media (max-width: 767.98px) {
-      height: 50px;
+      max-height: 50px;
     }
   }
 }

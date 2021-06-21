@@ -19,6 +19,6 @@ ids.forEach(async (id) => {
     await yaml.write(`../copy/tools/${id}.yml`, file);
     console.log(id, "success");
   } catch (e) {
-    console.log(`${id} error!!!!!`, e);
+    console.log(`${id}`, e);
   }
 });

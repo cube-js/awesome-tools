@@ -14,14 +14,16 @@ const getGithubData = async (githubSlug) => {
   let contributors = null;
   let releases = null;
   let issues = null;
+  let stale_issues = null;
+  let stale_date = getStaleDate();
 
   try {
     repo = await loadJSON(
       `https://api.github.com/repos/${githubSlug}`,
       headers
     );
-    contributors = await loadJSON(
-      `https://api.github.com/repos/${githubSlug}/contributors`,
+    contributors = await loadHeaders(
+      `https://api.github.com/repos/${githubSlug}/contributors?per_page=1&anon=true`,
       headers
     );
     releases = await loadJSON(
@@ -29,58 +31,38 @@ const getGithubData = async (githubSlug) => {
       headers
     );
     issues = await loadJSON(
-      `https://api.github.com/repos/${githubSlug}/issues`,
+      `https://api.github.com/search/issues?q=repo:${githubSlug}+type:issue+state:open&per_page=1`,
+      headers
+    );
+    stale_issues = await loadJSON(
+      `https://api.github.com/search/issues?q=repo:${githubSlug}+type:issue+created:<${stale_date}+state:open&per_page=1`,
       headers
     );
   } catch (e) {
     throw new Error(e);
   }
-  // error check
+
   if (
-    (repo.message, contributors.message || releases.message || issues.message)
+    repo.message ||
+    releases.message ||
+    issues.message ||
+    stale_issues.message
   ) {
-    throw new Error(
-      "Bad request: " + repo.message ||
-        contributors.message ||
-        releases.message ||
-        issues.message
-    );
+    throw new Error("Bad request: API LIMIT");
   }
-  // console.log(releases);
+
   return {
     stars: repo?.stargazers_count,
-    contributors: contributors?.length,
-    issues: repo?.open_issues,
-    stale_issues: getStaleIssues(issues, repo?.open_issues),
+    contributors: getContributorsByResponseHeaders(contributors),
+    issues: issues?.total_count,
+    stale_issues: stale_issues?.total_count,
     last_release: {
       date: releases?.[0]?.published_at || null,
       link: releases?.[0]?.html_url || null,
     },
   };
 };
-// const getTweetsByHashtag = async (tags) => {
-//   const headers = {
-//     Authorization: "Bearer",
-//   };
-//   const result = [];
 
-//   try {
-//     if (tags) {
-//       tags.forEach((tag) => {
-//         const posts = await loadJSON(
-//           `https//api.twitter.com/1.1/search/tweets.json?q=%23${tag}`,
-//           headers
-//         );
-//         if (posts) {
-//           console.log(posts);
-//         }
-//       });
-//     }
-//   } catch (e) {
-//     throw new Error(e);
-//   }
-//   return result;
-// };
 const getStackoverflowDataByTags = async (tags) => {
   if (!tags) {
     return null;
@@ -92,7 +74,7 @@ const getStackoverflowDataByTags = async (tags) => {
       const response = await loadJSON(
         `https://api.stackexchange.com/2.2/tags?order=desc&sort=popular&inname=${tag}&site=stackoverflow`
       );
-      // console.log(response);
+
       response.items.forEach((item) => {
         if (item.name === tag && item.count) {
           result += item.count;
@@ -116,19 +98,32 @@ async function loadJSON(url, headers) {
     throw new Error(e);
   }
 }
-function getStaleIssues(issues, open_issues) {
-  if (!issues || typeof open_issues !== "number") {
-    return null;
+async function loadHeaders(url, headers) {
+  try {
+    const res = await fetch(url, headers);
+    return await res.headers.get("Link");
+  } catch (e) {
+    throw new Error(e);
   }
-  const date = new Date();
+}
+
+function getStaleDate() {
+  var date = new Date();
   date.setFullYear(date.getFullYear() - 1);
 
-  const newIssues = issues.filter((issue) => {
-    if (issue.state === "open" && date < new Date(issue.created_at)) {
-      return true;
-    }
-  });
-  return open_issues - newIssues.length;
+  return date.toISOString().split("T")[0];
+}
+
+function getContributorsByResponseHeaders(str) {
+  if (!str) {
+    return null;
+  }
+  let newStr = str.slice(str.indexOf('rel="next"'));
+  let start = newStr.indexOf("&page=");
+  let end = newStr.length - 13;
+  let result = newStr.slice(start, end);
+  let numb = result.match(/\d/g);
+  return parseInt(numb.join(""));
 }
 
 async function asyncForEach(array, callback) {

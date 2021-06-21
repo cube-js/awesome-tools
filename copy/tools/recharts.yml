@@ -50,9 +50,9 @@ content:
     link: 'https://react-dashboard.cube.dev'
 github_data:
   stars: 16518
-  contributors: 30
-  issues: 192
-  stale_issues: 162
+  contributors: 212
+  issues: 188
+  stale_issues: 88
   last_release:
     date: null
     link: null

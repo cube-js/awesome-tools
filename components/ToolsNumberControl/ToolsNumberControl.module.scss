@@ -1,6 +1,7 @@
 @import "/styles/variables";
 
 .toolsControl {
+  min-height: 34px;
   display: flex;
   align-items: center;
   @media (max-width: 767.98px) {

@@ -124,13 +124,7 @@ export default function Home({ tools }) {
 
         <div className="flex flex-wrap-row flex-items-center mb-sm">
           <AccentedText className="mr-xs">Compatible with</AccentedText>
-          <Chip
-            active={framework.length === 0 ? "active" : null}
-            onClick={() => setFramework([])}
-          >
-            any framework
-          </Chip>
-          <AccentedText className="mr-xs ml-xs">or</AccentedText>
+
           <Chip
             className="mr-xs"
             src="/images/logo/react.svg"
@@ -157,14 +151,7 @@ export default function Home({ tools }) {
         </div>
         <div className="flex flex-wrap-row flex-items-center">
           <AccentedText className="mr-xs">With support for</AccentedText>
-          <Chip
-            className="mr-xs"
-            src="/images/logo/javascript.svg"
-            active={language.includes("javascript") ? "active" : null}
-            onClick={() => setItem(language, setLanguage, "javascript")}
-          >
-            JavaScript
-          </Chip>
+
           <Chip
             src="/images/logo/typescript.svg"
             active={language.includes("typescript") ? "active" : null}
