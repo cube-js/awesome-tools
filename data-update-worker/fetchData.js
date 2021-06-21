@@ -84,7 +84,7 @@ const getStackoverflowDataByTags = async (tags) => {
         `https://api.stackexchange.com/2.2/tags?order=desc&sort=popular&inname=${tag}&site=stackoverflow`
       );
 
-      response.items.forEach((item) => {
+      response?.items?.forEach((item) => {
         if (item.name === tag && item.count) {
           result += item.count;
         }

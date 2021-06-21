@@ -47,9 +47,9 @@ content:
     link: 'https://leafletjs.com/examples/quick-start/'
 github_data:
   stars: 30915
-  contributors: 30
-  issues: 685
-  stale_issues: 655
+  contributors: 802
+  issues: 471
+  stale_issues: 362
   last_release:
     date: '2020-09-04T08:38:43Z'
     link: 'https://github.com/Leaflet/Leaflet/releases/tag/v1.7.1'

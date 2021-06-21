@@ -1,0 +1,8 @@
+# Everything from .example and also the following fields
+
+positions:
+  total: 45
+  stars: 3
+
+percentages:
+  stale_issues: 32

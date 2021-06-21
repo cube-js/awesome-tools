@@ -53,8 +53,8 @@ content:
     link: 'https://react-pivot-table.cube.dev'
 github_data:
   stars: 7292
-  contributors: 30
-  issues: 24
+  contributors: 116
+  issues: 22
   stale_issues: 0
   last_release:
     date: '2021-06-14T15:11:55Z'

@@ -52,9 +52,9 @@ content:
     link: 'https://www.anychart.com/chartopedia/usage-type/'
 github_data:
   stars: 292
-  contributors: 16
-  issues: 82
-  stale_issues: 54
+  contributors: 21
+  issues: 81
+  stale_issues: 53
   last_release:
     date: '2021-05-26T04:18:08Z'
     link: 'https://github.com/AnyChart/AnyChart/releases/tag/v8.10.0'
