@@ -18,6 +18,14 @@ const getGithubData = async (githubSlug) => {
   let stale_date = getStaleDate();
 
   try {
+    issues = await loadJSON(
+      `https://api.github.com/search/issues?q=repo:${githubSlug}+type:issue+state:open&per_page=1`,
+      headers
+    );
+    stale_issues = await loadJSON(
+      `https://api.github.com/search/issues?q=repo:${githubSlug}+type:issue+created:<${stale_date}+state:open&per_page=1`,
+      headers
+    );
     repo = await loadJSON(
       `https://api.github.com/repos/${githubSlug}`,
       headers
@@ -30,14 +38,6 @@ const getGithubData = async (githubSlug) => {
       `https://api.github.com/repos/${githubSlug}/releases`,
       headers
     );
-    issues = await loadJSON(
-      `https://api.github.com/search/issues?q=repo:${githubSlug}+type:issue+state:open&per_page=1`,
-      headers
-    );
-    stale_issues = await loadJSON(
-      `https://api.github.com/search/issues?q=repo:${githubSlug}+type:issue+created:<${stale_date}+state:open&per_page=1`,
-      headers
-    );
   } catch (e) {
     throw new Error(e);
   }
@@ -46,9 +46,18 @@ const getGithubData = async (githubSlug) => {
     repo.message ||
     releases.message ||
     issues.message ||
-    stale_issues.message
+    stale_issues.message ||
+    contributors.message
   ) {
-    throw new Error("Bad request: API LIMIT");
+    throw new Error(
+      `Bad request: ${
+        repo.message ||
+        releases.message ||
+        issues.message ||
+        stale_issues.message ||
+        contributors.message
+      }`
+    );
   }
 
   return {

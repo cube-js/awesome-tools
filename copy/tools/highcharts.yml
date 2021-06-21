@@ -5,7 +5,7 @@ developer: highcharts.svg
 based_on: null
 licenses:
   - type: proprietary
-    license: "https://github.com/highcharts/highcharts/blob/master/license.txt"
+    license: 'https://github.com/highcharts/highcharts/blob/master/license.txt'
 types:
   - charts
   - maps
@@ -38,20 +38,20 @@ tags:
   twitter:
     - highcharts
 links:
-  website: "https://www.highcharts.com"
-  examples: "https://www.highcharts.com/demo"
-  docs: "https://www.highcharts.com/docs/index"
-  pricing: "https://shop.highsoft.com"
+  website: 'https://www.highcharts.com'
+  examples: 'https://www.highcharts.com/demo'
+  docs: 'https://www.highcharts.com/docs/index'
+  pricing: 'https://shop.highsoft.com'
   slack: null
 content:
   - type: cube
     title: React Highcharts Example with Cube.js
-    link: "https://cube.dev/blog/react-highcharts-example/"
+    link: 'https://cube.dev/blog/react-highcharts-example/'
 github_data:
   stars: 10098
-  contributors: 30
-  issues: 819
-  stale_issues: 789
+  contributors: 178
+  issues: 755
+  stale_issues: 323
   last_release:
     date: null
     link: null

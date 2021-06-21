@@ -45,9 +45,9 @@ content:
     link: 'https://ptsjs.org/guide/get-started-0100'
 github_data:
   stars: 4473
-  contributors: 13
-  issues: 28
-  stale_issues: 13
+  contributors: 17
+  issues: 25
+  stale_issues: 12
   last_release:
     date: '2021-02-19T09:49:49Z'
     link: 'https://github.com/williamngan/pts/releases/tag/v0.10.2'
