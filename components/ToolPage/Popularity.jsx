@@ -17,7 +17,11 @@ export default function Popularity(props) {
         <Card
           isBig={true}
           link={`https://github.com/${props?.slugs?.github}/stargazers`}
-          color={(props?.positions?.stars / props?.positions?.total) > 0.67 ? "orange" : null}
+          color={
+            props?.positions?.stars / props?.positions?.total > 0.67
+              ? "orange"
+              : null
+          }
           icon="/images/logo/github-big.svg"
           text={abbreviateNumber(props?.github?.stars) || 0}
           description="GitHub stars"
@@ -42,7 +46,7 @@ export default function Popularity(props) {
           link={`https://github.com/${props?.slugs?.github}/graphs/contributors`}
           className="mb-md"
           color="gray"
-          text={props?.github?.contributors}
+          text={abbreviateNumber(props?.github?.contributors)}
           description="contributors"
         />
         {props?.github?.last_release?.date && (
