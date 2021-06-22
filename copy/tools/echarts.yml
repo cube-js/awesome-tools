@@ -5,7 +5,7 @@ developer: null
 based_on: null
 licenses:
   - type: open-source
-    title: MIT
+    title: 'Apache License 2.0'
     link: 'https://github.com/apache/echarts/blob/master/LICENSE'
 types:
   - charts
