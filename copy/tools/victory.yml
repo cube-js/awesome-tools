@@ -29,7 +29,6 @@ frameworks:
 slugs:
   github: FormidableLabs/victory
   npm: victory
-  npm_types: '@types/victory'
 tags:
   stackoverflow:
     - victory-charts
