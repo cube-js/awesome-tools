@@ -51,13 +51,13 @@ content:
     title: JavaScript Map Data Visualization with Mapbox
     link: 'https://mapbox-guide.cube.dev'
 github_data:
-  stars: 7615
+  stars: 7617
   contributors: 344
-  issues: 830
-  stale_issues: 637
+  issues: 827
+  stale_issues: 638
   last_release:
-    date: '2021-06-02T16:39:09Z'
-    link: 'https://github.com/mapbox/mapbox-gl-js/releases/tag/style-spec%4013.20.0'
+    date: '2021-06-21T20:46:26Z'
+    link: 'https://github.com/mapbox/mapbox-gl-js/releases/tag/style-spec%4013.20.1'
 twitter_feed: []
 stackoverflow_data:
-  questions_count: 7529
+  questions_count: 7540
