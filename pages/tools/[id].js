@@ -53,12 +53,14 @@ export default function Tool(props) {
         {props.gallery && props.gallery.length !== 0 && (
           <Gallery gallery={props.gallery} link={props?.links?.examples} />
         )}
-        <Popularity
-          slugs={props.slugs}
-          github={props.github_data}
-          positions={props.positions}
-          percentages={props.percentages}
-        />
+        {props.github_data && (
+          <Popularity
+            slugs={props.slugs}
+            github={props.github_data}
+            positions={props.positions}
+            percentages={props.percentages}
+          />
+        )}
         {props.twitter_feed && props.twitter_feed.length > 0 && (
           <News
             news={props.twitter_feed}
@@ -80,7 +82,9 @@ export default function Tool(props) {
           positions={props.positions}
           stackoverflow={
             props?.tags?.stackoverflow
-              ? `https://stackoverflow.com/questions/tagged/${encodeURIComponent(props?.tags?.stackoverflow.join(" or "))}`
+              ? `https://stackoverflow.com/questions/tagged/${encodeURIComponent(
+                  props?.tags?.stackoverflow.join(" or ")
+                )}`
               : null
           }
           stackoverflow_data={props.stackoverflow_data}

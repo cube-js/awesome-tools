@@ -48,19 +48,21 @@ export default function ToolCard(props) {
             dangerouslySetInnerHTML={{ __html: props.description }}
           ></p>
           <div className="flex flex-wrap-row">
-            <div className="flex flex-column">
-              <span className={styles.features}>GitHub stars</span>
-              <div className={styles.github}>
-                <ReactSVG
-                  wrapper="span"
-                  className={styles.icon}
-                  src="/images/logo/github.svg"
-                />
-                <span className={styles.features__text}>
-                  {abbreviateNumber(props?.github_data?.stars) || "-"}
-                </span>
+            {props?.github_data && (
+              <div className="flex flex-column">
+                <span className={styles.features}>GitHub stars</span>
+                <div className={styles.github}>
+                  <ReactSVG
+                    wrapper="span"
+                    className={styles.icon}
+                    src="/images/logo/github.svg"
+                  />
+                  <span className={styles.features__text}>
+                    {abbreviateNumber(props?.github_data?.stars) || "-"}
+                  </span>
+                </div>
               </div>
-            </div>
+            )}
 
             {props.frameworks && props.frameworks.length > 0 && (
               <div className="flex flex-column">
