@@ -37,8 +37,14 @@ function MyApp({ Component, pageProps }) {
         <link rel="icon" href="/favicon.png" type="image/png" />
         <meta name="msapplication-TileColor" content="#da532c" />
         <meta name="theme-color" content="#ffffff" />
-        <meta property="og:description" content="An open-source list of awesome data visualization tools for software developers" />
-        <meta property="og:image" content="/og-image.jpeg" />
+        <meta
+          property="og:description"
+          content="An open-source list of awesome data visualization tools for software developers"
+        />
+        <meta
+          property="og:image"
+          content="https://cubedev-blog-images.s3.us-east-2.amazonaws.com/482a86d6-d049-4d92-a0bf-0fcc5830476f.jpeg"
+        />
         <meta
           name="google-site-verification"
           content="zJjljUArvZ0PVn8naOnxEue8ZX0wh0nsM0q32NYnzzQ"
