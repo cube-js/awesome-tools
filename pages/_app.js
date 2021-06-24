@@ -42,6 +42,20 @@ function MyApp({ Component, pageProps }) {
           content="An open-source list of awesome data visualization tools for software developers"
         />
         <meta
+          property="twitter:description"
+          content="An open-source list of awesome data visualization tools for software developers"
+        />
+        <meta
+          property="twitter:image"
+          content="https://cubedev-blog-images.s3.us-east-2.amazonaws.com/482a86d6-d049-4d92-a0bf-0fcc5830476f.jpeg"
+        />
+        <meta
+          property="twitter:image:alt"
+          content="Cover image for awesome.cube.dev"
+        />
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:creator" content="@thecubejs" />
+        <meta
           property="og:image"
           content="https://cubedev-blog-images.s3.us-east-2.amazonaws.com/482a86d6-d049-4d92-a0bf-0fcc5830476f.jpeg"
         />

@@ -16,7 +16,7 @@ const ToolsNumberControl = dynamic(() =>
 );
 
 export default function Home({ tools }) {
-  const title = 'Awesome dataviz tools by Cube.js';
+  const title = "Awesome dataviz tools by Cube.js";
 
   const router = useRouter();
   const query = router.query;
@@ -79,6 +79,7 @@ export default function Home({ tools }) {
           content="Awesome data visualization tools for software developers by Cube.js"
         />
         <meta property="og:title" content={title} />
+        <meta property="twitter:title" content={title} />
         <meta property="og:url" content="https://awesome.cube.dev/" />
       </Head>
 
