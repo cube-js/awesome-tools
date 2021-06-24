@@ -38,7 +38,7 @@ function MyApp({ Component, pageProps }) {
         <meta name="msapplication-TileColor" content="#da532c" />
         <meta name="theme-color" content="#ffffff" />
         <meta property="og:description" content="An open-source list of awesome data visualization tools for software developers" />
-        <meta property="og:image" content="/images/og_image.jpg" />
+        <meta property="og:image" content="/og-image.jpeg" />
         <meta
           name="google-site-verification"
           content="zJjljUArvZ0PVn8naOnxEue8ZX0wh0nsM0q32NYnzzQ"
