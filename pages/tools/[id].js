@@ -32,6 +32,8 @@ export default function Tool(props) {
           name="description"
           content={`${props.title} is one of many awesome data visualization tools for software developers by Cube.js`}
         />
+        <meta property="og:title" content={`${props.title} — Awesome dataviz tools by Cube.js`} />
+        <meta property="og:url" content={`https://awesome.cube.dev/tools/${props.id}`} />
       </Head>
 
       <main>
@@ -119,6 +121,7 @@ export async function getStaticProps({ params }) {
 
   return {
     props: {
+      id: params.id,
       ...tool,
     },
   };
