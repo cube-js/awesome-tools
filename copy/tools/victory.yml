@@ -51,11 +51,11 @@ content:
 github_data:
   stars: 8926
   contributors: 182
-  issues: 151
-  stale_issues: 129
+  issues: 150
+  stale_issues: 130
   last_release:
-    date: '2021-06-22T18:07:46Z'
-    link: 'https://github.com/FormidableLabs/victory/releases/tag/v35.8.6'
+    date: '2021-06-24T16:52:34Z'
+    link: 'https://github.com/FormidableLabs/victory/releases/tag/v35.9.0'
 twitter_feed: []
 stackoverflow_data:
   questions_count: 196
