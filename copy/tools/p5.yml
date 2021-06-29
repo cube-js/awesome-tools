@@ -1,0 +1,68 @@
+title: p5.js
+description: JavaScript library for creative coding that makes coding accessible and inclusive
+logo: /images/logo/p5.svg
+developer:
+
+based_on:
+
+licenses:
+  - type: open-source
+    title: GNU LGPL 2.1
+    link: https://github.com/processing/p5.js/blob/main/license.txt
+
+types:
+  - low-level
+
+features:
+  easy-to-customize: 0
+  easy-to-start-with: 0
+  full-fledged: 0
+  very-popular: 0
+  well-documented: 0
+
+gallery: []
+
+languages:
+  - JavaScript
+  - TypeScript
+
+frameworks:
+  - vanilla-js
+
+slugs:
+  github: processing/p5.js
+  npm: p5
+  npm_types: "@types/p5"
+
+tags:
+  stackoverflow:
+    - p5.js
+  twitter:
+    - p5js
+    - p5xjs
+
+links:
+  website: https://p5js.org
+  examples: https://p5js.org/examples/
+  docs: https://p5js.org/examples/
+  pricing:
+  slack:
+
+content:
+  - type: official
+    title: "Get Started with p5.js"
+    link: https://p5js.org/get-started/
+
+github_data:
+  stars: 15600
+  contributors: 442
+  issues: 146
+  stale_issues: 50
+  last_release:
+    date: "2021-03-28T00:00:00Z"
+    link: https://github.com/processing/p5.js/releases/tag/v1.3.1
+
+stackoverflow_data:
+  questions_count: 2170
+
+twitter_feed:
