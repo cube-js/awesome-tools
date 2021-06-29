@@ -1,0 +1,68 @@
+title: Vega-Lite
+description: Concise grammar of interactive graphics, built on Vega
+logo: /images/logo/vega-lite.svg
+developer:
+
+based_on:
+  - vega
+
+licenses:
+  - type: open-source
+    title: BSD
+    link: https://github.com/vega/vega-lite/blob/master/LICENSE
+
+types:
+  - low-level
+
+features:
+  easy-to-customize: 0
+  easy-to-start-with: 0
+  full-fledged: 0
+  very-popular: 0
+  well-documented: 0
+
+gallery: []
+
+languages:
+  - JavaScript
+  - TypeScript
+
+frameworks:
+  - vanilla-js
+  - react
+
+slugs:
+  github: vega/vega-lite
+  npm: vega-lite
+
+tags:
+  stackoverflow:
+    - vega-lite
+  twitter:
+    - vegalite
+
+links:
+  website: https://vega.github.io/vega-lite/
+  examples: https://vega.github.io/vega-lite/examples/
+  docs: https://vega.github.io/vega-lite/docs/
+  pricing:
+  slack:
+
+content:
+  - type: official
+    title: "Introduction to Vega-Lite"
+    link: https://vega.github.io/vega-lite/tutorials/getting_started.html
+
+github_data:
+  stars: 3400
+  contributors: 165
+  issues: 471
+  stale_issues: 371
+  last_release:
+    date: "2021-04-16T00:00:00Z"
+    link: https://github.com/vega/vega-lite/releases/tag/v5.1.0
+
+stackoverflow_data:
+  questions_count: 688
+
+twitter_feed:
