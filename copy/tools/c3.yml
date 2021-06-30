@@ -50,10 +50,10 @@ github_data:
   stars: 9087
   contributors: 169
   issues: 712
-  stale_issues: 690
+  stale_issues: 691
   last_release:
     date: '2020-08-08T09:14:36Z'
     link: 'https://github.com/c3js/c3/releases/tag/v0.7.20'
 twitter_feed: []
 stackoverflow_data:
-  questions_count: 1125
+  questions_count: 1126
