@@ -54,7 +54,7 @@ github_data:
   stars: 291
   contributors: 21
   issues: 81
-  stale_issues: 55
+  stale_issues: 57
   last_release:
     date: '2021-05-26T04:18:08Z'
     link: 'https://github.com/AnyChart/AnyChart/releases/tag/v8.10.0'
