@@ -44,8 +44,8 @@ content:
     title: Getting started with vx
     link: 'https://medium.com/vx-code/getting-started-with-vx-1756bb661410'
 github_data:
-  stars: 13525
-  contributors: 114
+  stars: 13528
+  contributors: 115
   issues: 78
   stale_issues: 18
   last_release:
