@@ -5,6 +5,7 @@ based_on: null
 licenses:
   - type: open-source
     title: MIT
+    link: 'https://github.com/chartjs/Chart.js/blob/master/LICENSE.md'
 types:
   - charts
 features:
