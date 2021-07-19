@@ -21,7 +21,12 @@ features:
   very-popular: 0
   well-documented: 0
 
-gallery: []
+gallery:
+  - /images/slider/vega-lite-1.png
+  - /images/slider/vega-lite-2.png
+  - /images/slider/vega-lite-3.png
+  - /images/slider/vega-lite-4.png
+  - /images/slider/vega-lite-5.png
 
 languages:
   - JavaScript
