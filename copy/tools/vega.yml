@@ -51,7 +51,7 @@ links:
   examples: https://vega.github.io/vega/examples/
   docs: https://vega.github.io/vega/docs/
   pricing:
-  slack:
+  slack: https://bit.ly/join-vega-slack-2020
 
 content:
   - type: official
