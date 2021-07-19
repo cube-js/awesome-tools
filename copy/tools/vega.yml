@@ -1,0 +1,73 @@
+title: Vega
+description: Visualization grammar, a declarative language for creating and sharing visualization designs
+logo: /images/logo/vega.svg
+developer:
+
+based_on:
+  - d3
+
+licenses:
+  - type: open-source
+    title: BSD
+    link: https://github.com/vega/vega/blob/master/LICENSE
+
+types:
+  - low-level
+
+features:
+  easy-to-customize: 0
+  easy-to-start-with: 0
+  full-fledged: 0
+  very-popular: 0
+  well-documented: 0
+
+gallery:
+  - /images/slider/vega-1.png
+  - /images/slider/vega-2.png
+  - /images/slider/vega-3.png
+  - /images/slider/vega-4.png
+  - /images/slider/vega-5.png
+
+languages:
+  - JavaScript
+  - TypeScript
+
+frameworks:
+  - vanilla-js
+  - react
+
+slugs:
+  github: vega/vega
+  npm: vega
+
+tags:
+  stackoverflow:
+    - vega
+  twitter:
+    - vegajs
+
+links:
+  website: https://vega.github.io/vega/
+  examples: https://vega.github.io/vega/examples/
+  docs: https://vega.github.io/vega/docs/
+  pricing:
+  slack:
+
+content:
+  - type: official
+    title: "Let's Make a Bar Chart"
+    link: https://vega.github.io/vega/tutorials/bar-chart/
+
+github_data:
+  stars: 9300
+  contributors: 102
+  issues: 334
+  stale_issues: 260
+  last_release:
+    date: "2021-03-29T00:00:00Z"
+    link: https://github.com/vega/vega/releases/tag/v5.20.1
+
+stackoverflow_data:
+  questions_count: 572
+
+twitter_feed:

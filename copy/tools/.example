@@ -75,6 +75,9 @@ github_data:
     date: "2021-04-30T00:00:00Z"
     link: https://github.com/ag-grid/ag-grid/releases/tag/v25.2.0
 
+stackoverflow_data:
+  questions_count: 37620
+
 twitter_feed:
   - user: Benjamin Scott
     image: /images/tweet-avatar.png
