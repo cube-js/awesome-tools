@@ -50,11 +50,11 @@ content:
 github_data:
   stars: 10162
   contributors: 179
-  issues: 775
-  stale_issues: 346
+  issues: 776
+  stale_issues: 344
   last_release:
     date: null
     link: null
 twitter_feed: []
 stackoverflow_data:
-  questions_count: 23854
+  questions_count: 23861
