@@ -48,7 +48,7 @@ content:
     link: 'https://vega.github.io/vega-lite/tutorials/getting_started.html'
 github_data:
   stars: 3411
-  contributors: 168
+  contributors: 169
   issues: 476
   stale_issues: 387
   last_release:
