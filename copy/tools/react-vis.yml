@@ -47,13 +47,13 @@ content:
     link: >-
       https://uber.github.io/react-vis/documentation/getting-started/creating-a-new-react-vis-project
 github_data:
-  stars: 7951
+  stars: 7956
   contributors: 122
   issues: 292
-  stale_issues: 256
+  stale_issues: 257
   last_release:
     date: '2019-04-19T03:58:15Z'
     link: 'https://github.com/uber/react-vis/releases/tag/v1.11.7'
 twitter_feed: []
 stackoverflow_data:
-  questions_count: 76
+  questions_count: 77
