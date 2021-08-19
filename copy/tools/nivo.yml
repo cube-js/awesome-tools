@@ -41,7 +41,7 @@ links:
   slack: null
 content: []
 github_data:
-  stars: 9083
+  stars: 9091
   contributors: 152
   issues: 70
   stale_issues: 24
@@ -50,4 +50,4 @@ github_data:
     link: 'https://github.com/plouc/nivo/releases/tag/v0.73.1'
 twitter_feed: null
 stackoverflow_data:
-  questions_count: 47
+  questions_count: 48
