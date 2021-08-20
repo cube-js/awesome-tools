@@ -43,8 +43,8 @@ content:
     title: What is Apache Superset?
     link: 'https://superset.apache.org/docs/intro'
 github_data:
-  stars: 40047
-  contributors: 653
+  stars: 40064
+  contributors: 654
   issues: 945
   stale_issues: 64
   last_release:
