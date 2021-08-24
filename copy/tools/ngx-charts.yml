@@ -43,11 +43,11 @@ content: null
 github_data:
   stars: 3997
   contributors: 123
-  issues: 589
-  stale_issues: 498
+  issues: 590
+  stale_issues: 499
   last_release:
     date: null
     link: null
 twitter_feed: []
 stackoverflow_data:
-  questions_count: 224
+  questions_count: 225
