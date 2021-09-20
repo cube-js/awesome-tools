@@ -18,6 +18,7 @@ const ToolCard = dynamic(() => import("../components/Cards/ToolCard"));
 const ComparisonCard = dynamic(() =>
   import("../components/Cards/Comparison")
 );
+const ComparisonPopup = dynamic(() => import("../blocks/ComparisonPopup"));
 const ToolsNumberControl = dynamic(() =>
   import("../components/ToolsNumberControl")
 );
@@ -32,6 +33,7 @@ export default function Home({ tools }) {
   const [framework, setFramework] = useState([]);
   const [language, setLanguage] = useState([]);
   const [license, setLicense] = useState([]);
+  const [isOpenPopup, setOpenPopup] = useState(false);
 
   useEffect(() => {
     if (Object.keys(query).length && !isFirstLoad) {
@@ -77,8 +79,8 @@ export default function Home({ tools }) {
     }
   };
 
-  const openPopup = () => {
-    console.log('open!')
+  const togglePopup = () => {
+    setOpenPopup(!isOpenPopup);
   }
 
   return (
@@ -229,7 +231,7 @@ export default function Home({ tools }) {
 
         <section className={styles.comparison}>
           <H2 className={styles.comparison__header}>Comparison</H2>
-          <div className={'row'}>
+          <div className={"row"}>
             <div className="col-md-6 col-xl-3 mb-md">
               <ComparisonCard
                 tools={[filteredTools[0], filteredTools[1]]}
@@ -246,9 +248,11 @@ export default function Home({ tools }) {
               ></ComparisonCard>
             </div>
             <div className="col-md-6 col-xl-3 mb-md">
-              <ComparisonCard onClick={openPopup}></ComparisonCard>
+              <ComparisonCard onClick={togglePopup}></ComparisonCard>
             </div>
           </div>
+
+          <ComparisonPopup isOpen={isOpenPopup} onClose={togglePopup}/>
         </section>
       </main>
     </div>

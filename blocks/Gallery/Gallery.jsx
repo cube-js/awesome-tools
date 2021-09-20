@@ -1,6 +1,6 @@
 import dynamic from "next/dynamic";
 import styles from "./Gallery.module.scss";
-import H2 from "../Text/H2";
+import H2 from "../../components/Text/H2";
 const Slider = dynamic(() => import("../../components/Slider"));
 // import Slider from "../Slider";
 // const slidesData = [
