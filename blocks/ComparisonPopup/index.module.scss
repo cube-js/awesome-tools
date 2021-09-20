@@ -4,6 +4,9 @@
   transform: translateX(50%);
   top: 95px;
   z-index: 0;
+  @media (max-width: 767px) {
+    width: 50%;
+  }
 }
 .title {
   position: relative;
@@ -11,17 +14,30 @@
   margin-top: 65px;
   margin-bottom: 48px;
   z-index: 2;
+  @media (max-width: 1023px) {
+    margin-top: 32px;
+    margin-bottom: 32px;
+  }
 }
 .selectsRow {
   position: relative;
   z-index: 2;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 128px;
   margin-bottom: 112px;
+  @media (max-width: 1023px) {
+    flex-direction: column;
+    gap: 16px;
+    margin-bottom: 32px;
+  }
 }
 .select {
   width: 340px;
+  @media (max-width: 767px) {
+    width: 100%;
+  }
 }
 .buttonWrap {
   display: flex;
