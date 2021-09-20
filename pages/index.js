@@ -15,7 +15,9 @@ import AccentedText from "../components/Text/AccentedText";
 import ExploreToolsCard from "../components/Cards/ExploreToolsCard";
 
 const ToolCard = dynamic(() => import("../components/Cards/ToolCard"));
-const ComparisonCard = dynamic(() => import("../components/Cards/Comparsion"));
+const ComparisonCard = dynamic(() =>
+  import("../components/Cards/Comparison")
+);
 const ToolsNumberControl = dynamic(() =>
   import("../components/ToolsNumberControl")
 );
@@ -75,6 +77,10 @@ export default function Home({ tools }) {
     }
   };
 
+  const openPopup = () => {
+    console.log('open!')
+  }
+
   return (
     <div className="container custom-container">
       <Head>
@@ -93,7 +99,7 @@ export default function Home({ tools }) {
           Awesome data visualization tools <br className="xl-hidden" /> for
           software developers
         </H1>
-        <div className="row mb-md">
+        <section className="row mb-md">
           <ExploreToolsCard
             onClick={() => setItem(exploreTools, setExploreTools, "charts")}
             active={exploreTools.includes("charts") ? "active" : null}
@@ -130,7 +136,7 @@ export default function Home({ tools }) {
             text="Exploration<br/>apps"
             image="apps"
           />
-        </div>
+        </section>
 
         <div className="flex flex-wrap-row flex-items-center mb-sm">
           <AccentedText className="mr-xs">Compatible with</AccentedText>
@@ -189,7 +195,7 @@ export default function Home({ tools }) {
           <AccentedText className="ml-xs">license</AccentedText>
         </div>
 
-        <div className={styles["number-control-wrap"]}>
+        <section className={styles["number-control-wrap"]}>
           <ToolsNumberControl
             filteredTools={filteredTools}
             isChanged={
@@ -207,9 +213,9 @@ export default function Home({ tools }) {
               ]);
             }}
           />
-        </div>
+        </section>
 
-        <div>
+        <section>
           <div className="row">
             {filteredTools &&
               filteredTools.map((tool) => (
@@ -219,10 +225,30 @@ export default function Home({ tools }) {
                 </div>
               ))}
           </div>
-        </div>
+        </section>
 
         <section className={styles.comparison}>
           <H2 className={styles.comparison__header}>Comparison</H2>
+          <div className={'row'}>
+            <div className="col-md-6 col-xl-3 mb-md">
+              <ComparisonCard
+                tools={[filteredTools[0], filteredTools[1]]}
+              ></ComparisonCard>
+            </div>
+            <div className="col-md-6 col-xl-3 mb-md">
+              <ComparisonCard
+                tools={[filteredTools[2], filteredTools[3]]}
+              ></ComparisonCard>
+            </div>
+            <div className="col-md-6 col-xl-3 mb-md">
+              <ComparisonCard
+                tools={[filteredTools[4], filteredTools[5]]}
+              ></ComparisonCard>
+            </div>
+            <div className="col-md-6 col-xl-3 mb-md">
+              <ComparisonCard onClick={openPopup}></ComparisonCard>
+            </div>
+          </div>
         </section>
       </main>
     </div>

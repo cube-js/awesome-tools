@@ -1,7 +1,13 @@
 .comparison {
   margin-top: 126px;
-  &__header {
+  .comparison__header {
     margin-bottom: 40px;
+  }
+
+  &__wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 }
 
