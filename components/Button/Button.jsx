@@ -8,11 +8,13 @@ export default function Button(props) {
       <a
         type="button"
         role="button"
+        disabled={props.disabled}
         {...props}
         className={cx({
           [styles.button]: true,
           [props.className]: props.className,
-          [styles.special]: props.special
+          [styles.special]: props.special,
+          [styles.disabled]: props.disabled,
         })}
       >
         <span>{props.children}</span>

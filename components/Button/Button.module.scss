@@ -52,3 +52,11 @@
     color: $purple-02;
   }
 }
+.button.disabled {
+  background: $light;
+  &:hover {
+    background: $light;
+    border-color: $light;
+    color: #fff;
+  }
+}

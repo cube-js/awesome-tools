@@ -252,7 +252,11 @@ export default function Home({ tools }) {
             </div>
           </div>
 
-          <ComparisonPopup isOpen={isOpenPopup} onClose={togglePopup}/>
+          <ComparisonPopup
+            tools={tools}
+            isOpen={isOpenPopup}
+            onClose={togglePopup}
+          />
         </section>
       </main>
     </div>

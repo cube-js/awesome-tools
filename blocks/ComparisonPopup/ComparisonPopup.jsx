@@ -6,16 +6,7 @@ const Popup = dynamic(() => import("../../components/Popup"));
 const H1 = dynamic(() => import("../../components/Text/H1"));
 const Button = dynamic(() => import("../../components/Button"));
 
-const options = [
-  { value: "chocolate", label: "Chocolate" },
-  { value: "strawberry", label: "Strawberry" },
-  { value: "vanilla", label: "Vanilla" },
-];
-
-
-
 const Control = ({ children, ...props }) => {
-  console.log(props)
   return (
     <components.Control {...props}>
       👍
@@ -25,11 +16,24 @@ const Control = ({ children, ...props }) => {
 };
 
 export default function ComparisonPopup(props) {
-  const [selectedOption, setSelectedOption] = useState(null);
-  const handleChange = (selectedOption) => {
-    console.log(selectedOption);
-    setSelectedOption(selectedOption);
+  const {tools} = props
+  const [selectedOptionFirst, setSelectedOptionFirst] = useState(null);
+  const [selectedOptionSecond, setSelectedOptionSecond] = useState(null);
+
+  const handleChangeFirst = (selectedOption) => {
+    setSelectedOptionFirst(selectedOption);
   };
+  const handleChangeSecond = (selectedOption) => {
+    console.log(selectedOption)
+    setSelectedOptionSecond(selectedOption);
+  };
+  const options = tools.map(tool => {
+    return ({ value: tool.id, label: tool.title })
+  })
+  const isDisabled =
+    !selectedOptionFirst ||
+    !selectedOptionSecond ||
+    selectedOptionFirst?.value === selectedOptionSecond?.value;
 
   return (
     <Popup isOpen={props.isOpen} onClose={props.onClose}>
@@ -44,20 +48,25 @@ export default function ComparisonPopup(props) {
           placeholder="Select tool"
           components={{ Control }}
           className={styles.select}
-          value={selectedOption}
-          onChange={handleChange}
+          value={selectedOptionFirst}
+          onChange={handleChangeFirst}
           options={options}
         />
         <Select
           placeholder="Select tool"
           className={styles.select}
-          value={selectedOption}
-          onChange={handleChange}
+          value={selectedOptionSecond}
+          onChange={handleChangeSecond}
           options={options}
         />
       </div>
       <div className={styles.buttonWrap}>
-        <Button className={styles.button} special>
+        <Button
+          href={!isDisabled ? `${selectedOptionFirst?.value}-vs-${selectedOptionSecond?.value}` : null}
+          disabled={isDisabled}
+          className={styles.button}
+          special="special"
+        >
           Сompare →
         </Button>
       </div>
