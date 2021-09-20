@@ -6,10 +6,12 @@ export default function Popup(props) {
     return false
   }
   return (
-    <div
-      className={cx(styles.popup, "row")}
-    >
-      <div className={cx(styles.popupContentWrap, "col-10")}>
+    <div className={cx(styles.popup, "row")}>
+      <div
+        className={cx(styles.popupContentWrap, "col-10", {
+          [props.className]: props.className,
+        })}
+      >
         <div className={styles.popupCloseButton} onClick={props.onClose}>
           &#10005;
         </div>

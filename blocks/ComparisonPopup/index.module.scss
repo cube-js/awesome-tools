@@ -1,0 +1,33 @@
+.image {
+  position: absolute;
+  right: 50%;
+  transform: translateX(50%);
+  top: 95px;
+  z-index: 0;
+}
+.title {
+  position: relative;
+  text-align: center;
+  margin-top: 65px;
+  margin-bottom: 48px;
+  z-index: 2;
+}
+.selectsRow {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 112px;
+}
+.select {
+  width: 340px;
+}
+.buttonWrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.button {
+  position: relative;
+}
