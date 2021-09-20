@@ -1,5 +1,5 @@
 import styles from "./DescriptionCards.module.scss";
-import Card from "../Card/Card";
+import Card from "../Cards/Card";
 
 const getLicense = (props) => {
   let isOpen = false;

@@ -1,5 +1,5 @@
 import styles from "./Popularity.module.scss";
-import Card from "../Card/Card";
+import Card from "../Cards/Card";
 import H2 from "../Text/H2";
 import moment from "moment";
 import abbreviateNumber from "../../utils/number";

@@ -1,16 +1,21 @@
 import dynamic from "next/dynamic";
-import React, { useState, useEffect } from "react";
 import Head from "next/head";
+import React, { useState, useEffect } from "react";
+import { useRouter } from "next/router";
+
 import { getTools } from "../data/tools";
 import { filter, setParamsFromRouter } from "../data/filter";
-import Chip from "../components/Chip";
-import ExploreToolsCard from "../components/ExploreToolsCard";
-import H1 from "../components/Text/H1";
-import AccentedText from "../components/Text/AccentedText";
-import { useRouter } from "next/router";
-import LazyLoad from "react-lazy-load";
 
-const ToolCard = dynamic(() => import("../components/ToolCard"));
+import styles from "./index.module.scss";
+
+import Chip from "../components/Chip";
+import H1 from "../components/Text/H1";
+import H2 from "../components/Text/H2";
+import AccentedText from "../components/Text/AccentedText";
+import ExploreToolsCard from "../components/Cards/ExploreToolsCard";
+
+const ToolCard = dynamic(() => import("../components/Cards/ToolCard"));
+const ComparisonCard = dynamic(() => import("../components/Cards/Comparsion"));
 const ToolsNumberControl = dynamic(() =>
   import("../components/ToolsNumberControl")
 );
@@ -184,7 +189,7 @@ export default function Home({ tools }) {
           <AccentedText className="ml-xs">license</AccentedText>
         </div>
 
-        <div className="number-control-wrap">
+        <div className={styles["number-control-wrap"]}>
           <ToolsNumberControl
             filteredTools={filteredTools}
             isChanged={
@@ -215,6 +220,10 @@ export default function Home({ tools }) {
               ))}
           </div>
         </div>
+
+        <section className={styles.comparison}>
+          <H2 className={styles.comparison__header}>Comparison</H2>
+        </section>
       </main>
     </div>
   );

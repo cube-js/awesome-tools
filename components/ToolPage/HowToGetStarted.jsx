@@ -1,5 +1,5 @@
 import styles from "./HowToGetStarted.module.scss";
-import GetStartedCard from "../GetStartedCard";
+import GetStartedCard from "../Cards/GetStartedCard";
 import H2 from "../Text/H2";
 
 export default function HowToGetStarted(props) {

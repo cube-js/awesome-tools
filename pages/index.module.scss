@@ -1,0 +1,14 @@
+.comparison {
+  margin-top: 126px;
+  &__header {
+    margin-bottom: 40px;
+  }
+}
+
+.number-control-wrap {
+  margin-top: 80px;
+  margin-bottom: 24px;
+  @media (max-width: 767.98px) {
+    margin-top: 48px;
+  }
+}
