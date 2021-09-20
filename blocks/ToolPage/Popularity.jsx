@@ -1,6 +1,6 @@
 import styles from "./Popularity.module.scss";
-import Card from "../Cards/Card";
-import H2 from "../Text/H2";
+import Card from "../../components/Cards/Card";
+import H2 from "../../components/Text/H2";
 import moment from "moment";
 import abbreviateNumber from "../../utils/number";
 

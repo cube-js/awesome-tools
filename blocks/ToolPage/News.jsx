@@ -1,6 +1,6 @@
 import styles from "./News.module.scss";
-import NewsCard from "../Cards/NewsCard";
-import H2 from "../Text/H2";
+import NewsCard from "../../components/Cards/NewsCard";
+import H2 from "../../components/Text/H2";
 
 export default function Description(props) {
   return (

@@ -1,25 +1,21 @@
 import dynamic from "next/dynamic";
 import React, { useState } from "react";
 import Head from "next/head";
-import Header from "../../components/ToolPage/Header";
-import Description from "../../components/ToolPage/Description";
-import DescriptionCards from "../../components/ToolPage/DescriptionCards";
+import Header from "../../blocks/ToolPage/Header";
+import Description from "../../blocks/ToolPage/Description";
+import DescriptionCards from "../../blocks/ToolPage/DescriptionCards";
 
 import fs from "fs";
 import { toolCopyPath, getTool } from "../../data/tools";
 import useSlackMembers from "../../data/useSlackMembers";
 
-const Gallery = dynamic(() => import("../../components/Gallery"));
-const Popularity = dynamic(() =>
-  import("../../components/ToolPage/Popularity")
-);
-const News = dynamic(() => import("../../components/ToolPage/News"));
+const Gallery = dynamic(() => import("../../blocks/Gallery"));
+const Popularity = dynamic(() => import("../../blocks/ToolPage/Popularity"));
+const News = dynamic(() => import("../../blocks/ToolPage/News"));
 const HowToGetStarted = dynamic(() =>
-  import("../../components/ToolPage/HowToGetStarted")
+  import("../../blocks/ToolPage/HowToGetStarted")
 );
-const HowToGetHelp = dynamic(() =>
-  import("../../components/ToolPage/HowToGetHelp")
-);
+const HowToGetHelp = dynamic(() => import("../../blocks/ToolPage/HowToGetHelp"));
 
 export default function Tool(props) {
   const slackMembers = useSlackMembers();
