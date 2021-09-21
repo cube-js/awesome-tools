@@ -62,7 +62,7 @@ export default function ComparisonPopup(props) {
       </div>
       <div className={styles.buttonWrap}>
         <Button
-          href={!isDisabled ? `${selectedOptionFirst?.value}-vs-${selectedOptionSecond?.value}` : null}
+          href={!isDisabled ? `/compare/${selectedOptionFirst?.value}-vs-${selectedOptionSecond?.value}` : null}
           disabled={isDisabled}
           className={styles.button}
           special="special"
