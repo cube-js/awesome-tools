@@ -1,3 +1,5 @@
+@import "/styles/variables";
+
 .image {
   position: absolute;
   right: 50%;
@@ -19,6 +21,26 @@
     margin-bottom: 32px;
   }
 }
+
+.buttonWrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.button {
+  position: relative;
+}
+
+.logo {
+  width: 24px;
+  height: 24px;
+  border: 1px solid rgba(213, 213, 226, 0.5);
+  border-radius: 7.5px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 .selectsRow {
   position: relative;
   z-index: 2;
@@ -33,17 +55,37 @@
     margin-bottom: 32px;
   }
 }
+
 .select {
   width: 340px;
+  .control {
+    cursor: pointer;
+    padding: 9px 16px;
+    border-color: $dark;
+    box-shadow: none !important;
+    &:hover {
+      border-color: $dark;
+    }
+  }
+  .option {
+    color: $dark;
+    &:hover {
+      background: $light;
+      color: $purple-hover;
+    }
+  }
+  .optionSelected {
+    background: $light;
+    color: $purple-hover;
+  }
+  .optionFocused {
+    background: #fff;
+     color: $dark;
+  }
+  .isDropdownOpen {
+    transform: rotate(-180deg);
+  }
   @media (max-width: 767px) {
     width: 100%;
   }
-}
-.buttonWrap {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.button {
-  position: relative;
 }

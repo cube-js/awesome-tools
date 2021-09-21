@@ -48,7 +48,15 @@ export default function Tool({id, firstTool, secondTool}) {
       </Head>
 
       <main>
-        <H2>Can’t decide between {firstTool.title} and {secondTool.title}?</H2>
+        <H2>
+          Can’t decide between {firstTool.title} and {secondTool.title}?
+        </H2>
+
+        <p>
+          It looks like {firstTool.title} has open-source library and line
+          charts. However, {secondTool.title} has {secondTool?.github_data?.stars} GitHub stars and
+          open-source library too.
+        </p>
         {/* <Header
           logo={props.logo}
           title={props.title}
