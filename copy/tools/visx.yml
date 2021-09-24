@@ -44,10 +44,10 @@ content:
     title: Getting started with vx
     link: 'https://medium.com/vx-code/getting-started-with-vx-1756bb661410'
 github_data:
-  stars: 14175
+  stars: 14179
   contributors: 121
   issues: 92
-  stale_issues: 20
+  stale_issues: 21
   last_release:
     date: '2021-03-08T20:16:56Z'
     link: 'https://github.com/airbnb/visx/releases/tag/v1.6.1'
