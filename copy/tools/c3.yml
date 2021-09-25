@@ -47,7 +47,7 @@ content:
     title: Getting Started with c3.js
     link: 'https://c3js.org/gettingstarted.html'
 github_data:
-  stars: 9131
+  stars: 9130
   contributors: 169
   issues: 722
   stale_issues: 698
@@ -56,4 +56,4 @@ github_data:
     link: 'https://github.com/c3js/c3/releases/tag/v0.7.20'
 twitter_feed: []
 stackoverflow_data:
-  questions_count: 1124
+  questions_count: 1122
