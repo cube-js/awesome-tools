@@ -57,11 +57,11 @@ content:
 github_data:
   stars: 14031
   contributors: 211
-  issues: 1137
+  issues: 1138
   stale_issues: 880
   last_release:
     date: '2021-09-16T16:20:40Z'
     link: 'https://github.com/plotly/plotly.js/releases/tag/v2.5.1'
 twitter_feed: []
 stackoverflow_data:
-  questions_count: 10238
+  questions_count: 10242
