@@ -44,10 +44,10 @@ github_data:
   stars: 4032
   contributors: 123
   issues: 601
-  stale_issues: 519
+  stale_issues: 521
   last_release:
     date: null
     link: null
 twitter_feed: []
 stackoverflow_data:
-  questions_count: 229
+  questions_count: 228
