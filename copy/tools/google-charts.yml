@@ -43,6 +43,9 @@ content:
   - type: official
     title: Quick Start
     link: 'https://developers.google.com/chart/interactive/docs/quick_start'
+  - type: cube
+    title: 'Google Charts Dashboard: a Tutorial with an Artistic Touch of MoMA 🖼'
+    link: 'https://cube.dev/blog/google-charts-dashboard/'
 github_data: null
 twitter_feed: []
 stackoverflow_data:
