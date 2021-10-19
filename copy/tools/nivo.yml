@@ -8,6 +8,7 @@ licenses:
     title: MIT
 types:
   - charts
+  - maps
 features:
   easy-to-customize: 0
   easy-to-start-with: 0
