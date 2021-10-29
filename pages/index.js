@@ -1,16 +1,24 @@
 import dynamic from "next/dynamic";
-import React, { useState, useEffect } from "react";
 import Head from "next/head";
+import React, { useState, useEffect } from "react";
+import { useRouter } from "next/router";
+
 import { getTools } from "../data/tools";
 import { filter, setParamsFromRouter } from "../data/filter";
-import Chip from "../components/Chip";
-import ExploreToolsCard from "../components/ExploreToolsCard";
-import H1 from "../components/Text/H1";
-import AccentedText from "../components/Text/AccentedText";
-import { useRouter } from "next/router";
-import LazyLoad from "react-lazy-load";
 
-const ToolCard = dynamic(() => import("../components/ToolCard"));
+import styles from "./index.module.scss";
+
+import Chip from "../components/Chip";
+import H1 from "../components/Text/H1";
+import H2 from "../components/Text/H2";
+import AccentedText from "../components/Text/AccentedText";
+import ExploreToolsCard from "../components/Cards/ExploreToolsCard";
+
+const ToolCard = dynamic(() => import("../components/Cards/ToolCard"));
+const ComparisonCard = dynamic(() =>
+  import("../components/Cards/Comparison")
+);
+const ComparisonPopup = dynamic(() => import("../blocks/ComparisonPopup"));
 const ToolsNumberControl = dynamic(() =>
   import("../components/ToolsNumberControl")
 );
@@ -25,6 +33,7 @@ export default function Home({ tools }) {
   const [framework, setFramework] = useState([]);
   const [language, setLanguage] = useState([]);
   const [license, setLicense] = useState([]);
+  const [isOpenPopup, setOpenPopup] = useState(false);
 
   useEffect(() => {
     if (Object.keys(query).length && !isFirstLoad) {
@@ -70,6 +79,10 @@ export default function Home({ tools }) {
     }
   };
 
+  const togglePopup = () => {
+    setOpenPopup(!isOpenPopup);
+  }
+
   return (
     <div className="container custom-container">
       <Head>
@@ -88,7 +101,7 @@ export default function Home({ tools }) {
           Awesome data visualization tools <br className="xl-hidden" /> for
           software developers
         </H1>
-        <div className="row mb-md">
+        <section className="row mb-md">
           <ExploreToolsCard
             onClick={() => setItem(exploreTools, setExploreTools, "charts")}
             active={exploreTools.includes("charts") ? "active" : null}
@@ -125,7 +138,7 @@ export default function Home({ tools }) {
             text="Exploration<br/>apps"
             image="apps"
           />
-        </div>
+        </section>
 
         <div className="flex flex-wrap-row flex-items-center mb-sm">
           <AccentedText className="mr-xs">Compatible with</AccentedText>
@@ -184,7 +197,7 @@ export default function Home({ tools }) {
           <AccentedText className="ml-xs">license</AccentedText>
         </div>
 
-        <div className="number-control-wrap">
+        <section className={styles["number-control-wrap"]}>
           <ToolsNumberControl
             filteredTools={filteredTools}
             isChanged={
@@ -202,9 +215,9 @@ export default function Home({ tools }) {
               ]);
             }}
           />
-        </div>
+        </section>
 
-        <div>
+        <section>
           <div className="row">
             {filteredTools &&
               filteredTools.map((tool) => (
@@ -214,7 +227,37 @@ export default function Home({ tools }) {
                 </div>
               ))}
           </div>
-        </div>
+        </section>
+
+        <section className={styles.comparison}>
+          <H2 className={styles.comparison__header}>Comparison</H2>
+          <div className={"row"}>
+            <div className="col-md-6 col-xl-3 mb-md">
+              <ComparisonCard
+                tools={[filteredTools[0], filteredTools[1]]}
+              ></ComparisonCard>
+            </div>
+            <div className="col-md-6 col-xl-3 mb-md">
+              <ComparisonCard
+                tools={[filteredTools[2], filteredTools[3]]}
+              ></ComparisonCard>
+            </div>
+            <div className="col-md-6 col-xl-3 mb-md">
+              <ComparisonCard
+                tools={[filteredTools[4], filteredTools[5]]}
+              ></ComparisonCard>
+            </div>
+            <div className="col-md-6 col-xl-3 mb-md">
+              <ComparisonCard onClick={togglePopup}></ComparisonCard>
+            </div>
+          </div>
+
+          <ComparisonPopup
+            tools={tools}
+            isOpen={isOpenPopup}
+            onClose={togglePopup}
+          />
+        </section>
       </main>
     </div>
   );

@@ -2,7 +2,7 @@ import styles from "./ToolCard.module.scss";
 import { ReactSVG } from "react-svg";
 import moment from "moment";
 import Link from "next/link";
-import abbreviateNumber from "../../utils/number";
+import abbreviateNumber from "../../../utils/number";
 // import React, { useEffect } from "react";
 
 export default function ToolCard(props) {

@@ -40,3 +40,23 @@
     color: $dark-05;
   }
 }
+.button.special {
+  background: $purple;
+  border-radius: 8px;
+  color: #ffffff;
+  border: 2px solid transparent;
+  padding: 15.5px 37.5px;
+  &:hover {
+    border: 2px solid $purple-02;
+    background: transparent;
+    color: $purple-02;
+  }
+}
+.button.disabled {
+  background: $light;
+  &:hover {
+    background: $light;
+    border-color: $light;
+    color: #fff;
+  }
+}

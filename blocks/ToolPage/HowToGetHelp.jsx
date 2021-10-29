@@ -1,6 +1,6 @@
 import styles from "./HowToGetHelp.module.scss";
-import GetHelpCard from "../GetHelpCard";
-import H2 from "../Text/H2";
+import GetHelpCard from "../../components/Cards/GetHelpCard";
+import H2 from "../../components/Text/H2";
 import abbreviateNumber from "../../utils/number";
 
 export default function HowToGetHelp(props) {

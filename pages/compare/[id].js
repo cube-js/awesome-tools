@@ -1,6 +1,7 @@
 import dynamic from "next/dynamic";
 import React, { useState } from "react";
 import Head from "next/head";
+import H2 from '../../components/Text/H2'
 import Header from "../../blocks/ToolPage/Header";
 import Description from "../../blocks/ToolPage/Description";
 import DescriptionCards from "../../blocks/ToolPage/DescriptionCards";
@@ -17,33 +18,46 @@ const HowToGetStarted = dynamic(() =>
 );
 const HowToGetHelp = dynamic(() => import("../../blocks/ToolPage/HowToGetHelp"));
 
-export default function Tool(props) {
-  const slackMembers = useSlackMembers();
+export default function Tool({id, firstTool, secondTool}) {
+  console.log(firstTool);
+  console.log(secondTool);
 
   return (
     <div className="container custom-container mt-lg">
       <Head>
-        <title>{props.title} — Awesome dataviz tools by Cube.js</title>
+        <title>
+          Compare {firstTool.title} and {secondTool.title} — Awesome dataviz
+          tools by Cube.js
+        </title>
         <meta
           name="description"
-          content={`${props.title} is one of many awesome data visualization tools for software developers by Cube.js`}
+          content={`Compare ${firstTool.title} and ${secondTool.title} is one of many awesome data visualization tools for software developers by Cube.js`}
         />
         <meta
           property="twitter:title"
-          content={`${props.title} — Awesome dataviz tools by Cube.js`}
+          content={`Compare ${firstTool.title} and ${secondTool.title} — Awesome dataviz tools by Cube.js`}
         />
         <meta
           property="og:title"
-          content={`${props.title} — Awesome dataviz tools by Cube.js`}
+          content={`Compare ${firstTool.title} and ${secondTool.title} — Awesome dataviz tools by Cube.js`}
         />
         <meta
           property="og:url"
-          content={`https://awesome.cube.dev/tools/${props.id}`}
+          content={`https://awesome.cube.dev/compare/${id}`}
         />
       </Head>
 
       <main>
-        <Header
+        <H2>
+          Can’t decide between {firstTool.title} and {secondTool.title}?
+        </H2>
+
+        <p>
+          It looks like {firstTool.title} has open-source library and line
+          charts. However, {secondTool.title} has {secondTool?.github_data?.stars} GitHub stars and
+          open-source library too.
+        </p>
+        {/* <Header
           logo={props.logo}
           title={props.title}
           website={props?.links?.website}
@@ -96,7 +110,7 @@ export default function Tool(props) {
               : null
           }
           stackoverflow_data={props.stackoverflow_data}
-        />
+        /> */}
       </main>
     </div>
   );
@@ -107,28 +121,35 @@ export async function getStaticPaths() {
   const ids = files
     .filter((filename) => filename.endsWith(".yml"))
     .map((filename) => filename.split(".")[0]);
+  
+  const paths = []
 
-  const paths = ids.map((id) => {
-    return {
-      params: {
-        id: id,
-      },
-    };
-  });
+  ids.forEach(firstTool => {
+    ids.forEach(secondTool => {
+      if (firstTool !== secondTool) {
+        paths.push({
+          params: { id: `${firstTool}-vs-${secondTool}`, firstTool: firstTool, secondTool},
+        });
+      }
+    })
+  })
+
   return {
     paths,
     fallback: false,
   };
 }
-export async function getStaticProps({ params }) {
-  const tool = await getTool(params.id);
 
-  // @TODO get feature label
+export async function getStaticProps({ params }) {
+  const tools = params.id.split("-vs-")
+  const firstTool = await getTool(tools[0]);
+  const secondTool = await getTool(tools[1]);
 
   return {
     props: {
       id: params.id,
-      ...tool,
+      firstTool,
+      secondTool,
     },
   };
 }
