@@ -43,13 +43,13 @@ content:
     title: What is Apache Superset?
     link: 'https://superset.apache.org/docs/intro'
 github_data:
-  stars: 41419
-  contributors: 685
-  issues: 1102
+  stars: 41447
+  contributors: 686
+  issues: 1098
   stale_issues: 110
   last_release:
     date: '2021-10-28T14:12:10Z'
     link: 'https://github.com/apache/superset/releases/tag/superset-helm-chart-0.3.12'
 twitter_feed: []
 stackoverflow_data:
-  questions_count: 1080
+  questions_count: 1075
