@@ -46,13 +46,13 @@ content:
     title: leafletjs Quick Start Guide
     link: 'https://leafletjs.com/examples/quick-start/'
 github_data:
-  stars: 32291
+  stars: 32302
   contributors: 827
-  issues: 436
+  issues: 437
   stale_issues: 348
   last_release:
     date: '2020-09-04T08:38:43Z'
     link: 'https://github.com/Leaflet/Leaflet/releases/tag/v1.7.1'
 twitter_feed: []
 stackoverflow_data:
-  questions_count: 12270
+  questions_count: 12275
