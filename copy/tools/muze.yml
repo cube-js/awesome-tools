@@ -9,6 +9,8 @@ licenses:
     link: 'https://github.com/chartshq/muze/blob/master/LICENSE'
 types:
   - charts
+renders:
+  - svg
 features:
   easy-to-customize: 0
   easy-to-start-with: 0

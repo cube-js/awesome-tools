@@ -11,6 +11,8 @@ licenses:
     link: 'https://github.com/processing/p5.js/blob/main/license.txt'
 types:
   - low-level
+renders:
+  - canvas
 features:
   easy-to-customize: 0
   easy-to-start-with: 0

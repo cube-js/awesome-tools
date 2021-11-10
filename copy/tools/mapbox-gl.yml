@@ -10,6 +10,8 @@ licenses:
     link: 'https://github.com/mapbox/mapbox-gl-js/blob/main/LICENSE.txt'
 types:
   - maps
+renders:
+  - canvas
 features:
   easy-to-customize: 0
   easy-to-start-with: 0

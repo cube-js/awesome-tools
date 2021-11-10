@@ -10,6 +10,8 @@ licenses:
     link: 'https://github.com/mui-org/material-ui/blob/next/LICENSE'
 types:
   - grid
+renders:
+  - html
 features:
   easy-to-customize: 0
   easy-to-start-with: 0

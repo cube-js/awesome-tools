@@ -9,6 +9,9 @@ licenses:
     link: 'https://github.com/d3/d3/blob/master/LICENSE'
 types:
   - low-level
+renders:
+  - svg
+  - html
 features:
   easy-to-customize: 0
   easy-to-start-with: 0

@@ -9,6 +9,9 @@ licenses:
     link: 'https://github.com/leafletjs/leafletjs/blob/master/LICENSE'
 types:
   - maps
+renders:
+  - svg
+  - canvas
 features:
   easy-to-customize: 0
   easy-to-start-with: 0

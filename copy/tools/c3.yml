@@ -10,6 +10,8 @@ licenses:
     link: 'https://github.com/c3jsjs/c3js/blob/master/LICENSE'
 types:
   - charts
+renders:
+  - svg
 features:
   easy-to-customize: 0
   easy-to-start-with: 0

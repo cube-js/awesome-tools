@@ -7,6 +7,8 @@ licenses:
 types:
   - charts
   - maps
+renders:
+  - svg
 features:
   easy-to-customize: 0
   easy-to-start-with: 0

@@ -9,6 +9,8 @@ licenses:
     title: MIT
 types:
   - grid
+renders:
+  - html
 features:
   easy-to-customize: 1
   easy-to-start-with: 0

@@ -6,6 +6,8 @@ based_on: null
 licenses: null
 types:
   - low-level
+renders:
+  - canvas
 features:
   easy-to-customize: 0
   easy-to-start-with: 0

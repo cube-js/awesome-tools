@@ -19,6 +19,11 @@ types:
   - low-level
   - maps
 
+renders:
+  - svg
+  - html
+  - canvas
+
 features:
   easy-to-customize: 0
   easy-to-start-with: 0

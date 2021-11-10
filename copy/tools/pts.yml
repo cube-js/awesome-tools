@@ -9,6 +9,10 @@ licenses:
     link: 'https://github.com/williamngan/pts/blob/master/LICENSE'
 types:
   - low-level
+renders:
+  - svg
+  - html
+  - canvas
 features:
   easy-to-customize: 0
   easy-to-start-with: 0

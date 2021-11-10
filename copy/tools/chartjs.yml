@@ -8,6 +8,8 @@ licenses:
     link: 'https://github.com/chartjs/Chart.js/blob/master/LICENSE.md'
 types:
   - charts
+renders:
+  - canvas
 features:
   easy-to-customize: 2
   easy-to-start-with: 3

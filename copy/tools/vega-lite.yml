@@ -10,6 +10,8 @@ licenses:
     link: 'https://github.com/vega/vega-lite/blob/master/LICENSE'
 types:
   - low-level
+renders:
+  - svg
 features:
   easy-to-customize: 0
   easy-to-start-with: 0

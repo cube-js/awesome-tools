@@ -10,6 +10,9 @@ licenses:
     link: 'https://github.com/nteract/semiotic/blob/master/LICENSE'
 types:
   - low-level
+renders:
+  - svg
+  - canvas
 features:
   easy-to-customize: 0
   easy-to-start-with: 0

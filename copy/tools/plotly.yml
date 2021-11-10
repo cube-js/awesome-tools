@@ -13,6 +13,9 @@ types:
   - charts
   - maps
   - 3d
+renders:
+  - svg
+  - canvas
 features:
   easy-to-customize: 0
   easy-to-start-with: 0
