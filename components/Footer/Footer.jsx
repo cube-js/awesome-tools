@@ -20,7 +20,7 @@ export default function Footer() {
           </a>
           , the creators of{" "}
           <a href="https://github.com/cube-js/cube.js" target="_blank">
-            Cube.js
+            Cube
           </a>
         </p>
         <p>
