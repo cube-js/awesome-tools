@@ -27,18 +27,18 @@ export default function Tool(props) {
   return (
     <div className="container custom-container mt-lg">
       <Head>
-        <title>{props.title} — Awesome dataviz tools by Cube.js</title>
+        <title>{props.title} — Awesome dataviz tools by Cube</title>
         <meta
           name="description"
-          content={`${props.title} is one of many awesome data visualization tools for software developers by Cube.js`}
+          content={`${props.title} is one of many awesome data visualization tools for software developers by Cube`}
         />
         <meta
           property="twitter:title"
-          content={`${props.title} — Awesome dataviz tools by Cube.js`}
+          content={`${props.title} — Awesome dataviz tools by Cube`}
         />
         <meta
           property="og:title"
-          content={`${props.title} — Awesome dataviz tools by Cube.js`}
+          content={`${props.title} — Awesome dataviz tools by Cube`}
         />
         <meta
           property="og:url"
