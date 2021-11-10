@@ -25,6 +25,7 @@ export default function Home({ tools }) {
   const [framework, setFramework] = useState([]);
   const [language, setLanguage] = useState([]);
   const [license, setLicense] = useState([]);
+  const [render, setRender] = useState([]);
 
   useEffect(() => {
     if (Object.keys(query).length && !isFirstLoad) {
@@ -33,7 +34,8 @@ export default function Home({ tools }) {
         setExploreTools,
         setFramework,
         setLanguage,
-        setLicense
+        setLicense,
+        setRender
       );
       setLoad(true);
     }
@@ -43,18 +45,19 @@ export default function Home({ tools }) {
     router.push(
       {
         scroll: false,
-        query: { tools: exploreTools, framework, language, license },
+        query: { tools: exploreTools, framework, language, license, render },
       },
       undefined,
       { scroll: false }
     );
-  }, [exploreTools, framework, language, license]);
+  }, [exploreTools, framework, language, license, render]);
 
   const filteredTools = filter(
     tools,
     framework,
     language,
     license,
+    render,
     exploreTools
   );
 
@@ -154,7 +157,7 @@ export default function Home({ tools }) {
             Vue
           </Chip>
         </div>
-        <div className="flex flex-wrap-row flex-items-center">
+        <div className="flex flex-wrap-row flex-items-center mb-sm">
           <AccentedText className="mr-xs">With support for</AccentedText>
 
           <Chip
@@ -183,6 +186,30 @@ export default function Home({ tools }) {
           </Chip>
           <AccentedText className="ml-xs">license</AccentedText>
         </div>
+        <div className="flex flex-wrap-row flex-items-center">
+          <AccentedText className="mr-xs">Rendering</AccentedText>
+
+          <Chip
+            className="mr-xs"
+            active={render.includes("svg") ? "active" : null}
+            onClick={() => setItem(render, setRender, "svg")}
+          >
+            SVG
+          </Chip>
+          <Chip
+            className="mr-xs"
+            active={render.includes("canvas") ? "active" : null}
+            onClick={() => setItem(render, setRender, "canvas")}
+          >
+            Canvas
+          </Chip>
+          <Chip
+            active={render.includes("html") ? "active" : null}
+            onClick={() => setItem(render, setRender, "html")}
+          >
+            HTML
+          </Chip>
+        </div>
 
         <div className="number-control-wrap">
           <ToolsNumberControl
@@ -191,7 +218,8 @@ export default function Home({ tools }) {
               exploreTools.length ||
               framework.length ||
               language.length ||
-              license.length
+              license.length ||
+              render.length
             }
             clearFilters={() => {
               clearFilters([
@@ -199,6 +227,7 @@ export default function Home({ tools }) {
                 setFramework,
                 setLanguage,
                 setLicense,
+                setRender,
               ]);
             }}
           />
