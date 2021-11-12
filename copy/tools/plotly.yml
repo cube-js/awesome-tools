@@ -58,13 +58,13 @@ content:
     title: Getting Started in JavaScript
     link: 'https://plotly.com/javascript/getting-started/'
 github_data:
-  stars: 14138
+  stars: 14140
   contributors: 213
   issues: 1152
-  stale_issues: 895
+  stale_issues: 897
   last_release:
     date: '2021-11-05T15:47:48Z'
     link: 'https://github.com/plotly/plotly.js/releases/tag/v2.6.2'
 twitter_feed: []
 stackoverflow_data:
-  questions_count: 10485
+  questions_count: 10494
