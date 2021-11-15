@@ -55,10 +55,10 @@ content:
     link: >-
       https://echarts.apache.org/en/tutorial.html#Get%20Started%20with%20ECharts%20in%205%20minutes
 github_data:
-  stars: 48684
+  stars: 48689
   contributors: 179
-  issues: 1844
-  stale_issues: 958
+  issues: 1842
+  stale_issues: 955
   last_release:
     date: '2021-11-01T03:53:22Z'
     link: 'https://github.com/apache/echarts/releases/tag/5.2.2'
