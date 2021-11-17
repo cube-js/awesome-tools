@@ -42,6 +42,7 @@ frameworks:
   - react
   - angular
   - vue
+  - svelte
 
 slugs:
   github: ag-grid/ag-grid
@@ -82,25 +83,3 @@ github_data:
 
 stackoverflow_data:
   questions_count: 37620
-
-twitter_feed:
-  - user: Benjamin Scott
-    image: /images/tweet-avatar.png
-    color: gray
-    text: >-
-      Back to wrestling with Chart.js and data visualizations. It's taking me
-      longer than expected to build a continuous, time series chart, using a
-      discrete dataset, and it's tricky to keep the chart dynamically updating.
-      #100DaysOfCode #WomenWhoCode #DataVisualization
-  - user: Takayuki Kawamoto
-    image: /images/tweet-avatar.png
-    color: gray
-    text: >-
-      Anyways, thers is no chance to take Chart.js as our tool to do things in
-      business or private tasks by the fact of these difficulties in
-      configuration and poor documentation.
-  - user: Takayuki Kawamoto
-    image: /images/tweet-avatar.png
-    text: >-
-      Anyways, thers is no chance to take Chart.js as our tool to do things in
-      business or private tasks
