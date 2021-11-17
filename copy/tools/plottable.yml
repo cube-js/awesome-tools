@@ -1,0 +1,69 @@
+title: Plottable
+description: Library of modular chart components built on D3.js
+logo: /images/logo/plottable.svg
+developer: Palantir
+
+based_on:
+  - d3
+
+licenses:
+  - type: open-source
+    title: MIT
+    link: https://github.com/palantir/plottable/blob/develop/LICENSE
+
+types:
+  - charts
+
+renders:
+  - svg
+
+features:
+  easy-to-customize: 0
+  easy-to-start-with: 0
+  full-fledged: 0
+  very-popular: 0
+  well-documented: 0
+
+gallery: []
+
+languages:
+  - JavaScript
+  - TypeScript
+
+frameworks:
+  - vanilla-js
+
+slugs:
+  github: palantir/plottable
+  npm: plottable
+
+tags:
+  stackoverflow:
+    - plottable
+  twitter:
+    - aggrid
+    - ag_grid
+
+links:
+  website: http://plottablejs.org
+  examples: http://plottablejs.org/examples/
+  docs: http://plottablejs.org/docs/modules/plottable.html
+  pricing:
+  slack:
+
+content:
+  - type: official
+    title: Quick Start
+    link: https://github.com/palantir/plottable/blob/develop/README.md#quick-start
+
+github_data:
+  stars: 2800
+  contributors: 68
+  issues: 306
+  stale_issues: 305
+  last_release:
+    date: "2021-04-30T00:00:00Z"
+    link: https://github.com/ag-grid/ag-grid/releases/tag/v25.2.0
+
+stackoverflow_data:
+  questions_count: 40
