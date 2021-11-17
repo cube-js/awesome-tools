@@ -31,6 +31,7 @@ frameworks:
   - react
   - angular
   - vue
+  - svelte
 slugs:
   github: apexcharts/apexcharts.js
   npm: apexcharts

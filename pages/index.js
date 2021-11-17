@@ -156,6 +156,13 @@ export default function Home({ tools }) {
           >
             Vue
           </Chip>
+          <Chip
+            src="/images/logo/svelte.svg"
+            active={framework.includes("svelte") ? "active" : null}
+            onClick={() => setItem(framework, setFramework, "svelte")}
+          >
+            Svelte
+          </Chip>
         </div>
         <div className="flex flex-wrap-row flex-items-center mb-sm">
           <AccentedText className="mr-xs">With support for</AccentedText>
