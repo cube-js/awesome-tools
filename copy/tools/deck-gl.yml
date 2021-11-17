@@ -1,0 +1,71 @@
+title: deck.gl
+description: WebGL-powered visualization framework for large-scale datasets
+logo: /images/logo/deck-gl.svg
+developer: Uber
+
+based_on: null
+
+licenses:
+  - type: open-source
+    title: MIT
+    link: https://github.com/visgl/deck.gl/blob/master/LICENSE
+
+types:
+  - low-level
+  - maps
+
+renders:
+  - canvas
+
+features:
+  easy-to-customize: 0
+  easy-to-start-with: 0
+  full-fledged: 0
+  very-popular: 0
+  well-documented: 0
+
+gallery: []
+
+languages:
+  - JavaScript
+  - TypeScript
+
+frameworks:
+  - vanilla-js
+  - react
+  - vue
+
+slugs:
+  github: visgl/deck.gl
+  npm: deck.gl
+  npm_types: "@danmarshall/deckgl-typings"
+
+tags:
+  stackoverflow:
+    - deck.gl
+  twitter:
+    - deckgl
+
+links:
+  website: https://deck.gl
+  examples: https://deck.gl/examples
+  docs: https://deck.gl/docs
+  pricing:
+  slack:
+
+content:
+  - type: official
+    title: Getting Started
+    link: https://deck.gl/docs/get-started/using-standalone
+
+github_data:
+  stars: 9200
+  contributors: 165
+  issues: 105
+  stale_issues: 80
+  last_release:
+    date: "2021-11-15T00:00:00Z"
+    link: https://github.com/visgl/deck.gl/releases/tag/v8.6.4
+
+stackoverflow_data:
+  questions_count: 193
