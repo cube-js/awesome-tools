@@ -1,0 +1,65 @@
+title: Vizzu
+description: Library for animated data visualizations and data stories
+logo: /images/logo/vizzu.svg
+developer: null
+
+based_on: null
+
+licenses:
+  - type: open-source
+    title: Apache 2.0
+    link: https://github.com/vizzuhq/vizzu-lib/blob/main/LICENSE
+
+types:
+  - charts
+
+renders:
+  - canvas
+
+features:
+  easy-to-customize: 0
+  easy-to-start-with: 0
+  full-fledged: 0
+  very-popular: 0
+  well-documented: 0
+
+gallery: []
+
+languages:
+  - JavaScript
+
+frameworks:
+  - vanilla-js
+
+slugs:
+  github: vizzuhq/vizzu-lib
+  npm: vizzu
+
+tags:
+  stackoverflow: null
+  twitter:
+    - Vizzu
+
+links:
+  website: https://vizzuhq.com
+  examples: https://lib.vizzuhq.com/0.3.0/#examples-1.0
+  docs: https://lib.vizzuhq.com/0.3.0/
+  pricing:
+  slack: https://join.slack.com/t/vizzu-community/shared_invite/zt-w2nqhq44-2CCWL4o7qn2Ns1EFSf9kEg
+
+content:
+  - type: official
+    title: Getting Started
+    link: https://lib.vizzuhq.com/0.3.0/
+
+github_data:
+  stars: 652
+  contributors: 7
+  issues: 6
+  stale_issues: 0
+  last_release:
+    date: "2021-10-18T00:00:00Z"
+    link: https://github.com/vizzuhq/vizzu-lib/releases/tag/v0.3.3
+
+stackoverflow_data:
+  questions_count: 0
