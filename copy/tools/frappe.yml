@@ -1,0 +1,67 @@
+title: Frappe
+description: GitHub-inspired simple and modern SVG charts for the web with zero dependencies
+logo: /images/logo/frappe.png
+developer: null
+based_on: null
+
+licenses:
+  - type: open-source
+    title: MIT
+    link: https://github.com/frappe/charts/blob/master/LICENSE
+
+types:
+  - charts
+
+renders:
+  - svg
+
+features:
+  easy-to-customize: 0
+  easy-to-start-with: 0
+  full-fledged: 0
+  very-popular: 0
+  well-documented: 0
+
+gallery: []
+
+languages:
+  - JavaScript
+
+frameworks:
+  - vanilla-js
+  - react
+  - vue
+  - svelte
+
+slugs:
+  github: frappe/charts
+  npm: frappe-charts
+
+tags:
+  stackoverflow:
+    - frappe
+  twitter: null
+
+links:
+  website: https://frappe.io/charts
+  examples: https://frappe.io/charts
+  docs: https://frappe.io/charts/docs
+  pricing:
+  slack:
+
+content:
+  - type: official
+    title: Quick Start
+    link: https://frappe.io/charts/docs
+
+github_data:
+  stars: 14100
+  contributors: 40
+  issues: 103
+  stale_issues: 80
+  last_release:
+    date: "2021-04-18T00:00:00Z"
+    link: https://github.com/frappe/charts/releases/tag/v1.6.1
+
+stackoverflow_data:
+  questions_count: 105
