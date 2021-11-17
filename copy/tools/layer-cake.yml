@@ -1,0 +1,68 @@
+title: Layer Cake
+description: Graphics framework for Svelte
+logo: /images/logo/layer-cake.png
+developer: null
+
+based_on: null
+
+licenses:
+  - type: open-source
+    title: MIT
+    link: https://github.com/mhkeller/layercake/blob/master/LICENSE
+
+types:
+  - charts
+  - low-level
+  - maps
+
+renders:
+  - svg
+  - html
+  - canvas
+
+features:
+  easy-to-customize: 0
+  easy-to-start-with: 0
+  full-fledged: 0
+  very-popular: 0
+  well-documented: 0
+
+gallery: []
+
+languages:
+  - JavaScript
+
+frameworks:
+  - svelte
+
+slugs:
+  github: mhkeller/layercake
+  npm: layercake
+
+tags:
+  stackoverflow: null
+  twitter: null
+
+links:
+  website: https://layercake.graphics
+  examples: https://layercake.graphics
+  docs: https://layercake.graphics/guide
+  pricing:
+  slack:
+
+content:
+  - type: official
+    title: Getting Started
+    link: https://layercake.graphics/guide#getting-started
+
+github_data:
+  stars: 438
+  contributors: 3
+  issues: 2
+  stale_issues: 1
+  last_release:
+    date: "2021-07-21T00:00:00Z"
+    link: https://github.com/mhkeller/layercake/releases/tag/v5.0.0
+
+stackoverflow_data:
+  questions_count: 0
