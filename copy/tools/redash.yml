@@ -1,0 +1,64 @@
+title: Redash
+description: Collaborative visualization and dashboarding platform
+logo: /images/logo/redash.svg
+developer: null
+
+based_on: null
+
+licenses:
+  - type: open-source
+    title: BSD
+    link: https://github.com/getredash/redash/blob/master/LICENSE
+
+types:
+  - app
+
+renders: null
+
+features:
+  easy-to-customize: 0
+  easy-to-start-with: 0
+  full-fledged: 0
+  very-popular: 0
+  well-documented: 0
+
+gallery: []
+
+languages: null
+
+frameworks: null
+
+slugs:
+  github: getredash/redash
+  npm: null
+  npm_types: null
+
+tags:
+  stackoverflow:
+    - redash
+  twitter:
+    - redash
+
+links:
+  website: https://redash.io
+  examples: https://redash.io/help/user-guide/visualizations/visualization-types
+  docs: https://redash.io/help/open-source/setup
+  pricing:
+  slack:
+
+content:
+  - type: official
+    title: Getting Started
+    link: https://redash.io/help/user-guide/getting-started
+
+github_data:
+  stars: 19900
+  contributors: 360
+  issues: 466
+  stale_issues: 400
+  last_release:
+    date: "2021-10-02T00:00:00Z"
+    link: https://github.com/getredash/redash/releases/tag/v10.0.0
+
+stackoverflow_data:
+  questions_count: 351
