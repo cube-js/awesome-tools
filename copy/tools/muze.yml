@@ -1,7 +1,7 @@
 title: Muze
 description: Free library for creating exploratory data visualizations using WebAssembly
 logo: /images/logo/muze.svg
-developer: charts-com.png
+developer: Charts.com
 based_on: null
 licenses:
   - type: proprietary

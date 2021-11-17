@@ -29,18 +29,14 @@ export default function ToolCard(props) {
               alt={`${props.title} logo`}
             ></div>
             <div className="flex flex-column">
-              <h4 className={styles.toolCard__title}>{props.title || ""}</h4>
-              {props.developer && (
-                <span className={styles.toolCard__developer}>
-                  Developed by
-                  <span>
-                    <img
-                      src={`/images/logo/${props.developer}`}
-                      alt="tool developer logo"
-                    ></img>
+              <h4 className={styles.toolCard__title}>
+                {props.title || ""}
+                {props.developer && (
+                  <span className={styles.toolCard__developer}>
+                    &nbsp;by&nbsp;{props.developer}
                   </span>
-                </span>
-              )}
+                )}
+              </h4>
             </div>
           </div>
           <p

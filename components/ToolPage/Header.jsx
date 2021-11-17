@@ -14,8 +14,12 @@ export default function Header(props) {
           {/* <img /> */}
         </div>
         <h2 className={styles.title__text}>
-          {props.title__text}
           {props.title}
+          {props.developer && (
+            <span className={styles.title__developer}>
+              &nbsp;by&nbsp;{props.developer}
+            </span>
+          )}
         </h2>
         {props.achievement && (
           <div>

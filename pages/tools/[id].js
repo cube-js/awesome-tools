@@ -50,6 +50,7 @@ export default function Tool(props) {
         <Header
           logo={props.logo}
           title={props.title}
+          developer={props.developer}
           website={props?.links?.website}
           github={props?.slugs?.github}
           achievement={props?.feature_label}
