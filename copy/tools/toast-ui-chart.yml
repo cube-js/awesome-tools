@@ -1,0 +1,68 @@
+title: TOAST UI Chart
+description: Beautiful chart for data visualization
+logo: /images/logo/toast-ui-chart.png
+developer: null
+
+based_on: null
+
+licenses:
+  - type: open-source
+    title: MIT
+    link: https://github.com/nhn/tui.chart/blob/main/LICENSE
+
+types:
+  - charts
+
+renders:
+  - canvas
+
+features:
+  easy-to-customize: 0
+  easy-to-start-with: 0
+  full-fledged: 0
+  very-popular: 0
+  well-documented: 0
+
+gallery: []
+
+languages:
+  - JavaScript
+  - TypeScript
+
+frameworks:
+  - vanilla-js
+  - react
+  - vue
+
+slugs:
+  github: nhn/tui.chart
+  npm: tui-chart
+
+tags:
+  stackoverflow:
+    - toast-ui-chart
+  twitter: null
+
+links:
+  website: https://ui.toast.com/tui-chart
+  examples: https://nhn.github.io/tui.chart/latest/tutorial-example01-01-area-chart-basic
+  docs: https://nhn.github.io/tui.chart/latest/
+  pricing:
+  slack:
+
+content:
+  - type: official
+    title: Getting Started
+    link: https://github.com/nhn/tui.chart/blob/main/docs/en/getting-started.md
+
+github_data:
+  stars: 5000
+  contributors: 14
+  issues: 7
+  stale_issues: 4
+  last_release:
+    date: "2021-10-22T00:00:00Z"
+    link: https://github.com/nhn/tui.chart/releases/tag/v4.4.1
+
+stackoverflow_data:
+  questions_count: 3
