@@ -1,65 +1,54 @@
 title: REAVIZ
-description: Modular chart library that leverages React natively while using D3.js under the hood
+description: >-
+  Modular chart library that leverages React natively while using D3.js under
+  the hood
 logo: /images/logo/reaviz.png
 developer: null
-
 based_on:
   - d3
-
 licenses:
   - type: open-source
     title: Apache 2.0
-    link: https://github.com/reaviz/reaviz/blob/master/LICENSE
-
+    link: 'https://github.com/reaviz/reaviz/blob/master/LICENSE'
 types:
   - charts
   - maps
-
 renders:
   - svg
-
 features:
   easy-to-customize: 0
   easy-to-start-with: 0
   full-fledged: 0
   very-popular: 0
   well-documented: 0
-
 gallery: []
-
 languages:
   - JavaScript
   - TypeScript
-
 frameworks:
   - react
-
 slugs:
   github: reaviz/reaviz
   npm: reaviz
-
 tags:
   stackoverflow: null
   twitter: null
-
 links:
-  website: https://reaviz.io
-  examples: https://reaviz.io/?path=/story/docs-intro--page
-  docs: https://reaviz.io/?path=/story/docs-intro--page
-  pricing:
-  slack:
-
+  website: 'https://reaviz.io'
+  examples: 'https://reaviz.io/?path=/story/docs-intro--page'
+  docs: 'https://reaviz.io/?path=/story/docs-intro--page'
+  pricing: null
+  slack: null
 content:
   - type: official
     title: Getting Started
-    link: https://reaviz.io/?path=/story/docs-getting-started-quick-start--page
-
+    link: 'https://reaviz.io/?path=/story/docs-getting-started-quick-start--page'
 github_data:
-  stars: 493
-  contributors: 7
+  stars: 495
+  contributors: 8
   issues: 21
-  stale_issues: 5
-  last_release: null
-
-stackoverflow_data:
-  questions_count: 0
+  stale_issues: 6
+  last_release:
+    date: null
+    link: null
+stackoverflow_data: null

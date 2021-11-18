@@ -2,75 +2,62 @@ title: Kepler.gl
 description: Open-source geospatial analysis tool for large-scale data sets
 logo: /images/logo/kepler-gl.svg
 developer: Uber
-
 based_on:
   - mapbox-gl
   - deck-gl
-
 licenses:
   - type: open-source
     title: MIT
-    link: https://github.com/keplergl/kepler.gl/blob/master/LICENSE
-
+    link: 'https://github.com/keplergl/kepler.gl/blob/master/LICENSE'
 types:
   - maps
-
 renders:
   - svg
   - html
   - canvas
   - webgl
-
 features:
   easy-to-customize: 0
   easy-to-start-with: 0
   full-fledged: 0
   very-popular: 0
   well-documented: 0
-
 gallery: []
-
 languages:
   - JavaScript
   - TypeScript
-
 frameworks:
   - vanilla-js
   - react
-
 slugs:
   github: keplergl/kepler.gl
   npm: kepler.gl
-
 tags:
   stackoverflow:
     - kepler.gl
   twitter:
     - KeplerGL
-
 links:
-  website: https://kepler.gl
-  examples: https://docs.kepler.gl/examples
-  docs: https://docs.kepler.gl/docs
-  pricing:
-  slack:
-
+  website: 'https://kepler.gl'
+  examples: 'https://docs.kepler.gl/examples'
+  docs: 'https://docs.kepler.gl/docs'
+  pricing: null
+  slack: null
 content:
   - type: official
     title: Getting Started
-    link: https://vis.academy/#/kepler.gl/setup
+    link: 'https://vis.academy/#/kepler.gl/setup'
   - type: community
     title: Exploring Geospatial Data with Kepler.gl
-    link: https://medium.com/vis-gl/exploring-geospatial-data-with-kepler-gl-cf655839628f
-
+    link: >-
+      https://medium.com/vis-gl/exploring-geospatial-data-with-kepler-gl-cf655839628f
 github_data:
-  stars: 8200
-  contributors: 99
-  issues: 345
-  stale_issues: 250
+  stars: 8174
+  contributors: 93
+  issues: 347
+  stale_issues: 238
   last_release:
-    date: "2021-09-13T00:00:00Z"
-    link: https://github.com/keplergl/kepler.gl/releases/tag/v2.5.5
-
+    date: '2021-09-13T05:39:08Z'
+    link: 'https://github.com/keplergl/kepler.gl/releases/tag/v2.5.5'
 stackoverflow_data:
-  questions_count: 64
+  questions_count: 63

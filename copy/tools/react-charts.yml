@@ -1,68 +1,54 @@
 title: React Charts
-description: Simple, immersive & interactive charts for React
+description: 'Simple, immersive & interactive charts for React'
 logo: /images/logo/react-charts.svg
 developer: null
-
 based_on:
   - d3
-
 licenses:
   - type: open-source
     title: MIT
-    link: https://github.com/tannerlinsley/react-charts/blob/main/LICENSE
-
+    link: 'https://github.com/tannerlinsley/react-charts/blob/main/LICENSE'
 types:
   - charts
-
 renders:
   - svg
-
 features:
   easy-to-customize: 0
   easy-to-start-with: 0
   full-fledged: 0
   very-popular: 0
   well-documented: 0
-
 gallery: []
-
 languages:
   - JavaScript
   - TypeScript
-
 frameworks:
   - react
-
 slugs:
   github: tannerlinsley/react-charts
   npm: react-charts
-
 tags:
   stackoverflow:
     - react-charts
   twitter:
     - ReactCharts
-
 links:
-  website: https://react-charts.tanstack.com
-  examples: https://react-charts.tanstack.com/examples/simple
-  docs: https://react-charts.tanstack.com/docs/overview
-  pricing:
-  slack:
-
+  website: 'https://react-charts.tanstack.com'
+  examples: 'https://react-charts.tanstack.com/examples/simple'
+  docs: 'https://react-charts.tanstack.com/docs/overview'
+  pricing: null
+  slack: null
 content:
   - type: official
     title: Installation
-    link: https://react-charts.tanstack.com/docs/installation
-
+    link: 'https://react-charts.tanstack.com/docs/installation'
 github_data:
-  stars: 1700
-  contributors: 19
+  stars: 1710
+  contributors: 20
   issues: 14
   stale_issues: 0
   last_release:
-    date: "2020-05-30T00:00:00Z"
-    link: https://github.com/tannerlinsley/react-charts/releases/tag/v2.0.0
-
+    date: '2021-10-01T13:47:04Z'
+    link: 'https://github.com/tannerlinsley/react-charts/releases/tag/v3.0.0-beta.33'
 stackoverflow_data:
   questions_count: 7

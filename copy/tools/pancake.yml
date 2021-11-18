@@ -1,61 +1,51 @@
 title: Pancake
-description: Responsive charts, JavaScript optional
+description: 'Responsive charts, JavaScript optional'
 logo: /images/logo/pancake.png
 developer: null
 based_on: null
-
 licenses:
   - type: open-source
     title: MIT
-    link: https://github.com/Rich-Harris/pancake/blob/master/package.json#L24
-
+    link: 'https://github.com/Rich-Harris/pancake/blob/master/package.json#L24'
 types:
   - charts
-
 renders:
   - svg
   - html
-
 features:
   easy-to-customize: 0
   easy-to-start-with: 0
   full-fledged: 0
   very-popular: 0
   well-documented: 0
-
 gallery: []
-
 languages:
   - JavaScript
-
 frameworks:
   - svelte
-
 slugs:
   github: Rich-Harris/pancake
-  npm: "@sveltejs/pancake"
-
+  npm: '@sveltejs/pancake'
 tags:
-  stackoverflow:
-  twitter:
-
+  stackoverflow: null
+  twitter: null
 links:
-  website: https://pancake-charts.surge.sh
-  examples: https://pancake-charts.surge.sh
-  docs:
-  pricing:
-  slack:
-
+  website: 'https://pancake-charts.surge.sh'
+  examples: 'https://pancake-charts.surge.sh'
+  docs: null
+  pricing: null
+  slack: null
 content:
   - type: official
-    title: "A new technique for making responsive, JavaScript-free charts"
-    link: https://dev.to/richharris/a-new-technique-for-making-responsive-javascript-free-charts-gmp
-
+    title: 'A new technique for making responsive, JavaScript-free charts'
+    link: >-
+      https://dev.to/richharris/a-new-technique-for-making-responsive-javascript-free-charts-gmp
 github_data:
-  stars: 887
+  stars: 891
   contributors: 2
   issues: 13
   stale_issues: 12
   last_release:
-    date: "2021-08-12T00:00:00Z"
-    link: https://github.com/Rich-Harris/pancake/releases/tag/v0.0.18
+    date: null
+    link: null
+stackoverflow_data: null
