@@ -55,7 +55,7 @@ content:
     link: >-
       https://echarts.apache.org/en/tutorial.html#Get%20Started%20with%20ECharts%20in%205%20minutes
 github_data:
-  stars: 48717
+  stars: 48727
   contributors: 179
   issues: 1845
   stale_issues: 959
@@ -64,4 +64,4 @@ github_data:
     link: 'https://github.com/apache/echarts/releases/tag/5.2.2'
 twitter_feed: []
 stackoverflow_data:
-  questions_count: 848
+  questions_count: 850
