@@ -53,7 +53,7 @@ content:
     title: Chartopedia
     link: 'https://www.anychart.com/chartopedia/usage-type/'
 github_data:
-  stars: 310
+  stars: 308
   contributors: 21
   issues: 88
   stale_issues: 68
@@ -62,4 +62,4 @@ github_data:
     link: 'https://github.com/AnyChart/AnyChart/releases/tag/v8.10.0'
 twitter_feed: []
 stackoverflow_data:
-  questions_count: 378
+  questions_count: 379

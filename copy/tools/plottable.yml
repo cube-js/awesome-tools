@@ -49,7 +49,7 @@ github_data:
   issues: 307
   stale_issues: 305
   last_release:
-    date: '2021-11-17T23:44:05Z'
-    link: 'https://github.com/palantir/plottable/releases/tag/v3.12.0'
+    date: '2021-11-22T14:30:28Z'
+    link: 'https://github.com/palantir/plottable/releases/tag/v3.13.0'
 stackoverflow_data:
   questions_count: 40
