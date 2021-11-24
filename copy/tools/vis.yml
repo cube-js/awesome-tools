@@ -46,7 +46,7 @@ links:
   slack: null
 content: null
 github_data:
-  stars: 76
+  stars: 75
   contributors: 42
   issues: 0
   stale_issues: 0
@@ -55,4 +55,4 @@ github_data:
     link: 'https://github.com/visjs/vis-charts/releases/tag/v3.0.0'
 twitter_feed: []
 stackoverflow_data:
-  questions_count: 762
+  questions_count: 763
