@@ -11,7 +11,7 @@
     "deploy": "next build && next export && netlify deploy --prod --dir=out"
   },
   "dependencies": {
-    "@netlify/plugin-nextjs": "^3.4.2",
+    "@netlify/plugin-nextjs": "beta",
     "bootstrap": "^5.0.1",
     "cubedev-tracking": "1.0.6",
     "isomorphic-unfetch": "^3.1.0",
