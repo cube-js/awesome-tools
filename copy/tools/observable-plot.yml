@@ -1,0 +1,71 @@
+title: Observable Plot
+description: Concise API for exploratory data visualization
+logo: /images/logo/observable.png
+developer: null
+
+based_on:
+  - d3
+
+licenses:
+  - type: open-source
+    title: ISC
+    link: https://github.com/observablehq/plot/blob/main/LICENSE
+
+types:
+  - charts
+
+renders:
+  - svg
+
+features:
+  easy-to-customize: 0
+  easy-to-start-with: 0
+  full-fledged: 0
+  very-popular: 0
+  well-documented: 0
+
+gallery:
+  - /images/slider/observable-plot-1.png
+  - /images/slider/observable-plot-2.png
+  - /images/slider/observable-plot-3.png
+  - /images/slider/observable-plot-4.png
+  - /images/slider/observable-plot-5.png
+
+languages:
+  - JavaScript
+
+frameworks:
+  - vanilla-js
+
+slugs:
+  github: observablehq/plot
+  npm: "@observablehq/plot"
+
+tags:
+  stackoverflow:
+    - observablehq
+  twitter: null
+
+links:
+  website: https://observablehq.com/@observablehq/plot
+  examples: https://observablehq.com/@observablehq/plot
+  docs: https://github.com/observablehq/plot#plotplotoptions
+  pricing: null
+  slack: null
+
+content:
+  - type: official
+    title: Getting Started
+    link: https://github.com/observablehq/plot#installing
+
+github_data:
+  stars: 1500
+  contributors: 8
+  issues: 104
+  stale_issues: 50
+  last_release:
+    date: "2021-10-12T00:00:00Z"
+    link: https://github.com/observablehq/plot/releases/tag/v0.2.9
+
+stackoverflow_data:
+  questions_count: 83
