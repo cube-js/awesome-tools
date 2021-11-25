@@ -1,0 +1,67 @@
+title: Datasette
+description: Open-source multi-tool for exploring and publishing data
+logo: /images/logo/datasette.svg
+developer: null
+
+based_on: null
+
+licenses:
+  - type: open-source
+    title: Apache 2.0
+    link: https://github.com/simonw/datasette/blob/main/LICENSE
+
+types:
+  - app
+
+renders: null
+
+features:
+  easy-to-customize: 0
+  easy-to-start-with: 0
+  full-fledged: 0
+  very-popular: 0
+  well-documented: 0
+
+gallery:
+  - /images/slider/datasette-1.png
+  - /images/slider/datasette-2.png
+  - /images/slider/datasette-3.png
+  - /images/slider/datasette-4.png
+
+languages: null
+
+frameworks: null
+
+slugs:
+  github: simonw/datasette
+  npm: null
+  npm_types: null
+
+tags:
+  stackoverflow:
+    - datasette
+  twitter: null
+
+links:
+  website: https://datasette.io
+  examples: https://datasette.io/examples
+  docs: https://docs.datasette.io/en/stable/
+  pricing: null
+  slack: null
+
+content:
+  - type: official
+    title: Getting Started
+    link: https://docs.datasette.io/en/stable/getting_started.html
+
+github_data:
+  stars: 5600
+  contributors: 59
+  issues: 296
+  stale_issues: 186
+  last_release:
+    date: "2021-11-21T00:00:00Z"
+    link: https://github.com/simonw/datasette/releases/tag/0.59.3
+
+stackoverflow_data:
+  questions_count: 9
