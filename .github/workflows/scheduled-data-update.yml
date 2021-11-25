@@ -41,7 +41,7 @@ jobs:
           cwd: "."
           default_author: github_actor
           message: "chore(copy): update data on schedule"
-          pull_strategy: "--no-rebase"
+          pull: "--no-rebase"
           push: true
 
       # - name: Build Next site
