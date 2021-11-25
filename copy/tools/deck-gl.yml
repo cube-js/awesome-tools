@@ -18,7 +18,12 @@ features:
   full-fledged: 0
   very-popular: 0
   well-documented: 0
-gallery: []
+gallery:
+  - /images/slider/deck-gl-1.jpg
+  - /images/slider/deck-gl-2.jpg
+  - /images/slider/deck-gl-3.jpg
+  - /images/slider/deck-gl-4.jpg
+  - /images/slider/deck-gl-5.jpg
 languages:
   - JavaScript
   - TypeScript
