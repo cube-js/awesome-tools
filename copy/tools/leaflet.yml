@@ -19,11 +19,11 @@ features:
   very-popular: 0
   well-documented: 0
 gallery:
-  - /images/slider/leafletjs-1.jpg
-  - /images/slider/leafletjs-2.jpg
-  - /images/slider/leafletjs-3.jpg
-  - /images/slider/leafletjs-4.jpg
-  - /images/slider/leafletjs-5.jpg
+  - /images/slider/leaflet-1.png
+  - /images/slider/leaflet-2.png
+  - /images/slider/leaflet-3.png
+  - /images/slider/leaflet-4.png
+  - /images/slider/leaflet-5.png
 languages:
   - JavaScript
   - TypeScript

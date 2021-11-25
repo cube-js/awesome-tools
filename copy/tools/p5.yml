@@ -20,11 +20,11 @@ features:
   very-popular: 0
   well-documented: 0
 gallery:
-  - /images/slider/p5js-1.png
-  - /images/slider/p5js-2.png
-  - /images/slider/p5js-3.png
-  - /images/slider/p5js-4.png
-  - /images/slider/p5js-5.png
+  - /images/slider/p5-1.png
+  - /images/slider/p5-2.png
+  - /images/slider/p5-3.png
+  - /images/slider/p5-4.png
+  - /images/slider/p5-5.png
 languages:
   - JavaScript
   - TypeScript

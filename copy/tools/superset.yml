@@ -16,11 +16,11 @@ features:
   very-popular: 0
   well-documented: 0
 gallery:
-  - /images/slider/superset-1.jpg
-  - /images/slider/superset-2.jpg
-  - /images/slider/superset-3.jpg
-  - /images/slider/superset-4.jpg
-  - /images/slider/superset-5.jpg
+  - /images/slider/superset-1.png
+  - /images/slider/superset-2.png
+  - /images/slider/superset-3.png
+  - /images/slider/superset-4.png
+  - /images/slider/superset-5.png
 languages: null
 frameworks: null
 slugs:

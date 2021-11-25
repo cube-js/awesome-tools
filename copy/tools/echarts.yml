@@ -21,11 +21,11 @@ features:
   very-popular: 0
   well-documented: 2
 gallery:
-  - /images/slider/echarts-1.jpg
-  - /images/slider/echarts-2.jpg
-  - /images/slider/echarts-3.jpg
-  - /images/slider/echarts-4.jpg
-  - /images/slider/echarts-5.jpg
+  - /images/slider/echarts-1.png
+  - /images/slider/echarts-2.png
+  - /images/slider/echarts-3.png
+  - /images/slider/echarts-4.png
+  - /images/slider/echarts-5.png
 languages:
   - JavaScript
   - TypeScript

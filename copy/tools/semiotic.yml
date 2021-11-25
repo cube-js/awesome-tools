@@ -20,11 +20,11 @@ features:
   very-popular: 0
   well-documented: 0
 gallery:
-  - /images/slider/semiotic-1.jpg
-  - /images/slider/semiotic-2.jpg
-  - /images/slider/semiotic-3.jpg
-  - /images/slider/semiotic-4.jpg
-  - /images/slider/semiotic-5.jpg
+  - /images/slider/semiotic-1.png
+  - /images/slider/semiotic-2.png
+  - /images/slider/semiotic-3.png
+  - /images/slider/semiotic-4.png
+  - /images/slider/semiotic-5.png
 languages:
   - JavaScript
   - TypeScript

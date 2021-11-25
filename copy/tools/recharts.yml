@@ -19,11 +19,11 @@ features:
   very-popular: 1
   well-documented: 3
 gallery:
-  - /images/slider/recharts-1.jpg
-  - /images/slider/recharts-2.jpg
-  - /images/slider/recharts-3.jpg
-  - /images/slider/recharts-4.jpg
-  - /images/slider/recharts-5.jpg
+  - /images/slider/recharts-1.png
+  - /images/slider/recharts-2.png
+  - /images/slider/recharts-3.png
+  - /images/slider/recharts-4.png
+  - /images/slider/recharts-5.png
 languages:
   - JavaScript
   - TypeScript

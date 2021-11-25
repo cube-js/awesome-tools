@@ -19,11 +19,11 @@ features:
   very-popular: 0
   well-documented: 0
 gallery:
-  - /images/slider/fusioncharts-1.jpg
-  - /images/slider/fusioncharts-2.jpg
-  - /images/slider/fusioncharts-3.jpg
-  - /images/slider/fusioncharts-4.jpg
-  - /images/slider/fusioncharts-5.jpg
+  - /images/slider/fusioncharts-1.png
+  - /images/slider/fusioncharts-2.png
+  - /images/slider/fusioncharts-3.png
+  - /images/slider/fusioncharts-4.png
+  - /images/slider/fusioncharts-5.png
 languages:
   - JavaScript
   - TypeScript

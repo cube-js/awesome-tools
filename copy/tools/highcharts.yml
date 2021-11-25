@@ -18,11 +18,11 @@ features:
   very-popular: 0
   well-documented: 0
 gallery:
-  - /images/slider/highcharts-1.jpg
-  - /images/slider/highcharts-2.jpg
-  - /images/slider/highcharts-3.jpg
-  - /images/slider/highcharts-4.jpg
-  - /images/slider/highcharts-5.jpg
+  - /images/slider/highcharts-1.png
+  - /images/slider/highcharts-2.png
+  - /images/slider/highcharts-3.png
+  - /images/slider/highcharts-4.png
+  - /images/slider/highcharts-5.png
 languages:
   - JavaScript
   - TypeScript

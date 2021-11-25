@@ -19,11 +19,11 @@ features:
   very-popular: 0
   well-documented: 0
 gallery:
-  - /images/slider/zingchart-1.jpg
-  - /images/slider/zingchart-2.jpg
-  - /images/slider/zingchart-3.jpg
-  - /images/slider/zingchart-4.jpg
-  - /images/slider/zingchart-5.jpg
+  - /images/slider/zingchart-1.png
+  - /images/slider/zingchart-2.png
+  - /images/slider/zingchart-3.png
+  - /images/slider/zingchart-4.png
+  - /images/slider/zingchart-5.png
 languages:
   - JavaScript
   - TypeScript

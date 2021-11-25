@@ -18,11 +18,11 @@ features:
   very-popular: 0
   well-documented: 0
 gallery:
-  - /images/slider/metabase-1.jpg
-  - /images/slider/metabase-2.jpg
-  - /images/slider/metabase-3.jpg
-  - /images/slider/metabase-4.jpg
-  - /images/slider/metabase-5.jpg
+  - /images/slider/metabase-1.png
+  - /images/slider/metabase-2.png
+  - /images/slider/metabase-3.png
+  - /images/slider/metabase-4.png
+  - /images/slider/metabase-5.png
 languages: null
 frameworks: null
 slugs:

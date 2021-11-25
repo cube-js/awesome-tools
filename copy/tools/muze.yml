@@ -18,11 +18,11 @@ features:
   very-popular: 0
   well-documented: 0
 gallery:
-  - /images/slider/muze-1.jpg
-  - /images/slider/muze-2.jpg
-  - /images/slider/muze-3.jpg
-  - /images/slider/muze-4.jpg
-  - /images/slider/muze-5.jpg
+  - /images/slider/muze-1.png
+  - /images/slider/muze-2.png
+  - /images/slider/muze-3.png
+  - /images/slider/muze-4.png
+  - /images/slider/muze-5.png
 languages:
   - JavaScript
 frameworks:

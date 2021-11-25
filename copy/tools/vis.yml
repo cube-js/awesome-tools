@@ -19,11 +19,11 @@ features:
   very-popular: 0
   well-documented: 0
 gallery:
-  - /images/slider/vis-1.jpg
-  - /images/slider/vis-2.jpg
-  - /images/slider/vis-3.jpg
-  - /images/slider/vis-4.jpg
-  - /images/slider/vis-5.jpg
+  - /images/slider/vis-1.png
+  - /images/slider/vis-2.png
+  - /images/slider/vis-3.png
+  - /images/slider/vis-4.png
+  - /images/slider/vis-5.png
 languages:
   - JavaScript
   - TypeScript

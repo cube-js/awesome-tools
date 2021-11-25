@@ -18,11 +18,11 @@ features:
   very-popular: 0
   well-documented: 0
 gallery:
-  - /images/slider/apexcharts-1.jpg
-  - /images/slider/apexcharts-2.jpg
-  - /images/slider/apexcharts-3.jpg
-  - /images/slider/apexcharts-4.jpg
-  - /images/slider/apexcharts-5.jpg
+  - /images/slider/apexcharts-1.png
+  - /images/slider/apexcharts-2.png
+  - /images/slider/apexcharts-3.png
+  - /images/slider/apexcharts-4.png
+  - /images/slider/apexcharts-5.png
 languages:
   - JavaScript
   - TypeScript

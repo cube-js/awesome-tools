@@ -19,11 +19,11 @@ features:
   very-popular: 0
   well-documented: 0
 gallery:
-  - /images/slider/billboard-1.jpg
-  - /images/slider/billboard-2.jpg
-  - /images/slider/billboard-3.jpg
-  - /images/slider/billboard-4.jpg
-  - /images/slider/billboard-5.jpg
+  - /images/slider/billboard-1.png
+  - /images/slider/billboard-2.png
+  - /images/slider/billboard-3.png
+  - /images/slider/billboard-4.png
+  - /images/slider/billboard-5.png
 languages:
   - JavaScript
   - TypeScript

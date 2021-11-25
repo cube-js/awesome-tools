@@ -17,11 +17,11 @@ features:
   very-popular: 0
   well-documented: 0
 gallery:
-  - /images/slider/ag-grid-1.jpg
-  - /images/slider/ag-grid-2.jpg
-  - /images/slider/ag-grid-3.jpg
-  - /images/slider/ag-grid-5.jpg
-  - /images/slider/ag-grid-5.jpg
+  - /images/slider/ag-grid-1.png
+  - /images/slider/ag-grid-2.png
+  - /images/slider/ag-grid-3.png
+  - /images/slider/ag-grid-5.png
+  - /images/slider/ag-grid-5.png
 languages:
   - JavaScript
   - TypeScript
