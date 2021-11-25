@@ -1,0 +1,72 @@
+title: G2
+description: Highly interactive data-driven visualization grammar for statistical charts
+logo: /images/logo/antv.svg
+developer: AntV
+
+based_on: null
+
+licenses:
+  - type: open-source
+    title: MIT
+    link: https://github.com/antvis/G2/blob/master/LICENSE
+
+types:
+  - charts
+  - maps
+
+renders:
+  - svg
+  - canvas
+
+features:
+  easy-to-customize: 0
+  easy-to-start-with: 0
+  full-fledged: 1
+  very-popular: 0
+  well-documented: 0
+
+gallery:
+  - /images/slider/g2-1.png
+  - /images/slider/g2-2.png
+  - /images/slider/g2-3.png
+  - /images/slider/g2-4.png
+  - /images/slider/g2-5.png
+
+languages:
+  - JavaScript
+  - TypeScript
+
+frameworks:
+  - vanilla-js
+
+slugs:
+  github: antvis/G2
+  npm: "@antv/g2"
+
+tags:
+  stackoverflow: null
+  twitter: null
+
+links:
+  website: https://g2.antv.vision/en
+  examples: https://g2.antv.vision/en/examples/gallery
+  docs: https://g2.antv.vision/en/docs/manual/about-g2
+  pricing: null
+  slack: null
+
+content:
+  - type: official
+    title: Quick Start
+    link: https://g2.antv.vision/en/docs/manual/getting-started
+
+github_data:
+  stars: 11000
+  contributors: 110
+  issues: 160
+  stale_issues: 70
+  last_release:
+    date: "2021-10-21T00:00:00Z"
+    link: https://github.com/antvis/G2/releases/tag/4.1.32
+
+stackoverflow_data:
+  questions_count: 0
