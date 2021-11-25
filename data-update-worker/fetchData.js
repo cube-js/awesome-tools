@@ -7,7 +7,7 @@ const getGithubData = async (githubSlug) => {
   }
   const headers = {
     headers: {
-      Authorization: `token ${process.env.API_TOKEN}`,
+      Authorization: `token ${process.env.ACCESS_TOKEN_GITHUB}`,
     },
   };
   let repo = null;
