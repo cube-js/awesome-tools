@@ -1,0 +1,69 @@
+title: G6
+description: Graph visualization engine with simplicity and convenience
+logo: /images/logo/antv.svg
+developer: AntV
+
+based_on: null
+
+licenses:
+  - type: open-source
+    title: MIT
+    link: https://github.com/antvis/G6/blob/master/LICENSE
+
+types:
+  - charts
+
+renders:
+  - canvas
+
+features:
+  easy-to-customize: 0
+  easy-to-start-with: 0
+  full-fledged: 1
+  very-popular: 0
+  well-documented: 1
+
+gallery:
+  - /images/slider/g6-1.png
+  - /images/slider/g6-2.png
+  - /images/slider/g6-3.png
+  - /images/slider/g6-4.png
+
+languages:
+  - JavaScript
+  - TypeScript
+
+frameworks:
+  - vanilla-js
+
+slugs:
+  github: antvis/G6
+  npm: "@antv/g6"
+
+tags:
+  stackoverflow: null
+  twitter: null
+
+links:
+  website: https://g6.antv.vision/en
+  examples: https://g6.antv.vision/en/examples/gallery
+  docs: https://g6.antv.vision/en/docs/manual/introduction
+  pricing: null
+  slack: null
+
+content:
+  - type: official
+    title: Getting Started
+    link: https://g6.antv.vision/en/docs/manual/getting-started
+
+github_data:
+  stars: 8400
+  contributors: 79
+  issues: 248
+  stale_issues: 70
+  last_release:
+    date: "2021-11-22T00:00:00Z"
+    link: https://github.com/antvis/G6/releases/tag/4.5.0
+
+stackoverflow_data:
+  questions_count: 0
