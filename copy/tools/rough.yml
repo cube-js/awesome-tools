@@ -1,0 +1,72 @@
+title: Rough.js
+description: Graphics library for drawing with a hand-drawn, sketchy appearance
+logo: /images/logo/rough.png
+developer: null
+
+based_on: null
+
+licenses:
+  - type: open-source
+    title: MIT
+    link: https://github.com/rough-stuff/rough/blob/master/LICENSE
+
+types:
+  - low-level
+
+renders:
+  - svg
+  - canvas
+
+features:
+  easy-to-customize: 0
+  easy-to-start-with: 0
+  full-fledged: 0
+  very-popular: 0
+  well-documented: 0
+
+gallery:
+  - /images/slider/rough-1.png
+  - /images/slider/rough-2.png
+  - /images/slider/rough-3.png
+
+languages:
+  - JavaScript
+  - TypeScript
+
+frameworks:
+  - vanilla-js
+  - react
+  - vue
+
+slugs:
+  github: rough-stuff/rough
+  npm: roughjs
+
+tags:
+  stackoverflow: null
+  twitter:
+    - roughjs
+
+links:
+  website: https://roughjs.com
+  examples: null
+  docs: https://github.com/rough-stuff/rough/wiki
+  pricing: null
+  slack: null
+
+content:
+  - type: official
+    title: Getting Started
+    link: https://roughjs.com
+
+github_data:
+  stars: 16106
+  contributors: 11
+  issues: 18
+  stale_issues: 13
+  last_release:
+    date: "2019-03-14T00:00:00Z"
+    link: https://github.com/rough-stuff/rough/releases/tag/v3.1.0
+
+stackoverflow_data:
+  questions_count: 0
