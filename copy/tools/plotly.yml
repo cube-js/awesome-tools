@@ -23,11 +23,11 @@ features:
   very-popular: 0
   well-documented: 0
 gallery:
-  - /images/slider/plotly-1.jpg
-  - /images/slider/plotly-2.jpg
-  - /images/slider/plotly-3.jpg
-  - /images/slider/plotly-4.jpg
-  - /images/slider/plotly-5.jpg
+  - /images/slider/plotly-1.png
+  - /images/slider/plotly-2.png
+  - /images/slider/plotly-3.png
+  - /images/slider/plotly-4.png
+  - /images/slider/plotly-5.png
 languages:
   - JavaScript
   - TypeScript

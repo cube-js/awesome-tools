@@ -18,11 +18,11 @@ features:
   very-popular: 0
   well-documented: 0
 gallery:
-  - /images/slider/anychart-1.jpg
-  - /images/slider/anychart-2.jpg
-  - /images/slider/anychart-3.jpg
-  - /images/slider/anychart-4.jpg
-  - /images/slider/anychart-5.jpg
+  - /images/slider/anychart-1.png
+  - /images/slider/anychart-2.png
+  - /images/slider/anychart-3.png
+  - /images/slider/anychart-4.png
+  - /images/slider/anychart-5.png
 languages:
   - JavaScript
   - TypeScript

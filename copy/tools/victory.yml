@@ -18,11 +18,11 @@ features:
   very-popular: 0
   well-documented: 0
 gallery:
-  - /images/slider/victory-1.jpg
-  - /images/slider/victory-2.jpg
-  - /images/slider/victory-3.jpg
-  - /images/slider/victory-4.jpg
-  - /images/slider/victory-5.jpg
+  - /images/slider/victory-1.png
+  - /images/slider/victory-2.png
+  - /images/slider/victory-3.png
+  - /images/slider/victory-4.png
+  - /images/slider/victory-5.png
 languages:
   - JavaScript
   - TypeScript

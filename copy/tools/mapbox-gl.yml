@@ -19,11 +19,11 @@ features:
   very-popular: 0
   well-documented: 0
 gallery:
-  - /images/slider/mapbox-1.jpg
-  - /images/slider/mapbox-2.jpg
-  - /images/slider/mapbox-3.jpg
-  - /images/slider/mapbox-4.jpg
-  - /images/slider/mapbox-5.jpg
+  - /images/slider/mapbox-gl-1.png
+  - /images/slider/mapbox-gl-2.png
+  - /images/slider/mapbox-gl-3.png
+  - /images/slider/mapbox-gl-4.png
+  - /images/slider/mapbox-gl-5.png
 languages:
   - JavaScript
   - TypeScript

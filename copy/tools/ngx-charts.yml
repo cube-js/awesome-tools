@@ -18,11 +18,11 @@ features:
   very-popular: 0
   well-documented: 0
 gallery:
-  - /images/slider/ngx-charts-1.jpg
-  - /images/slider/ngx-charts-2.jpg
-  - /images/slider/ngx-charts-3.jpg
-  - /images/slider/ngx-charts-4.jpg
-  - /images/slider/ngx-charts-5.jpg
+  - /images/slider/ngx-charts-1.png
+  - /images/slider/ngx-charts-2.png
+  - /images/slider/ngx-charts-3.png
+  - /images/slider/ngx-charts-4.png
+  - /images/slider/ngx-charts-5.png
 languages:
   - TypeScript
 frameworks:

@@ -19,11 +19,11 @@ features:
   very-popular: 0
   well-documented: 0
 gallery:
-  - /images/slider/material-ui-1.jpg
-  - /images/slider/material-ui-2.jpg
-  - /images/slider/material-ui-3.jpg
-  - /images/slider/material-ui-4.jpg
-  - /images/slider/material-ui-5.jpg
+  - /images/slider/mui-x-data-grid-1.png
+  - /images/slider/mui-x-data-grid-2.png
+  - /images/slider/mui-x-data-grid-3.png
+  - /images/slider/mui-x-data-grid-4.png
+  - /images/slider/mui-x-data-grid-5.png
 languages:
   - JavaScript
   - TypeScript

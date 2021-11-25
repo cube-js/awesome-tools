@@ -19,11 +19,11 @@ features:
   very-popular: 1
   well-documented: 0
 gallery:
-  - /images/slider/d3-1.jpg
-  - /images/slider/d3-2.jpg
-  - /images/slider/d3-3.jpg
-  - /images/slider/d3-4.jpg
-  - /images/slider/d3-5.jpg
+  - /images/slider/d3-1.png
+  - /images/slider/d3-2.png
+  - /images/slider/d3-3.png
+  - /images/slider/d3-4.png
+  - /images/slider/d3-5.png
 languages:
   - JavaScript
   - TypeScript

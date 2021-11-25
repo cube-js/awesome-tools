@@ -19,11 +19,11 @@ features:
   very-popular: 0
   well-documented: 0
 gallery:
-  - /images/slider/Google-Charts-1.jpg
-  - /images/slider/Google-Charts-2.jpg
-  - /images/slider/Google-Charts-3.jpg
-  - /images/slider/Google-Charts-4.jpg
-  - /images/slider/Google-Charts-5.jpg
+  - /images/slider/google-charts-1.png
+  - /images/slider/google-charts-2.png
+  - /images/slider/google-charts-3.png
+  - /images/slider/google-charts-4.png
+  - /images/slider/google-charts-5.png
 languages:
   - JavaScript
   - TypeScript

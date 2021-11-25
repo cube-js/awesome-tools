@@ -18,11 +18,11 @@ features:
   very-popular: 1
   well-documented: 1
 gallery:
-  - /images/slider/chart-js-1.jpg
-  - /images/slider/chart-js-2.jpg
-  - /images/slider/chart-js-3.jpg
-  - /images/slider/chart-js-4.jpg
-  - /images/slider/chart-js-5.jpg
+  - /images/slider/chartjs-1.png
+  - /images/slider/chartjs-2.png
+  - /images/slider/chartjs-3.png
+  - /images/slider/chartjs-4.png
+  - /images/slider/chartjs-5.png
 languages:
   - JavaScript
   - TypeScript

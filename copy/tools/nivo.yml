@@ -21,11 +21,11 @@ features:
   very-popular: 0
   well-documented: 0
 gallery:
-  - /images/slider/nivo-1.jpg
-  - /images/slider/nivo-2.jpg
-  - /images/slider/nivo-3.jpg
-  - /images/slider/nivo-4.jpg
-  - /images/slider/nivo-5.jpg
+  - /images/slider/nivo-1.png
+  - /images/slider/nivo-2.png
+  - /images/slider/nivo-3.png
+  - /images/slider/nivo-4.png
+  - /images/slider/nivo-5.png
 languages:
   - JavaScript
   - TypeScript

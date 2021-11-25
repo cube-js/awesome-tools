@@ -19,11 +19,11 @@ features:
   very-popular: 0
   well-documented: 0
 gallery:
-  - /images/slider/visx-1.jpg
-  - /images/slider/visx-2.jpg
-  - /images/slider/visx-3.jpg
-  - /images/slider/visx-4.jpg
-  - /images/slider/visx-5.jpg
+  - /images/slider/visx-1.png
+  - /images/slider/visx-2.png
+  - /images/slider/visx-3.png
+  - /images/slider/visx-4.png
+  - /images/slider/visx-5.png
 languages:
   - JavaScript
   - TypeScript

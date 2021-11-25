@@ -16,11 +16,11 @@ features:
   very-popular: 0
   well-documented: 0
 gallery:
-  - /images/slider/amcharts-1.jpg
-  - /images/slider/amcharts-2.jpg
-  - /images/slider/amcharts-3.jpg
-  - /images/slider/amcharts-4.jpg
-  - /images/slider/amcharts-5.jpg
+  - /images/slider/amcharts-1.png
+  - /images/slider/amcharts-2.png
+  - /images/slider/amcharts-3.png
+  - /images/slider/amcharts-4.png
+  - /images/slider/amcharts-5.png
 languages:
   - JavaScript
   - TypeScript
