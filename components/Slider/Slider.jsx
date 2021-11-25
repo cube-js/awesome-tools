@@ -8,6 +8,18 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
+function getSettingsThumbs(slidesToShow) {
+  return {
+    slidesToShow: Math.min(4, slidesToShow),
+    slidesToScroll: 1,
+    asNavFor: ".slider-for",
+    dots: false,
+    centerMode: false,
+    swipeToSlide: true,
+    focusOnSelect: true,
+  };
+}
+
 function App(props) {
   const [nav1, setNav1] = useState(null);
   const [nav2, setNav2] = useState(null);
@@ -27,17 +39,6 @@ function App(props) {
     asNavFor: ".slider-nav",
   };
 
-  const settingsThumbs = {
-    slidesToShow: 4,
-    slidesToScroll: 1,
-    asNavFor: ".slider-for",
-    dots: false,
-    centerMode: false,
-    swipeToSlide: true,
-    focusOnSelect: true,
-    // centerPadding: "10px",
-  };
-
   return (
     <div className={styles.slider}>
       <div className={styles.sliderWrapper}>
@@ -55,7 +56,7 @@ function App(props) {
         </Slider>
         <div className={styles.thumbnailSliderWrap}>
           <Slider
-            {...settingsThumbs}
+            {...getSettingsThumbs(props.slidesData.length)}
             asNavFor={nav1}
             ref={(slider) => setSlider2(slider)}
           >

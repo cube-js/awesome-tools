@@ -1,0 +1,68 @@
+title: roughViz.js
+description: JavaScript library for creating sketchy/hand-drawn styled charts, based on D3.js, Rough.js, and Handy
+logo: /images/logo/roughviz.png
+developer: null
+
+based_on:
+  - d3
+
+licenses:
+  - type: open-source
+    title: MIT
+    link: https://github.com/jwilber/roughViz/blob/master/LICENSE
+
+types:
+  - charts
+
+renders:
+  - svg
+
+features:
+  easy-to-customize: 0
+  easy-to-start-with: 0
+  full-fledged: 0
+  very-popular: 0
+  well-documented: 0
+
+gallery:
+  - /images/slider/roughviz-1.png
+  - /images/slider/roughviz-2.png
+
+languages:
+  - JavaScript
+
+frameworks:
+  - vanilla-js
+  - react
+  - vue
+
+slugs:
+  github: jwilber/roughViz
+  npm: rough-viz
+
+tags:
+  stackoverflow: null
+  twitter:
+    - roughViz
+
+links:
+  website: null
+  examples: null
+  docs: https://github.com/jwilber/roughViz#api
+  pricing: null
+  slack: null
+
+content:
+  - type: official
+    title: Getting Started
+    link: https://github.com/jwilber/roughViz#installation
+
+github_data:
+  stars: 5900
+  contributors: 9
+  issues: 14
+  stale_issues: 12
+  last_release: null
+
+stackoverflow_data:
+  questions_count: 0
