@@ -1,74 +1,61 @@
 title: Perspective
-description: Interactive analytics and data visualization component, especially well-suited for large and/or streaming datasets
+description: >-
+  Interactive analytics and data visualization component, especially well-suited
+  for large and/or streaming datasets
 logo: /images/logo/finos.svg
 developer: J.P. Morgan
-
 based_on: null
-
 licenses:
   - type: open-source
     title: Apache 2.0
-    link: https://github.com/finos/perspective/blob/master/LICENSE
-
+    link: 'https://github.com/finos/perspective/blob/master/LICENSE'
 types:
   - charts
-
 renders:
   - svg
   - html
-
 features:
   easy-to-customize: 0
   easy-to-start-with: 0
   full-fledged: 0
   very-popular: 0
   well-documented: 0
-
 gallery:
   - /images/slider/perspective-1.png
   - /images/slider/perspective-2.png
   - /images/slider/perspective-3.png
   - /images/slider/perspective-4.png
   - /images/slider/perspective-5.png
-
 languages:
   - JavaScript
   - Python
-
 frameworks:
   - vanilla-js
-
 slugs:
   github: finos/perspective
-  npm: "@finos/perspective"
-
+  npm: '@finos/perspective'
 tags:
   stackoverflow: null
   twitter: null
-
 links:
-  website: https://perspective.finos.org
-  examples: https://perspective.finos.org
-  docs: https://perspective.finos.org/docs/md/js.html
+  website: 'https://perspective.finos.org'
+  examples: 'https://perspective.finos.org'
+  docs: 'https://perspective.finos.org/docs/md/js.html'
   pricing: null
   slack: null
-
 content:
   - type: official
     title: JavaScript User Guide
-    link: https://perspective.finos.org/docs/md/js.html
+    link: 'https://perspective.finos.org/docs/md/js.html'
   - type: official
     title: Python User Guide
-    link: https://perspective.finos.org/docs/md/python.html
-
+    link: 'https://perspective.finos.org/docs/md/python.html'
 github_data:
-  stars: 3900
-  contributors: 57
+  stars: 3944
+  contributors: 65
   issues: 58
-  stale_issues: 28
+  stale_issues: 27
   last_release:
-    date: "2021-11-23T00:00:00Z"
-    link: https://github.com/finos/perspective/releases/tag/v1.0.3
-
-stackoverflow_data:
-  questions_count: 0
+    date: null
+    link: null
+stackoverflow_data: null

@@ -2,73 +2,59 @@ title: Cytoscape.js
 description: Graph theory (network) library for visualisation and analysis
 logo: /images/logo/cytoscape.svg
 developer: null
-
 based_on: null
-
 licenses:
   - type: open-source
     title: MIT
-    link: https://github.com/cytoscape/cytoscape.js/blob/unstable/LICENSE
-
+    link: 'https://github.com/cytoscape/cytoscape.js/blob/unstable/LICENSE'
 types:
   - low-level
-
 renders:
   - canvas
-
 features:
   easy-to-customize: 0
   easy-to-start-with: 0
   full-fledged: 0
   very-popular: 0
   well-documented: 0
-
 gallery:
   - /images/slider/cytoscape-1.png
   - /images/slider/cytoscape-2.png
   - /images/slider/cytoscape-3.png
   - /images/slider/cytoscape-4.png
-
 languages:
   - JavaScript
   - TypeScript
-
 frameworks:
   - vanilla-js
   - react
   - angular
   - vue
-
 slugs:
   github: cytoscape/cytoscape.js
   npm: cytoscape
-  npm_types: "@types/cytoscape"
-
+  npm_types: '@types/cytoscape'
 tags:
   stackoverflow:
     - cytoscape.js
   twitter: null
-
 links:
-  website: https://js.cytoscape.org
-  examples: https://js.cytoscape.org/#demos
-  docs: https://js.cytoscape.org/#notation
+  website: 'https://js.cytoscape.org'
+  examples: 'https://js.cytoscape.org/#demos'
+  docs: 'https://js.cytoscape.org/#notation'
   pricing: null
   slack: null
-
 content:
   - type: official
     title: Getting Started
-    link: https://js.cytoscape.org/#getting-started
-
+    link: 'https://js.cytoscape.org/#getting-started'
 github_data:
-  stars: 8100
-  contributors: 99
+  stars: 8052
+  contributors: 114
   issues: 16
   stale_issues: 2
   last_release:
-    date: "2021-10-22T00:00:00Z"
-    link: https://github.com/cytoscape/cytoscape.js/releases/tag/v3.20.0
-
+    date: '2021-10-22T17:40:03Z'
+    link: 'https://github.com/cytoscape/cytoscape.js/releases/tag/v3.20.0'
 stackoverflow_data:
   questions_count: 1191

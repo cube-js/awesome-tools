@@ -2,73 +2,59 @@ title: G2Plot
 description: Interactive and responsive charting library based on the grammar of graphics
 logo: /images/logo/antv.svg
 developer: AntV
-
 based_on:
   - g2
-
 licenses:
   - type: open-source
     title: MIT
-    link: https://github.com/antvis/G2Plot/blob/master/LICENSE
-
+    link: 'https://github.com/antvis/G2Plot/blob/master/LICENSE'
 types:
   - charts
-
 renders:
   - canvas
-
 features:
   easy-to-customize: 0
   easy-to-start-with: 0
   full-fledged: 1
   very-popular: 0
   well-documented: 1
-
 gallery:
   - /images/slider/g2plot-1.png
   - /images/slider/g2plot-2.png
   - /images/slider/g2plot-3.png
   - /images/slider/g2plot-4.png
-
 languages:
   - JavaScript
   - TypeScript
-
 frameworks:
   - vanilla-js
   - react
   - vue
-
 slugs:
   github: antvis/G2Plot
-  npm: "@antv/g2plot"
-
+  npm: '@antv/g2plot'
 tags:
   stackoverflow:
     - g2plot
   twitter:
     - G2Plot
-
 links:
-  website: https://g2plot.antv.vision/en
-  examples: https://g2plot.antv.vision/en/examples/gallery
-  docs: https://g2plot.antv.vision/en/docs/manual/introduction
+  website: 'https://g2plot.antv.vision/en'
+  examples: 'https://g2plot.antv.vision/en/examples/gallery'
+  docs: 'https://g2plot.antv.vision/en/docs/manual/introduction'
   pricing: null
   slack: null
-
 content:
   - type: official
     title: Quick Start
-    link: https://g2plot.antv.vision/en/docs/manual/getting-started
-
+    link: 'https://g2plot.antv.vision/en/docs/manual/getting-started'
 github_data:
-  stars: 2000
-  contributors: 69
+  stars: 2046
+  contributors: 47
   issues: 119
   stale_issues: 5
   last_release:
-    date: "2021-11-15T00:00:00Z"
-    link: https://github.com/antvis/G2Plot/releases/tag/2.3.40
-
+    date: '2021-11-15T02:45:40Z'
+    link: 'https://github.com/antvis/G2Plot/releases/tag/2.3.40'
 stackoverflow_data:
   questions_count: 11

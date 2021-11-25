@@ -1,67 +1,54 @@
 title: reaflow
-description: React library for building workflow editors, flow charts, and diagrams
+description: 'React library for building workflow editors, flow charts, and diagrams'
 logo: /images/logo/reaflow.png
 developer: null
-
 based_on: null
-
 licenses:
   - type: open-source
     title: Apache 2.0
-    link: https://github.com/reaviz/reaflow/blob/master/LICENSE
-
+    link: 'https://github.com/reaviz/reaflow/blob/master/LICENSE'
 types:
   - low-level
-
 renders:
   - svg
-
 features:
   easy-to-customize: 0
   easy-to-start-with: 0
   full-fledged: 0
   very-popular: 0
   well-documented: 0
-
 gallery:
   - /images/slider/reaflow-1.png
   - /images/slider/reaflow-2.png
   - /images/slider/reaflow-3.png
   - /images/slider/reaflow-4.png
-
 languages:
   - JavaScript
   - TypeScript
-
 frameworks:
   - react
-
 slugs:
   github: reaviz/reaflow
   npm: reaflow
-
 tags:
   stackoverflow: null
   twitter: null
-
 links:
-  website: https://reaflow.dev
-  examples: https://reaflow.dev/?path=/story/demos-basic--custom-elements
-  docs: https://reaflow.dev/?path=/story/docs-introduction--page
+  website: 'https://reaflow.dev'
+  examples: 'https://reaflow.dev/?path=/story/demos-basic--custom-elements'
+  docs: 'https://reaflow.dev/?path=/story/docs-introduction--page'
   pricing: null
   slack: null
-
 content:
   - type: official
     title: Getting Started
-    link: https://reaflow.dev/?path=/story/docs-getting-started-installing--page
-
+    link: 'https://reaflow.dev/?path=/story/docs-getting-started-installing--page'
 github_data:
   stars: 785
-  contributors: 12
+  contributors: 11
   issues: 41
-  stale_issues: 31
-  last_release: null
-
-stackoverflow_data:
-  questions_count: 0
+  stale_issues: 10
+  last_release:
+    date: null
+    link: null
+stackoverflow_data: null
