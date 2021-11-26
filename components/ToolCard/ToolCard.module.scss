@@ -68,7 +68,11 @@
       right: 0;
       top: 0;
       transform: scale3d(0.5, 0.5, 0.5);
-      // margin-right: 20px;
+    }
+
+    &__icon {
+      width: 104px;
+      height: 104px;
     }
   }
 }
@@ -84,7 +88,6 @@
     text-transform: capitalize;
     font-size: 16px;
     font-weight: 500;
-    // line-height: 24px;
   }
   @media (max-width: 1400px) {
     margin-right: 20px;
@@ -105,21 +108,21 @@
 .language {
   display: flex;
   align-items: center;
-  // flex-direction: column;
   &__wrapper {
     display: flex;
     align-items: center;
   }
   .icon {
+    width: 16px;
+    height: 16px;
     display: flex;
     align-items: center;
-    margin-right: 4px;
+    margin-right: 5px;
   }
 }
 .framework {
   display: flex;
   align-items: center;
-  // flex-direction: column;
   &__wrapper {
     display: flex;
     align-items: center;
@@ -128,14 +131,13 @@
     }
   }
   .icon {
+    width: 16px;
+    height: 16px;
     display: flex;
     align-items: center;
     margin-right: 5px;
-    max-width: 16px;
   }
 }
-
-// test
 
 .toolCard[shadow="well-documented"] {
   box-shadow: 16px 24px 80px rgba(255, 133, 95, 0.3);

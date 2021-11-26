@@ -1,18 +1,16 @@
 import styles from "./Header.module.scss";
 import Button from "../Button";
+import Img from 'react-optimized-image';
 
 export default function Header(props) {
   return (
     <div className={styles.header}>
       <div className={styles.title}>
-        <div
+        <Img
           className={styles.title__img}
-          style={{ backgroundImage: `url(${props.logo})` }}
-          // src={props.logo}
-          // alt={`${props.title} logo`}
-        >
-          {/* <img /> */}
-        </div>
+          src={require(`~/public/images/logo/${props.logo}`)}
+          sizes={[77]}
+          alt={`${props.title} logo`} />
         <h2 className={styles.title__text}>
           {props.title}
           {props.developer && (
