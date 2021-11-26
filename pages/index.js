@@ -8,7 +8,6 @@ import ExploreToolsCard from "../components/ExploreToolsCard";
 import H1 from "../components/Text/H1";
 import AccentedText from "../components/Text/AccentedText";
 import { useRouter } from "next/router";
-import LazyLoad from "react-lazy-load";
 
 const ToolCard = dynamic(() => import("../components/ToolCard"));
 const ToolsNumberControl = dynamic(() =>
@@ -135,87 +134,66 @@ export default function Home({ tools }) {
 
           <Chip
             className="mr-xs"
-            src="/images/logo/react.svg"
+            icon="react.svg"
+            title="React"
             active={framework.includes("react") ? "active" : null}
-            onClick={() => setItem(framework, setFramework, "react")}
-          >
-            React
-          </Chip>
+            onClick={() => setItem(framework, setFramework, "react")} />
           <Chip
             className="mr-xs"
-            src="/images/logo/angular.svg"
+            icon="angular.svg"
+            title="Angular"
             active={framework.includes("angular") ? "active" : null}
-            onClick={() => setItem(framework, setFramework, "angular")}
-          >
-            Angular
-          </Chip>
+            onClick={() => setItem(framework, setFramework, "angular")} />
           <Chip
-            src="/images/logo/vue.svg"
+            icon="vue.svg"
+            title="Vue"
             active={framework.includes("vue") ? "active" : null}
-            onClick={() => setItem(framework, setFramework, "vue")}
-          >
-            Vue
-          </Chip>
+            onClick={() => setItem(framework, setFramework, "vue")} />
           <Chip
-            src="/images/logo/svelte.svg"
+            icon="svelte.svg"
+            title="Svelte"
             active={framework.includes("svelte") ? "active" : null}
-            onClick={() => setItem(framework, setFramework, "svelte")}
-          >
-            Svelte
-          </Chip>
+            onClick={() => setItem(framework, setFramework, "svelte")} />
         </div>
         <div className="flex flex-wrap-row flex-items-center mb-sm">
           <AccentedText className="mr-xs">With support for</AccentedText>
 
           <Chip
-            src="/images/logo/typescript.svg"
+            icon="typescript.svg"
+            title="TypeScript"
             active={language.includes("typescript") ? "active" : null}
-            onClick={() => setItem(language, setLanguage, "typescript")}
-          >
-            TypeScript
-          </Chip>
+            onClick={() => setItem(language, setLanguage, "typescript")} />
           <AccentedText className="mr-xs ml-xs">and</AccentedText>
           <Chip
             className="mr-xs"
-            src="/images/logo/open-source.svg"
+            icon="open-source.svg"
+            title="open source"
             active={license.includes("open-source") ? "active" : null}
-            onClick={() => setItem(license, setLicense, "open-source")}
-          >
-            open source
-          </Chip>
-          {/* <AccentedText className="mr-xs ml-xs">or</AccentedText> */}
+            onClick={() => setItem(license, setLicense, "open-source")} />
           <Chip
-            src="/images/logo/dollar.svg"
+            icon="proprietary.svg"
+            title="proprietary"
             active={license.includes("proprietary") ? "active" : null}
-            onClick={() => setItem(license, setLicense, "proprietary")}
-          >
-            proprietary
-          </Chip>
+            onClick={() => setItem(license, setLicense, "proprietary")} />
           <AccentedText className="ml-xs">license</AccentedText>
         </div>
         <div className="flex flex-wrap-row flex-items-center">
           <AccentedText className="mr-xs">Rendering</AccentedText>
 
           <Chip
-            className="mr-xs"
-            active={render.includes("svg") ? "active" : null}
-            onClick={() => setItem(render, setRender, "svg")}
-          >
-            SVG
-          </Chip>
-          <Chip
+            title="Canvas"
             className="mr-xs"
             active={render.includes("canvas") ? "active" : null}
-            onClick={() => setItem(render, setRender, "canvas")}
-          >
-            Canvas
-          </Chip>
+            onClick={() => setItem(render, setRender, "canvas")} />
           <Chip
+            title="SVG"
+            className="mr-xs"
+            active={render.includes("svg") ? "active" : null}
+            onClick={() => setItem(render, setRender, "svg")} />
+          <Chip
+            title="HTML"
             active={render.includes("html") ? "active" : null}
-            onClick={() => setItem(render, setRender, "html")}
-          >
-            HTML
-          </Chip>
+            onClick={() => setItem(render, setRender, "html")} />
         </div>
 
         <div className="number-control-wrap">

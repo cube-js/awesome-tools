@@ -52,10 +52,10 @@
 .icon {
   display: inline-flex;
   margin-right: 8px;
+  min-width: 22px;
+  min-height: 22px;
   svg {
-    min-width: 18px;
-    min-height: 18px;
-    // width: 18px;
-    // height: 18px;
+    width: 22px;
+    height: 22px;
   }
 }

@@ -1,5 +1,5 @@
 import styles from "./Chip.module.scss";
-import { ReactSVG } from "react-svg";
+import Img from 'react-optimized-image';
 
 export default function Chip(props) {
   return (
@@ -12,14 +12,13 @@ export default function Chip(props) {
       active={props.active}
     >
       <span>
-        {props.src && (
-          <ReactSVG
+        {props.icon && (
+          <Img
             className={styles.icon}
-            wrapper="span"
-            src={props.src}
-          ></ReactSVG>
+            src={require(`~/public/images/logo/${props.icon}`)}
+            alt={props.title} />
         )}
-        <span>{props.children}</span>
+        <span>{props.title}</span>
       </span>
     </button>
   );
