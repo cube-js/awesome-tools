@@ -1,6 +1,6 @@
 title: Kepler.gl
 description: Open-source geospatial analysis tool for large-scale data sets
-logo: /images/logo/kepler-gl.svg
+logo: kepler-gl.svg
 developer: Uber
 based_on:
   - mapbox-gl

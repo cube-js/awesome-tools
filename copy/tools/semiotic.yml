@@ -1,6 +1,6 @@
 title: Semiotic
 description: Data visualization framework for React
-logo: /images/logo/semiotic.png
+logo: semiotic.png
 developer: null
 based_on:
   - d3

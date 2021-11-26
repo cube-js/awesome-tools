@@ -16,7 +16,7 @@
     "isomorphic-unfetch": "^3.1.0",
     "js-yaml": "^3.14.1",
     "moment": "^2.29.1",
-    "next": "12",
+    "next": "10",
     "node-yaml": "^4.0.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
@@ -27,6 +27,15 @@
     "slick-carousel": "^1.8.1"
   },
   "devDependencies": {
-    "next-sitemap": "^1.6.105"
+    "babel-plugin-root-import": "^6.6.0",
+    "imagemin-mozjpeg": "^9.0.0",
+    "imagemin-optipng": "^8.0.0",
+    "imagemin-svgo": "^10.0.0",
+    "next-compose-plugins": "^2.2.1",
+    "next-optimized-images": "^3.0.0-canary.10",
+    "next-sitemap": "^1.6.105",
+    "react-optimized-image": "^0.4.1",
+    "responsive-loader": "^2.3.0",
+    "sharp": "^0.29.3"
   }
 }

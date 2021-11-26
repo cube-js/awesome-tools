@@ -1,6 +1,6 @@
 title: React Charts
 description: 'Simple, immersive & interactive charts for React'
-logo: /images/logo/react-charts.svg
+logo: react-charts.svg
 developer: null
 based_on:
   - d3

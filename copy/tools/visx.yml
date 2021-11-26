@@ -1,6 +1,6 @@
 title: visx
 description: 'Collection of expressive, low-level visxualization primitives for React'
-logo: /images/logo/visx.png
+logo: visx.png
 developer: Airbnb
 based_on:
   - d3

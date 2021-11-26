@@ -2,7 +2,7 @@ title: Vega
 description: >-
   Visualization grammar, a declarative language for creating and sharing
   visualization designs
-logo: /images/logo/vega.svg
+logo: vega.svg
 developer: null
 based_on:
   - d3

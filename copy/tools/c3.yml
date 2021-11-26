@@ -1,6 +1,6 @@
 title: C3.js
 description: D3.js-based reusable chart library
-logo: /images/logo/c3.svg
+logo: c3.svg
 developer: null
 based_on:
   - d3

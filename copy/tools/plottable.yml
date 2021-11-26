@@ -1,6 +1,6 @@
 title: Plottable
 description: Library of modular chart components built on D3.js
-logo: /images/logo/plottable.svg
+logo: plottable.svg
 developer: Palantir
 based_on:
   - d3

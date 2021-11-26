@@ -1,6 +1,6 @@
 title: deck.gl
 description: WebGL-powered visualization framework for large-scale datasets
-logo: /images/logo/deck-gl.svg
+logo: deck-gl.svg
 developer: Uber
 based_on: null
 licenses:

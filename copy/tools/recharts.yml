@@ -1,6 +1,6 @@
 title: Recharts
 description: Composable charting library built on React components
-logo: /images/logo/recharts.png
+logo: recharts.png
 developer: null
 based_on:
   - d3

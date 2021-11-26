@@ -2,7 +2,7 @@ title: REAVIZ
 description: >-
   Modular chart library that leverages React natively while using D3.js under
   the hood
-logo: /images/logo/reaviz.png
+logo: reaviz.png
 developer: null
 based_on:
   - d3

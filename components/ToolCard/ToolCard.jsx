@@ -4,6 +4,7 @@ import moment from "moment";
 import Link from "next/link";
 import abbreviateNumber from "../../utils/number";
 // import React, { useEffect } from "react";
+import Img from 'react-optimized-image';
 
 export default function ToolCard(props) {
   let shadow = getShadowByLabel(props?.feature_label);
@@ -23,11 +24,11 @@ export default function ToolCard(props) {
       <a className="full-height">
         <div className={styles.toolCard} shadow={shadow}>
           <div className="flex flex-items-center">
-            <div
+            <Img
               className={styles.toolCard__logo}
-              style={{ backgroundImage: `url(${props.logo})` }}
-              alt={`${props.title} logo`}
-            ></div>
+              src={require(`~/public/images/logo/${props.logo}`)}
+              sizes={[60]}
+              alt={`${props.title} logo`} />
             <div className="flex flex-column">
               <h4 className={styles.toolCard__title}>
                 {props.title || ""}

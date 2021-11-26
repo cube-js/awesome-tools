@@ -1,6 +1,6 @@
 title: Plotly
 description: 'High-level, declarative charting library'
-logo: /images/logo/plotly.svg
+logo: plotly.svg
 developer: null
 based_on:
   - d3

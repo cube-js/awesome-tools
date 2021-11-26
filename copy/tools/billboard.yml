@@ -1,6 +1,6 @@
 title: Billboard.js
 description: 'Re-usable, easy interface JavaScript chart library based on D3.js'
-logo: /images/logo/billboard.svg
+logo: billboard.svg
 developer: null
 based_on:
   - d3
