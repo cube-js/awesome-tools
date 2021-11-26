@@ -7,4 +7,9 @@ module.exports = withPlugins([
       limit: -1,
     },
   }],
+  {
+    images: {
+      disableStaticImages: true,
+    },
+  },
 ]);
