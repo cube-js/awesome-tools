@@ -77,15 +77,7 @@ function MyApp({ Component, pageProps }) {
         />
         <style
           dangerouslySetInnerHTML={{
-            __html: `    
-      @font-face {
-        font-family: CeraPro;
-        src: url(/fonts/CeraPro-Regular.woff2);
-        font-weight: 300;
-        font-style: normal;
-        font-display: swap;
-      }
-    
+            __html: `
       @font-face {
         font-family: CeraPro;
         src: url(/fonts/CeraPro-Regular.woff2);
@@ -98,14 +90,6 @@ function MyApp({ Component, pageProps }) {
         font-family: CeraPro;
         src: url(/fonts/CeraPro-Medium.woff2);
         font-weight: 500;
-        font-style: normal;
-        font-display: swap;
-      }
-    
-      @font-face {
-        font-family: CeraPro;
-        src: url(/fonts/CeraPro-Medium.woff2);
-        font-weight: 600;
         font-style: normal;
         font-display: swap;
       }
