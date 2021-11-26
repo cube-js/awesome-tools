@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "@netlify/plugin-nextjs": "beta",
+    "@next/bundle-analyzer": "^12.0.4",
     "bootstrap": "^5.0.1",
     "cubedev-tracking": "1.0.6",
     "dayjs": "^1.10.7",
