@@ -1,5 +1,5 @@
 import styles from "./ToolCard.module.scss";
-import moment from "moment";
+import dayjs from "dayjs";
 import Link from "next/link";
 import abbreviateNumber from "../../utils/number";
 import Img from 'react-optimized-image';
@@ -110,7 +110,7 @@ export default function ToolCard(props) {
                 <span className={styles.features}>Last release</span>
                 <div>
                   <span className={styles.features__text}>
-                    {moment(props?.github_data?.last_release?.date).format(
+                    {dayjs(props?.github_data?.last_release?.date).format(
                       "MMM DD, YYYY"
                     ) || "-"}
                   </span>

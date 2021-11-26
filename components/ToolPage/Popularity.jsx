@@ -1,7 +1,7 @@
 import styles from "./Popularity.module.scss";
 import Card from "../Card/Card";
 import H2 from "../Text/H2";
-import moment from "moment";
+import dayjs from "dayjs";
 import abbreviateNumber from "../../utils/number";
 
 export default function Popularity(props) {
@@ -54,7 +54,7 @@ export default function Popularity(props) {
             link={props?.github?.last_release?.link}
             color="gray"
             text={
-              moment(props?.github?.last_release?.date).format(
+              dayjs(props?.github?.last_release?.date).format(
                 "MMM DD, YYYY"
               ) || "-"
             }
