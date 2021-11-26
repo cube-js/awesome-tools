@@ -10,7 +10,7 @@ export default function Header() {
     return (
       <header className={styles.header}>
         <div className={styles.header__logo + " container custom-container"}>
-          <a href="https://cube.dev/" target="_blank">
+          <a href="https://cube.dev/" target="_blank" aria-label="Cube">
             <ReactSVG
               wrapper="span"
               active="active"
@@ -34,7 +34,7 @@ export default function Header() {
   return (
     <header className={styles.header}>
       <div className={styles.header__logo + " container custom-container"}>
-        <a href="https://cube.dev/" target="_blank">
+        <a href="https://cube.dev/" target="_blank" aria-label="Cube">
           <ReactSVG
             wrapper="span"
             active="active"

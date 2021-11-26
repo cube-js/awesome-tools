@@ -24,14 +24,14 @@ export default function ToolCard(props) {
               sizes={[60]}
               alt={`${props.title} logo`} />
             <div className="flex flex-column">
-              <h4 className={styles.toolCard__title}>
+              <h2 className={styles.toolCard__title}>
                 {props.title || ""}
                 {props.developer && (
                   <span className={styles.toolCard__developer}>
                     &nbsp;by&nbsp;{props.developer}
                   </span>
                 )}
-              </h4>
+              </h2>
             </div>
           </div>
           <p

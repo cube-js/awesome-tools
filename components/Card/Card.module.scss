@@ -71,11 +71,11 @@
 }
 .footer {
   margin-top: 24px;
-  color: rgba(67, 67, 107, 0.6);
+  color: $dark-02;
 }
 .card[color="orange"] {
   .footer {
-    color: $orange-01;
+    color: $orange;
   }
 }
 .card[big="big"] {
@@ -83,7 +83,6 @@
   padding: 48px 42px;
   border-radius: 24px;
   .text {
-    // margin-top: 10px;
     font-size: 48px;
     line-height: 60px;
     margin-bottom: 0;
