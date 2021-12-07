@@ -77,8 +77,6 @@ function MyApp({ Component, pageProps }) {
       </Head>
 
       <DefaultSeo
-        title="Data visualization tools — the awesome list"
-        description="Data visualization tools for software developers: charting libraries, data grids, maps, etc."
         openGraph={{
           type: "website",
           url: `https://awesome.cube.dev${router.asPath}`,
