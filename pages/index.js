@@ -1,6 +1,5 @@
 import dynamic from "next/dynamic";
 import React, { useState, useEffect } from "react";
-import Head from "next/head";
 import { getTools } from "../data/tools";
 import { filter, setParamsFromRouter } from "../data/filter";
 import Chip from "../components/Chip";
@@ -15,8 +14,6 @@ const ToolsNumberControl = dynamic(() =>
 );
 
 export default function Home({ tools }) {
-  const title = "Awesome dataviz tools by Cube";
-
   const router = useRouter();
   const query = router.query;
   const [isFirstLoad, setLoad] = useState(false);
@@ -74,20 +71,9 @@ export default function Home({ tools }) {
 
   return (
     <div className="container custom-container">
-      <Head>
-        <title>{title}</title>
-        <meta
-          name="description"
-          content="Awesome data visualization tools for software developers by Cube"
-        />
-        <meta property="og:title" content={title} />
-        <meta property="twitter:title" content={title} />
-        <meta property="og:url" content="https://awesome.cube.dev/" />
-      </Head>
-
       <main>
         <H1>
-          Awesome data visualization tools <br className="xl-hidden" /> for
+          Data visualization tools <br className="xl-hidden" /> for
           software developers
         </H1>
         <div className="row mb-md">
@@ -110,16 +96,16 @@ export default function Home({ tools }) {
             image="globe"
           />
           <ExploreToolsCard
-            onClick={() => setItem(exploreTools, setExploreTools, "3d")}
-            active={exploreTools.includes("3d") ? "active" : null}
-            text="3D<br/>tools"
-            image="3d"
-          />
-          <ExploreToolsCard
             onClick={() => setItem(exploreTools, setExploreTools, "grid")}
             active={exploreTools.includes("grid") ? "active" : null}
             text="Data<br/>grids"
             image="grid"
+          />
+          <ExploreToolsCard
+            onClick={() => setItem(exploreTools, setExploreTools, "3d")}
+            active={exploreTools.includes("3d") ? "active" : null}
+            text="3D<br/>tools"
+            image="3d"
           />
           <ExploreToolsCard
             onClick={() => setItem(exploreTools, setExploreTools, "app")}
