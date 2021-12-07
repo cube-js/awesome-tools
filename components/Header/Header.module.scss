@@ -1,10 +1,12 @@
 .header {
   padding: 24px 0;
+
   &__logo {
     display: flex;
-    align-items: flex-end;
+    align-items: center;
     min-height: 28px;
   }
+
   &__text {
     margin-left: 8px;
 
