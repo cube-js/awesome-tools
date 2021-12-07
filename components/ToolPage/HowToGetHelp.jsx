@@ -13,7 +13,7 @@ export default function HowToGetHelp(props) {
     {
       href: props.links.docs,
       title: `${props.name} docs →`,
-      icon: props.logo,
+      icon: `/images/logo/${props.logo}`,
     },
     {
       href: props.stackoverflow,
