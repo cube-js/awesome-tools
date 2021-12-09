@@ -60,6 +60,6 @@ github_data:
   last_release:
     date: '2021-11-19T00:14:21Z'
     link: 'https://github.com/mapbox/mapbox-gl-js/releases/tag/v2.6.1'
-twitter_feed: []
+
 stackoverflow_data:
   questions_count: 7890

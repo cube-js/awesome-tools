@@ -3,6 +3,7 @@ import styles from "./Description.module.scss";
 export default function Description(props) {
   return (
     <div className={styles.description}>
+      <div className={styles.description__text}>{props.description}</div>
       {props.based && (
         <div className={styles.based}>
           <span>Based on</span>
@@ -13,7 +14,6 @@ export default function Description(props) {
           ))}
         </div>
       )}
-      <div className={styles.description__text}>{props.description}</div>
     </div>
   );
 }

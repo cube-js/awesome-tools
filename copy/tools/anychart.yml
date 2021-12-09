@@ -60,6 +60,6 @@ github_data:
   last_release:
     date: '2021-05-26T04:18:08Z'
     link: 'https://github.com/AnyChart/AnyChart/releases/tag/v8.10.0'
-twitter_feed: []
+
 stackoverflow_data:
   questions_count: 379

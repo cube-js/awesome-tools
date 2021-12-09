@@ -50,6 +50,6 @@ github_data:
   last_release:
     date: '2021-11-23T22:39:39Z'
     link: 'https://github.com/apache/superset/releases/tag/1.4.0rc1'
-twitter_feed: []
+
 stackoverflow_data:
   questions_count: 1077

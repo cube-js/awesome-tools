@@ -11,14 +11,19 @@ export default function Header(props) {
           src={require(`~/public/images/logo/${props.logo}`)}
           sizes={[77]}
           alt={`${props.title} logo`} />
-        <h2 className={styles.title__text}>
+        <h1 className={styles.title__text}>
           {props.title}
           {props.developer && (
             <span className={styles.title__developer}>
               &nbsp;by&nbsp;{props.developer}
             </span>
           )}
-        </h2>
+          {props.framework && (
+            <span className={styles.title__framework}>
+              &nbsp;for&nbsp;{props.framework}&nbsp;developers
+            </span>
+          )}
+        </h1>
         {props.achievement && (
           <div>
             <img

@@ -2,6 +2,8 @@ import React, { useState, useEffect } from "react";
 import dynamic from "next/dynamic";
 import { useRouter } from "next/router";
 import { filter, setParamsFromRouter } from "../../data/filter";
+import allFrameworks from "../../data/frameworks";
+import allTypes from "../../data/types";
 import Chip from "../Chip";
 import ExploreToolsCard from "../ExploreToolsCard";
 import H1 from "../Text/H1";
@@ -13,6 +15,7 @@ const ToolsNumberControl = dynamic(() => import("../ToolsNumberControl"));
 
 export default function ListPage({
   tools,
+  framework,
   title,
   showType = true,
   showCompatibleWith = true,
@@ -22,20 +25,20 @@ export default function ListPage({
   const query = router.query;
   const [ isFirstLoad, setLoad ] = useState(false);
   const [ exploreTools, setExploreTools ] = useState([]);
-  const [ framework, setFramework ] = useState([]);
-  const [ language, setLanguage ] = useState([]);
-  const [ license, setLicense ] = useState([]);
-  const [ render, setRender ] = useState([]);
+  const [ frameworks, setFrameworks ] = useState([]);
+  const [ languages, setLanguages ] = useState([]);
+  const [ licenses, setLicenses ] = useState([]);
+  const [ renders, setRenders ] = useState([]);
 
   useEffect(() => {
     if (Object.keys(query).length && !isFirstLoad) {
       setParamsFromRouter(
         query,
         setExploreTools,
-        setFramework,
-        setLanguage,
-        setLicense,
-        setRender,
+        setFrameworks,
+        setLanguages,
+        setLicenses,
+        setRenders,
       );
       setLoad(true);
     }
@@ -45,19 +48,26 @@ export default function ListPage({
     router.push(
       {
         scroll: false,
-        query: { tools: exploreTools, framework, language, license, render },
+        query: {
+          ...(framework && { framework }),
+          tools: exploreTools,
+          ...(!framework && { frameworks }),
+          languages,
+          licenses,
+          renders
+        },
       },
       undefined,
       { scroll: false },
     );
-  }, [ exploreTools, framework, language, license, render ]);
+  }, [ framework, exploreTools, frameworks, languages, licenses, renders ]);
 
   const filteredTools = filter(
     tools,
-    framework,
-    language,
-    license,
-    render,
+    frameworks,
+    languages,
+    licenses,
+    renders,
     exploreTools,
   );
 
@@ -86,42 +96,14 @@ export default function ListPage({
 
           {showType && (
             <div className="row mb-md">
-              <ExploreToolsCard
-                onClick={() => setItem(exploreTools, setExploreTools, "charts")}
-                active={exploreTools.includes("charts") ? "active" : null}
-                text="Charting<br/>libraries"
-                image="chart"
-              />
-              <ExploreToolsCard
-                onClick={() => setItem(exploreTools, setExploreTools, "low-level")}
-                active={exploreTools.includes("low-level") ? "active" : null}
-                text="Low-level<br/>tools"
-                image="lines"
-              />
-              <ExploreToolsCard
-                onClick={() => setItem(exploreTools, setExploreTools, "maps")}
-                active={exploreTools.includes("maps") ? "active" : null}
-                text="Mapping<br/>tools"
-                image="globe"
-              />
-              <ExploreToolsCard
-                onClick={() => setItem(exploreTools, setExploreTools, "grid")}
-                active={exploreTools.includes("grid") ? "active" : null}
-                text="Data<br/>grids"
-                image="grid"
-              />
-              <ExploreToolsCard
-                onClick={() => setItem(exploreTools, setExploreTools, "3d")}
-                active={exploreTools.includes("3d") ? "active" : null}
-                text="3D<br/>tools"
-                image="3d"
-              />
-              <ExploreToolsCard
-                onClick={() => setItem(exploreTools, setExploreTools, "app")}
-                active={exploreTools.includes("app") ? "active" : null}
-                text="Exploration<br/>apps"
-                image="apps"
-              />
+              {Object.values(allTypes).map(type => (
+                <ExploreToolsCard
+                  onClick={() => setItem(exploreTools, setExploreTools, type.slug)}
+                  active={exploreTools.includes(type.slug) ? "active" : null}
+                  text={type.name}
+                  image={type.image}
+                />
+              ))}
             </div>
           )}
 
@@ -129,28 +111,16 @@ export default function ListPage({
             <div className="flex flex-wrap-row flex-items-center mb-sm">
               <AccentedText className="mr-xs">Compatible with</AccentedText>
 
-              <Chip
-                className="mr-xs"
-                icon="react.svg"
-                title="React"
-                active={framework.includes("react") ? "active" : null}
-                onClick={() => setItem(framework, setFramework, "react")} />
-              <Chip
-                className="mr-xs"
-                icon="angular.svg"
-                title="Angular"
-                active={framework.includes("angular") ? "active" : null}
-                onClick={() => setItem(framework, setFramework, "angular")} />
-              <Chip
-                icon="vue.svg"
-                title="Vue"
-                active={framework.includes("vue") ? "active" : null}
-                onClick={() => setItem(framework, setFramework, "vue")} />
-              <Chip
-                icon="svelte.svg"
-                title="Svelte"
-                active={framework.includes("svelte") ? "active" : null}
-                onClick={() => setItem(framework, setFramework, "svelte")} />
+              {Object.values(allFrameworks).map(framework => (
+                <Chip
+                  key={framework.slug}
+                  className="mr-xs"
+                  icon={framework.icon}
+                  title={framework.name}
+                  active={frameworks.includes(framework.slug) ? "active" : null}
+                  onClick={() => setItem(frameworks, setFrameworks, framework.slug)}
+                />
+              ))}
             </div>
           )}
 
@@ -160,8 +130,8 @@ export default function ListPage({
             <Chip
               icon="typescript.svg"
               title="TypeScript"
-              active={language.includes("typescript") ? "active" : null}
-              onClick={() => setItem(language, setLanguage, "typescript")} />
+              active={languages.includes("typescript") ? "active" : null}
+              onClick={() => setItem(languages, setLanguages, "typescript")} />
             {showLicense && (<AccentedText className="mr-xs ml-xs">and</AccentedText>)}
             {showLicense && (
               <>
@@ -169,13 +139,13 @@ export default function ListPage({
                   className="mr-xs"
                   icon="open-source.svg"
                   title="open source"
-                  active={license.includes("open-source") ? "active" : null}
-                  onClick={() => setItem(license, setLicense, "open-source")} />
+                  active={licenses.includes("open-source") ? "active" : null}
+                  onClick={() => setItem(licenses, setLicenses, "open-source")} />
                 <Chip
                   icon="proprietary.svg"
                   title="proprietary"
-                  active={license.includes("proprietary") ? "active" : null}
-                  onClick={() => setItem(license, setLicense, "proprietary")} />
+                  active={licenses.includes("proprietary") ? "active" : null}
+                  onClick={() => setItem(licenses, setLicenses, "proprietary")} />
                 <AccentedText className="ml-xs">license</AccentedText>
               </>
             )}
@@ -186,17 +156,17 @@ export default function ListPage({
             <Chip
               title="Canvas"
               className="mr-xs"
-              active={render.includes("canvas") ? "active" : null}
-              onClick={() => setItem(render, setRender, "canvas")} />
+              active={renders.includes("canvas") ? "active" : null}
+              onClick={() => setItem(renders, setRenders, "canvas")} />
             <Chip
               title="SVG"
               className="mr-xs"
-              active={render.includes("svg") ? "active" : null}
-              onClick={() => setItem(render, setRender, "svg")} />
+              active={renders.includes("svg") ? "active" : null}
+              onClick={() => setItem(renders, setRenders, "svg")} />
             <Chip
               title="HTML"
-              active={render.includes("html") ? "active" : null}
-              onClick={() => setItem(render, setRender, "html")} />
+              active={renders.includes("html") ? "active" : null}
+              onClick={() => setItem(renders, setRenders, "html")} />
           </div>
 
           <div className="number-control-wrap">
@@ -204,18 +174,18 @@ export default function ListPage({
               filteredTools={filteredTools}
               isChanged={
                 exploreTools.length ||
-                framework.length ||
-                language.length ||
-                license.length ||
-                render.length
+                frameworks.length ||
+                languages.length ||
+                licenses.length ||
+                renders.length
               }
               clearFilters={() => {
                 clearFilters([
                   setExploreTools,
-                  setFramework,
-                  setLanguage,
-                  setLicense,
-                  setRender,
+                  setFrameworks,
+                  setLanguages,
+                  setLicenses,
+                  setRenders,
                 ]);
               }}
             />

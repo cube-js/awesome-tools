@@ -54,6 +54,6 @@ github_data:
   last_release:
     date: '2021-07-14T23:58:35Z'
     link: 'https://github.com/plouc/nivo/releases/tag/v0.73.1'
-twitter_feed: null
+
 stackoverflow_data:
   questions_count: 55

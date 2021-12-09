@@ -1,35 +1,31 @@
 import React from "react";
 import dynamic from "next/dynamic";
-import Head from "next/head";
 import { NextSeo } from 'next-seo';
-import Header from "../../components/ToolPage/Header";
-import Description from "../../components/ToolPage/Description";
-import DescriptionCards from "../../components/ToolPage/DescriptionCards";
+import Header from "./Header";
+import Description from "./Description";
+import DescriptionCards from "./DescriptionCards";
 
-import fs from "fs";
-import { toolCopyPath, getTool } from "../../data/tools";
 import useSlackMembers from "../../data/useSlackMembers";
+import frameworks from '../../data/frameworks';
+import types from '../../data/types';
+import Integrations from './Integrations';
 
-const Gallery = dynamic(() => import("../../components/Gallery"));
-const Popularity = dynamic(() =>
-  import("../../components/ToolPage/Popularity"),
-);
-const News = dynamic(() => import("../../components/ToolPage/News"));
-const HowToGetStarted = dynamic(() =>
-  import("../../components/ToolPage/HowToGetStarted"),
-);
-const HowToGetHelp = dynamic(() =>
-  import("../../components/ToolPage/HowToGetHelp"),
-);
+const Gallery = dynamic(() => import("../Gallery"));
+const Popularity = dynamic(() => import("./Popularity"));
+const HowToGetStarted = dynamic(() => import("./HowToGetStarted"));
+const HowToGetHelp = dynamic(() => import("./HowToGetHelp"));
 
-export default function Tool(props) {
+export default function ToolPageForFramework(props) {
+  const type = types[props.types[0]];
+  const framework = frameworks[props.framework];
+  const integration = props.integrations?.find(i => i.framework === props.framework);
   const slackMembers = useSlackMembers();
 
   return (
     <>
       <NextSeo
-        title={`${props.title} — a data visualization tool`}
-        description={`${props.title} examples, tutorials, compatibility, and popularity`}
+        title={`${props.title} — ${type.descriptor} for ${framework.name} developers`}
+        description={`${props.title} support in ${framework.name}${integration && ` with ${integration.slugs.npm}`}, examples, tutorials, compatibility, and popularity`}
       />
 
       <div className="container custom-container mt-lg">
@@ -37,12 +33,13 @@ export default function Tool(props) {
           <Header
             logo={props.logo}
             title={props.title}
+            framework={framework.name}
             developer={props.developer}
             website={props?.links?.website}
             github={props?.slugs?.github}
             achievement={props?.feature_label}
           />
-          <Description based={props.based_on} description={props.description} />
+          <Description description={props.description} />
           <DescriptionCards
             licenses={props.licenses}
             frameworks={props.frameworks}
@@ -50,6 +47,9 @@ export default function Tool(props) {
             links={props.links}
             slugs={props.slugs}
           />
+          {integration && (
+            <Integrations integration={integration} />
+          )}
           {props.gallery && props.gallery.length !== 0 && (
             <Gallery gallery={props.gallery} link={props?.links?.examples} />
           )}
@@ -59,16 +59,6 @@ export default function Tool(props) {
               github={props.github_data}
               positions={props.positions}
               percentages={props.percentages}
-            />
-          )}
-          {props.twitter_feed && props.twitter_feed.length > 0 && (
-            <News
-              news={props.twitter_feed}
-              link={
-                props?.tags?.twitter
-                  ? `https://twitter.com/search?q=${props?.tags?.twitter?.[0]}`
-                  : "/"
-              }
             />
           )}
           {props.content && props.content.length > 0 && (
@@ -93,36 +83,4 @@ export default function Tool(props) {
       </div>
     </>
   );
-}
-
-export async function getStaticPaths() {
-  const files = fs.readdirSync(toolCopyPath);
-  const ids = files
-    .filter((filename) => filename.endsWith(".yml"))
-    .map((filename) => filename.split(".")[0]);
-
-  const paths = ids.map((id) => {
-    return {
-      params: {
-        id: id,
-      },
-    };
-  });
-  return {
-    paths,
-    fallback: false,
-  };
-}
-
-export async function getStaticProps({ params }) {
-  const tool = await getTool(params.id);
-
-  // @TODO get feature label
-
-  return {
-    props: {
-      id: params.id,
-      ...tool,
-    },
-  };
 }

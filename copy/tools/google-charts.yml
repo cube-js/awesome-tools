@@ -50,6 +50,24 @@ content:
     title: "Google Charts Dashboard: a Tutorial with an Artistic Touch of MoMA \U0001F5BC"
     link: 'https://cube.dev/blog/google-charts-dashboard/'
 github_data: null
-twitter_feed: []
 stackoverflow_data:
   questions_count: 8781
+integrations:
+  - framework: react
+    slugs:
+      github: RakanNimer/react-google-charts
+      npm: react-google-charts
+    links:
+      website: 'https://react-google-charts.com'
+  - framework: angular
+    slugs:
+      github: FERNman/angular-google-charts
+      npm: angular-google-charts
+    links:
+      website: null
+  - framework: vue
+    slugs:
+      github: devstark-com/vue-google-charts
+      npm: vue-google-charts
+    links:
+      website: null

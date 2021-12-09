@@ -1,6 +1,5 @@
 import styles from "./ExploreToolsCard.module.scss";
 import { ReactSVG } from "react-svg";
-import H2 from '../Text/H2';
 
 export default function ExploreToolsCard(props) {
   return (
@@ -13,13 +12,13 @@ export default function ExploreToolsCard(props) {
         <div className={styles.exploreToolsCard__wrap}>
           <h2
             className={styles.exploreToolsCard__text}
-            dangerouslySetInnerHTML={{ __html: props.text }}
+            dangerouslySetInnerHTML={{ __html: props.text.replace(' ', '<br/>') }}
           ></h2>
         </div>
         {props.image && (
           <ReactSVG
             wrapper="span"
-            src={`/images/${props.image}.svg`}
+            src={`/images/${props.image}`}
             className={styles.exploreToolsCard__image}
           />
         )}

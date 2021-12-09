@@ -59,6 +59,6 @@ github_data:
   last_release:
     date: '2021-10-03T03:19:24Z'
     link: 'https://github.com/d3/d3/releases/tag/v7.1.1'
-twitter_feed: []
+
 stackoverflow_data:
   questions_count: 38070

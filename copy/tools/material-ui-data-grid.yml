@@ -55,6 +55,6 @@ github_data:
   last_release:
     date: '2021-11-25T11:53:23Z'
     link: 'https://github.com/mui-org/material-ui/releases/tag/v5.2.1'
-twitter_feed: []
+
 stackoverflow_data:
   questions_count: 15055

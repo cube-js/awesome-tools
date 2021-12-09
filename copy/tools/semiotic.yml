@@ -52,6 +52,6 @@ github_data:
   last_release:
     date: '2020-01-21T03:13:12Z'
     link: 'https://github.com/nteract/semiotic/releases/tag/v1.20.5'
-twitter_feed: []
+
 stackoverflow_data:
   questions_count: 3
