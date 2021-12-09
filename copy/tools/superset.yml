@@ -1,6 +1,6 @@
 title: Apache Superset
 description: Modern data exploration and visualization platform
-logo: /images/logo/superset.svg
+logo: superset.svg
 developer: null
 based_on: null
 licenses:
@@ -50,6 +50,5 @@ github_data:
   last_release:
     date: '2021-12-08T18:44:30Z'
     link: 'https://github.com/apache/superset/releases/tag/superset-helm-chart-0.5.0'
-twitter_feed: []
 stackoverflow_data:
   questions_count: 1095

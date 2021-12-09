@@ -1,6 +1,6 @@
 title: Leaflet
 description: JavaScript library for mobile-friendly interactive maps
-logo: /images/logo/leafletjs.png
+logo: leafletjs.png
 developer: null
 based_on: null
 licenses:
@@ -56,6 +56,6 @@ github_data:
   last_release:
     date: '2020-09-04T08:38:43Z'
     link: 'https://github.com/Leaflet/Leaflet/releases/tag/v1.7.1'
-twitter_feed: []
+
 stackoverflow_data:
   questions_count: 12381

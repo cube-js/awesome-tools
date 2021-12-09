@@ -1,6 +1,6 @@
 title: Recharts
 description: Composable charting library built on React components
-logo: /images/logo/recharts.png
+logo: recharts.png
 developer: null
 based_on:
   - d3
@@ -58,6 +58,6 @@ github_data:
   last_release:
     date: null
     link: null
-twitter_feed: []
+
 stackoverflow_data:
   questions_count: 527

@@ -40,7 +40,6 @@ export default function Footer() {
           >
             pull requests
           </a>
-          .
         </p>
       </div>
     </footer>

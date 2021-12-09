@@ -1,6 +1,6 @@
 title: React-Vis
 description: Composable charting library
-logo: /images/logo/react-vis.svg
+logo: react-vis.svg
 developer: Uber
 based_on: null
 licenses:
@@ -56,6 +56,6 @@ github_data:
   last_release:
     date: '2019-04-19T03:58:15Z'
     link: 'https://github.com/uber/react-vis/releases/tag/v1.11.7'
-twitter_feed: []
+
 stackoverflow_data:
   questions_count: 78

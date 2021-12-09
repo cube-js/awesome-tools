@@ -5,6 +5,8 @@ import "bootstrap/dist/css/bootstrap-grid.min.css";
 import Head from "next/head";
 import Header from "../components/Header";
 import { page } from "cubedev-tracking";
+import { DefaultSeo } from 'next-seo';
+import { useRouter } from 'next/router';
 
 const Footer = dynamic(() => import("../components/Footer"));
 
@@ -12,53 +14,21 @@ function MyApp({ Component, pageProps }) {
   useEffect(() => {
     page();
   }, []);
+
+  const router = useRouter();
+
   return (
     <Fragment>
       <Head>
-        <link
-          rel="apple-touch-icon"
-          sizes="180x180"
-          href="/apple-touch-icon.png"
-        />
-        <link
-          rel="icon"
-          type="image/png"
-          sizes="32x32"
-          href="/favicon-32x32.png"
-        />
-        <link
-          rel="icon"
-          type="image/png"
-          sizes="16x16"
-          href="/favicon-16x16.png"
-        />
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
         <link rel="manifest" href="/site.webmanifest" />
         <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
         <link rel="icon" href="/favicon.png" type="image/png" />
         <meta name="msapplication-TileColor" content="#da532c" />
         <meta name="theme-color" content="#ffffff" />
-        <meta
-          property="og:description"
-          content="An open-source list of awesome data visualization tools for software developers"
-        />
-        <meta
-          property="twitter:description"
-          content="An open-source list of awesome data visualization tools for software developers"
-        />
-        <meta
-          property="twitter:image"
-          content="https://cubedev-blog-images.s3.us-east-2.amazonaws.com/482a86d6-d049-4d92-a0bf-0fcc5830476f.jpeg"
-        />
-        <meta
-          property="twitter:image:alt"
-          content="Cover image for awesome.cube.dev"
-        />
-        <meta property="twitter:card" content="summary_large_image" />
-        <meta property="twitter:creator" content="@thecubejs" />
-        <meta
-          property="og:image"
-          content="https://cubedev-blog-images.s3.us-east-2.amazonaws.com/482a86d6-d049-4d92-a0bf-0fcc5830476f.jpeg"
-        />
+
         <meta
           name="google-site-verification"
           content="zJjljUArvZ0PVn8naOnxEue8ZX0wh0nsM0q32NYnzzQ"
@@ -77,15 +47,7 @@ function MyApp({ Component, pageProps }) {
         />
         <style
           dangerouslySetInnerHTML={{
-            __html: `    
-      @font-face {
-        font-family: CeraPro;
-        src: url(/fonts/CeraPro-Regular.woff2);
-        font-weight: 300;
-        font-style: normal;
-        font-display: swap;
-      }
-    
+            __html: `
       @font-face {
         font-family: CeraPro;
         src: url(/fonts/CeraPro-Regular.woff2);
@@ -104,14 +66,6 @@ function MyApp({ Component, pageProps }) {
     
       @font-face {
         font-family: CeraPro;
-        src: url(/fonts/CeraPro-Medium.woff2);
-        font-weight: 600;
-        font-style: normal;
-        font-display: swap;
-      }
-    
-      @font-face {
-        font-family: CeraPro;
         src: url(/fonts/CeraPro-Bold.woff2);
         font-weight: 700;
         font-style: normal;
@@ -121,6 +75,26 @@ function MyApp({ Component, pageProps }) {
           }}
         />
       </Head>
+
+      <DefaultSeo
+        openGraph={{
+          type: "website",
+          url: `https://awesome.cube.dev${router.asPath}`,
+          images: [
+            {
+              url: "https://cubedev-blog-images.s3.us-east-2.amazonaws.com/482a86d6-d049-4d92-a0bf-0fcc5830476f.jpeg",
+              alt: "Data visualization tools for software developers",
+              width: 1200,
+              height: 630,
+            },
+          ],
+        }}
+        twitter={{
+          cardType: "summary_large_image",
+          site: "@thecubejs"
+        }}
+      />
+
       <Header />
       <Component {...pageProps} />
       <Footer />

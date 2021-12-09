@@ -1,6 +1,6 @@
 title: Billboard.js
 description: 'Re-usable, easy interface JavaScript chart library based on D3.js'
-logo: /images/logo/billboard.svg
+logo: billboard.svg
 developer: null
 based_on:
   - d3
@@ -53,6 +53,6 @@ github_data:
   last_release:
     date: '2021-11-19T06:39:25Z'
     link: 'https://github.com/naver/billboard.js/releases/tag/3.2.2'
-twitter_feed: []
+
 stackoverflow_data:
   questions_count: 59

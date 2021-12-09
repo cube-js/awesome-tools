@@ -2,7 +2,7 @@ title: ZingChart
 description: >-
   Declarative, efficient, and simple JavaScript library for building responsive
   charts
-logo: /images/logo/zingchart.png
+logo: zingchart.png
 developer: null
 based_on: null
 licenses:
@@ -59,6 +59,6 @@ github_data:
   last_release:
     date: '2021-09-21T15:24:16Z'
     link: 'https://github.com/zingchart/ZingChart/releases/tag/2.9.7'
-twitter_feed: []
+
 stackoverflow_data:
   questions_count: 245

@@ -1,6 +1,6 @@
 title: Chart.js
 description: Simple yet flexible JavaScript charting for designers & developers
-logo: /images/logo/chartjs.svg
+logo: chartjs.svg
 developer: null
 based_on: null
 licenses:
@@ -62,6 +62,24 @@ github_data:
   last_release:
     date: '2021-12-05T13:47:40Z'
     link: 'https://github.com/chartjs/Chart.js/releases/tag/v3.6.2'
-twitter_feed: []
 stackoverflow_data:
   questions_count: 10685
+integrations:
+  - framework: react
+    slugs:
+      github: reactchartjs/react-chartjs-2
+      npm: react-chartjs-2
+    links:
+      website: 'https://react-chartjs-2.netlify.app'
+  - framework: angular
+    slugs:
+      github: valor-software/ng2-charts
+      npm: ng2-charts
+    links:
+      website: 'https://valor-software.com/ng2-charts/'
+  - framework: vue
+    slugs:
+      github: apertureless/vue-chartjs
+      npm: vue-chartjs
+    links:
+      website: 'https://vue-chartjs.org'

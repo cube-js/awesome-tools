@@ -1,6 +1,6 @@
 title: D3.js
 description: JavaScript library for manipulating documents based on data
-logo: /images/logo/d3.png
+logo: d3.png
 developer: null
 based_on: null
 licenses:
@@ -59,6 +59,5 @@ github_data:
   last_release:
     date: '2021-12-04T17:25:12Z'
     link: 'https://github.com/d3/d3/releases/tag/v7.2.0'
-twitter_feed: []
 stackoverflow_data:
   questions_count: 38128

@@ -1,6 +1,6 @@
 title: G2Plot
 description: Interactive and responsive charting library based on the grammar of graphics
-logo: /images/logo/antv.svg
+logo: antv.svg
 developer: AntV
 based_on:
   - g2

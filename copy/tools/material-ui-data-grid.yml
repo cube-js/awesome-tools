@@ -1,6 +1,6 @@
 title: MUI X Data Grid
 description: Fast and extendable data table and data grid for React
-logo: /images/logo/material-ui.svg
+logo: material-ui.svg
 developer: Material UI
 based_on: null
 licenses:
@@ -55,6 +55,5 @@ github_data:
   last_release:
     date: '2021-12-06T16:15:04Z'
     link: 'https://github.com/mui-org/material-ui/releases/tag/v5.2.3'
-twitter_feed: []
 stackoverflow_data:
   questions_count: 15266

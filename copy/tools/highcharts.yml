@@ -1,6 +1,6 @@
 title: Highcharts
 description: Modern SVG-based multi-platform charting library
-logo: /images/logo/highcharts-logo.svg
+logo: highcharts.svg
 developer: null
 based_on: null
 licenses:
@@ -57,6 +57,6 @@ github_data:
   last_release:
     date: null
     link: null
-twitter_feed: []
+
 stackoverflow_data:
   questions_count: 24173

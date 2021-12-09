@@ -1,9 +1,8 @@
 import styles from "./ToolCard.module.scss";
-import { ReactSVG } from "react-svg";
-import moment from "moment";
+import dayjs from "dayjs";
 import Link from "next/link";
 import abbreviateNumber from "../../utils/number";
-// import React, { useEffect } from "react";
+import Img from 'react-optimized-image';
 
 export default function ToolCard(props) {
   let shadow = getShadowByLabel(props?.feature_label);
@@ -14,29 +13,25 @@ export default function ToolCard(props) {
       : "JavaScript";
   }
 
-  // useEffect(() => {
-  //   console.log("isMountComponent!");
-  // }, []);
-
   return (
     <Link href={"/tools/" + props.id} className="full-height">
       <a className="full-height">
         <div className={styles.toolCard} shadow={shadow}>
           <div className="flex flex-items-center">
-            <div
+            <Img
               className={styles.toolCard__logo}
-              style={{ backgroundImage: `url(${props.logo})` }}
-              alt={`${props.title} logo`}
-            ></div>
+              src={require(`~/public/images/logo/${props.logo}`)}
+              sizes={[60]}
+              alt={`${props.title} logo`} />
             <div className="flex flex-column">
-              <h4 className={styles.toolCard__title}>
+              <h2 className={styles.toolCard__title}>
                 {props.title || ""}
                 {props.developer && (
                   <span className={styles.toolCard__developer}>
                     &nbsp;by&nbsp;{props.developer}
                   </span>
                 )}
-              </h4>
+              </h2>
             </div>
           </div>
           <p
@@ -48,10 +43,10 @@ export default function ToolCard(props) {
               <div className="flex flex-column">
                 <span className={styles.features}>GitHub stars</span>
                 <div className={styles.github}>
-                  <ReactSVG
-                    wrapper="span"
+                  <Img
                     className={styles.icon}
-                    src="/images/logo/github.svg"
+                    src={require(`~/public/images/logo/github.svg`)}
+                    alt={`${props.title} logo`}
                   />
                   <span className={styles.features__text}>
                     {abbreviateNumber(props?.github_data?.stars) || "-"}
@@ -72,10 +67,10 @@ export default function ToolCard(props) {
                           key={framework + Math.random()}
                         >
                           {framework !== "Universal" ? (
-                            <ReactSVG
-                              wrapper="span"
+                            <Img
                               className={styles.icon}
-                              src={`/images/logo/${framework.toLowerCase()}.svg`}
+                              src={require(`~/public/images/logo/${framework.toLowerCase()}.svg`)}
+                              alt={`${props.title} logo`}
                             />
                           ) : null}
                           {props.frameworks.length === 1 && (
@@ -98,10 +93,10 @@ export default function ToolCard(props) {
                 <div className={styles.language}>
                   <div className={styles.language__wrapper}>
                     {language ? (
-                      <ReactSVG
-                        wrapper="span"
+                      <Img
                         className={styles.icon}
-                        src={`/images/logo/${language.toLowerCase()}.svg`}
+                        src={require(`~/public/images/logo/${language.toLowerCase()}.svg`)}
+                        alt={`${props.title} logo`}
                       />
                     ) : null}
                     <span className={styles.features__text}>{language}</span>
@@ -115,7 +110,7 @@ export default function ToolCard(props) {
                 <span className={styles.features}>Last release</span>
                 <div>
                   <span className={styles.features__text}>
-                    {moment(props?.github_data?.last_release?.date).format(
+                    {dayjs(props?.github_data?.last_release?.date).format(
                       "MMM DD, YYYY"
                     ) || "-"}
                   </span>
@@ -125,9 +120,10 @@ export default function ToolCard(props) {
           </div>
           {props.feature_label && (
             <div className={styles.toolCard__achievement}>
-              <ReactSVG
-                wrapper="span"
-                src={`/images/${props.feature_label}.svg`}
+              <Img
+                className={styles.toolCard__achievement__icon}
+                src={require(`~/public/images/${props.feature_label}.svg`)}
+                alt={`${props.title} logo`}
               />
             </div>
           )}

@@ -1,6 +1,6 @@
 title: Plotly
 description: 'High-level, declarative charting library'
-logo: /images/logo/plotly.svg
+logo: plotly.svg
 developer: null
 based_on:
   - d3
@@ -65,6 +65,5 @@ github_data:
   last_release:
     date: '2021-12-03T03:02:10Z'
     link: 'https://github.com/plotly/plotly.js/releases/tag/v2.7.0'
-twitter_feed: []
 stackoverflow_data:
   questions_count: 10632

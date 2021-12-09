@@ -1,6 +1,6 @@
 title: Victory
 description: React components for modular charting and data visualization
-logo: /images/logo/victory.png
+logo: victory.png
 developer: Formidable
 based_on: null
 licenses:
@@ -58,6 +58,6 @@ github_data:
   last_release:
     date: '2021-06-24T16:52:34Z'
     link: 'https://github.com/FormidableLabs/victory/releases/tag/v35.9.0'
-twitter_feed: []
+
 stackoverflow_data:
   questions_count: 224

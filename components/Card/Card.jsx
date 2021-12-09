@@ -31,7 +31,7 @@ export default function Card(props) {
                 src={icon}
                 width="100%"
                 height="100%"
-              ></ReactSVG>
+              />
             );
           })}
         {props.icon && (

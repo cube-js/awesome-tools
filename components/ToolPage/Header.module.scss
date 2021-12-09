@@ -21,9 +21,6 @@
     border-radius: 24px;
     width: 77px;
     height: 77px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
   }
   &__text {
     display: flex;
@@ -34,7 +31,10 @@
     color: $dark;
   }
   &__developer {
-    color: $light-dark;
+    color: $dark-03;
+  }
+  &__framework {
+    color: $dark-03;
   }
 }
 .buttons {
@@ -42,7 +42,6 @@
   a:first-child {
     margin-right: 8px;
   }
-  // gap: 8px;
 }
 
 .achievement {

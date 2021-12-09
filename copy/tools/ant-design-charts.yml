@@ -1,6 +1,6 @@
 title: Ant Design Charts
 description: 'React charting library, based on G2Plot, G6, X6, L7'
-logo: /images/logo/antv.svg
+logo: antv.svg
 developer: AntV
 based_on:
   - g2plot

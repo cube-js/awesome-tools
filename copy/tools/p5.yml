@@ -2,7 +2,7 @@ title: p5.js
 description: >-
   JavaScript library for creative coding that makes coding accessible and
   inclusive
-logo: /images/logo/p5.svg
+logo: p5.svg
 developer: null
 based_on: null
 licenses:
@@ -60,4 +60,3 @@ github_data:
     link: 'https://github.com/processing/p5.js/releases/tag/v1.4.0'
 stackoverflow_data:
   questions_count: 2401
-twitter_feed: null

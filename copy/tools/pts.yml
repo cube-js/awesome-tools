@@ -1,6 +1,6 @@
 title: Pts
 description: Library for visualization and creative-coding
-logo: /images/logo/pts.svg
+logo: pts.svg
 developer: null
 based_on: null
 licenses:
@@ -55,5 +55,5 @@ github_data:
   last_release:
     date: '2021-02-19T09:49:49Z'
     link: 'https://github.com/williamngan/pts/releases/tag/v0.10.2'
-twitter_feed: []
+
 stackoverflow_data: null

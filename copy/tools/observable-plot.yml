@@ -1,6 +1,6 @@
 title: Observable Plot
 description: Concise API for exploratory data visualization
-logo: /images/logo/observable.png
+logo: observable.png
 developer: null
 based_on:
   - d3

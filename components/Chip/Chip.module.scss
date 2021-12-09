@@ -7,9 +7,8 @@
   background-color: $dark-06;
   border: 1px solid $dark-06;
   border-radius: 40px;
-  color: $dark-04;
+  color: $dark-03;
   font-size: 24px;
-  // font-weight: 500;
   line-height: 30px;
   transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out,
     border-color 0.3s ease-in-out;
@@ -52,10 +51,10 @@
 .icon {
   display: inline-flex;
   margin-right: 8px;
+  min-width: 22px;
+  min-height: 22px;
   svg {
-    min-width: 18px;
-    min-height: 18px;
-    // width: 18px;
-    // height: 18px;
+    width: 22px;
+    height: 22px;
   }
 }

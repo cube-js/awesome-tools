@@ -1,6 +1,6 @@
 title: ngx-charts
 description: Declarative charting framework for Angular
-logo: /images/logo/ngx-charts.svg
+logo: ngx-charts.svg
 developer: Swimlane
 based_on: null
 licenses:
@@ -50,6 +50,6 @@ github_data:
   last_release:
     date: null
     link: null
-twitter_feed: []
+
 stackoverflow_data:
   questions_count: 231

@@ -5,7 +5,7 @@ const getLicense = (props) => {
   let isOpen = false;
   let isPrice = false;
   let smallText = "";
-  let icon = "/images/logo/dollar.svg";
+  let icon = "/images/logo/proprietary.svg";
   let link = props?.links?.pricing;
 
   props?.licenses?.forEach((obj) => {
@@ -22,7 +22,7 @@ const getLicense = (props) => {
 
   if (isOpen && isPrice) {
     return {
-      icons: ["/images/logo/dollar.svg", "/images/logo/open-source.svg"],
+      icons: ["/images/logo/proprietary.svg", "/images/logo/open-source.svg"],
       text: "Open-source and proprietary licenses",
       link: props?.links?.pricing || link,
       smallText: props?.links?.pricing ? "Priсing page →" : "License →",

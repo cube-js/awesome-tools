@@ -1,6 +1,6 @@
 title: visx
-description: 'Collection of expressive, low-level visxualization primitives for React'
-logo: /images/logo/visx.png
+description: 'Collection of expressive, low-level visualization primitives for React'
+logo: visx.png
 developer: Airbnb
 based_on:
   - d3
@@ -53,5 +53,5 @@ github_data:
   last_release:
     date: '2021-03-08T20:16:56Z'
     link: 'https://github.com/airbnb/visx/releases/tag/v1.6.1'
-twitter_feed: []
+
 stackoverflow_data: null

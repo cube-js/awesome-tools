@@ -1,6 +1,6 @@
 title: Vega-Lite
 description: 'Concise grammar of interactive graphics, built on Vega'
-logo: /images/logo/vega-lite.svg
+logo: vega-lite.svg
 developer: null
 based_on:
   - vega
@@ -58,4 +58,3 @@ github_data:
     link: 'https://github.com/vega/vega-lite/releases/tag/v5.2.0'
 stackoverflow_data:
   questions_count: 788
-twitter_feed: null

@@ -2,7 +2,7 @@ title: roughViz.js
 description: >-
   JavaScript library for creating sketchy/hand-drawn styled charts, based on
   D3.js, Rough.js, and Handy
-logo: /images/logo/roughviz.png
+logo: roughviz.png
 developer: null
 based_on:
   - d3

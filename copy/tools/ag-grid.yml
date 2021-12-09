@@ -1,6 +1,6 @@
 title: AG Grid
 description: Self-proclaimed best JavaScript grid in the world
-logo: /images/logo/ag-grid.svg
+logo: ag-grid.svg
 based_on: null
 licenses:
   - type: proprietary
@@ -60,6 +60,6 @@ github_data:
   last_release:
     date: '2021-11-17T08:25:24Z'
     link: 'https://github.com/ag-grid/ag-grid/releases/tag/v26.2.0'
-twitter_feed: null
+
 stackoverflow_data:
   questions_count: 3950

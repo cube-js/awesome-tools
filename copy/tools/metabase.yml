@@ -1,6 +1,6 @@
 title: Metabase
 description: 'Easy, open-source way to ask questions and learn from data'
-logo: /images/logo/metabase.png
+logo: metabase.png
 developer: null
 based_on: null
 licenses:
@@ -55,6 +55,5 @@ github_data:
   last_release:
     date: '2021-12-03T18:00:49Z'
     link: 'https://github.com/metabase/metabase/releases/tag/v0.41.3.1'
-twitter_feed: []
 stackoverflow_data:
   questions_count: 280

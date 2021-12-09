@@ -1,6 +1,6 @@
 title: amCharts
 description: JavaScript charts & maps for all data visualization needs
-logo: /images/logo/amcharts.svg
+logo: amcharts.svg
 based_on: null
 licenses:
   - type: proprietary
@@ -54,6 +54,6 @@ github_data:
   last_release:
     date: '2021-11-25T08:40:53Z'
     link: 'https://github.com/amcharts/amcharts4/releases/tag/4.10.23'
-twitter_feed: null
+
 stackoverflow_data:
   questions_count: 3148

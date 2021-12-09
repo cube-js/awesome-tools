@@ -1,6 +1,6 @@
 title: Apache ECharts
 description: Open-source JavaScript visualization library
-logo: /images/logo/echarts.png
+logo: echarts.png
 developer: null
 based_on: null
 licenses:
@@ -62,6 +62,6 @@ github_data:
   last_release:
     date: '2021-11-01T03:53:22Z'
     link: 'https://github.com/apache/echarts/releases/tag/5.2.2'
-twitter_feed: []
+
 stackoverflow_data:
   questions_count: 858

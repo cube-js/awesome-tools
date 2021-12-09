@@ -1,6 +1,6 @@
 title: ApexCharts
 description: Modern & interactive open-source charts
-logo: /images/logo/apexcharts.png
+logo: apexcharts.png
 developer: null
 based_on: null
 licenses:
@@ -58,6 +58,5 @@ github_data:
   last_release:
     date: '2021-11-28T19:45:33Z'
     link: 'https://github.com/apexcharts/apexcharts.js/releases/tag/v3.31.0'
-twitter_feed: []
 stackoverflow_data:
   questions_count: 598

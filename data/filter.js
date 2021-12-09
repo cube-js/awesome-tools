@@ -1,28 +1,12 @@
 const filter = (tools, framework, language, license, render, exploreTools) => {
   const filtered = tools.filter((tool) => {
     let isValid = true;
-    // let isValidLanguage = true;
-    // let isValidLicense = true;
-    // let isValidType = true;
 
-    // console.log(tool);
     if (exploreTools.length && isValid) {
-      let hasInclude = 0;
-      tool.types.forEach((type) => {
-        if (exploreTools.includes(type.toLowerCase())) {
-          hasInclude++;
-        }
-      });
-      isValid = exploreTools.length === hasInclude;
+      isValid = hasTypes(tool, exploreTools);
     }
     if (framework.length && isValid) {
-      let hasInclude = 0;
-      tool?.frameworks?.forEach((fr) => {
-        if (framework.includes(fr.toLowerCase())) {
-          hasInclude++;
-        }
-      });
-      isValid = framework.length === hasInclude;
+      isValid = isCompatibleWith(tool, framework);
     }
     if (language.length && isValid) {
       let hasInclude = 0;
@@ -34,13 +18,7 @@ const filter = (tools, framework, language, license, render, exploreTools) => {
       isValid = language.length === hasInclude;
     }
     if (license.length && isValid) {
-      let hasInclude = 0;
-      tool?.licenses?.forEach((obj) => {
-        if (license.includes(obj.type.toLowerCase())) {
-          hasInclude++;
-        }
-      });
-      isValid = license.length === hasInclude;
+      isValid = hasLicenses(tool, license);
     }
     if (render.length && isValid) {
       let hasInclude = 0;
@@ -155,4 +133,16 @@ const setParamsFromRouter = (
   }
 };
 
-export { filter, setParamsFromRouter };
+function hasTypes(tool, types) {
+  return types.every(t => tool?.types?.some(type => type === t.toLowerCase()))
+}
+
+function isCompatibleWith(tool, frameworks) {
+  return frameworks.every(fw => tool?.frameworks?.some(framework => framework === fw.toLowerCase()))
+}
+
+function hasLicenses(tool, licenses) {
+  return licenses.every(l => tool?.licenses?.some(license => license.type === l.toLowerCase()))
+}
+
+export { filter, setParamsFromRouter, hasTypes, isCompatibleWith, hasLicenses };
