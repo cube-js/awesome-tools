@@ -43,10 +43,10 @@ content:
     title: Getting Started
     link: 'https://layercake.graphics/guide#getting-started'
 github_data:
-  stars: 449
+  stars: 450
   contributors: 4
-  issues: 4
-  stale_issues: 1
+  issues: 3
+  stale_issues: 0
   last_release:
     date: '2021-07-21T00:34:11Z'
     link: 'https://github.com/mhkeller/layercake/releases/tag/v5.0.0'
