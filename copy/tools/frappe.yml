@@ -45,10 +45,10 @@ content:
     title: Quick Start
     link: 'https://frappe.io/charts/docs'
 github_data:
-  stars: 14102
+  stars: 14104
   contributors: 49
   issues: 106
-  stale_issues: 81
+  stale_issues: 82
   last_release:
     date: '2021-04-18T10:43:57Z'
     link: 'https://github.com/frappe/charts/releases/tag/v1.6.1'

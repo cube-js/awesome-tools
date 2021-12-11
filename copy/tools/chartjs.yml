@@ -63,7 +63,7 @@ github_data:
     date: '2021-12-05T13:47:40Z'
     link: 'https://github.com/chartjs/Chart.js/releases/tag/v3.6.2'
 stackoverflow_data:
-  questions_count: 10690
+  questions_count: 10671
 integrations:
   - framework: react
     slugs:

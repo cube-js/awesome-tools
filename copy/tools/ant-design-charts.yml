@@ -49,7 +49,7 @@ content:
 github_data:
   stars: 924
   contributors: 34
-  issues: 127
+  issues: 128
   stale_issues: 1
   last_release:
     date: '2021-12-06T16:43:36Z'
