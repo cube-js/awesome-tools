@@ -47,9 +47,9 @@ links:
   slack: null
 content: []
 github_data:
-  stars: 9524
+  stars: 9529
   contributors: 161
-  issues: 84
+  issues: 85
   stale_issues: 35
   last_release:
     date: '2021-12-13T05:29:03Z'

@@ -44,10 +44,10 @@ content:
     title: Getting Started
     link: 'https://reaflow.dev/?path=/story/docs-getting-started-installing--page'
 github_data:
-  stars: 800
+  stars: 803
   contributors: 11
-  issues: 44
-  stale_issues: 13
+  issues: 45
+  stale_issues: 14
   last_release:
     date: null
     link: null
