@@ -45,10 +45,10 @@ links:
   slack: null
 content: null
 github_data:
-  stars: 2201
+  stars: 2202
   contributors: 26
-  issues: 33
-  stale_issues: 29
+  issues: 27
+  stale_issues: 25
   last_release:
     date: '2020-01-21T03:13:12Z'
     link: 'https://github.com/nteract/semiotic/releases/tag/v1.20.5'
