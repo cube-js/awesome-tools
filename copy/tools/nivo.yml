@@ -47,12 +47,12 @@ links:
   slack: null
 content: []
 github_data:
-  stars: 9589
+  stars: 9596
   contributors: 164
-  issues: 80
-  stale_issues: 35
+  issues: 79
+  stale_issues: 33
   last_release:
-    date: '2021-12-17T01:51:24Z'
-    link: 'https://github.com/plouc/nivo/releases/tag/v0.75.0'
+    date: '2021-12-29T12:42:24Z'
+    link: 'https://github.com/plouc/nivo/releases/tag/v0.76.0'
 stackoverflow_data:
   questions_count: 55
