@@ -52,7 +52,7 @@ content:
     title: D3 Dashboard Tutorial
     link: 'https://d3-dashboard.cube.dev'
 github_data:
-  stars: 99758
+  stars: 99769
   contributors: 136
   issues: 3
   stale_issues: 3
@@ -60,4 +60,4 @@ github_data:
     date: '2021-12-10T15:54:11Z'
     link: 'https://github.com/d3/d3/releases/tag/v7.2.1'
 stackoverflow_data:
-  questions_count: 38183
+  questions_count: 38186
