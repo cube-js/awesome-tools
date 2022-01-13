@@ -53,7 +53,7 @@ content:
     title: React Pivot Table with AG Grid and Cube.js
     link: 'https://react-pivot-table.cube.dev'
 github_data:
-  stars: 7896
+  stars: 7898
   contributors: 133
   issues: 33
   stale_issues: 0
@@ -61,4 +61,4 @@ github_data:
     date: '2021-11-17T08:25:24Z'
     link: 'https://github.com/ag-grid/ag-grid/releases/tag/v26.2.0'
 stackoverflow_data:
-  questions_count: 3991
+  questions_count: 3997
