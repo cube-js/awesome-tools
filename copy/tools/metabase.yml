@@ -50,8 +50,8 @@ content:
 github_data:
   stars: 27149
   contributors: 305
-  issues: 2053
-  stale_issues: 1303
+  issues: 2056
+  stale_issues: 1304
   last_release:
     date: '2022-01-14T23:00:58Z'
     link: 'https://github.com/metabase/metabase/releases/tag/v0.41.6'
