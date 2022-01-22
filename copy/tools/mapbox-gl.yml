@@ -54,12 +54,12 @@ content:
     link: 'https://mapbox-guide.cube.dev'
 github_data:
   stars: 8242
-  contributors: 360
-  issues: 860
-  stale_issues: 673
+  contributors: 361
+  issues: 857
+  stale_issues: 674
   last_release:
     date: '2022-01-19T00:05:26Z'
     link: >-
       https://github.com/mapbox/mapbox-gl-js/releases/tag/style-spec%4013.23.1-beta.1
 stackoverflow_data:
-  questions_count: 8020
+  questions_count: 8010
