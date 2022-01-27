@@ -51,7 +51,7 @@ content:
     link: 'https://cube.dev/blog/google-charts-dashboard/'
 github_data: null
 stackoverflow_data:
-  questions_count: 8806
+  questions_count: 8808
 integrations:
   - framework: react
     slugs:
