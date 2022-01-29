@@ -59,8 +59,8 @@ content:
     link: 'https://plotly.com/javascript/getting-started/'
 github_data:
   stars: 14365
-  contributors: 215
-  issues: 1181
+  contributors: 216
+  issues: 1182
   stale_issues: 949
   last_release:
     date: '2021-12-20T17:40:26Z'

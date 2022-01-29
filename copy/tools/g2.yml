@@ -48,10 +48,10 @@ content:
     link: 'https://g2.antv.vision/en/docs/manual/getting-started'
 github_data:
   stars: 11085
-  contributors: 127
+  contributors: 128
   issues: 183
   stale_issues: 72
   last_release:
-    date: '2022-01-14T07:29:06Z'
-    link: 'https://github.com/antvis/G2/releases/tag/4.1.39'
+    date: '2022-01-28T12:43:05Z'
+    link: 'https://github.com/antvis/G2/releases/tag/4.1.42'
 stackoverflow_data: null
