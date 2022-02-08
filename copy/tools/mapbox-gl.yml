@@ -56,9 +56,9 @@ github_data:
   stars: 8283
   contributors: 363
   issues: 856
-  stale_issues: 673
+  stale_issues: 674
   last_release:
     date: '2022-01-31T22:50:56Z'
     link: 'https://github.com/mapbox/mapbox-gl-js/releases/tag/style-spec%4013.23.1'
 stackoverflow_data:
-  questions_count: 8039
+  questions_count: 8041
