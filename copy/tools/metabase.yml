@@ -50,10 +50,10 @@ content:
 github_data:
   stars: 27428
   contributors: 310
-  issues: 2039
-  stale_issues: 1297
+  issues: 2038
+  stale_issues: 1299
   last_release:
     date: '2022-02-08T21:54:57Z'
     link: 'https://github.com/metabase/metabase/releases/tag/v0.42.0'
 stackoverflow_data:
-  questions_count: 290
+  questions_count: 289
