@@ -4,7 +4,6 @@ import "../styles/globals.scss";
 import "bootstrap/dist/css/bootstrap-grid.min.css";
 import Head from "next/head";
 import Header from "../components/Header";
-import { page } from "cubedev-tracking";
 import { DefaultSeo } from 'next-seo';
 import { useRouter } from 'next/router';
 
@@ -12,6 +11,7 @@ const Footer = dynamic(() => import("../components/Footer"));
 
 function MyApp({ Component, pageProps }) {
   useEffect(() => {
+    const { page } = require("cubedev-tracking");
     page();
   }, []);
 

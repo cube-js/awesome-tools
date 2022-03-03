@@ -13,7 +13,7 @@
     "@netlify/plugin-nextjs": "beta",
     "@next/bundle-analyzer": "^12.0.4",
     "bootstrap": "^5.0.1",
-    "cubedev-tracking": "1.0.6",
+    "cubedev-tracking": "1.1.0",
     "dayjs": "^1.10.7",
     "isomorphic-unfetch": "^3.1.0",
     "js-yaml": "^3.14.1",

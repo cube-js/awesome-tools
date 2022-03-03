@@ -1692,10 +1692,10 @@ csso@^4.0.2, csso@^4.2.0:
   dependencies:
     css-tree "^1.1.2"
 
-cubedev-tracking@1.0.6:
-  version "1.0.6"
-  resolved "https://registry.yarnpkg.com/cubedev-tracking/-/cubedev-tracking-1.0.6.tgz#46f4d247fc8819866474b2a2b5e05dc943a07b5a"
-  integrity sha512-t/y/IMKN4r7lcdgRixl95Ojz5lD8UKptDYkXB+6fxn0/pHhVnkQ4VRJ2zhgywgTsY/Lc0eRXfY1haQ+alfzZEQ==
+cubedev-tracking@1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/cubedev-tracking/-/cubedev-tracking-1.1.0.tgz#3579309804e0b36e6504c9e12c3b70af0261b14f"
+  integrity sha512-/0HsxxuivdV/t1U8mumYtfz/uS6j0F+Jdv2Z7Eb3dYLZ7T9Jua2WO/d4FuKtgt9NZFH3CFJr29D+LhpyQaxkEQ==
   dependencies:
     "@babel/runtime" "^7.11.0"
     component-cookie "^1.1.4"
