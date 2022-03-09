@@ -47,7 +47,7 @@ github_data:
   stars: 5934
   contributors: 90
   issues: 440
-  stale_issues: 426
+  stale_issues: 427
   last_release:
     date: '2014-04-21T20:53:45Z'
     link: 'https://github.com/flot/flot/releases/tag/v0.8.3'
