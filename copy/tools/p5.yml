@@ -51,9 +51,9 @@ content:
     title: Get Started with p5.js
     link: 'https://p5js.org/get-started/'
 github_data:
-  stars: 17085
+  stars: 17087
   contributors: 560
-  issues: 196
+  issues: 197
   stale_issues: 90
   last_release:
     date: '2022-02-03T01:54:20Z'
