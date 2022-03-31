@@ -48,6 +48,9 @@ content:
     title: Getting started
     link: 'https://recharts.org/en-US/guide/getting-started'
   - type: cube
+    title: Building a Recharts Dashboard with Cube
+    link: 'https://cube.dev/blog/building-a-recharts-dashboard-with-cube/'
+  - type: cube
     title: 'React Dashboard: an Ultimate Guide'
     link: 'https://react-dashboard.cube.dev'
 github_data:

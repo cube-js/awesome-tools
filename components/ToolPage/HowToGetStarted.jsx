@@ -16,8 +16,14 @@ export default function HowToGetStarted(props) {
           obj.type === "official"
             ? "/images/logo/official.svg"
             : "/images/logo/cubejs-big.svg";
+          
+        const className =
+          styles.cardWrap + " " +
+          (index === 0 ? "col-sm-5" : "col-sm-4") +
+          (index !== 0 && index % 2 === 0 ? " offset-lg-3" : "");
+
         return (
-          <div key={index} className={index === 0 ? "col-sm-5" : "col-sm-4"}>
+          <div key={index} className={className}>
             <GetStartedCard
               icon={icon}
               type={obj.type === "official" ? "Official tutorial" : "Community guide"}

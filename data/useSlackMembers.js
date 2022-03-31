@@ -12,7 +12,7 @@ const cubeQuery = {
 };
 
 export default function useSlackMembers() {
-  const [slackMembers, setSlackMembers] = useState(abbreviateNumber(4200));
+  const [slackMembers, setSlackMembers] = useState(abbreviateNumber(5100));
 
   useEffect(() => {
     const url = new URL(cubeUrl);
@@ -29,7 +29,8 @@ export default function useSlackMembers() {
     fetch(url, options)
       .then((response) => response.json())
       .then((response) => response.data[0]["SlackUsers.count"])
-      .then((count) => setSlackMembers(abbreviateNumber(count)));
+      .then((count) => setSlackMembers(abbreviateNumber(count)))
+      .catch(() => {}); // Skip error
   }, []);
 
   return slackMembers;

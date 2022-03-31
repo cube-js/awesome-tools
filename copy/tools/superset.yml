@@ -42,6 +42,9 @@ content:
   - type: official
     title: What is Apache Superset?
     link: 'https://superset.apache.org/docs/intro'
+  - type: cube
+    title: Building a metrics dashboard with Superset and Cube
+    link: 'https://cube.dev/blog/building-metrics-dashboard-with-superset/'
 github_data:
   stars: 45366
   contributors: 782
