@@ -50,11 +50,11 @@ content:
     title: "Google Charts Dashboard: a Tutorial with an Artistic Touch of MoMA \U0001F5BC"
     link: 'https://cube.dev/blog/google-charts-dashboard/'
   - type: cube
-    title: "Building a Dashboard with a React Wrapper for Google Charts"
+    title: Building a Dashboard with a React Wrapper for Google Charts
     link: 'https://cube.dev/blog/react-google-charts-dashboard/'
 github_data: null
 stackoverflow_data:
-  questions_count: 8831
+  questions_count: 8832
 integrations:
   - framework: react
     slugs:

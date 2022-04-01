@@ -56,23 +56,26 @@ content:
       https://echarts.apache.org/en/tutorial.html#Get%20Started%20with%20ECharts%20in%205%20minutes
   - type: cube
     title: Building an Apache ECharts dashboard with React and Cube
-    link: 'https://cube.dev/blog/building-an-apache-echarts-dashboard-with-react-and-cube/'
+    link: >-
+      https://cube.dev/blog/building-an-apache-echarts-dashboard-with-react-and-cube/
   - type: cube
     title: Building an Apache ECharts Dashboard with Angular and Cube
-    link: 'https://cube.dev/blog/building-an-apache-echarts-dashboard-with-angular-and-cube/'
+    link: >-
+      https://cube.dev/blog/building-an-apache-echarts-dashboard-with-angular-and-cube/
   - type: cube
     title: Building an Apache ECharts Dashboard with Vue 3 and Cube
-    link: 'https://cube.dev/blog/building-an-apache-echarts-dashboard-with-vue-3-and-cube/'
+    link: >-
+      https://cube.dev/blog/building-an-apache-echarts-dashboard-with-vue-3-and-cube/
 github_data:
-  stars: 50435
+  stars: 50451
   contributors: 199
-  issues: 2020
-  stale_issues: 1107
+  issues: 2022
+  stale_issues: 1108
   last_release:
-    date: '2022-03-28T08:35:59Z'
-    link: 'https://github.com/apache/echarts/releases/tag/5.3.2-rc.1'
+    date: '2022-04-01T04:14:20Z'
+    link: 'https://github.com/apache/echarts/releases/tag/5.3.2'
 stackoverflow_data:
-  questions_count: 921
+  questions_count: 922
 integrations:
   - framework: react
     slugs:
