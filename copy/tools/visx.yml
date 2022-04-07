@@ -45,6 +45,9 @@ content:
   - type: official
     title: Getting started with vx
     link: 'https://medium.com/vx-code/getting-started-with-vx-1756bb661410'
+  - type: cube
+    title: Building a visx Dashboard with Cube
+    link: 'https://cube.dev/blog/building-a-visx-dashboard-with-cube'
 github_data:
   stars: 15019
   contributors: 129
