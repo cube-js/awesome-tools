@@ -67,15 +67,15 @@ content:
     link: >-
       https://cube.dev/blog/building-an-apache-echarts-dashboard-with-vue-3-and-cube/
 github_data:
-  stars: 50540
-  contributors: 200
-  issues: 2033
-  stale_issues: 1115
+  stars: 50551
+  contributors: 201
+  issues: 2028
+  stale_issues: 1112
   last_release:
     date: '2022-04-01T04:14:20Z'
     link: 'https://github.com/apache/echarts/releases/tag/5.3.2'
 stackoverflow_data:
-  questions_count: 919
+  questions_count: 920
 integrations:
   - framework: react
     slugs:
