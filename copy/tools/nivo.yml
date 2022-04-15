@@ -45,7 +45,10 @@ links:
   docs: 'https://nivo.rocks/components'
   pricing: null
   slack: null
-content: []
+content: 
+  - type: cube
+    title: Building a nivo Dashboard with Cube
+    link: 'https://cube.dev/blog/building-a-nivo-dashboard-with-cube'
 github_data:
   stars: 10017
   contributors: 168
