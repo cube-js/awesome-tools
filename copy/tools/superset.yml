@@ -46,12 +46,12 @@ content:
     title: Building a metrics dashboard with Superset and Cube
     link: 'https://cube.dev/blog/building-metrics-dashboard-with-superset/'
 github_data:
-  stars: 45641
+  stars: 45659
   contributors: 790
-  issues: 910
-  stale_issues: 222
+  issues: 906
+  stale_issues: 223
   last_release:
     date: '2022-04-16T07:26:41Z'
     link: 'https://github.com/apache/superset/releases/tag/1.5.0rc3'
 stackoverflow_data:
-  questions_count: 1115
+  questions_count: 1117
