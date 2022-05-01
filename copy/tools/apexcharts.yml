@@ -53,10 +53,10 @@ content:
 github_data:
   stars: 11402
   contributors: 138
-  issues: 154
+  issues: 153
   stale_issues: 56
   last_release:
     date: '2022-03-31T18:55:43Z'
     link: 'https://github.com/apexcharts/apexcharts.js/releases/tag/v3.35.0'
 stackoverflow_data:
-  questions_count: 721
+  questions_count: 720
