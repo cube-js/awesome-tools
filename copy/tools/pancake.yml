@@ -41,9 +41,9 @@ content:
     link: >-
       https://dev.to/richharris/a-new-technique-for-making-responsive-javascript-free-charts-gmp
 github_data:
-  stars: 998
+  stars: 999
   contributors: 2
-  issues: 14
+  issues: 15
   stale_issues: 13
   last_release:
     date: null
