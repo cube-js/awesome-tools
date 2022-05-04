@@ -40,18 +40,18 @@ links:
   slack: null
 content:
   - type: official
-    title: 'Getting Started'
+    title: Getting Started
     link: 'https://docs.appsmith.com/#getting-started-with-appsmith'
   - type: cube
     title: Building an Appsmith Dashboard with Cube
     link: 'https://cube.dev/blog/building-an-appsmith-dashboard-with-cube'
 github_data:
-  stars: 16710
-  contributors: 189
-  issues: 2001
-  stale_issues: 1
+  stars: 16880
+  contributors: 204
+  issues: 1999
+  stale_issues: 184
   last_release:
-    date: '2022-04-27T07:56:12Z'
-    link: 'https://github.com/appsmithorg/appsmith/releases/tag/v1.6.22'
+    date: '2022-05-04T05:40:07Z'
+    link: 'https://github.com/appsmithorg/appsmith/releases/tag/v1.6.24'
 stackoverflow_data:
-  questions_count: 20
+  questions_count: 9
