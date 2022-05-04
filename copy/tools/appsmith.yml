@@ -1,5 +1,5 @@
 title: Appsmith
-description: Low-code tool for building internal apps using pre-build UI widgets
+description: Low-code tool for building internal apps using pre-built UI widgets
 logo: appsmith.png
 developer: null
 based_on: null
@@ -9,8 +9,6 @@ licenses:
     link: 'https://github.com/appsmithorg/appsmith/blob/release/LICENSE'
 types:
   - app
-renders:
-  - html
 features:
   easy-to-customize: 0
   easy-to-start-with: 0
@@ -34,7 +32,6 @@ tags:
     - appsmith
   twitter:
     - appsmith
-    - theappsmith
 links:
   website: 'https://www.appsmith.com'
   examples: 'https://www.appsmith.com/widgets'
