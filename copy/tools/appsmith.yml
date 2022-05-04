@@ -1,0 +1,60 @@
+title: Appsmith
+description: Low-code tool for building internal apps using pre-build UI widgets
+logo: appsmith.png
+developer: null
+based_on: null
+licenses:
+  - type: open-source
+    title: Apache 2.0
+    link: 'https://github.com/appsmithorg/appsmith/blob/release/LICENSE'
+types:
+  - app
+renders:
+  - html
+features:
+  easy-to-customize: 0
+  easy-to-start-with: 0
+  full-fledged: 0
+  very-popular: 0
+  well-documented: 0
+gallery:
+  - /images/slider/appsmith-1.png
+  - /images/slider/appsmith-2.png
+  - /images/slider/appsmith-3.png
+  - /images/slider/appsmith-5.png
+  - /images/slider/appsmith-5.png
+languages: null
+frameworks: null
+slugs:
+  github: appsmithorg/appsmith
+  npm: null
+  npm_types: null
+tags:
+  stackoverflow:
+    - appsmith
+  twitter:
+    - appsmith
+    - theappsmith
+links:
+  website: 'https://www.appsmith.com'
+  examples: 'https://www.appsmith.com/widgets'
+  docs: 'https://docs.appsmith.com/'
+  pricing: 'https://www.appsmith.com/pricing'
+  slack: null
+content:
+  - type: official
+    title: 'Getting Started'
+    link: 'https://docs.appsmith.com/#getting-started-with-appsmith'
+  - type: cube
+    title: Building an Appsmith Dashboard with Cube
+    link: 'https://cube.dev/blog/building-an-appsmith-dashboard-with-cube'
+github_data:
+  stars: 16710
+  contributors: 189
+  issues: 2001
+  stale_issues: 1
+  last_release:
+    date: '2022-04-27T07:56:12Z'
+    link: 'https://github.com/appsmithorg/appsmith/releases/tag/v1.6.22'
+stackoverflow_data:
+  questions_count: 20
