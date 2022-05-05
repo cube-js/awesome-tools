@@ -83,7 +83,7 @@ function MyApp({ Component, pageProps }) {
           images: [
             {
               url: "https://cubedev-blog-images.s3.us-east-2.amazonaws.com/482a86d6-d049-4d92-a0bf-0fcc5830476f.jpeg",
-              alt: "Data visualization tools for software developers",
+              alt: "Data visualization tools for application developers",
               width: 1200,
               height: 630,
             },

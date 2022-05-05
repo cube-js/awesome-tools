@@ -87,12 +87,12 @@ export default function ListPage({
     <>
       <NextSeo
         title={`${title} — the awesome list`}
-        description={`${title} for software developers: charting libraries, data grids, maps, etc.`}
+        description={`${title} for application developers: charting libraries, data grids, maps, etc.`}
       />
 
       <div className="container custom-container">
         <main>
-          <H1>{title} <br className="xl-hidden" /> for software developers</H1>
+          <H1>{title} <br className="xl-hidden" /> for application developers</H1>
 
           {showType && (
             <div className="row mb-md">
