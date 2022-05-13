@@ -49,9 +49,9 @@ content:
     title: Quick Start
     link: 'https://g2plot.antv.vision/en/docs/manual/getting-started'
 github_data:
-  stars: 2200
+  stars: 2201
   contributors: 50
-  issues: 209
+  issues: 210
   stale_issues: 29
   last_release:
     date: '2022-04-22T11:04:20Z'
