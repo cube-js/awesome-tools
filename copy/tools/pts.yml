@@ -48,9 +48,9 @@ content:
     title: Get started with Pts.js
     link: 'https://ptsjs.org/guide/get-started-0100'
 github_data:
-  stars: 4764
+  stars: 4766
   contributors: 18
-  issues: 31
+  issues: 32
   stale_issues: 19
   last_release:
     date: '2021-02-19T09:49:49Z'
