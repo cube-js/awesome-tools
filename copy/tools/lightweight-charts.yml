@@ -46,10 +46,10 @@ content:
     link: >-
       https://github.com/tradingview/lightweight-charts/blob/b58f2c3e7f539db5baab660bc50842367f5ed4fb/docs/README.md
 github_data:
-  stars: 4985
+  stars: 4986
   contributors: 40
   issues: 70
-  stale_issues: 39
+  stale_issues: 40
   last_release:
     date: '2022-02-17T15:01:55Z'
     link: 'https://github.com/tradingview/lightweight-charts/releases/tag/v3.8.0'
