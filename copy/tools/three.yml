@@ -52,12 +52,12 @@ content:
     link: >-
       https://threejs.org/docs/index.html#manual/en/introduction/Creating-a-scene
 github_data:
-  stars: 82714
-  contributors: 1996
-  issues: 348
+  stars: 82744
+  contributors: 1997
+  issues: 347
   stale_issues: 256
   last_release:
     date: '2022-05-26T12:52:36Z'
     link: 'https://github.com/mrdoob/three.js/releases/tag/r141'
 stackoverflow_data:
-  questions_count: 19349
+  questions_count: 19355
