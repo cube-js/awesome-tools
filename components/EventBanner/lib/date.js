@@ -18,4 +18,14 @@ function getISODate() {
     `.replace(/[\s(\r\n|\n|\r)]/gm, '');
 }
 
-export { getISODate };
+function getDate () {
+  const date = new Date();
+  return date
+    .toLocaleDateString(
+      'en-US',
+      { year: 'numeric', month: '2-digit', day: '2-digit' }
+    )
+    .replaceAll('/', '-');
+}
+
+export { getISODate, getDate };
