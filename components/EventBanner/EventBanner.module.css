@@ -1,0 +1,49 @@
+.banner {
+    overflow: hidden;
+    display: flex;
+    align-items: center;;
+    max-height: 0;
+    transition: max-height 0.3s linear;
+}
+
+.banner.visible {
+    max-height: 40px;
+}
+
+.banner-link {
+    flex-grow: 1;
+    padding: 7px;
+    border: none;
+
+    text-decoration: none;
+    font-family: CeraPro, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.005em;
+
+    color: #FFFFFF;
+    background: radial-gradient(218.73% 98564.22% at 87.78% 50%, #FF76A0 0%, #9592FF 51.56%, #CAC9FF 100%);
+}
+
+.banner-link:hover,
+.banner-link:focus {
+    color: #FFFFFF;
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 640px) {
+    .banner-link {
+        padding: 4px 16px;
+        text-align: left;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .banner-link {
+        font-size: 12px;
+        line-height: 16px;
+    }
+}
