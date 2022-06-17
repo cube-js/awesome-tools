@@ -6,6 +6,10 @@
     transition: max-height 0.3s linear;
 }
 
+.banner.no-animation {
+  transition: none;
+}
+
 .banner.visible {
     max-height: 40px;
 }
