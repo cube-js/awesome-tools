@@ -25,7 +25,7 @@ function getDate () {
       'en-US',
       { year: 'numeric', month: '2-digit', day: '2-digit' }
     )
-    .replaceAll('/', '-');
+    .replace(/\//g, '-');
 }
 
 export { getISODate, getDate };
