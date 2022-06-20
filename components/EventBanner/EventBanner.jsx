@@ -24,7 +24,7 @@ function EventBanner () {
             className={styles['banner-link']}
             href={setUTM(
               link,
-              'awesome.cube.dev',
+              'awesome',
               campaign === null ? undefined : campaign
             )}
             target="_blank"
