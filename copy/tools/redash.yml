@@ -39,9 +39,9 @@ content:
     title: Getting Started
     link: 'https://redash.io/help/user-guide/getting-started'
 github_data:
-  stars: 21249
+  stars: 21261
   contributors: 410
-  issues: 489
+  issues: 491
   stale_issues: 426
   last_release:
     date: '2021-11-24T03:36:32Z'
