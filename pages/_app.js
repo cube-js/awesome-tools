@@ -96,7 +96,7 @@ function MyApp({ Component, pageProps }) {
         }}
       />
 
-      <PurpleBanner utmSource="awesome" />
+      <PurpleBanner utmSource="awesome" debugMode={true} />
       <Header />
       <Component {...pageProps} />
       <Footer />

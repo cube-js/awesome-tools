@@ -247,10 +247,10 @@
   resolved "https://registry.yarnpkg.com/@corex/deepmerge/-/deepmerge-2.6.133.tgz#eb3aaa7e197ea69cbb129b4e988e669622089063"
   integrity sha512-KrAg1G7NaXDJ/bihDHof3MKnE6KC0mKE89o7qTSHPaxs122pBB14Ll+QFyMo4FyTqpMIRcFJlv02G9PcDxDMEA==
 
-"@cube-dev/purple-banner@^2.0.0":
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/@cube-dev/purple-banner/-/purple-banner-2.0.0.tgz#0b743b95ee7355ee799cb48dda3dd2080f8b327c"
-  integrity sha512-Xu1BK4GH5W84TQaRUIyYn9FcjN0Lhp4APnYos0BoXhmUkAW/ZJ9hv4TKUVWon+ZDuVMaB0nE8TJrR95MzV50ew==
+"@cube-dev/purple-banner@^2.0.2":
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/@cube-dev/purple-banner/-/purple-banner-2.0.2.tgz#2bd91baf4f3e11b5574eede31d865cc82d423e89"
+  integrity sha512-/I2G6bvrSkVoxQZbw+Dsryzgx0oXIbgvX5747C1MZcTY6MaR6tH/8uavmk9nbbyCXuOsyEgqGsGiucm1mWAz3A==
   dependencies:
     classnames "^2.3.1"
 
