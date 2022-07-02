@@ -4,7 +4,7 @@ import "../styles/globals.scss";
 import "bootstrap/dist/css/bootstrap-grid.min.css";
 import Head from "next/head";
 import Header from "../components/Header";
-import EventBanner from "../components/EventBanner";
+import PurpleBanner from "@cube-dev/purple-banner";
 import { DefaultSeo } from 'next-seo';
 import { useRouter } from 'next/router';
 
@@ -96,7 +96,7 @@ function MyApp({ Component, pageProps }) {
         }}
       />
 
-      <EventBanner />
+      <PurpleBanner utmSource="awesome"/>
       <Header />
       <Component {...pageProps} />
       <Footer />
