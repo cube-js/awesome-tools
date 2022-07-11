@@ -47,7 +47,7 @@ content:
     link: 'https://github.com/observablehq/plot#installing'
 github_data:
   stars: 1963
-  contributors: 12
+  contributors: 13
   issues: 93
   stale_issues: 51
   last_release:
