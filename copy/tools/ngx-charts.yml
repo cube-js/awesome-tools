@@ -43,7 +43,7 @@ links:
   slack: null
 content: null
 github_data:
-  stars: 4132
+  stars: 4131
   contributors: 125
   issues: 624
   stale_issues: 564
@@ -51,4 +51,4 @@ github_data:
     date: null
     link: null
 stackoverflow_data:
-  questions_count: 229
+  questions_count: 230
