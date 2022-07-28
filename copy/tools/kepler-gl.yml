@@ -52,10 +52,10 @@ content:
     link: >-
       https://medium.com/vis-gl/exploring-geospatial-data-with-kepler-gl-cf655839628f
 github_data:
-  stars: 8741
+  stars: 8746
   contributors: 102
-  issues: 396
-  stale_issues: 298
+  issues: 397
+  stale_issues: 300
   last_release:
     date: '2021-09-13T05:39:08Z'
     link: 'https://github.com/keplergl/kepler.gl/releases/tag/v2.5.5'
