@@ -42,7 +42,7 @@ content:
     title: Getting Started
     link: 'https://docs.datasette.io/en/stable/getting_started.html'
 github_data:
-  stars: 6306
+  stars: 6307
   contributors: 65
   issues: 369
   stale_issues: 245
