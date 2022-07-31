@@ -109,7 +109,7 @@ export default function DescriptionCards(props) {
           <Card height="full" {...getLicense(props)} />
         </div>
       )}
-      {props.frameworks && (
+      {props.frameworks && props.slugs.github && (
         <div className={styles.cardWrap + " col-xl-4 col-lg-4 col-md-12"}>
           <Card height="full" color="gray" {...getFrameworks(props)} />
         </div>
