@@ -5,9 +5,14 @@ developer: Material UI
 based_on: null
 licenses:
   - type: proprietary
+    title: MUI X Premium
+    link: https://github.com/mui/mui-x/blob/master/packages/grid/x-data-grid-premium/LICENSE
+  - type: proprietary
+    title: MUI X Pro
+    link: https://github.com/mui/mui-x/blob/master/packages/grid/x-data-grid-pro/LICENSE
   - type: open-source
     title: MIT
-    link: 'https://github.com/mui-org/material-ui/blob/next/LICENSE'
+    link: 'https://github.com/mui/mui-x/blob/master/packages/grid/x-data-grid/LICENSE'
 types:
   - grid
 renders:
@@ -30,18 +35,18 @@ languages:
 frameworks:
   - react
 slugs:
-  github: mui-org/material-ui
-  npm: '@material-ui/core'
+  github: mui/mui-x
+  npm: '@mui/x-data-grid'
 tags:
   stackoverflow:
     - material-ui
   twitter:
     - MaterialUI
 links:
-  website: 'https://material-ui.com/components/data-grid/'
-  examples: 'https://material-ui.com/components/tables/#data-table'
-  docs: 'https://material-ui.com/api/data-grid/data-grid/'
-  pricing: 'https://next.material-ui.com/branding/pricing/'
+  website: 'https://mui.com/x/react-data-grid/'
+  examples: 'https://mui.com/material-ui/react-table/#data-table'
+  docs: 'https://mui.com/x/api/data-grid/data-grid/'
+  pricing: 'https://mui.com/pricing/'
   slack: null
 content:
   - type: cube
