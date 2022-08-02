@@ -49,9 +49,9 @@ content:
     title: Introduction to Vega-Lite
     link: 'https://vega.github.io/vega-lite/tutorials/getting_started.html'
 github_data:
-  stars: 3834
+  stars: 3835
   contributors: 181
-  issues: 537
+  issues: 538
   stale_issues: 461
   last_release:
     date: '2022-07-25T17:10:56Z'
