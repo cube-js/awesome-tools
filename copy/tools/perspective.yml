@@ -51,9 +51,9 @@ content:
     title: Python User Guide
     link: 'https://perspective.finos.org/docs/md/python.html'
 github_data:
-  stars: 4771
+  stars: 4772
   contributors: 72
-  issues: 71
+  issues: 73
   stale_issues: 38
   last_release:
     date: null
