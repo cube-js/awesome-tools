@@ -7,7 +7,7 @@ based_on:
 licenses:
   - type: open-source
     title: MIT
-    link: 'https://github.com/tannerlinsley/react-charts/blob/main/LICENSE'
+    link: 'https://github.com/TanStack/react-charts/blob/main/LICENSE'
 types:
   - charts
 renders:
@@ -25,7 +25,7 @@ languages:
 frameworks:
   - react
 slugs:
-  github: tannerlinsley/react-charts
+  github: TanStack/react-charts
   npm: react-charts
 tags:
   stackoverflow:
@@ -49,6 +49,6 @@ github_data:
   stale_issues: 0
   last_release:
     date: '2021-11-21T04:45:18Z'
-    link: 'https://github.com/tannerlinsley/react-charts/releases/tag/v3.0.0-beta.34'
+    link: 'https://github.com/TanStack/react-charts/releases/tag/v3.0.0-beta.34'
 stackoverflow_data:
   questions_count: 10
