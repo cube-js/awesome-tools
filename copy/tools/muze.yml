@@ -50,7 +50,7 @@ content:
     title: 'Tableau-like Charts with MuzeJS, Cube.js, and React'
     link: 'https://cube.dev/blog/react-muzejs-tutorial/'
 github_data:
-  stars: 1183
+  stars: 1184
   contributors: 21
   issues: 4
   stale_issues: 3
