@@ -1,11 +1,14 @@
 const yaml = require("node-yaml");
 const fs = require("fs");
 const get = require("./fetchData.js");
+const { notifySlackUpdateFailures } = require("./notifySlack.js");
 
 const files = fs.readdirSync("../copy/tools");
 const ids = files
   .filter((filename) => filename.endsWith(".yml"))
   .map((filename) => filename.split(".")[0]);
+
+let failures = [];
 
 asyncForEach(ids, async (id) => {
   try {
@@ -23,6 +26,14 @@ asyncForEach(ids, async (id) => {
     await new Promise((resolve) => setTimeout(resolve, 15000));
   } catch (e) {
     console.log(`${id}`, e);
+    failures.push({
+      id,
+      error: e,
+    });
+  }
+}).then(() => {
+  if (failures.length) {
+    return notifySlackUpdateFailures(failures);
   }
 });
 
