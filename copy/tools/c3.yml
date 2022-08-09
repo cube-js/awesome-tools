@@ -7,7 +7,7 @@ based_on:
 licenses:
   - type: open-source
     title: MIT
-    link: 'https://github.com/c3jsjs/c3js/blob/master/LICENSE'
+    link: 'https://github.com/c3js/c3/blob/master/LICENSE'
 types:
   - charts
 renders:

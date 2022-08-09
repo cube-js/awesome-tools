@@ -40,16 +40,16 @@ tags:
 links:
   website: 'https://perspective.finos.org'
   examples: 'https://perspective.finos.org'
-  docs: 'https://perspective.finos.org/docs/md/js.html'
+  docs: 'https://perspective.finos.org/docs/js'
   pricing: null
   slack: null
 content:
   - type: official
     title: JavaScript User Guide
-    link: 'https://perspective.finos.org/docs/md/js.html'
+    link: 'https://perspective.finos.org/docs/js'
   - type: official
     title: Python User Guide
-    link: 'https://perspective.finos.org/docs/md/python.html'
+    link: 'https://perspective.finos.org/docs/python'
 github_data:
   stars: 4778
   contributors: 72
