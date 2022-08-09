@@ -6,7 +6,7 @@ based_on: null
 licenses:
   - type: open-source
     title: BSD
-    link: 'https://github.com/leafletjs/leafletjs/blob/master/LICENSE'
+    link: 'https://github.com/Leaflet/Leaflet/blob/main/LICENSE'
 types:
   - maps
 renders:

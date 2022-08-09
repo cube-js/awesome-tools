@@ -7,7 +7,7 @@ based_on:
 licenses:
   - type: open-source
     title: MIT
-    link: 'https://github.com/airbnb/visxx/blob/master/LICENSE'
+    link: 'https://github.com/airbnb/visx/blob/master/LICENSE'
 types:
   - low-level
 renders:
