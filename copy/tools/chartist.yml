@@ -1,0 +1,54 @@
+title: Chartist
+description: Simple responsive SVG charts
+logo: chartist.svg
+developer: null
+based_on: null
+licenses:
+  - type: open-source
+    title: MIT
+    link: 'https://github.com/chartist-js/chartist/blob/main/LICENSE-MIT'
+types:
+  - charts
+renders:
+  - svg
+features:
+  easy-to-customize: 0
+  easy-to-start-with: 2
+  full-fledged: 0
+  very-popular: 0
+  well-documented: 0
+gallery:
+  - /images/slider/chartist-1.png
+  - /images/slider/chartist-2.png
+  - /images/slider/chartist-3.png
+  - /images/slider/chartist-4.png
+languages:
+  - JavaScript
+  - TypeScript
+frameworks:
+  - vanilla-js
+slugs:
+  github: chartist-js/chartist
+  npm: chartist
+tags:
+  stackoverflow:
+    - chartist.js
+links:
+  website: 'https://gionkunz.github.io/chartist-js/'
+  examples: 'https://gionkunz.github.io/chartist-js/examples.html'
+  docs: 'https://gionkunz.github.io/chartist-js/api-documentation.html'
+  pricing: null
+content:
+  - type: official
+    title: Everything you need to know to get started with Chartist
+    link: 'https://gionkunz.github.io/chartist-js/getting-started.html'
+github_data:
+  stars: 12900
+  contributors: 63
+  issues: 361
+  stale_issues: 345
+  last_release:
+    date: '2022-08-08T12:47:58Z'
+    link: 'https://github.com/chartist-js/chartist/releases/tag/v1.0.0'
+stackoverflow_data:
+  questions_count: 235
