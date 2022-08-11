@@ -23,7 +23,7 @@ const notifySlackUpdateFailures = async (failures) =>
       type: "header",
       text: {
         type: "plain_text",
-        text: "⚠️ Failed to update some tools",
+        text: "⚠️ awesome-tools: scheduled data update partially failed",
         emoji: true,
       },
     },
