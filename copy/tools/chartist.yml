@@ -7,12 +7,15 @@ licenses:
   - type: open-source
     title: MIT
     link: 'https://github.com/chartist-js/chartist/blob/main/LICENSE-MIT'
+  - type: open-source
+    title: WTFPL
+    link: 'https://github.com/gionkunz/chartist-js/blob/main/LICENSE-WTFPL'
 types:
   - charts
 renders:
   - svg
 features:
-  easy-to-customize: 0
+  easy-to-customize: 1
   easy-to-start-with: 2
   full-fledged: 0
   very-popular: 0
