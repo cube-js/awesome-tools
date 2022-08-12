@@ -54,7 +54,7 @@ github_data:
   issues: 541
   stale_issues: 461
   last_release:
-    date: '2022-08-04T06:03:48Z'
-    link: 'https://github.com/vega/vega-lite/releases/tag/v5.4.1-next.0'
+    date: '2022-08-11T19:41:29Z'
+    link: 'https://github.com/vega/vega-lite/releases/tag/v5.4.1-next.1'
 stackoverflow_data:
-  questions_count: 938
+  questions_count: 940
