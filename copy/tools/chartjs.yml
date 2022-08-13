@@ -70,7 +70,7 @@ integrations:
       github: reactchartjs/react-chartjs-2
       npm: react-chartjs-2
     links:
-      website: 'https://react-chartjs-2.netlify.app'
+      website: 'https://react-chartjs-2.js.org'
   - framework: angular
     slugs:
       github: valor-software/ng2-charts
@@ -83,3 +83,9 @@ integrations:
       npm: vue-chartjs
     links:
       website: 'https://vue-chartjs.org'
+  - framework: svelte
+    slugs:
+      github: SauravKanchan/svelte-chartjs
+      npm: svelte-chartjs
+    links:
+      website: 'https://saurav.tech/mdbsvelte/?path=/story/charts--examples'
