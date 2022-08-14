@@ -44,7 +44,7 @@ content:
     title: Getting Started
     link: 'https://github.com/nhn/tui.chart/blob/main/docs/en/getting-started.md'
 github_data:
-  stars: 5124
+  stars: 5125
   contributors: 10
   issues: 3
   stale_issues: 0
