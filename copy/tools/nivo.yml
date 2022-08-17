@@ -50,9 +50,9 @@ content:
     title: Building a nivo Dashboard with Cube
     link: 'https://cube.dev/blog/building-a-nivo-dashboard-with-cube'
 github_data:
-  stars: 10378
+  stars: 10383
   contributors: 177
-  issues: 112
+  issues: 114
   stale_issues: 28
   last_release:
     date: '2022-01-12T21:53:26Z'
