@@ -44,7 +44,7 @@ content:
     title: Quick start with Laue
     link: 'https://laue.js.org/guide#quick-started'
 github_data:
-  stars: 255
+  stars: 256
   contributors: 8
   issues: 16
   stale_issues: 16
