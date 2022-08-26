@@ -49,8 +49,8 @@ content:
 github_data:
   stars: 1094
   contributors: 6
-  issues: 39
-  stale_issues: 23
+  issues: 40
+  stale_issues: 24
   last_release:
     date: '2022-08-18T14:42:13Z'
     link: 'https://github.com/amcharts/amcharts4/releases/tag/4.10.27'
