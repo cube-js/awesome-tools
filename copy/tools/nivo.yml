@@ -52,8 +52,8 @@ content:
 github_data:
   stars: 10408
   contributors: 177
-  issues: 118
-  stale_issues: 29
+  issues: 119
+  stale_issues: 30
   last_release:
     date: '2022-01-12T21:53:26Z'
     link: 'https://github.com/plouc/nivo/releases/tag/v0.79.1'
