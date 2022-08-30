@@ -42,10 +42,10 @@ content:
     link: 'https://lib.vizzuhq.com/0.3.0/'
 github_data:
   stars: 1580
-  contributors: 9
+  contributors: 10
   issues: 17
   stale_issues: 0
   last_release:
-    date: '2022-07-14T09:25:45Z'
-    link: 'https://github.com/vizzuhq/vizzu-lib/releases/tag/v0.5.1'
+    date: '2022-08-29T13:59:44Z'
+    link: 'https://github.com/vizzuhq/vizzu-lib/releases/tag/v0.5.2'
 stackoverflow_data: null
