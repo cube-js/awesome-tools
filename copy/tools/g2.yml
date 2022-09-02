@@ -49,9 +49,9 @@ content:
 github_data:
   stars: 11338
   contributors: 6
-  issues: 210
+  issues: 211
   stale_issues: 114
   last_release:
-    date: '2022-08-23T06:39:32Z'
-    link: 'https://github.com/antvis/G2/releases/tag/5.0.0-alpha.0'
+    date: '2022-09-01T11:58:58Z'
+    link: 'https://github.com/antvis/G2/releases/tag/5.0.0-alpha.1'
 stackoverflow_data: null
