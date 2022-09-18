@@ -51,7 +51,7 @@ github_data:
   stars: 29713
   contributors: 331
   issues: 2142
-  stale_issues: 1557
+  stale_issues: 1560
   last_release:
     date: '2022-09-15T18:55:19Z'
     link: 'https://github.com/metabase/metabase/releases/tag/v0.44.3'
