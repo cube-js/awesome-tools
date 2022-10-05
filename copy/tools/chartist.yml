@@ -48,8 +48,8 @@ content:
 github_data:
   stars: 12894
   contributors: 87
-  issues: 346
-  stale_issues: 333
+  issues: 345
+  stale_issues: 332
   last_release:
     date: '2022-10-03T20:48:42Z'
     link: 'https://github.com/chartist-js/chartist/releases/tag/v1.2.0'
