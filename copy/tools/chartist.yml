@@ -46,10 +46,10 @@ content:
     title: A quick start guide for Chartist
     link: 'https://github.com/chartist-js/chartist#quickstart'
 github_data:
-  stars: 12895
+  stars: 12893
   contributors: 87
-  issues: 344
-  stale_issues: 331
+  issues: 342
+  stale_issues: 330
   last_release:
     date: '2022-10-05T19:36:55Z'
     link: 'https://github.com/chartist-js/chartist/releases/tag/v1.2.1'
