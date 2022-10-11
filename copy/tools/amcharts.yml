@@ -47,12 +47,12 @@ content:
     title: Starting from Basics of amCharts 4
     link: 'https://www.amcharts.com/docs/v4/getting-started/basics/'
 github_data:
-  stars: 1100
+  stars: 1101
   contributors: 6
   issues: 41
   stale_issues: 25
   last_release:
-    date: '2022-09-19T08:43:45Z'
-    link: 'https://github.com/amcharts/amcharts4/releases/tag/4.10.28'
+    date: '2022-10-11T10:02:12Z'
+    link: 'https://github.com/amcharts/amcharts4/releases/tag/4.10.29'
 stackoverflow_data:
-  questions_count: 3154
+  questions_count: 3156
