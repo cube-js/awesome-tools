@@ -43,12 +43,12 @@ content:
     title: Installation
     link: 'https://react-charts.tanstack.com/docs/installation'
 github_data:
-  stars: 2164
+  stars: 2170
   contributors: 30
-  issues: 34
+  issues: 35
   stale_issues: 9
   last_release:
     date: '2022-09-16T21:04:34Z'
     link: 'https://github.com/TanStack/react-charts/releases/tag/v3.0.0-beta.50'
 stackoverflow_data:
-  questions_count: 11
+  questions_count: 12
