@@ -55,7 +55,7 @@ github_data:
   stars: 8933
   contributors: 103
   issues: 417
-  stale_issues: 336
+  stale_issues: 337
   last_release:
     date: '2021-09-13T05:39:08Z'
     link: 'https://github.com/keplergl/kepler.gl/releases/tag/v2.5.5'
