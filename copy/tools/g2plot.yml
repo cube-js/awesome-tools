@@ -51,8 +51,8 @@ content:
 github_data:
   stars: 2312
   contributors: 53
-  issues: 289
-  stale_issues: 83
+  issues: 290
+  stale_issues: 85
   last_release:
     date: '2022-06-22T01:30:17Z'
     link: 'https://github.com/antvis/G2Plot/releases/tag/2.4.20'
