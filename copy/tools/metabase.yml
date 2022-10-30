@@ -51,7 +51,7 @@ github_data:
   stars: 30353
   contributors: 332
   issues: 2158
-  stale_issues: 1587
+  stale_issues: 1591
   last_release:
     date: '2022-10-28T16:55:24Z'
     link: 'https://github.com/metabase/metabase/releases/tag/v0.45.0-RC1'
