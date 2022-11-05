@@ -50,9 +50,9 @@ content:
     link: 'https://g2plot.antv.vision/en/docs/manual/getting-started'
 github_data:
   stars: 2317
-  contributors: 54
-  issues: 290
-  stale_issues: 91
+  contributors: 55
+  issues: 288
+  stale_issues: 93
   last_release:
     date: '2022-06-22T01:30:17Z'
     link: 'https://github.com/antvis/G2Plot/releases/tag/2.4.20'
