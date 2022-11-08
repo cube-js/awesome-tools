@@ -48,8 +48,8 @@ content:
     link: 'https://charts.ant.design/en/docs/manual/getting-started'
 github_data:
   stars: 1299
-  contributors: 41
-  issues: 307
+  contributors: 42
+  issues: 310
   stale_issues: 95
   last_release:
     date: '2022-07-19T07:32:00Z'
