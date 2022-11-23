@@ -52,9 +52,9 @@ github_data:
   stars: 8371
   contributors: 126
   issues: 306
-  stale_issues: 297
+  stale_issues: 298
   last_release:
     date: '2019-04-19T03:58:15Z'
     link: 'https://github.com/uber/react-vis/releases/tag/v1.11.7'
 stackoverflow_data:
-  questions_count: 82
+  questions_count: 83
