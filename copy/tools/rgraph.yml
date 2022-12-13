@@ -1,0 +1,65 @@
+title: RGraph: Beautiful JavaScript charts for websites
+description: RGraph is a JavaScript library that makes fast, functional and pretty web-based charts
+logo: rgraph.png
+developer: Richard Heyes
+based_on: null
+licenses:
+  - type: open-source
+    title: MIT
+    link: 'https://github.com/heyesr/rgraph/blob/main/license.txt'
+types:
+  - charts
+renders:
+  - canvas
+  - svg
+features:
+  easy-to-customize: 1
+  easy-to-start-with: 1
+  full-fledged: 1
+  very-popular: 0
+  well-documented: 1
+gallery:
+  - https://www.rgraph.net/images/page-demos-bar-3d-effect-multi-row.png
+  - https://www.rgraph.net/images/page-demos-bar-i-love-my-dog-de-bordeaux.png
+  - https://www.rgraph.net/images/page-demos-effects-line-trace-sequential.png
+  - https://www.rgraph.net/images/page-demos-rose-3d.png
+  - https://www.rgraph.net/images/page-demos-svg-rose-non-equi-angular-stacked.png
+languages:
+  - JavaScript
+frameworks:
+  - vanilla-js
+  - jquery
+  - svelte
+  - react
+  - angular
+  - vue
+  - nextjs
+slugs:
+  github: heyesr/rgraph
+tags:
+  stackoverflow:
+    - rgraph
+  twitter:
+    - _rgraph
+links:
+  website: 'https://www.rgraph.net/
+  examples: 'https://www.rgraph.net/demos/index.html'
+  docs: 'https://www.rgraph.net/canvas/index.html'
+  pricing: null
+content:
+  - type: official
+    title: ???
+    link: '???'
+  - type: ???
+    title: ???
+    link: '???'
+github_data:
+  stars: 40
+  contributors: 1
+  issues: 0
+  stale_issues: 0
+  last_release:
+    date: '2022-09-111T16:24:17Z'
+    link: 'https://github.com/heyesr/rgraph/releases/tag/6.09'
+stackoverflow_data:
+  questions_count: 135
