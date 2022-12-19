@@ -46,7 +46,7 @@ links:
   slack: null
 content: null
 github_data:
-  stars: 5434
+  stars: 5435
   contributors: 179
   issues: 135
   stale_issues: 114
@@ -54,4 +54,4 @@ github_data:
     date: '2022-12-07T09:57:09Z'
     link: 'https://github.com/naver/billboard.js/releases/tag/3.7.0-next.1'
 stackoverflow_data:
-  questions_count: 61
+  questions_count: 62

@@ -50,11 +50,11 @@ content:
     link: 'https://vega.github.io/vega-lite/tutorials/getting_started.html'
 github_data:
   stars: 3951
-  contributors: 187
+  contributors: 189
   issues: 566
-  stale_issues: 481
+  stale_issues: 482
   last_release:
     date: '2022-11-22T22:53:58Z'
     link: 'https://github.com/vega/vega-lite/releases/tag/v5.6.1-next.0'
 stackoverflow_data:
-  questions_count: 1018
+  questions_count: 1019
