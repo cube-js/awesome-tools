@@ -54,10 +54,10 @@ content:
     title: 'React Dashboard: an Ultimate Guide'
     link: 'https://react-dashboard.cube.dev'
 github_data:
-  stars: 19353
+  stars: 19355
   contributors: 261
   issues: 465
-  stale_issues: 287
+  stale_issues: 288
   last_release:
     date: null
     link: null
