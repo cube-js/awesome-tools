@@ -52,11 +52,11 @@ content:
     link: 'https://deck.gl/docs/get-started/using-standalone'
 github_data:
   stars: 10526
-  contributors: 212
-  issues: 169
+  contributors: 213
+  issues: 170
   stale_issues: 92
   last_release:
     date: '2022-12-28T20:03:29Z'
     link: 'https://github.com/visgl/deck.gl/releases/tag/v8.8.21'
 stackoverflow_data:
-  questions_count: 223
+  questions_count: 224
