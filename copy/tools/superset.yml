@@ -46,10 +46,10 @@ content:
     title: Building a metrics dashboard with Superset and Cube
     link: 'https://cube.dev/blog/building-metrics-dashboard-with-superset/'
 github_data:
-  stars: 49984
+  stars: 49995
   contributors: 902
   issues: 1229
-  stale_issues: 590
+  stale_issues: 591
   last_release:
     date: '2023-01-05T20:57:28Z'
     link: 'https://github.com/apache/superset/releases/tag/superset-helm-chart-0.8.2'
