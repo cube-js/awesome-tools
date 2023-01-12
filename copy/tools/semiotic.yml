@@ -48,7 +48,7 @@ github_data:
   stars: 2316
   contributors: 31
   issues: 38
-  stale_issues: 30
+  stale_issues: 31
   last_release:
     date: '2020-01-21T03:13:12Z'
     link: 'https://github.com/nteract/semiotic/releases/tag/v1.20.5'
