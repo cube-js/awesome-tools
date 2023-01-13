@@ -52,11 +52,11 @@ content:
     link: 'https://vega.github.io/vega/tutorials/bar-chart/'
 github_data:
   stars: 10165
-  contributors: 131
+  contributors: 132
   issues: 403
   stale_issues: 359
   last_release:
     date: '2022-03-25T16:32:10Z'
     link: 'https://github.com/vega/vega/releases/tag/v5.22.1'
 stackoverflow_data:
-  questions_count: 771
+  questions_count: 774

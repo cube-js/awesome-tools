@@ -42,10 +42,10 @@ content:
     title: Getting Started
     link: 'https://docs.datasette.io/en/stable/getting_started.html'
 github_data:
-  stars: 6804
+  stars: 6807
   contributors: 73
-  issues: 424
-  stale_issues: 293
+  issues: 426
+  stale_issues: 295
   last_release:
     date: '2023-01-11T18:27:56Z'
     link: 'https://github.com/simonw/datasette/releases/tag/0.64.1'
