@@ -48,8 +48,8 @@ content:
 github_data:
   stars: 50100
   contributors: 909
-  issues: 1202
-  stale_issues: 577
+  issues: 1200
+  stale_issues: 578
   last_release:
     date: '2023-01-13T20:05:18Z'
     link: 'https://github.com/apache/superset/releases/tag/superset-helm-chart-0.8.3'
