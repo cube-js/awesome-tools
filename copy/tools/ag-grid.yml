@@ -55,10 +55,10 @@ content:
 github_data:
   stars: 9519
   contributors: 154
-  issues: 29
+  issues: 33
   stale_issues: 2
   last_release:
     date: '2023-01-13T11:02:52Z'
     link: 'https://github.com/ag-grid/ag-grid/releases/tag/v29.0.0'
 stackoverflow_data:
-  questions_count: 4571
+  questions_count: 4581
