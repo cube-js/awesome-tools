@@ -1,0 +1,70 @@
+title: Azimutt
+description: Explore easily your database schema, an ERD on steroids. Also design, document and analyze it. In a pretty UI.
+logo: azimutt.png
+developer: null
+based_on: null
+
+licenses:
+  - type: open-source
+    title: MIT
+    link: https://github.com/azimuttapp/azimutt/blob/main/LICENSE.txt
+
+types:
+  - app
+
+renders:
+  - html
+
+features:
+  easy-to-customize: 0
+  easy-to-start-with: 1
+  full-fledged: 1
+  very-popular: 0
+  well-documented: 0
+
+gallery:
+  - /images/slider/azimutt-1.png
+  - /images/slider/azimutt-2.png
+  - /images/slider/azimutt-3.png
+  - /images/slider/azimutt-4.png
+  - /images/slider/azimutt-5.png
+  - /images/slider/azimutt-6.png
+
+languages: null
+frameworks: null
+
+slugs:
+  github: azimuttapp/azimutt
+
+tags:
+  twitter:
+    - azimuttapp
+    - loicknuchel
+    - sbouaked
+
+links:
+  website: https://azimutt.app
+  examples: https://azimutt.app/gallery
+  docs: null
+  pricing: null
+  slack: null
+
+content:
+  - type: official
+    title: Design your database with Azimutt
+    link: https://azimutt.app/use-case/design
+  - type: official
+    title: Explore your database with Azimutt
+    link: https://azimutt.app/use-case/explore
+  - type: official
+    title: Document your database with Azimutt
+    link: https://azimutt.app/use-case/document
+  - type: official
+    title: Analyze your database with Azimutt
+    link: https://azimutt.app/use-case/analyze
+
+github_data:
+  stars: 447
+  contributors: 9
+  issues: 26
+  stale_issues: 0
