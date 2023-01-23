@@ -43,7 +43,7 @@ content:
     title: Installation
     link: 'https://react-charts.tanstack.com/docs/installation'
 github_data:
-  stars: 2353
+  stars: 2354
   contributors: 31
   issues: 43
   stale_issues: 17
