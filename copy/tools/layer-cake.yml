@@ -43,8 +43,8 @@ content:
     title: Getting Started
     link: 'https://layercake.graphics/guide#getting-started'
 github_data:
-  stars: 752
-  contributors: 8
+  stars: 754
+  contributors: 9
   issues: 3
   stale_issues: 0
   last_release:
