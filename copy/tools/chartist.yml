@@ -47,9 +47,9 @@ content:
     link: 'https://github.com/chartist-js/chartist#quickstart'
 github_data:
   stars: 13132
-  contributors: 88
-  issues: 191
-  stale_issues: 183
+  contributors: 89
+  issues: 190
+  stale_issues: 182
   last_release:
     date: '2022-11-03T11:45:38Z'
     link: 'https://github.com/chartist-js/chartist/releases/tag/v1.3.0'
