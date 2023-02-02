@@ -8,7 +8,7 @@ import Chip from "../Chip";
 import ExploreToolsCard from "../ExploreToolsCard";
 import H1 from "../Text/H1";
 import AccentedText from "../Text/AccentedText";
-import { NextSeo } from 'next-seo';
+import { NextSeo } from "next-seo";
 
 const ToolCard = dynamic(() => import("../ToolCard"));
 const ToolsNumberControl = dynamic(() => import("../ToolsNumberControl"));
@@ -23,12 +23,12 @@ export default function ListPage({
 }) {
   const router = useRouter();
   const query = router.query;
-  const [ isFirstLoad, setLoad ] = useState(false);
-  const [ exploreTools, setExploreTools ] = useState([]);
-  const [ frameworks, setFrameworks ] = useState([]);
-  const [ languages, setLanguages ] = useState([]);
-  const [ licenses, setLicenses ] = useState([]);
-  const [ renders, setRenders ] = useState([]);
+  const [isFirstLoad, setLoad] = useState(false);
+  const [exploreTools, setExploreTools] = useState([]);
+  const [frameworks, setFrameworks] = useState([]);
+  const [languages, setLanguages] = useState([]);
+  const [licenses, setLicenses] = useState([]);
+  const [renders, setRenders] = useState([]);
 
   useEffect(() => {
     if (Object.keys(query).length && !isFirstLoad) {
@@ -38,29 +38,28 @@ export default function ListPage({
         setFrameworks,
         setLanguages,
         setLicenses,
-        setRenders,
+        setRenders
       );
       setLoad(true);
     }
-  }, [ query ]);
+  }, [query]);
 
   useEffect(() => {
     router.push(
       {
-        scroll: false,
         query: {
           ...(framework && { framework }),
           tools: exploreTools,
           ...(!framework && { frameworks }),
           languages,
           licenses,
-          renders
+          renders,
         },
       },
       undefined,
-      { scroll: false },
+      { scroll: false }
     );
-  }, [ framework, exploreTools, frameworks, languages, licenses, renders ]);
+  }, [framework, exploreTools, frameworks, languages, licenses, renders]);
 
   const filteredTools = filter(
     tools,
@@ -68,17 +67,17 @@ export default function ListPage({
     languages,
     licenses,
     renders,
-    exploreTools,
+    exploreTools
   );
 
   const setItem = (array, set, item) => {
     const index = array.indexOf(item);
     if (index === -1) {
-      set([ ...array, item ]);
+      set([...array, item]);
       // return true;
     } else {
       array.splice(index, 1);
-      set([ ...array ]);
+      set([...array]);
       // return false;
     }
   };
@@ -92,13 +91,18 @@ export default function ListPage({
 
       <div className="container custom-container">
         <main>
-          <H1>{title} <br className="xl-hidden" /> for application developers</H1>
+          <H1>
+            {title} <br className="xl-hidden" /> for application developers
+          </H1>
 
           {showType && (
             <div className="row mb-md">
-              {Object.values(allTypes).map(type => (
+              {Object.values(allTypes).map((type) => (
                 <ExploreToolsCard
-                  onClick={() => setItem(exploreTools, setExploreTools, type.slug)}
+                  key={type.slug}
+                  onClick={() =>
+                    setItem(exploreTools, setExploreTools, type.slug)
+                  }
                   active={exploreTools.includes(type.slug) ? "active" : null}
                   text={type.name}
                   image={type.image}
@@ -111,14 +115,16 @@ export default function ListPage({
             <div className="flex flex-wrap-row flex-items-center mb-sm">
               <AccentedText className="mr-xs">Compatible with</AccentedText>
 
-              {Object.values(allFrameworks).map(framework => (
+              {Object.values(allFrameworks).map((framework) => (
                 <Chip
                   key={framework.slug}
                   className="mr-xs"
                   icon={framework.icon}
                   title={framework.name}
                   active={frameworks.includes(framework.slug) ? "active" : null}
-                  onClick={() => setItem(frameworks, setFrameworks, framework.slug)}
+                  onClick={() =>
+                    setItem(frameworks, setFrameworks, framework.slug)
+                  }
                 />
               ))}
             </div>
@@ -131,8 +137,11 @@ export default function ListPage({
               icon="typescript.svg"
               title="TypeScript"
               active={languages.includes("typescript") ? "active" : null}
-              onClick={() => setItem(languages, setLanguages, "typescript")} />
-            {showLicense && (<AccentedText className="mr-xs ml-xs">and</AccentedText>)}
+              onClick={() => setItem(languages, setLanguages, "typescript")}
+            />
+            {showLicense && (
+              <AccentedText className="mr-xs ml-xs">and</AccentedText>
+            )}
             {showLicense && (
               <>
                 <Chip
@@ -140,12 +149,14 @@ export default function ListPage({
                   icon="open-source.svg"
                   title="open source"
                   active={licenses.includes("open-source") ? "active" : null}
-                  onClick={() => setItem(licenses, setLicenses, "open-source")} />
+                  onClick={() => setItem(licenses, setLicenses, "open-source")}
+                />
                 <Chip
                   icon="proprietary.svg"
                   title="proprietary"
                   active={licenses.includes("proprietary") ? "active" : null}
-                  onClick={() => setItem(licenses, setLicenses, "proprietary")} />
+                  onClick={() => setItem(licenses, setLicenses, "proprietary")}
+                />
                 <AccentedText className="ml-xs">license</AccentedText>
               </>
             )}
@@ -157,16 +168,19 @@ export default function ListPage({
               title="Canvas"
               className="mr-xs"
               active={renders.includes("canvas") ? "active" : null}
-              onClick={() => setItem(renders, setRenders, "canvas")} />
+              onClick={() => setItem(renders, setRenders, "canvas")}
+            />
             <Chip
               title="SVG"
               className="mr-xs"
               active={renders.includes("svg") ? "active" : null}
-              onClick={() => setItem(renders, setRenders, "svg")} />
+              onClick={() => setItem(renders, setRenders, "svg")}
+            />
             <Chip
               title="HTML"
               active={renders.includes("html") ? "active" : null}
-              onClick={() => setItem(renders, setRenders, "html")} />
+              onClick={() => setItem(renders, setRenders, "html")}
+            />
           </div>
 
           <div className="number-control-wrap">
@@ -194,12 +208,12 @@ export default function ListPage({
           <div>
             <div className="row">
               {filteredTools &&
-              filteredTools.map((tool) => (
-                <div className="col-xl-6 mb-md" key={tool.id + Math.random()}>
-                  {/* to lazy load on scroll need to set heigth */}
-                  <ToolCard {...tool} />
-                </div>
-              ))}
+                filteredTools.map((tool) => (
+                  <div className="col-xl-6 mb-md" key={tool.id}>
+                    {/* to lazy load on scroll need to set heigth */}
+                    <ToolCard {...tool} />
+                  </div>
+                ))}
             </div>
           </div>
         </main>
