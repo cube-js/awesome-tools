@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function Card(props) {
   return (
-    <Link href={props.href}>
+    <Link href={props.href} legacyBehavior>
       <a target="_blank">
         <div
           className={

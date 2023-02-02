@@ -13,7 +13,7 @@ export default function ToolCard(props) {
   }
 
   return (
-    <Link href={"/tools/" + props.id} className="full-height">
+    <Link href={"/tools/" + props.id} className="full-height" legacyBehavior>
       <a className="full-height">
         <div className={styles.toolCard} shadow={shadow}>
           <div className="flex flex-items-center">

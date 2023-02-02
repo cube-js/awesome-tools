@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function Button(props) {
   return (
-    <Link href={props.href}>
+    <Link href={props.href} legacyBehavior>
       <a
         type="button"
         role="button"

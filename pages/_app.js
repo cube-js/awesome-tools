@@ -5,8 +5,8 @@ import "bootstrap/dist/css/bootstrap-grid.min.css";
 import Head from "next/head";
 import Header from "../components/Header";
 import PurpleBanner from "@cube-dev/purple-banner";
-import { DefaultSeo } from 'next-seo';
-import { useRouter } from 'next/router';
+import { DefaultSeo } from "next-seo";
+import { useRouter } from "next/router";
 
 const Footer = dynamic(() => import("../components/Footer"));
 
@@ -21,9 +21,23 @@ function MyApp({ Component, pageProps }) {
   return (
     <Fragment>
       <Head>
-        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
-        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
-        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+        <link
+          rel="apple-touch-icon"
+          sizes="180x180"
+          href="/apple-touch-icon.png"
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="32x32"
+          href="/favicon-32x32.png"
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="16x16"
+          href="/favicon-16x16.png"
+        />
         <link rel="manifest" href="/site.webmanifest" />
         <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
         <link rel="icon" href="/favicon.png" type="image/png" />
@@ -92,11 +106,14 @@ function MyApp({ Component, pageProps }) {
         }}
         twitter={{
           cardType: "summary_large_image",
-          site: "@thecubejs"
+          site: "@thecubejs",
         }}
       />
 
-      <PurpleBanner utmSource="awesome"/>
+      <PurpleBanner
+        utmSource="awesome"
+        debugMode={process.env.NEXT_PUBLIC_SHOW_PURPLE_BANNER === "true"}
+      />
       <Header />
       <Component {...pageProps} />
       <Footer />
