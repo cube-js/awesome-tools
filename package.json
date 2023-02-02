@@ -11,8 +11,6 @@
   },
   "dependencies": {
     "@cube-dev/purple-banner": "^2.0.3",
-    "@netlify/plugin-nextjs": "beta",
-    "@next/bundle-analyzer": "^12.0.4",
     "bootstrap": "^5.0.1",
     "cubedev-tracking": "1.1.0",
     "dayjs": "^1.10.7",
@@ -26,18 +24,11 @@
     "react-dom": "^17.0.2",
     "react-slick": "^0.28.1",
     "react-svg": "^13.0.5",
-    "sass": "^1.32.13",
     "slick-carousel": "^1.8.1"
   },
   "devDependencies": {
-    "babel-plugin-root-import": "^6.6.0",
-    "imagemin-mozjpeg": "^9.0.0",
-    "imagemin-optipng": "^8.0.0",
-    "imagemin-svgo": "^10.0.0",
+    "@next/bundle-analyzer": "^12.0.4",
     "next-compose-plugins": "^2.2.1",
-    "next-optimized-images": "^3.0.0-canary.10",
-    "react-optimized-image": "^0.4.1",
-    "responsive-loader": "^2.3.0",
-    "sharp": "^0.29.3"
+    "sass": "^1.32.13"
   }
 }

@@ -2,7 +2,6 @@ import styles from "./ToolCard.module.scss";
 import dayjs from "dayjs";
 import Link from "next/link";
 import abbreviateNumber from "../../utils/number";
-import Img from 'react-optimized-image';
 
 export default function ToolCard(props) {
   let shadow = getShadowByLabel(props?.feature_label);
@@ -18,11 +17,11 @@ export default function ToolCard(props) {
       <a className="full-height">
         <div className={styles.toolCard} shadow={shadow}>
           <div className="flex flex-items-center">
-            <Img
+            <img
               className={styles.toolCard__logo}
-              src={require(`~/public/images/logo/${props.logo}`)}
-              sizes={[60]}
-              alt={`${props.title} logo`} />
+              src={`/images/logo/${props.logo}`}
+              alt={`${props.title} logo`}
+            />
             <div className="flex flex-column">
               <h2 className={styles.toolCard__title}>
                 {props.title || ""}
@@ -43,9 +42,9 @@ export default function ToolCard(props) {
               <div className="flex flex-column">
                 <span className={styles.features}>GitHub stars</span>
                 <div className={styles.github}>
-                  <Img
+                  <img
                     className={styles.icon}
-                    src={require(`~/public/images/logo/github.svg`)}
+                    src={`/images/logo/github.svg`}
                     alt={`${props.title} logo`}
                   />
                   <span className={styles.features__text}>
@@ -67,9 +66,9 @@ export default function ToolCard(props) {
                           key={framework + Math.random()}
                         >
                           {framework !== "Universal" ? (
-                            <Img
+                            <img
                               className={styles.icon}
-                              src={require(`~/public/images/logo/${framework.toLowerCase()}.svg`)}
+                              src={`/images/logo/${framework.toLowerCase()}.svg`}
                               alt={`${props.title} logo`}
                             />
                           ) : null}
@@ -93,9 +92,9 @@ export default function ToolCard(props) {
                 <div className={styles.language}>
                   <div className={styles.language__wrapper}>
                     {language ? (
-                      <Img
+                      <img
                         className={styles.icon}
-                        src={require(`~/public/images/logo/${language.toLowerCase()}.svg`)}
+                        src={`/images/logo/${language.toLowerCase()}.svg`}
                         alt={`${props.title} logo`}
                       />
                     ) : null}
@@ -120,9 +119,9 @@ export default function ToolCard(props) {
           </div>
           {props.feature_label && (
             <div className={styles.toolCard__achievement}>
-              <Img
+              <img
                 className={styles.toolCard__achievement__icon}
-                src={require(`~/public/images/${props.feature_label}.svg`)}
+                src={`/images/${props.feature_label}.svg`}
                 alt={`${props.title} logo`}
               />
             </div>
