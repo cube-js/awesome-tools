@@ -63,13 +63,9 @@ export default function ListPage({
     );
   }, [framework, exploreTools, frameworks, languages, licenses, renders]);
 
-  const filteredTools = filter(
-    tools,
-    frameworks,
-    languages,
-    licenses,
-    renders,
-    exploreTools
+  const filteredTools = React.useMemo(
+    () => filter(tools, frameworks, languages, licenses, renders, exploreTools),
+    [tools, frameworks, languages, licenses, renders, exploreTools]
   );
 
   const setItem = (array, set, item) => {
