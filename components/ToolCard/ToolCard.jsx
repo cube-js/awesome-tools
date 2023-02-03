@@ -1,7 +1,10 @@
 import styles from "./ToolCard.module.scss";
 import dayjs from "dayjs";
+import dayjsUtc from "dayjs/plugin/utc";
 import Link from "next/link";
 import abbreviateNumber from "../../utils/number";
+
+dayjs.extend(dayjsUtc);
 
 export default function ToolCard(props) {
   let shadow = getShadowByLabel(props?.feature_label);
@@ -109,9 +112,9 @@ export default function ToolCard(props) {
                 <span className={styles.features}>Last release</span>
                 <div>
                   <span className={styles.features__text}>
-                    {/* {dayjs(props?.github_data?.last_release?.date).format(
-                      "MMM DD, YYYY"
-                    ) || "-"} */}
+                    {dayjs(props?.github_data?.last_release?.date)
+                      .utc()
+                      .format("MMM DD, YYYY") || "-"}
                   </span>
                 </div>
               </div>
