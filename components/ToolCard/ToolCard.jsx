@@ -59,11 +59,11 @@ export default function ToolCard(props) {
                 <span className={styles.features}>Framework</span>
                 <div className={styles.framework}>
                   {props.frameworks &&
-                    props.frameworks.map((framework) => {
+                    props.frameworks.map((framework, i) => {
                       return (
                         <div
                           className={styles.framework__wrapper}
-                          key={framework + Math.random()}
+                          key={`${framework}_${i}`}
                         >
                           {framework !== "Universal" ? (
                             <img

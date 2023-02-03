@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "@cube-dev/purple-banner": "^2.0.5",
+    "@netlify/plugin-nextjs": "^4.30.3",
     "bootstrap": "^5.0.1",
     "cubedev-tracking": "1.1.0",
     "dayjs": "^1.10.7",
@@ -27,7 +28,7 @@
     "slick-carousel": "^1.8.1"
   },
   "devDependencies": {
-    "@netlify/plugin-nextjs": "^4.30.3",
+    "@netlify/next": "^1.4.3",
     "@next/bundle-analyzer": "^13.1.6",
     "sass": "^1.32.13"
   }

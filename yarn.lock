@@ -176,6 +176,11 @@
     ufo "^1.0.0"
     unstorage "^1.0.0"
 
+"@netlify/next@^1.4.3":
+  version "1.4.3"
+  resolved "https://registry.yarnpkg.com/@netlify/next/-/next-1.4.3.tgz#13f30eaedfd434d4e280afc9bdeefaea1a861456"
+  integrity sha512-2O4qfDZMCltFWUZ1Ba2U3Ayf/d+Hifw8nUInv5hHitbl/fNfQpB4CQIgBCvry16ljHJ05uBWuIAmScSNY+zMcw==
+
 "@netlify/plugin-nextjs@^4.30.3":
   version "4.30.3"
   resolved "https://registry.yarnpkg.com/@netlify/plugin-nextjs/-/plugin-nextjs-4.30.3.tgz#2cde50132f5751b3b3ef6f0cf4015567a496822b"
