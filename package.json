@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "@cube-dev/purple-banner": "^2.0.5",
+    "@netlify/plugin-nextjs": "^4.30.3",
     "bootstrap": "^5.0.1",
     "cubedev-tracking": "1.1.0",
     "dayjs": "^1.10.7",
