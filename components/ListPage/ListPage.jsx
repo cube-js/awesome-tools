@@ -205,17 +205,17 @@ export default function ListPage({
             />
           </div>
 
-          <div>
+          {/* <div>
             <div className="row">
               {filteredTools &&
                 filteredTools.map((tool) => (
                   <div className="col-xl-6 mb-md" key={tool.id}>
-                    {/* to lazy load on scroll need to set heigth */}
+                    
                     <ToolCard {...tool} />
                   </div>
                 ))}
             </div>
-          </div>
+          </div> */}
         </main>
       </div>
     </>
