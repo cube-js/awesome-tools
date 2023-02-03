@@ -15,8 +15,7 @@ export default function ToolCard(props) {
   return (
     <Link href={"/tools/" + props.id} className="full-height" legacyBehavior>
       <a className="full-height">
-        test
-        {/* <div className={styles.toolCard} shadow={shadow}>
+        <div className={styles.toolCard} shadow={shadow}>
           <div className="flex flex-items-center">
             <img
               className={styles.toolCard__logo}
@@ -38,7 +37,7 @@ export default function ToolCard(props) {
             className={styles.toolCard__description}
             dangerouslySetInnerHTML={{ __html: props.description }}
           ></p>
-          <div className="flex flex-wrap-row">
+          {/* <div className="flex flex-wrap-row">
             {props?.github_data && (
               <div className="flex flex-column">
                 <span className={styles.features}>GitHub stars</span>
@@ -117,7 +116,7 @@ export default function ToolCard(props) {
                 </div>
               </div>
             )}
-          </div>
+          </div> */}
           {props.feature_label && (
             <div className={styles.toolCard__achievement}>
               <img
@@ -127,7 +126,7 @@ export default function ToolCard(props) {
               />
             </div>
           )}
-        </div> */}
+        </div>
       </a>
     </Link>
   );
