@@ -27,6 +27,7 @@
     "slick-carousel": "^1.8.1"
   },
   "devDependencies": {
+    "@netlify/plugin-nextjs": "^4.30.3",
     "@next/bundle-analyzer": "^13.1.6",
     "sass": "^1.32.13"
   }
