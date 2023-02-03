@@ -1,9 +1,5 @@
 {
   "presets": [
     "next/babel"
-  ],
-  "plugins": [
-    "react-optimized-image/plugin",
-    "babel-plugin-root-import"
   ]
 }
