@@ -10,10 +10,7 @@ import H1 from "../Text/H1";
 import AccentedText from "../Text/AccentedText";
 import { NextSeo } from "next-seo";
 import ToolCard from "../ToolCard";
-
-const ToolsNumberControl = dynamic(() => import("../ToolsNumberControl"), {
-  ssr: false,
-});
+import ToolsNumberControl from "../ToolsNumberControl";
 
 export default function ListPage({
   tools,
@@ -33,11 +30,11 @@ export default function ListPage({
   const [renders, setRenders] = useState([]);
 
   const isFiltered =
-    exploreTools.length > 0 ||
-    frameworks.length > 0 ||
-    languages.length > 0 ||
-    licenses.length > 0 ||
-    renders.length > 0;
+    exploreTools.length ||
+    frameworks.length ||
+    languages.length ||
+    licenses.length ||
+    renders.length;
 
   useEffect(() => {
     if (Object.keys(query).length && !isFirstLoad) {
@@ -190,13 +187,7 @@ export default function ListPage({
           <div className="number-control-wrap">
             <ToolsNumberControl
               filteredTools={filteredTools}
-              isChanged={
-                exploreTools.length ||
-                frameworks.length ||
-                languages.length ||
-                licenses.length ||
-                renders.length
-              }
+              isChanged={isFiltered}
               clearFilters={() => {
                 clearFilters([
                   setExploreTools,
@@ -211,8 +202,8 @@ export default function ListPage({
 
           <div className="row">
             {filteredTools &&
-              filteredTools.map((tool, i) => (
-                <div className="col-xl-6 mb-md" key={`${tool.id}_${i}`}>
+              filteredTools.map((tool) => (
+                <div className="col-xl-6 mb-md" key={tool.id}>
                   {/* to lazy load on scroll need to set heigth */}
                   <ToolCard {...tool} />
                 </div>
