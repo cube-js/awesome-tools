@@ -9,13 +9,8 @@ import ExploreToolsCard from "../ExploreToolsCard";
 import H1 from "../Text/H1";
 import AccentedText from "../Text/AccentedText";
 import { NextSeo } from "next-seo";
-
-const ToolCard = dynamic(() => import("../ToolCard"), {
-  ssr: false,
-});
-const ToolsNumberControl = dynamic(() => import("../ToolsNumberControl"), {
-  ssr: false,
-});
+import ToolCard from "../ToolCard";
+import ToolsNumberControl from "../ToolsNumberControl";
 
 export default function ListPage({
   tools,
@@ -33,6 +28,13 @@ export default function ListPage({
   const [languages, setLanguages] = useState([]);
   const [licenses, setLicenses] = useState([]);
   const [renders, setRenders] = useState([]);
+
+  const isFiltered =
+    exploreTools.length ||
+    frameworks.length ||
+    languages.length ||
+    licenses.length ||
+    renders.length;
 
   useEffect(() => {
     if (Object.keys(query).length && !isFirstLoad) {
@@ -65,14 +67,9 @@ export default function ListPage({
     );
   }, [framework, exploreTools, frameworks, languages, licenses, renders]);
 
-  const filteredTools = filter(
-    tools,
-    frameworks,
-    languages,
-    licenses,
-    renders,
-    exploreTools
-  );
+  const filteredTools = isFiltered
+    ? filter(tools, frameworks, languages, licenses, renders, exploreTools)
+    : tools;
 
   const setItem = (array, set, item) => {
     const index = array.indexOf(item);
@@ -190,13 +187,7 @@ export default function ListPage({
           <div className="number-control-wrap">
             <ToolsNumberControl
               filteredTools={filteredTools}
-              isChanged={
-                exploreTools.length ||
-                frameworks.length ||
-                languages.length ||
-                licenses.length ||
-                renders.length
-              }
+              isChanged={isFiltered}
               clearFilters={() => {
                 clearFilters([
                   setExploreTools,
@@ -211,8 +202,8 @@ export default function ListPage({
 
           <div className="row">
             {filteredTools &&
-              filteredTools.map((tool, i) => (
-                <div className="col-xl-6 mb-md" key={`${tool.id}_${i}`}>
+              filteredTools.map((tool) => (
+                <div className="col-xl-6 mb-md" key={tool.id}>
                   {/* to lazy load on scroll need to set heigth */}
                   <ToolCard {...tool} />
                 </div>
