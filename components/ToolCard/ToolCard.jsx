@@ -37,7 +37,7 @@ export default function ToolCard(props) {
             className={styles.toolCard__description}
             dangerouslySetInnerHTML={{ __html: props.description }}
           ></p>
-          {/* <div className="flex flex-wrap-row">
+          <div className="flex flex-wrap-row">
             {props?.github_data && (
               <div className="flex flex-column">
                 <span className={styles.features}>GitHub stars</span>
@@ -47,9 +47,9 @@ export default function ToolCard(props) {
                     src={`/images/logo/github.svg`}
                     alt={`${props.title} logo`}
                   />
-                  <span className={styles.features__text}>
+                  {/* <span className={styles.features__text}>
                     {abbreviateNumber(props?.github_data?.stars) || "-"}
-                  </span>
+                  </span> */}
                 </div>
               </div>
             )}
@@ -116,7 +116,7 @@ export default function ToolCard(props) {
                 </div>
               </div>
             )}
-          </div> */}
+          </div>
           {props.feature_label && (
             <div className={styles.toolCard__achievement}>
               <img
