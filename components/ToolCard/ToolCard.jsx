@@ -63,7 +63,7 @@ export default function ToolCard(props) {
                       return (
                         <div
                           className={styles.framework__wrapper}
-                          key={framework + Math.random()}
+                          key={framework}
                         >
                           {framework !== "Universal" ? (
                             <img
