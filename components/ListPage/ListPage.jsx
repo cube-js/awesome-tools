@@ -9,10 +9,8 @@ import ExploreToolsCard from "../ExploreToolsCard";
 import H1 from "../Text/H1";
 import AccentedText from "../Text/AccentedText";
 import { NextSeo } from "next-seo";
+import ToolCard from "../ToolCard";
 
-const ToolCard = dynamic(() => import("../ToolCard"), {
-  ssr: false,
-});
 const ToolsNumberControl = dynamic(() => import("../ToolsNumberControl"), {
   ssr: false,
 });
