@@ -97,7 +97,7 @@ export default function ListPage({
 
           {showType && (
             <div className="row mb-md">
-              {Object.values(allTypes).map((type) => (
+              {Object.values(allTypes).map((type, i) => (
                 <ExploreToolsCard
                   key={type.slug}
                   onClick={() =>
@@ -205,17 +205,15 @@ export default function ListPage({
             />
           </div>
 
-          {/* <div>
-            <div className="row">
-              {filteredTools &&
-                filteredTools.map((tool) => (
-                  <div className="col-xl-6 mb-md" key={tool.id}>
-                    
-                    <ToolCard {...tool} />
-                  </div>
-                ))}
-            </div>
-          </div> */}
+          <div className="row">
+            {filteredTools &&
+              filteredTools.map((tool, i) => (
+                <div className="col-xl-6 mb-md" key={`${tool.id}_${i}`}>
+                  {/* to lazy load on scroll need to set heigth */}
+                  <ToolCard {...tool} />
+                </div>
+              ))}
+          </div>
         </main>
       </div>
     </>
