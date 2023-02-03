@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "NODE_ENV=development next build",
+    "build": "next build",
     "postbuild": "next-sitemap",
     "export": "next export",
     "start": "next start"
