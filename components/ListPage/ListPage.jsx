@@ -10,8 +10,12 @@ import H1 from "../Text/H1";
 import AccentedText from "../Text/AccentedText";
 import { NextSeo } from "next-seo";
 
-const ToolCard = dynamic(() => import("../ToolCard"));
-const ToolsNumberControl = dynamic(() => import("../ToolsNumberControl"));
+const ToolCard = dynamic(() => import("../ToolCard"), {
+  ssr: false,
+});
+const ToolsNumberControl = dynamic(() => import("../ToolsNumberControl"), {
+  ssr: false,
+});
 
 export default function ListPage({
   tools,
