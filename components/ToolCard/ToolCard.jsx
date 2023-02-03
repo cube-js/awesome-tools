@@ -47,9 +47,9 @@ export default function ToolCard(props) {
                     src={`/images/logo/github.svg`}
                     alt={`${props.title} logo`}
                   />
-                  {/* <span className={styles.features__text}>
+                  <span className={styles.features__text}>
                     {abbreviateNumber(props?.github_data?.stars) || "-"}
-                  </span> */}
+                  </span>
                 </div>
               </div>
             )}
@@ -109,9 +109,9 @@ export default function ToolCard(props) {
                 <span className={styles.features}>Last release</span>
                 <div>
                   <span className={styles.features__text}>
-                    {dayjs(props?.github_data?.last_release?.date).format(
+                    {/* {dayjs(props?.github_data?.last_release?.date).format(
                       "MMM DD, YYYY"
-                    ) || "-"}
+                    ) || "-"} */}
                   </span>
                 </div>
               </div>
