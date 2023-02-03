@@ -32,6 +32,13 @@ export default function ListPage({
   const [licenses, setLicenses] = useState([]);
   const [renders, setRenders] = useState([]);
 
+  const isFiltered =
+    exploreTools.length > 0 ||
+    frameworks.length > 0 ||
+    languages.length > 0 ||
+    licenses.length > 0 ||
+    renders.length > 0;
+
   useEffect(() => {
     if (Object.keys(query).length && !isFirstLoad) {
       setParamsFromRouter(
@@ -63,10 +70,9 @@ export default function ListPage({
     );
   }, [framework, exploreTools, frameworks, languages, licenses, renders]);
 
-  const filteredTools = React.useMemo(
-    () => filter(tools, frameworks, languages, licenses, renders, exploreTools),
-    [tools, frameworks, languages, licenses, renders, exploreTools]
-  );
+  const filteredTools = isFiltered
+    ? filter(tools, frameworks, languages, licenses, renders, exploreTools)
+    : tools;
 
   const setItem = (array, set, item) => {
     const index = array.indexOf(item);
