@@ -49,8 +49,12 @@ function App(props) {
         >
           {props.slidesData &&
             props.slidesData.map((slide, i) => (
-              <div className={styles.slickSlide} key={slide + Math.random()}>
-                <img className={styles.slickSlideImage} src={slide} alt={`Preview ${i}`} />
+              <div className={styles.slickSlide} key={slide}>
+                <img
+                  className={styles.slickSlideImage}
+                  src={slide}
+                  alt={`Preview ${i}`}
+                />
               </div>
             ))}
         </Slider>
@@ -62,8 +66,12 @@ function App(props) {
           >
             {props.slidesData &&
               props.slidesData.map((slide, i) => (
-                <div className={styles.slickSlide} key={slide + Math.random()}>
-                  <img className={styles.slickSlideImage} src={slide} alt={`Thumbnail ${i}`} />
+                <div className={styles.slickSlide} key={slide}>
+                  <img
+                    className={styles.slickSlideImage}
+                    src={slide}
+                    alt={`Thumbnail ${i}`}
+                  />
                 </div>
               ))}
           </Slider>

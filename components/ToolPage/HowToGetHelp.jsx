@@ -36,7 +36,8 @@ export default function HowToGetHelp(props) {
         <div className={styles.textWrap + " col-lg-3"}>
           <H2>
             How to
-            <br />Get Help
+            <br />
+            Get Help
           </H2>
         </div>
         {cards
@@ -60,10 +61,7 @@ export default function HowToGetHelp(props) {
             //   className = " col-lg-4";
             // }
             return card.href ? (
-              <div
-                key={card.title + Math.random()}
-                className={styles.cardWrap + className}
-              >
+              <div key={card.title} className={styles.cardWrap + className}>
                 <GetHelpCard {...card} />
               </div>
             ) : null;
