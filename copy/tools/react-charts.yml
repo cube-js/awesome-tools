@@ -46,7 +46,7 @@ github_data:
   stars: 2402
   contributors: 31
   issues: 43
-  stale_issues: 19
+  stale_issues: 20
   last_release:
     date: '2023-01-26T21:54:36Z'
     link: 'https://github.com/TanStack/react-charts/releases/tag/v3.0.0-beta.54'
