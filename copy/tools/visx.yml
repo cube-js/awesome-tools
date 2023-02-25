@@ -49,9 +49,9 @@ content:
     title: Building a visx Dashboard with Cube
     link: 'https://cube.dev/blog/building-a-visx-dashboard-with-cube'
 github_data:
-  stars: 16732
+  stars: 16738
   contributors: 148
-  issues: 116
+  issues: 117
   stale_issues: 82
   last_release:
     date: '2023-02-13T20:17:07Z'
