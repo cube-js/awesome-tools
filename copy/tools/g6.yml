@@ -47,7 +47,7 @@ github_data:
   stars: 9558
   contributors: 112
   issues: 194
-  stale_issues: 71
+  stale_issues: 72
   last_release:
     date: '2023-02-21T11:52:55Z'
     link: 'https://github.com/antvis/G6/releases/tag/4.8.7'
