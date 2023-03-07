@@ -49,10 +49,10 @@ content:
 github_data:
   stars: 1115
   contributors: 6
-  issues: 39
+  issues: 40
   stale_issues: 28
   last_release:
     date: '2023-02-09T07:40:47Z'
     link: 'https://github.com/amcharts/amcharts4/releases/tag/4.10.34'
 stackoverflow_data:
-  questions_count: 3170
+  questions_count: 3172
