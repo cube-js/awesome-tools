@@ -48,8 +48,8 @@ content:
     link: 'https://g2.antv.vision/en/docs/manual/getting-started'
 github_data:
   stars: 11540
-  contributors: 12
-  issues: 213
+  contributors: 13
+  issues: 214
   stale_issues: 128
   last_release:
     date: '2023-03-13T02:43:01Z'
