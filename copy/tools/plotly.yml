@@ -59,11 +59,11 @@ content:
     link: 'https://plotly.com/javascript/getting-started/'
 github_data:
   stars: 15455
-  contributors: 238
-  issues: 1368
-  stale_issues: 1185
+  contributors: 239
+  issues: 1372
+  stale_issues: 1186
   last_release:
-    date: '2023-03-13T14:35:52Z'
-    link: 'https://github.com/plotly/plotly.js/releases/tag/v2.19.0'
+    date: '2023-03-14T15:58:06Z'
+    link: 'https://github.com/plotly/plotly.js/releases/tag/v2.19.1'
 stackoverflow_data:
-  questions_count: 13890
+  questions_count: 13894

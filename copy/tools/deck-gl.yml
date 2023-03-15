@@ -51,9 +51,9 @@ content:
     title: Getting Started
     link: 'https://deck.gl/docs/get-started/using-standalone'
 github_data:
-  stars: 10681
+  stars: 10685
   contributors: 220
-  issues: 173
+  issues: 174
   stale_issues: 103
   last_release:
     date: '2023-03-13T23:42:10Z'
