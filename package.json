@@ -10,7 +10,7 @@
     "start": "next start"
   },
   "dependencies": {
-    "@cube-dev/purple-banner": "2.0.8",
+    "@cube-dev/purple-banner": "2.0.15",
     "@netlify/plugin-nextjs": "^4.30.3",
     "bootstrap": "^5.0.1",
     "cubedev-tracking": "1.1.0",
