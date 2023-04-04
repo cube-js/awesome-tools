@@ -54,7 +54,7 @@ github_data:
   issues: 301
   stale_issues: 149
   last_release:
-    date: '2023-03-16T07:06:29Z'
-    link: 'https://github.com/antvis/G2Plot/releases/tag/2.4.27'
+    date: '2023-04-03T12:00:04Z'
+    link: 'https://github.com/antvis/G2Plot/releases/tag/2.4.29'
 stackoverflow_data:
   questions_count: 9
