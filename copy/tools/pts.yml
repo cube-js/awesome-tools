@@ -51,7 +51,7 @@ github_data:
   stars: 4952
   contributors: 19
   issues: 42
-  stale_issues: 30
+  stale_issues: 31
   last_release:
     date: '2022-12-08T09:43:45Z'
     link: 'https://github.com/williamngan/pts/releases/tag/v0.11.3'
