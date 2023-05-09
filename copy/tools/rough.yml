@@ -50,7 +50,7 @@ github_data:
   stars: 18219
   contributors: 13
   issues: 26
-  stale_issues: 20
+  stale_issues: 21
   last_release:
     date: '2019-03-14T19:05:30Z'
     link: 'https://github.com/rough-stuff/rough/releases/tag/v3.1.0'
