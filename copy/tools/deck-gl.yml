@@ -56,7 +56,7 @@ github_data:
   issues: 190
   stale_issues: 118
   last_release:
-    date: '2023-05-10T13:55:12Z'
-    link: 'https://github.com/visgl/deck.gl/releases/tag/v8.9.14'
+    date: '2023-05-14T00:11:55Z'
+    link: 'https://github.com/visgl/deck.gl/releases/tag/v8.9.15'
 stackoverflow_data:
-  questions_count: 228
+  questions_count: 229
