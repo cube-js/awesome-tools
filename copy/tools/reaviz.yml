@@ -44,8 +44,8 @@ content:
     title: Getting Started
     link: 'https://reaviz.io/?path=/story/docs-getting-started-quick-start--page'
 github_data:
-  stars: 778
-  contributors: 19
+  stars: 777
+  contributors: 20
   issues: 27
   stale_issues: 21
   last_release:
