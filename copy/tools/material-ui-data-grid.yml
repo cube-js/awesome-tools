@@ -57,10 +57,10 @@ content:
 github_data:
   stars: 2749
   contributors: 244
-  issues: 701
+  issues: 702
   stale_issues: 199
   last_release:
     date: '2023-05-19T14:07:11Z'
-    link: 'https://github.com/mui/mui-x/releases/tag/6.5.0'
+    link: 'https://github.com/mui/mui-x/releases/tag/v6.5.0'
 stackoverflow_data:
-  questions_count: 21472
+  questions_count: 21474
