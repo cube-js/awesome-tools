@@ -53,10 +53,10 @@ content:
 github_data:
   stars: 19454
   contributors: 627
-  issues: 197
+  issues: 198
   stale_issues: 137
   last_release:
     date: '2023-02-22T18:32:48Z'
     link: 'https://github.com/processing/p5.js/releases/tag/v1.6.0'
 stackoverflow_data:
-  questions_count: 3044
+  questions_count: 3043
