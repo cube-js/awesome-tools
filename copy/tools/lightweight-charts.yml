@@ -48,8 +48,8 @@ content:
 github_data:
   stars: 6511
   contributors: 47
-  issues: 87
-  stale_issues: 48
+  issues: 86
+  stale_issues: 47
   last_release:
     date: '2023-03-21T13:06:19Z'
     link: 'https://github.com/tradingview/lightweight-charts/releases/tag/v4.0.1'
