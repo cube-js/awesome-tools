@@ -43,8 +43,8 @@ content:
 github_data:
   stars: 1690
   contributors: 11
-  issues: 28
-  stale_issues: 10
+  issues: 27
+  stale_issues: 11
   last_release:
     date: '2023-05-09T16:46:47Z'
     link: 'https://github.com/vizzuhq/vizzu-lib/releases/tag/v0.7.2'
