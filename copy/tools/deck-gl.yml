@@ -53,8 +53,8 @@ content:
 github_data:
   stars: 10981
   contributors: 228
-  issues: 206
-  stale_issues: 123
+  issues: 205
+  stale_issues: 124
   last_release:
     date: '2023-06-14T19:00:08Z'
     link: 'https://github.com/visgl/deck.gl/releases/tag/v8.9.19'
