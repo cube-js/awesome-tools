@@ -57,7 +57,7 @@ github_data:
   issues: 0
   stale_issues: 0
   last_release:
-    date: '2023-06-08T16:20:24Z'
-    link: 'https://github.com/zingchart/ZingChart/releases/tag/2.9.11'
+    date: '2023-06-26T15:46:24Z'
+    link: 'https://github.com/zingchart/ZingChart/releases/tag/2.9.11-1'
 stackoverflow_data:
   questions_count: 251
