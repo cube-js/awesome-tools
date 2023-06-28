@@ -45,9 +45,9 @@ content:
 github_data:
   stars: 874
   contributors: 9
-  issues: 4
+  issues: 3
   stale_issues: 0
   last_release:
-    date: '2023-06-26T03:01:49Z'
-    link: 'https://github.com/mhkeller/layercake/releases/tag/v7.5.0'
+    date: '2023-06-27T20:03:01Z'
+    link: 'https://github.com/mhkeller/layercake/releases/tag/v7.6.0'
 stackoverflow_data: null
