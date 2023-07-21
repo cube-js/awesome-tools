@@ -16,8 +16,7 @@ const config = {
         },
         {
           key: "Content-Security-Policy",
-          value: "default-src 'self';"
-          /*value: "default-src 'self'; script-src 'report-sample' 'self'; style-src 'report-sample' 'self'; object-src 'none'; base-uri 'self'; connect-src 'self' https://amaranth-leech.gcp-us-central1.cubecloudapp.dev https://track.cube.dev; font-src 'self'; frame-src 'self'; img-src 'self'; manifest-src 'self'; media-src 'self'; worker-src 'none';"*/
+          value: "default-src 'self'; script-src 'report-sample' 'self'; style-src 'report-sample' 'self'; object-src 'none'; base-uri 'self'; connect-src 'self' https://amaranth-leech.gcp-us-central1.cubecloudapp.dev https://track.cube.dev; font-src 'self'; frame-src 'self'; img-src 'self'; manifest-src 'self'; media-src 'self'; worker-src 'none';"
         }
       ]
     }
