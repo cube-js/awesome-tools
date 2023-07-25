@@ -57,13 +57,13 @@ content:
 github_data:
   stars: 61194
   contributors: 487
-  issues: 272
+  issues: 268
   stale_issues: 119
   last_release:
-    date: '2023-04-28T06:20:23Z'
-    link: 'https://github.com/chartjs/Chart.js/releases/tag/v4.3.0'
+    date: '2023-07-24T19:46:43Z'
+    link: 'https://github.com/chartjs/Chart.js/releases/tag/v4.3.1'
 stackoverflow_data:
-  questions_count: 13071
+  questions_count: 13076
 integrations:
   - framework: react
     slugs:

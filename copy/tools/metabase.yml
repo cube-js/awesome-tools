@@ -48,12 +48,12 @@ content:
     title: Connecting Metabase to Cube.js
     link: 'https://github.com/pyrooka/metabase-cubejs-driver#usage'
 github_data:
-  stars: 33354
+  stars: 33368
   contributors: 363
-  issues: 2868
+  issues: 2871
   stale_issues: 1716
   last_release:
-    date: '2023-07-21T10:15:14Z'
-    link: 'https://github.com/metabase/metabase/releases/tag/v0.46.6.1'
+    date: '2023-07-25T00:28:05Z'
+    link: 'https://github.com/metabase/metabase/releases/tag/v1.45.4.2'
 stackoverflow_data:
   questions_count: 373
