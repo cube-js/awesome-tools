@@ -46,7 +46,7 @@ content:
     link: >-
       https://github.com/tradingview/lightweight-charts/blob/b58f2c3e7f539db5baab660bc50842367f5ed4fb/docs/README.md
 github_data:
-  stars: 6689
+  stars: 6696
   contributors: 47
   issues: 91
   stale_issues: 54
@@ -54,4 +54,4 @@ github_data:
     date: '2023-03-21T13:06:19Z'
     link: 'https://github.com/tradingview/lightweight-charts/releases/tag/v4.0.1'
 stackoverflow_data:
-  questions_count: 122
+  questions_count: 123
