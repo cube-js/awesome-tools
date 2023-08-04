@@ -46,9 +46,9 @@ content:
     title: Getting Started
     link: 'https://github.com/observablehq/plot#installing'
 github_data:
-  stars: 3258
+  stars: 3257
   contributors: 15
-  issues: 190
+  issues: 189
   stale_issues: 67
   last_release:
     date: '2023-06-28T00:43:56Z'
