@@ -52,10 +52,10 @@ content:
 github_data:
   stars: 11747
   contributors: 194
-  issues: 82
-  stale_issues: 30
+  issues: 83
+  stale_issues: 31
   last_release:
     date: '2023-05-07T22:01:03Z'
     link: 'https://github.com/plouc/nivo/releases/tag/v0.83.0'
 stackoverflow_data:
-  questions_count: 85
+  questions_count: 84
