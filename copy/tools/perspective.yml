@@ -54,7 +54,7 @@ github_data:
   stars: 6591
   contributors: 92
   issues: 87
-  stale_issues: 60
+  stale_issues: 61
   last_release:
     date: '2023-08-15T13:31:30Z'
     link: 'https://github.com/finos/perspective/releases/tag/v2.5.0'
