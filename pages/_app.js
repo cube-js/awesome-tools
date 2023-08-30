@@ -60,35 +60,6 @@ function MyApp({ Component, pageProps }) {
           as="font"
           crossOrigin="anonymous"
         />
-        <style
-          dangerouslySetInnerHTML={{
-            __html: `
-      @font-face {
-        font-family: CeraPro;
-        src: url(/fonts/CeraPro-Regular.woff2);
-        font-weight: 400;
-        font-style: normal;
-        font-display: swap;
-      }
-    
-      @font-face {
-        font-family: CeraPro;
-        src: url(/fonts/CeraPro-Medium.woff2);
-        font-weight: 500;
-        font-style: normal;
-        font-display: swap;
-      }
-    
-      @font-face {
-        font-family: CeraPro;
-        src: url(/fonts/CeraPro-Bold.woff2);
-        font-weight: 700;
-        font-style: normal;
-        font-display: swap;
-      }
-    `,
-          }}
-        />
       </Head>
 
       <DefaultSeo

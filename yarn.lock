@@ -14,10 +14,10 @@
   resolved "https://registry.yarnpkg.com/@corex/deepmerge/-/deepmerge-4.0.37.tgz#873dcf71aee46596d7e385437b0d94770ef4c85f"
   integrity sha512-PX90bEnrLdxd5e6rSFWsghExMuSw0Uov3fWJuuaoFuUQIS/446diu/4seExK5b+43L+SOBbd2uBGwYUkG1JfCw==
 
-"@cube-dev/purple-banner@^2.0.5":
-  version "2.0.5"
-  resolved "https://registry.yarnpkg.com/@cube-dev/purple-banner/-/purple-banner-2.0.5.tgz#1f6a8080251f9f4c2402f9e11fe0d7d6f0069a20"
-  integrity sha512-CSpWGGV+gTbO4NMyR/BUcPT716TlCaGzmlVlUN3JgqUn6U7++SQbbrw1m3yu8DndI172gpufvOKKGJiYvvpQmA==
+"@cube-dev/purple-banner@2.0.19":
+  version "2.0.19"
+  resolved "https://registry.yarnpkg.com/@cube-dev/purple-banner/-/purple-banner-2.0.19.tgz#c96bd1dd029120fb054349bc4829dc308d5ff999"
+  integrity sha512-zJj55jWIrvJ4fPfLwFoY1SGwfXViXoVOufPh14kWolfXCrwh4vxN/8ZYgHVc6qYdSQlyFFCCywSgPc3KBUC7Lw==
   dependencies:
     classnames "^2.3.1"
     dayjs "^1.11.7"
