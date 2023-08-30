@@ -26,25 +26,27 @@ gallery:
   - /images/slider/observable-plot-5.png
 languages:
   - JavaScript
+  - TypeScript
 frameworks:
   - vanilla-js
 slugs:
   github: observablehq/plot
   npm: '@observablehq/plot'
 tags:
-  stackoverflow:
+  stackoverflow: 
     - observablehq
-  twitter: null
+  twitter:
+    - observablehq
 links:
-  website: 'https://observablehq.com/@observablehq/plot'
-  examples: 'https://observablehq.com/@observablehq/plot'
-  docs: 'https://github.com/observablehq/plot#plotplotoptions'
+  website: 'https://observablehq.com/plot'
+  examples: 'https://observablehq.com/@observablehq/plot-gallery'
+  docs: 'https://observablehq.com/plot'
   pricing: null
-  slack: null
+  slack: 'https://observable-community.slack.com/ssb/redirect'
 content:
   - type: official
     title: Getting Started
-    link: 'https://github.com/observablehq/plot#installing'
+    link: 'https://observablehq.com/plot/getting-started'
 github_data:
   stars: 3301
   contributors: 15
