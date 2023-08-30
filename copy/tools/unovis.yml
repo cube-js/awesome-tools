@@ -1,0 +1,62 @@
+title: Unovis
+description: Modular data visualization framework for React, Angular, Svelte, and vanilla TypeScript or JavaScript
+logo: unovis.svg
+developer: null
+based_on:
+  - d3
+  - leaflet
+  - maplibre
+licenses:
+  - type: open-source
+    title: Apache-2.0
+    link: 'https://github.com/f5/unovis/blob/main/LICENSE'
+types:
+  - charts
+  - maps
+renders:
+  - svg
+features:
+  easy-to-customize: 1
+  easy-to-start-with: 0
+  full-fledged: 0
+  very-popular: 0
+  well-documented: 1
+gallery:
+  - /images/slider/unovis-1.png
+  - /images/slider/unovis-2.png
+  - /images/slider/unovis-3.png
+  - /images/slider/unovis-4.png
+  - /images/slider/unovis-5.png
+languages:
+  - JavaScript
+  - TypeScript
+frameworks:
+  - vanilla-js
+  - react
+  - angular
+  - svelte
+slugs:
+  github: f5/unovis
+  npm: '@unovis'
+tags:
+  stackoverflow:
+    - unovis
+  twitter:
+    - unovisdev
+links:
+  website: 'https://unovis.dev'
+  examples: 'https://unovis.dev/gallery'
+  docs: 'https://unovis.dev/docs'
+  pricing: null
+content:
+  - type: official
+    title: Quick Start Guide
+    link: 'https://unovis.dev/docs/quick-start'
+github_data:
+  stars: 771
+  contributors: 2
+  issues: 7
+  stale_issues: 0
+  last_release:
+    date: '2022-12-12T12:12:12Z'
+    link: 'https://github.com/f5/unovis/releases/tag/1.0.0'
