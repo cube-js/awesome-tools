@@ -24,6 +24,7 @@ languages:
 frameworks:
   - vanilla-js
   - react
+  - vue
   - angular
 slugs:
   github: tradingview/lightweight-charts
@@ -36,15 +37,19 @@ tags:
 links:
   website: 'https://www.tradingview.com/lightweight-charts/'
   examples: 'https://www.tradingview.com/lightweight-charts/'
-  docs: >-
-    https://github.com/tradingview/lightweight-charts/tree/b58f2c3e7f539db5baab660bc50842367f5ed4fb/docs
+  docs: 'https://tradingview.github.io/lightweight-charts/'
   pricing: null
   slack: null
 content:
   - type: official
     title: Getting Started
-    link: >-
-      https://github.com/tradingview/lightweight-charts/blob/b58f2c3e7f539db5baab660bc50842367f5ed4fb/docs/README.md
+    link: 'https://tradingview.github.io/lightweight-charts/docs'
+  - type: official
+    title: Customization
+    link: 'https://tradingview.github.io/lightweight-charts/tutorials/customization/intro'
+  - type: official
+    title: Framework integrations
+    link: 'https://tradingview.github.io/lightweight-charts/tutorials#framework-integrations'
 github_data:
   stars: 6814
   contributors: 47
