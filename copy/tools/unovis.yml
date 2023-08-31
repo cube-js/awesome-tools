@@ -1,5 +1,7 @@
 title: Unovis
-description: Modular data visualization framework for React, Angular, Svelte, and vanilla TypeScript or JavaScript
+description: >-
+  Modular data visualization framework for React, Angular, Svelte, and vanilla
+  TypeScript or JavaScript
 logo: unovis.svg
 developer: null
 based_on:
@@ -53,10 +55,12 @@ content:
     title: Quick Start Guide
     link: 'https://unovis.dev/docs/quick-start'
 github_data:
-  stars: 771
-  contributors: 2
-  issues: 7
+  stars: 1421
+  contributors: 3
+  issues: 13
   stale_issues: 0
   last_release:
-    date: '2022-12-12T12:12:12Z'
-    link: 'https://github.com/f5/unovis/releases/tag/1.0.0'
+    date: '2023-08-22T20:46:48Z'
+    link: 'https://github.com/f5/unovis/releases/tag/1.2.1'
+stackoverflow_data:
+  questions_count: 0

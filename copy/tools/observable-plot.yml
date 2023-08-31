@@ -33,7 +33,7 @@ slugs:
   github: observablehq/plot
   npm: '@observablehq/plot'
 tags:
-  stackoverflow: 
+  stackoverflow:
     - observablehq
   twitter:
     - observablehq
@@ -48,9 +48,9 @@ content:
     title: Getting Started
     link: 'https://observablehq.com/plot/getting-started'
 github_data:
-  stars: 3301
+  stars: 3303
   contributors: 15
-  issues: 188
+  issues: 189
   stale_issues: 66
   last_release:
     date: '2023-08-15T16:33:11Z'

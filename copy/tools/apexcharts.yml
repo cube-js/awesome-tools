@@ -51,10 +51,10 @@ content:
     title: Creating your first JavaScript chart
     link: 'https://apexcharts.com/docs/creating-first-javascript-chart/'
 github_data:
-  stars: 12818
+  stars: 12816
   contributors: 172
-  issues: 291
-  stale_issues: 161
+  issues: 289
+  stale_issues: 163
   last_release:
     date: '2023-07-31T11:22:24Z'
     link: 'https://github.com/apexcharts/apexcharts.js/releases/tag/v3.41.1'
