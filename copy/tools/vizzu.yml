@@ -41,11 +41,11 @@ content:
     title: Getting Started
     link: 'https://lib.vizzuhq.com/0.3.0/'
 github_data:
-  stars: 1783
+  stars: 1785
   contributors: 13
   issues: 8
   stale_issues: 2
   last_release:
-    date: '2023-07-12T12:48:54Z'
-    link: 'https://github.com/vizzuhq/vizzu-lib/releases/tag/v0.8.0'
+    date: '2023-08-15T18:08:12Z'
+    link: 'https://github.com/vizzuhq/vizzu-lib/releases/tag/v0.8.1'
 stackoverflow_data: null
