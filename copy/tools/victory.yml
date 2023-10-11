@@ -54,7 +54,7 @@ github_data:
   stars: 10537
   contributors: 222
   issues: 280
-  stale_issues: 200
+  stale_issues: 201
   last_release:
     date: '2022-08-04T17:11:19Z'
     link: 'https://github.com/FormidableLabs/victory/releases/tag/v36.6.0'
