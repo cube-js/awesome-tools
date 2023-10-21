@@ -46,7 +46,7 @@ content:
 github_data:
   stars: 827
   contributors: 23
-  issues: 31
+  issues: 32
   stale_issues: 22
   last_release:
     date: null
