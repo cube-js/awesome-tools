@@ -45,7 +45,7 @@ content:
     title: Quick Start
     link: 'https://frappe.io/charts/docs'
 github_data:
-  stars: 14832
+  stars: 14833
   contributors: 55
   issues: 121
   stale_issues: 113
@@ -53,4 +53,4 @@ github_data:
     date: '2022-04-27T10:43:31Z'
     link: 'https://github.com/frappe/charts/releases/tag/v1.6.3'
 stackoverflow_data:
-  questions_count: 191
+  questions_count: 192
