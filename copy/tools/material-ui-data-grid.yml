@@ -55,12 +55,12 @@ content:
     title: Material UI Dashboard with React
     link: 'https://material-ui-dashboard.cube.dev'
 github_data:
-  stars: 3105
+  stars: 3107
   contributors: 291
-  issues: 875
+  issues: 880
   stale_issues: 343
   last_release:
     date: '2023-11-03T14:08:26Z'
     link: 'https://github.com/mui/mui-x/releases/tag/v6.18.0'
 stackoverflow_data:
-  questions_count: 22334
+  questions_count: 22335
