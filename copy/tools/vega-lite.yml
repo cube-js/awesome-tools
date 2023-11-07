@@ -51,10 +51,10 @@ content:
 github_data:
   stars: 4300
   contributors: 200
-  issues: 639
+  issues: 640
   stale_issues: 546
   last_release:
     date: '2023-10-12T18:20:31Z'
     link: 'https://github.com/vega/vega-lite/releases/tag/v5.16.1'
 stackoverflow_data:
-  questions_count: 1263
+  questions_count: 1264
