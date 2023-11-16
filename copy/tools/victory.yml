@@ -52,9 +52,9 @@ content:
     link: 'https://cube.dev/blog/react-native-charts-with-cubejs-victory/'
 github_data:
   stars: 10581
-  contributors: 224
-  issues: 283
-  stale_issues: 206
+  contributors: 226
+  issues: 282
+  stale_issues: 205
   last_release:
     date: '2023-11-02T15:48:31Z'
     link: 'https://github.com/FormidableLabs/victory/releases/tag/v36.6.12'
