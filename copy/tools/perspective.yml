@@ -53,7 +53,7 @@ content:
 github_data:
   stars: 6942
   contributors: 93
-  issues: 102
+  issues: 104
   stale_issues: 63
   last_release:
     date: '2023-11-20T08:27:37Z'
