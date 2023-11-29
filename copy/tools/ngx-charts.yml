@@ -43,10 +43,10 @@ links:
   slack: null
 content: null
 github_data:
-  stars: 4251
+  stars: 4252
   contributors: 132
-  issues: 676
-  stale_issues: 632
+  issues: 677
+  stale_issues: 633
   last_release:
     date: null
     link: null
