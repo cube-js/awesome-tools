@@ -5,7 +5,7 @@ export default function Home({ tools }) {
   return (
     <ListPage
       tools={tools}
-      title="Data visualization tools"
+      title="Front-end data tools"
     />
   );
 }
