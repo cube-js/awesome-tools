@@ -63,7 +63,7 @@ github_data:
     date: '2023-12-04T19:27:05Z'
     link: 'https://github.com/chartjs/Chart.js/releases/tag/v4.4.1'
 stackoverflow_data:
-  questions_count: 13304
+  questions_count: 13308
 integrations:
   - framework: react
     slugs:
