@@ -51,10 +51,10 @@ content:
 github_data:
   stars: 39220
   contributors: 946
-  issues: 379
+  issues: 380
   stale_issues: 348
   last_release:
     date: '2023-05-18T11:12:03Z'
     link: 'https://github.com/Leaflet/Leaflet/releases/tag/v1.9.4'
 stackoverflow_data:
-  questions_count: 13957
+  questions_count: 13951
