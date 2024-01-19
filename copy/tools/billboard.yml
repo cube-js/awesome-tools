@@ -46,12 +46,12 @@ links:
   slack: null
 content: null
 github_data:
-  stars: 5682
+  stars: 5683
   contributors: 186
-  issues: 152
+  issues: 154
   stale_issues: 131
   last_release:
-    date: '2023-11-08T06:01:27Z'
-    link: 'https://github.com/naver/billboard.js/releases/tag/3.10.3'
+    date: '2024-01-19T06:19:34Z'
+    link: 'https://github.com/naver/billboard.js/releases/tag/3.11.0-next.1'
 stackoverflow_data:
-  questions_count: 64
+  questions_count: 65
