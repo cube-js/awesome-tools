@@ -49,11 +49,11 @@ content:
     title: Building a visx Dashboard with Cube
     link: 'https://cube.dev/blog/building-a-visx-dashboard-with-cube'
 github_data:
-  stars: 18265
-  contributors: 164
+  stars: 18270
+  contributors: 165
   issues: 132
   stale_issues: 100
   last_release:
-    date: '2023-12-15T21:16:09Z'
-    link: 'https://github.com/airbnb/visx/releases/tag/v3.6.1'
+    date: '2024-01-23T21:29:53Z'
+    link: 'https://github.com/airbnb/visx/releases/tag/v3.7.0'
 stackoverflow_data: null
