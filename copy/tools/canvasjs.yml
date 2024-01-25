@@ -1,0 +1,62 @@
+title: CanvasJS
+description: Interactive JavaScript Charting Library for Web Pages
+logo: canvasjs.svg
+developer: null
+based_on: null
+licenses:
+  - type: proprietary
+    license: 'https://canvasjs.com/license/'
+types:
+  - charts
+renders:
+  - canvas
+features:
+  easy-to-customize: 0
+  easy-to-start-with: 0
+  full-fledged: 0
+  very-popular: 0
+  well-documented: 0
+gallery:
+  - /images/slider/canvasjs-1.png
+  - /images/slider/canvasjs-2.png
+  - /images/slider/canvasjs-3.png
+  - /images/slider/canvasjs-4.png
+  - /images/slider/canvasjs-5.png
+languages:
+  - JavaScript
+frameworks:
+  - vanilla-js
+  - react
+  - angular
+  - vue
+slugs:
+  npm: '@canvasjs/charts'
+tags:
+  stackoverflow:
+    - canvasjs
+links:
+  website: 'https://www.canvasjs.com'
+  examples: 'https://canvasjs.com/javascript-charts/'
+  docs: 'https://canvasjs.com/docs/charts/basics-of-creating-html5-chart/'
+  pricing: 'https://canvasjs.com/license/'
+  slack: null
+content:
+  - type: official
+    title: Getting Started with CanvasJS
+    link: 'https://canvasjs.com/docs/charts/basics-of-creating-html5-chart/'
+integrations:
+  - framework: react
+    slugs:
+      npm: '@canvasjs/react-charts'
+    links:
+      website: 'https://canvasjs.com/react-charts/'
+  - framework: angular
+    slugs:
+      npm: '@canvasjs/angular-charts'
+    links:
+      website: 'https://canvasjs.com/angular-charts/'
+  - framework: vue
+    slugs:
+      npm: '@canvasjs/vue-charts'
+    links:
+      website: 'https://canvasjs.com/vuejs-charts/'
