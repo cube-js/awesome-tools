@@ -54,12 +54,12 @@ content:
     link: >-
       https://www.fusioncharts.com/dev/getting-started/plain-javascript/your-first-chart-using-plain-javascript
 github_data:
-  stars: 77
+  stars: 81
   contributors: 9
-  issues: 33
-  stale_issues: 16
+  issues: 34
+  stale_issues: 20
   last_release:
     date: null
     link: null
 stackoverflow_data:
-  questions_count: 785
+  questions_count: 788
