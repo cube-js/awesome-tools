@@ -1,7 +1,7 @@
 title: MUI X Data Grid
 description: Fast and extendable data table and data grid for React
 logo: material-ui.svg
-developer: Material UI
+developer: MUI
 based_on: null
 licenses:
   - type: proprietary
@@ -41,13 +41,13 @@ slugs:
   npm: '@mui/x-data-grid'
 tags:
   stackoverflow:
-    - material-ui
+    - mui-x
   twitter:
-    - MaterialUI
+    - MUI_hq
 links:
   website: 'https://mui.com/x/react-data-grid/'
-  examples: 'https://mui.com/material-ui/react-table/#data-table'
-  docs: 'https://mui.com/x/api/data-grid/data-grid/'
+  examples: 'https://mui.com/x/react-data-grid/#mit-version-free-forever'
+  docs: 'https://mui.com/x/react-data-grid/'
   pricing: 'https://mui.com/pricing/'
   slack: null
 content:
