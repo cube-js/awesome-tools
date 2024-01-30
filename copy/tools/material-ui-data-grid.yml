@@ -56,11 +56,11 @@ content:
     link: 'https://material-ui-dashboard.cube.dev'
 github_data:
   stars: 3261
-  contributors: 311
+  contributors: 312
   issues: 944
-  stale_issues: 406
+  stale_issues: 407
   last_release:
     date: '2024-01-26T12:31:00Z'
     link: 'https://github.com/mui/mui-x/releases/tag/v7.0.0-beta.0'
 stackoverflow_data:
-  questions_count: 22504
+  questions_count: 22510
