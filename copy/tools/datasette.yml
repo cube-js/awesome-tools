@@ -45,7 +45,7 @@ github_data:
   stars: 8660
   contributors: 76
   issues: 506
-  stale_issues: 423
+  stale_issues: 424
   last_release:
     date: '2023-12-22T23:19:30Z'
     link: 'https://github.com/simonw/datasette/releases/tag/0.64.6'
