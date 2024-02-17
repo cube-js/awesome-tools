@@ -44,10 +44,10 @@ content:
 github_data:
   stars: 8705
   contributors: 76
-  issues: 508
+  issues: 506
   stale_issues: 430
   last_release:
-    date: '2024-02-07T16:37:33Z'
-    link: 'https://github.com/simonw/datasette/releases/tag/1.0a8'
+    date: '2024-02-16T22:39:38Z'
+    link: 'https://github.com/simonw/datasette/releases/tag/1.0a9'
 stackoverflow_data:
   questions_count: 5
