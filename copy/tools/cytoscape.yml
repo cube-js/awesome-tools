@@ -50,7 +50,7 @@ content:
     link: 'https://js.cytoscape.org/#getting-started'
 github_data:
   stars: 9650
-  contributors: 147
+  contributors: 148
   issues: 16
   stale_issues: 4
   last_release:
