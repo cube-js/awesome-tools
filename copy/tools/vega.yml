@@ -53,10 +53,10 @@ content:
 github_data:
   stars: 10779
   contributors: 147
-  issues: 426
+  issues: 427
   stale_issues: 404
   last_release:
     date: '2024-01-03T20:14:39Z'
     link: 'https://github.com/vega/vega/releases/tag/v5.27.0'
 stackoverflow_data:
-  questions_count: 940
+  questions_count: 941
