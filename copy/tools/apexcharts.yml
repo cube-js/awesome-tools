@@ -51,9 +51,9 @@ content:
     title: Creating your first JavaScript chart
     link: 'https://apexcharts.com/docs/creating-first-javascript-chart/'
 github_data:
-  stars: 13653
+  stars: 13659
   contributors: 191
-  issues: 326
+  issues: 327
   stale_issues: 219
   last_release:
     date: '2024-02-17T06:19:42Z'
