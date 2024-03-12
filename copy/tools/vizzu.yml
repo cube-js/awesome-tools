@@ -46,6 +46,6 @@ github_data:
   issues: 10
   stale_issues: 5
   last_release:
-    date: '2023-12-20T16:49:35Z'
-    link: 'https://github.com/vizzuhq/vizzu-lib/releases/tag/v0.9.3'
+    date: '2024-03-11T13:48:21Z'
+    link: 'https://github.com/vizzuhq/vizzu-lib/releases/tag/v0.10.0'
 stackoverflow_data: null
