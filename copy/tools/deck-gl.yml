@@ -54,9 +54,9 @@ github_data:
   stars: 11617
   contributors: 254
   issues: 258
-  stale_issues: 162
+  stale_issues: 163
   last_release:
-    date: '2024-03-20T09:37:47Z'
-    link: 'https://github.com/visgl/deck.gl/releases/tag/v9.0.0-beta.10'
+    date: '2024-03-21T19:59:00Z'
+    link: 'https://github.com/visgl/deck.gl/releases/tag/v9.0.1'
 stackoverflow_data:
-  questions_count: 255
+  questions_count: 256

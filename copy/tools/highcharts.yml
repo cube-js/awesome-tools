@@ -50,12 +50,12 @@ content:
     title: React Highcharts Example with Cube.js
     link: 'https://cube.dev/blog/react-highcharts-example/'
 github_data:
-  stars: 11772
+  stars: 11775
   contributors: 241
   issues: 1031
-  stale_issues: 720
+  stale_issues: 721
   last_release:
     date: null
     link: null
 stackoverflow_data:
-  questions_count: 26046
+  questions_count: 26047
