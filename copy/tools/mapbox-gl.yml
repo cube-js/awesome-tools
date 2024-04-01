@@ -56,9 +56,9 @@ github_data:
   stars: 10674
   contributors: 409
   issues: 1187
-  stale_issues: 1021
+  stale_issues: 1022
   last_release:
     date: '2024-03-01T13:09:38Z'
     link: 'https://github.com/mapbox/mapbox-gl-js/releases/tag/v3.2.0'
 stackoverflow_data:
-  questions_count: 9107
+  questions_count: 9108
