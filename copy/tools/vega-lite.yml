@@ -51,8 +51,8 @@ content:
 github_data:
   stars: 4447
   contributors: 204
-  issues: 655
-  stale_issues: 576
+  issues: 653
+  stale_issues: 574
   last_release:
     date: '2024-03-12T00:05:44Z'
     link: 'https://github.com/vega/vega-lite/releases/tag/v5.17.0'
