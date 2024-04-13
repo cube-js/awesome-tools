@@ -55,9 +55,9 @@ github_data:
   stars: 9982
   contributors: 112
   issues: 564
-  stale_issues: 476
+  stale_issues: 478
   last_release:
     date: '2023-12-21T11:14:07Z'
     link: 'https://github.com/keplergl/kepler.gl/releases/tag/v3.0.0'
 stackoverflow_data:
-  questions_count: 75
+  questions_count: 74
