@@ -57,8 +57,8 @@ content:
 github_data:
   stars: 3703
   contributors: 349
-  issues: 1011
-  stale_issues: 476
+  issues: 1005
+  stale_issues: 474
   last_release:
     date: '2024-04-12T17:44:28Z'
     link: 'https://github.com/mui/mui-x/releases/tag/v7.2.0'
