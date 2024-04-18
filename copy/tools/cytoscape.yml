@@ -49,12 +49,12 @@ content:
     title: Getting Started
     link: 'https://js.cytoscape.org/#getting-started'
 github_data:
-  stars: 9759
+  stars: 9760
   contributors: 148
-  issues: 14
+  issues: 16
   stale_issues: 4
   last_release:
-    date: '2023-12-21T00:06:34Z'
-    link: 'https://github.com/cytoscape/cytoscape.js/releases/tag/v3.28.1'
+    date: '2024-04-17T16:54:39Z'
+    link: 'https://github.com/cytoscape/cytoscape.js/releases/tag/v3.29.0'
 stackoverflow_data:
   questions_count: 1287

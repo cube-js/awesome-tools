@@ -57,7 +57,7 @@ github_data:
   stars: 84
   contributors: 9
   issues: 34
-  stale_issues: 29
+  stale_issues: 30
   last_release:
     date: '2024-03-21T18:02:38Z'
     link: 'https://github.com/fusioncharts/fusioncharts-dist/releases/tag/3.23.0'
