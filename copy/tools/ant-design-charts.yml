@@ -50,7 +50,7 @@ github_data:
   stars: 1797
   contributors: 62
   issues: 192
-  stale_issues: 99
+  stale_issues: 100
   last_release:
     date: '2024-04-19T08:03:09Z'
     link: 'https://github.com/ant-design/ant-design-charts/releases/tag/2.1.0'
