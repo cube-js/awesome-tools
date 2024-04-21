@@ -41,8 +41,8 @@ content:
 github_data:
   stars: 24923
   contributors: 506
-  issues: 547
-  stale_issues: 464
+  issues: 546
+  stale_issues: 463
   last_release:
     date: '2021-11-24T03:36:32Z'
     link: 'https://github.com/getredash/redash/releases/tag/v10.1.0'
