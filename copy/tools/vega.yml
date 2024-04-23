@@ -52,7 +52,7 @@ content:
     link: 'https://vega.github.io/vega/tutorials/bar-chart/'
 github_data:
   stars: 10847
-  contributors: 148
+  contributors: 149
   issues: 427
   stale_issues: 406
   last_release:
