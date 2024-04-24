@@ -54,11 +54,11 @@ content:
     link: 'https://mapbox-guide.cube.dev'
 github_data:
   stars: 10704
-  contributors: 412
+  contributors: 413
   issues: 1204
-  stale_issues: 1028
+  stale_issues: 1027
   last_release:
     date: '2024-04-10T11:26:30Z'
     link: 'https://github.com/mapbox/mapbox-gl-js/releases/tag/v3.3.0'
 stackoverflow_data:
-  questions_count: 9106
+  questions_count: 9109
