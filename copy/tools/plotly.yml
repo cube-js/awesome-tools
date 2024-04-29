@@ -61,9 +61,9 @@ github_data:
   stars: 16536
   contributors: 272
   issues: 1552
-  stale_issues: 1370
+  stale_issues: 1371
   last_release:
     date: '2024-04-23T18:58:54Z'
     link: 'https://github.com/plotly/plotly.js/releases/tag/v2.32.0'
 stackoverflow_data:
-  questions_count: 15077
+  questions_count: 15079
