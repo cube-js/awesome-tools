@@ -51,11 +51,11 @@ content:
     link: 'https://cube.dev/blog/react-highcharts-example/'
 github_data:
   stars: 11827
-  contributors: 241
-  issues: 1004
-  stale_issues: 694
+  contributors: 242
+  issues: 1006
+  stale_issues: 693
   last_release:
     date: null
     link: null
 stackoverflow_data:
-  questions_count: 26086
+  questions_count: 26087
