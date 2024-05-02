@@ -48,9 +48,9 @@ content:
     title: Getting Started
     link: 'https://observablehq.com/plot/getting-started'
 github_data:
-  stars: 3884
+  stars: 3887
   contributors: 22
-  issues: 232
+  issues: 233
   stale_issues: 120
   last_release:
     date: '2024-03-13T00:20:51Z'
