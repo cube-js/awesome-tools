@@ -55,7 +55,7 @@ content:
     title: Chart.js Example with Dynamic Dataset
     link: 'https://cube.dev/blog/chart-js-example-with-dynamic-dataset/'
 github_data:
-  stars: 63536
+  stars: 63543
   contributors: 503
   issues: 360
   stale_issues: 219
@@ -63,7 +63,7 @@ github_data:
     date: '2024-02-28T16:51:14Z'
     link: 'https://github.com/chartjs/Chart.js/releases/tag/v4.4.2'
 stackoverflow_data:
-  questions_count: 13437
+  questions_count: 13438
 integrations:
   - framework: react
     slugs:
