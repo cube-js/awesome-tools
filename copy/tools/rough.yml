@@ -47,10 +47,10 @@ content:
     title: Getting Started
     link: 'https://roughjs.com'
 github_data:
-  stars: 19515
+  stars: 19516
   contributors: 13
   issues: 29
-  stale_issues: 26
+  stale_issues: 27
   last_release:
     date: '2019-03-14T19:05:30Z'
     link: 'https://github.com/rough-stuff/rough/releases/tag/v3.1.0'
