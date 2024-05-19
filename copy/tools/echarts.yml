@@ -69,8 +69,8 @@ content:
 github_data:
   stars: 59141
   contributors: 271
-  issues: 2184
-  stale_issues: 1459
+  issues: 2186
+  stale_issues: 1461
   last_release:
     date: '2024-02-18T08:36:53Z'
     link: 'https://github.com/apache/echarts/releases/tag/5.5.0'
