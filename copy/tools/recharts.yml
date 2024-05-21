@@ -56,10 +56,10 @@ content:
 github_data:
   stars: 22839
   contributors: 331
-  issues: 504
+  issues: 503
   stale_issues: 394
   last_release:
     date: '2024-05-08T05:38:44Z'
     link: 'https://github.com/recharts/recharts/releases/tag/v2.12.7'
 stackoverflow_data:
-  questions_count: 796
+  questions_count: 797
