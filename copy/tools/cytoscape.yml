@@ -50,11 +50,11 @@ content:
     link: 'https://js.cytoscape.org/#getting-started'
 github_data:
   stars: 9824
-  contributors: 150
-  issues: 12
+  contributors: 151
+  issues: 11
   stale_issues: 4
   last_release:
     date: '2024-04-25T18:27:35Z'
     link: 'https://github.com/cytoscape/cytoscape.js/releases/tag/v3.29.2'
 stackoverflow_data:
-  questions_count: 1284
+  questions_count: 1282
