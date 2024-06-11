@@ -52,12 +52,12 @@ content:
     title: Your First JavaScript Chart
     link: 'https://www.zingchart.com/docs/getting-started/your-first-javascript-chart'
 github_data:
-  stars: 272
+  stars: 271
   contributors: 23
   issues: 0
   stale_issues: 0
   last_release:
-    date: '2023-12-04T22:49:09Z'
-    link: 'https://github.com/zingchart/ZingChart/releases/tag/2.9.13'
+    date: '2024-06-10T16:34:44Z'
+    link: 'https://github.com/zingchart/ZingChart/releases/tag/2.9.14'
 stackoverflow_data:
   questions_count: 256
