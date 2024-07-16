@@ -42,7 +42,7 @@ content:
     link: 'https://lib.vizzuhq.com/0.3.0/'
 github_data:
   stars: 1890
-  contributors: 15
+  contributors: 14
   issues: 3
   stale_issues: 3
   last_release:
