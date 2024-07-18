@@ -48,7 +48,7 @@ github_data:
   stars: 14901
   contributors: 55
   issues: 125
-  stale_issues: 119
+  stale_issues: 120
   last_release:
     date: '2022-04-27T10:43:31Z'
     link: 'https://github.com/frappe/charts/releases/tag/v1.6.3'
