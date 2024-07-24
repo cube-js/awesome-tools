@@ -53,9 +53,9 @@ content:
     link: >-
       https://tradingview.github.io/lightweight-charts/tutorials#framework-integrations
 github_data:
-  stars: 8860
+  stars: 8864
   contributors: 50
-  issues: 90
+  issues: 91
   stale_issues: 53
   last_release:
     date: '2024-07-11T16:19:46Z'

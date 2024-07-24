@@ -51,10 +51,10 @@ content:
     title: Python User Guide
     link: 'https://perspective.finos.org/docs/python'
 github_data:
-  stars: 8019
+  stars: 8029
   contributors: 93
-  issues: 92
-  stale_issues: 52
+  issues: 90
+  stale_issues: 50
   last_release:
     date: '2024-05-23T08:03:19Z'
     link: 'https://github.com/finos/perspective/releases/tag/v2.10.1'
