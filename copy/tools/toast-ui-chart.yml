@@ -47,7 +47,7 @@ github_data:
   stars: 5333
   contributors: 12
   issues: 16
-  stale_issues: 10
+  stale_issues: 11
   last_release:
     date: '2022-12-21T03:06:57Z'
     link: 'https://github.com/nhn/tui.chart/releases/tag/v4.6.1'
