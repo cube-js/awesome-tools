@@ -51,8 +51,8 @@ content:
 github_data:
   stars: 9339
   contributors: 169
-  issues: 728
-  stale_issues: 725
+  issues: 725
+  stale_issues: 722
   last_release:
     date: '2020-08-08T09:14:36Z'
     link: 'https://github.com/c3js/c3/releases/tag/v0.7.20'
