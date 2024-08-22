@@ -44,9 +44,9 @@ content:
     title: Getting Started
     link: 'https://g6.antv.vision/en/docs/manual/getting-started'
 github_data:
-  stars: 10986
-  contributors: 157
-  issues: 141
+  stars: 10989
+  contributors: 158
+  issues: 147
   stale_issues: 0
   last_release:
     date: '2024-08-13T06:19:05Z'
