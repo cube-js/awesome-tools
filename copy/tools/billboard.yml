@@ -51,7 +51,7 @@ github_data:
   issues: 149
   stale_issues: 137
   last_release:
-    date: '2024-08-13T05:01:33Z'
-    link: 'https://github.com/naver/billboard.js/releases/tag/3.13.0-next.2'
+    date: '2024-08-23T05:41:52Z'
+    link: 'https://github.com/naver/billboard.js/releases/tag/3.13.0'
 stackoverflow_data:
   questions_count: 65
