@@ -48,9 +48,9 @@ content:
     title: Getting Started
     link: 'https://github.com/jwilber/roughViz#installation'
 github_data:
-  stars: 6690
+  stars: 6695
   contributors: 16
-  issues: 14
+  issues: 13
   stale_issues: 9
   last_release:
     date: null
