@@ -44,7 +44,7 @@ content:
     title: Quick Start
     link: 'https://github.com/palantir/plottable/blob/develop/README.md#quick-start'
 github_data:
-  stars: 2963
+  stars: 2962
   contributors: 85
   issues: 305
   stale_issues: 305
@@ -52,4 +52,4 @@ github_data:
     date: '2021-11-22T14:30:28Z'
     link: 'https://github.com/palantir/plottable/releases/tag/v3.13.0'
 stackoverflow_data:
-  questions_count: 0
+  questions_count: 44
