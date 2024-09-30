@@ -46,9 +46,9 @@ content:
 github_data:
   stars: 11055
   contributors: 161
-  issues: 147
+  issues: 145
   stale_issues: 3
   last_release:
-    date: '2024-09-02T09:12:29Z'
-    link: 'https://github.com/antvis/G6/releases/tag/5.0.19'
+    date: '2024-09-30T08:51:57Z'
+    link: 'https://github.com/antvis/G6/releases/tag/5.0.25'
 stackoverflow_data: null
