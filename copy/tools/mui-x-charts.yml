@@ -1,0 +1,63 @@
+title: X Charts
+description: Customizable and extendable charting library for React
+logo: material-ui.svg
+developer: MUI
+based_on: null
+licenses:
+  - type: proprietary
+    title: MUI X Pro
+    link: >-
+      https://github.com/mui/mui-x/blob/master/packages/x-charts-pro/LICENSE
+  - type: open-source
+    title: MIT
+    link: >-
+      https://github.com/mui/mui-x/blob/master/packages/x-charts/LICENSE
+types:
+  - charts
+renders:
+  - svg
+features:
+  easy-to-customize: 0
+  easy-to-start-with: 0
+  full-fledged: 0
+  very-popular: 0
+  well-documented: 0
+gallery:
+  - /images/slider/mui-x-charts-1.png
+  - /images/slider/mui-x-charts-2.png
+  - /images/slider/mui-x-charts-3.png
+  - /images/slider/mui-x-charts-4.png
+  - /images/slider/mui-x-charts-5.png
+languages:
+  - JavaScript
+  - TypeScript
+frameworks:
+  - react
+slugs:
+  github: mui/mui-x
+  npm: "@mui/x-charts"
+tags:
+  stackoverflow:
+    - mui-x
+  twitter:
+    - MUI_hq
+links:
+  website: "https://mui.com/x/react-charts/"
+  examples: "https://mui.com/x/react-charts/#all-mui-x-charts-components"
+  docs: "https://mui.com/x/react-charts/"
+  pricing: "https://mui.com/pricing/"
+  slack: null
+content:
+  - type: cube
+    title: Material UI Dashboard with React
+    link: "https://material-ui-dashboard.cube.dev"
+github_data:
+  stars: 3635
+  contributors: 325
+  issues: 997
+  stale_issues: 449
+  last_release:
+    date: "2024-03-08T15:57:23Z"
+    link: "https://github.com/mui/mui-x/releases/tag/v7.0.0-beta.6"
+stackoverflow_data:
+  questions_count: 219
