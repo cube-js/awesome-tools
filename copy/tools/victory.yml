@@ -54,9 +54,9 @@ github_data:
   stars: 10974
   contributors: 237
   issues: 85
-  stale_issues: 54
+  stale_issues: 55
   last_release:
     date: '2024-09-05T17:38:13Z'
     link: 'https://github.com/FormidableLabs/victory/releases/tag/v37.1.1'
 stackoverflow_data:
-  questions_count: 305
+  questions_count: 234
