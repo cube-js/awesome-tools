@@ -69,13 +69,13 @@ content:
 github_data:
   stars: 60356
   contributors: 285
-  issues: 2063
+  issues: 2064
   stale_issues: 1397
   last_release:
     date: '2024-06-27T07:10:33Z'
     link: 'https://github.com/apache/echarts/releases/tag/5.5.1'
 stackoverflow_data:
-  questions_count: 1426
+  questions_count: 1423
 integrations:
   - framework: react
     slugs:
