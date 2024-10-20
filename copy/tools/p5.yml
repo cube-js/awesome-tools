@@ -51,12 +51,12 @@ content:
     title: Get Started with p5.js
     link: 'https://p5js.org/get-started/'
 github_data:
-  stars: 21590
+  stars: 21593
   contributors: 773
-  issues: 283
+  issues: 285
   stale_issues: 166
   last_release:
     date: '2024-09-25T20:13:37Z'
     link: 'https://github.com/processing/p5.js/releases/tag/v1.11.0'
 stackoverflow_data:
-  questions_count: 3163
+  questions_count: 3164
