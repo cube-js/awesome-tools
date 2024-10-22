@@ -44,8 +44,8 @@ content:
 github_data:
   stars: 9472
   contributors: 80
-  issues: 552
-  stale_issues: 482
+  issues: 554
+  stale_issues: 483
   last_release:
     date: '2024-10-07T17:38:03Z'
     link: 'https://github.com/simonw/datasette/releases/tag/0.65'
