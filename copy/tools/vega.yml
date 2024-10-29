@@ -54,7 +54,7 @@ github_data:
   stars: 11211
   contributors: 153
   issues: 452
-  stale_issues: 414
+  stale_issues: 415
   last_release:
     date: '2024-06-14T00:26:10Z'
     link: 'https://github.com/vega/vega/releases/tag/v5.30.0'
