@@ -56,9 +56,9 @@ github_data:
   stars: 379
   contributors: 21
   issues: 18
-  stale_issues: 11
+  stale_issues: 12
   last_release:
     date: '2024-09-25T05:29:05Z'
     link: 'https://github.com/AnyChart/AnyChart/releases/tag/v8.13.0'
 stackoverflow_data:
-  questions_count: 470
+  questions_count: 473
