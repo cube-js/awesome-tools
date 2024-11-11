@@ -44,7 +44,7 @@ content:
     title: Getting Started
     link: 'https://github.com/flot/flot/blob/master/README.md#installation'
 github_data:
-  stars: 5946
+  stars: 5945
   contributors: 93
   issues: 457
   stale_issues: 453
