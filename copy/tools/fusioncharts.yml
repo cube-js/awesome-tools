@@ -59,7 +59,7 @@ github_data:
   issues: 39
   stale_issues: 34
   last_release:
-    date: '2024-07-03T08:18:45Z'
-    link: 'https://github.com/fusioncharts/fusioncharts-dist/releases/tag/4.0.2'
+    date: '2024-11-12T14:58:42Z'
+    link: 'https://github.com/fusioncharts/fusioncharts-dist/releases/tag/4.1.0'
 stackoverflow_data:
   questions_count: 799

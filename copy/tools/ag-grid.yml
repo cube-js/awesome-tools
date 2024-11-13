@@ -55,10 +55,10 @@ content:
 github_data:
   stars: 12798
   contributors: 186
-  issues: 44
+  issues: 45
   stale_issues: 0
   last_release:
     date: '2024-10-30T15:52:56Z'
     link: 'https://github.com/ag-grid/ag-grid/releases/tag/v32.3.2'
 stackoverflow_data:
-  questions_count: 5115
+  questions_count: 5116
