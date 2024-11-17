@@ -51,7 +51,7 @@ github_data:
   stars: 4434
   contributors: 25
   issues: 246
-  stale_issues: 193
+  stale_issues: 194
   last_release:
     date: '2024-08-06T15:27:36Z'
     link: 'https://github.com/observablehq/plot/releases/tag/v0.6.16'
