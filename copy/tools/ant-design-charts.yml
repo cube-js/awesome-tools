@@ -47,9 +47,9 @@ content:
     title: Quick Start
     link: 'https://charts.ant.design/en/docs/manual/getting-started'
 github_data:
-  stars: 1946
+  stars: 1947
   contributors: 69
-  issues: 289
+  issues: 290
   stale_issues: 137
   last_release:
     date: '2024-08-26T13:26:30Z'
