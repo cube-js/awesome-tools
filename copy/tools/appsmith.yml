@@ -48,10 +48,10 @@ content:
 github_data:
   stars: 34654
   contributors: 360
-  issues: 3913
-  stale_issues: 2280
+  issues: 3928
+  stale_issues: 2282
   last_release:
-    date: '2024-11-08T10:05:20Z'
-    link: 'https://github.com/appsmithorg/appsmith/releases/tag/v1.48'
+    date: '2024-11-21T05:27:23Z'
+    link: 'https://github.com/appsmithorg/appsmith/releases/tag/v1.49'
 stackoverflow_data:
   questions_count: 30
