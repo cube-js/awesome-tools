@@ -46,9 +46,9 @@ content:
     title: Building an Appsmith Dashboard with Cube
     link: 'https://cube.dev/blog/building-an-appsmith-dashboard-with-cube'
 github_data:
-  stars: 34733
+  stars: 34742
   contributors: 361
-  issues: 3993
+  issues: 3990
   stale_issues: 2303
   last_release:
     date: '2024-11-29T03:39:18Z'
