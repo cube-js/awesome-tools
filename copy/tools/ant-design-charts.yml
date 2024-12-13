@@ -49,9 +49,9 @@ content:
 github_data:
   stars: 1963
   contributors: 70
-  issues: 306
+  issues: 307
   stale_issues: 140
   last_release:
-    date: '2024-12-10T08:00:14Z'
-    link: 'https://github.com/ant-design/ant-design-charts/releases/tag/2.2.4'
+    date: '2024-12-13T09:23:24Z'
+    link: 'https://github.com/ant-design/ant-design-charts/releases/tag/2.2.5'
 stackoverflow_data: null
