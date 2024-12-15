@@ -51,10 +51,10 @@ content:
     title: Getting Started
     link: 'https://deck.gl/docs/get-started/using-standalone'
 github_data:
-  stars: 12332
+  stars: 12334
   contributors: 276
   issues: 334
-  stale_issues: 215
+  stale_issues: 216
   last_release:
     date: '2024-12-11T10:37:10Z'
     link: 'https://github.com/visgl/deck.gl/releases/tag/v9.0.38'
