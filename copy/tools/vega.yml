@@ -51,7 +51,7 @@ content:
     title: Let's Make a Bar Chart
     link: 'https://vega.github.io/vega/tutorials/bar-chart/'
 github_data:
-  stars: 11300
+  stars: 11301
   contributors: 154
   issues: 459
   stale_issues: 418
