@@ -51,10 +51,10 @@ content:
 github_data:
   stars: 10189
   contributors: 153
-  issues: 12
+  issues: 13
   stale_issues: 3
   last_release:
     date: '2024-11-25T16:54:03Z'
     link: 'https://github.com/cytoscape/cytoscape.js/releases/tag/v3.30.4'
 stackoverflow_data:
-  questions_count: 1288
+  questions_count: 1289
