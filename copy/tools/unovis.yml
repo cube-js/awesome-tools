@@ -55,9 +55,9 @@ content:
     title: Quick Start Guide
     link: 'https://unovis.dev/docs/quick-start'
 github_data:
-  stars: 2340
+  stars: 2342
   contributors: 14
-  issues: 49
+  issues: 50
   stale_issues: 7
   last_release:
     date: '2024-12-12T16:58:28Z'
