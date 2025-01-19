@@ -52,7 +52,7 @@ github_data:
   stars: 19687
   contributors: 177
   issues: 125
-  stale_issues: 102
+  stale_issues: 103
   last_release:
     date: '2024-11-07T18:38:04Z'
     link: 'https://github.com/airbnb/visx/releases/tag/v3.12.0'
