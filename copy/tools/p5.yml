@@ -52,8 +52,8 @@ content:
     link: 'https://p5js.org/get-started/'
 github_data:
   stars: 21949
-  contributors: 791
-  issues: 296
+  contributors: 793
+  issues: 292
   stale_issues: 184
   last_release:
     date: '2025-01-16T14:04:05Z'
