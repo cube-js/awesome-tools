@@ -23,7 +23,7 @@ features:
   easy-to-customize: 1
   easy-to-start-with: 1
   full-fledged: 1
-  very-popular: 0
+  very-popular: 1
   well-documented: 1
 
 gallery:
@@ -47,7 +47,7 @@ frameworks:
 
 slugs:
   github: revolist/revogrid
-  npm: revolist/revogrid
+  npm: @revolist/revogrid
 
 tags:
   stackoverflow:
