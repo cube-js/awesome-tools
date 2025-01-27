@@ -1,0 +1,81 @@
+title: RevoGrid
+description: Cutting-edge JavaScript Data Grid with advanced performance and Excel-inspired features
+logo: revogrid.svg
+developer: Revolist OU
+
+based_on:
+  - stenciljs
+
+licenses:
+  - type: open-source
+    title: MIT
+    link: https://github.com/revolist/revogrid/blob/main/LICENSE
+
+types:
+  - grid
+  - app
+  - low-level
+
+renders:
+  - html
+
+features:
+  easy-to-customize: 1
+  easy-to-start-with: 1
+  full-fledged: 1
+  very-popular: 0
+  well-documented: 1
+
+gallery:
+  - /images/slider/revo-data-grid-1.png
+  - /images/slider/revo-data-grid-2.png
+  - /images/slider/revo-data-grid-3.png
+  - /images/slider/revo-data-grid-4.png
+  - /images/slider/revo-data-grid-5.png
+
+languages:
+  - JavaScript
+  - TypeScript
+
+frameworks:
+  - vanilla-js
+  - vue
+  - react
+  - angular
+  - svelte
+  - ember
+
+slugs:
+  github: revolist/revogrid
+  npm: revolist/revogrid
+
+tags:
+  stackoverflow:
+    - revogrid
+    - revo_grid
+  twitter:
+    - revogrid
+    - revo_grid
+
+links:
+  website: https://rv-grid.com
+  examples: https://rv-grid.com/demo
+  docs: https://rv-grid.com/guide
+  pricing: https://rv-grid.com/pro
+
+content:
+  - type: official
+    title: "Getting Started with RevoGrid"
+    link: https://rv-grid.com/guide
+  - type: cube
+    title: "JavaScript Data Grid: Building an Advanced Table with RevoGrid"
+    link: https://rv-grid.com/demo/jsx/jsx.tree
+
+github_data:
+  stars: 2829
+  contributors: 24
+  issues: 39
+  stale_issues: 2
+  last_release:
+    date: "2025-01-26T09:10:22Z"
+    link: https://github.com/revolist/revogrid/releases/tag/v4.11.20
