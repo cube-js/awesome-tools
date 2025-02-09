@@ -54,7 +54,7 @@ github_data:
   stars: 14601
   contributors: 223
   issues: 294
-  stale_issues: 213
+  stale_issues: 214
   last_release:
     date: '2025-01-22T10:59:26Z'
     link: 'https://github.com/apexcharts/apexcharts.js/releases/tag/v4.4.0'
