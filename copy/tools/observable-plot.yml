@@ -53,7 +53,7 @@ github_data:
   issues: 249
   stale_issues: 201
   last_release:
-    date: '2024-08-06T15:27:36Z'
-    link: 'https://github.com/observablehq/plot/releases/tag/v0.6.16'
+    date: '2025-02-14T16:05:17Z'
+    link: 'https://github.com/observablehq/plot/releases/tag/v0.6.17'
 stackoverflow_data:
   questions_count: 136
