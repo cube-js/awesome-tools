@@ -47,10 +47,10 @@ content:
     title: Quick Start
     link: 'https://g2.antv.vision/en/docs/manual/getting-started'
 github_data:
-  stars: 12201
+  stars: 12204
   contributors: 207
-  issues: 212
-  stale_issues: 78
+  issues: 214
+  stale_issues: 79
   last_release:
     date: '2025-02-11T08:23:42Z'
     link: 'https://github.com/antvis/G2/releases/tag/5.2.11'
