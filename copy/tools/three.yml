@@ -52,9 +52,9 @@ content:
     link: >-
       https://threejs.org/docs/index.html#manual/en/introduction/Creating-a-scene
 github_data:
-  stars: 104505
+  stars: 104533
   contributors: 2359
-  issues: 421
+  issues: 423
   stale_issues: 295
   last_release:
     date: '2025-01-31T05:21:04Z'
