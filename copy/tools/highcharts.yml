@@ -52,10 +52,10 @@ content:
 github_data:
   stars: 12174
   contributors: 264
-  issues: 848
+  issues: 849
   stale_issues: 463
   last_release:
     date: null
     link: null
 stackoverflow_data:
-  questions_count: 26233
+  questions_count: 26235
