@@ -45,7 +45,7 @@ github_data:
   stars: 9831
   contributors: 81
   issues: 565
-  stale_issues: 499
+  stale_issues: 500
   last_release:
     date: '2025-02-06T19:14:10Z'
     link: 'https://github.com/simonw/datasette/releases/tag/1.0a17'
